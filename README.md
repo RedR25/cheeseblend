@@ -196,7 +196,11 @@ The built data is committed, so the app runs without rebuilding. Only *Ask Muse*
 
 ## Deploy
 
-Railway reads `railway.json` (start command and health check) and `requirements.txt`. Set `MODEL_API_KEY` as a Railway service variable, never in the repo.
+Railway reads `railway.json` (start command and health check) and `requirements.txt`. After `railway login`, one command creates the project and service, stores `MODEL_API_KEY` as a Railway service secret (read from `.env` through stdin, never in the repo), uploads and prints the public URL:
+
+```bash
+bash scripts/deploy_railway.sh   # optional argument: Railway workspace ID
+```
 
 ## Repo map
 
