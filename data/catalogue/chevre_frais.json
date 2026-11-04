@@ -1,0 +1,263 @@
+{
+ "id": "chevre_frais",
+ "name": "Fresh goat cheese",
+ "milk": "goat",
+ "treatment": "pasteurized",
+ "style": "fresh",
+ "origin": "France",
+ "process": {
+  "aging_months": 0.05,
+  "coagulation": "mixed",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 60.75,
+   "unit": "%",
+   "source_url": "https://vitahoy.ch/en/ndb/pml/us-01159",
+   "quote": "- **Water: 60.75 g / 100 g = 60.75 %**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 21.08,
+   "unit": "%",
+   "source_url": "https://vitahoy.ch/en/ndb/pml/us-01159",
+   "quote": "- **Total lipid (fat): 21.08 g / 100 g = 21.08 %**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 0.98,
+   "unit": "%",
+   "source_url": "https://ri.conicet.gov.ar/bitstream/handle/11336/66698/CONICET_Digital_Nro.7c39dc9b-a7ab-4343-8236-288bf7b28b_A.pdf",
+   "quote": "- **Salt NaCl: 0.98 ±0.02 g/100g (CS), 0.96 ±0.02 g/100g (CA), 0.97 ±0.01 g/100g (CC) = 0.96-0.98 %**",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.22,
+   "unit": "",
+   "source_url": "https://ri.conicet.gov.ar/bitstream/handle/11336/66698/CONICET_Digital_Nro.7c39dc9b-a7ab-4343-8236-288bf7b28b_A.pdf",
+   "quote": "- **pH: 5.22 ±0.20 (CS), 5.20 ±0.28 (CA), 5.24 ±0.26 (CC) at day 1**",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 4830.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.academia.edu/91428042/Identification_and_Quantification_of_Character_Aroma_Components_in_Fresh_Chevre_style_Goat_Cheese",
+   "quote": "- **4830 ±1975 ng/g = 4830 ±1975 µg/kg (Cheese 1) ; 25346 ±4822 ng/g = 25346 ±4822 µg/kg (Cheese 2)**",
+   "confidence": "measured",
+   "name": "acetoin"
+  },
+  {
+   "value": 22.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.academia.edu/91428042/Identification_and_Quantification_of_Character_Aroma_Components_in_Fresh_Chevre_style_Goat_Cheese",
+   "quote": "- **22 ±16 ng/g = 22 ±16 µg/kg (Cheese 1) ; 11 ±1 ng/g = 11 ±1 µg/kg (Cheese 2)**",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 2.0,
+   "unit": "µg/kg",
+   "source_url": "https://hal.science/hal-00929594/document",
+   "quote": "- **2 µg/kg in 2-day cheese ; 293 µg/kg in 31-day cheese**",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  },
+  {
+   "value": 2773.0,
+   "unit": "µg/kg",
+   "source_url": "https://hal.science/hal-00929594/document",
+   "quote": "- **2773 µg/kg in 2-day cheese ; 23380 µg/kg in 31-day cheese**",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 13.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.academia.edu/91428042/Identification_and_Quantification_of_Character_Aroma_Components_in_Fresh_Chevre_style_Goat_Cheese",
+   "quote": "- **13 ±0.7 ng/g = 13 ±0.7 µg/kg (Cheese 1) ; 83 ±18 ng/g = 83 ±18 µg/kg (Cheese 2)**",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  },
+  {
+   "value": 71.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.academia.edu/91428042/Identification_and_Quantification_of_Character_Aroma_Components_in_Fresh_Chevre_style_Goat_Cheese",
+   "quote": "- **71 ±21 ng/g = 71 ±21 µg/kg (Cheese 1) ; 198 ±14 ng/g = 198 ±14 µg/kg (Cheese 2)**",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 128.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.academia.edu/91428042/Identification_and_Quantification_of_Character_Aroma_Components_in_Fresh_Chevre_style_Goat_Cheese",
+   "quote": "- **128 ±38 ng/g = 128 ±38 µg/kg (Cheese 1) ; 142 ±38 ng/g = 142 ±38 µg/kg (Cheese 2)**",
+   "confidence": "measured",
+   "name": "4-methyloctanoic acid"
+  },
+  {
+   "value": 187.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.academia.edu/91428042/Identification_and_Quantification_of_Character_Aroma_Components_in_Fresh_Chevre_style_Goat_Cheese",
+   "quote": "- **187 ±96 ng/g = 187 ±96 µg/kg (Cheese 1) ; 88 ±49 ng/g = 88 ±49 µg/kg (Cheese 2)**",
+   "confidence": "measured",
+   "name": "4-ethyloctanoic acid"
+  },
+  {
+   "value": 10.0,
+   "unit": "µg/kg",
+   "source_url": "https://hal.science/hal-00929594/document",
+   "quote": "- **10 µg/kg in 2-day cheese ; 156 µg/kg in 31-day cheese**",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 4.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.academia.edu/91428042/Identification_and_Quantification_of_Character_Aroma_Components_in_Fresh_Chevre_style_Goat_Cheese",
+   "quote": "- **4 ±0.2 ng/g = 4 ±0.2 µg/kg (Cheese 1) ; 4 ±5 ng/g = 4 ±5 µg/kg (Cheese 2)**",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  },
+  {
+   "value": 4.0,
+   "unit": "µg/kg",
+   "source_url": "https://hal.science/hal-00929594/document",
+   "quote": "- **4 µg/kg in 2-day cheese ; 50 µg/kg in 31-day cheese**",
+   "confidence": "measured",
+   "name": "2-undecanone"
+  },
+  {
+   "value": 1.0,
+   "unit": "µg/kg",
+   "source_url": "https://hal.science/hal-00929594/document",
+   "quote": "- **1 µg/kg in 2-day cheese ; 146 µg/kg in 31-day cheese**",
+   "confidence": "measured",
+   "name": "ethyl butanoate"
+  },
+  {
+   "value": 2.0,
+   "unit": "µg/kg",
+   "source_url": "https://hal.science/hal-00929594/document",
+   "quote": "- **2 µg/kg in 2-day cheese ; 258 µg/kg in 31-day cheese**",
+   "confidence": "measured",
+   "name": "ethyl hexanoate"
+  },
+  {
+   "value": 9.0,
+   "unit": "µg/kg",
+   "source_url": "https://hal.science/hal-00929594/document",
+   "quote": "- **9 µg/kg in 2-day cheese ; 1007 µg/kg in 31-day cheese**",
+   "confidence": "measured",
+   "name": "2-phenylethanol"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 0.0,
+   "reason": "no surface flora or prolonged proteolysis/deamination in 1-3 day lactic cheese, no NH3 quantified"
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "trace indole/p-cresol plus caprylic acids from goat milk, no Brevibacterium washed-rind metabolism"
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "minimal hydrophobic peptides from rennet/plasmin due to very short age and low rennet dose"
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "2-heptanone 10 ug/kg, 2-nonanone 4 ug/kg, 2-undecanone 4 ug/kg from minimal fatty-acid beta-oxidation, no Penicillium"
+  },
+  "browning": {
+   "score": 1.0,
+   "reason": "high moisture 60.75% and unaged curd with limited Maillard precursors when heated"
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "acetoin 4830-25346 ug/kg plus diacetyl GC-O buttery from citrate fermentation by Lactococcus diacetylactis"
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "low butanoic 11-22 ug/kg and limited hexanoic/octanoic/decanoic lipolysis, 3-methylbutanoic only 2 ug/kg fresh"
+  },
+  "creaminess": {
+   "score": 7.0,
+   "reason": "21.08% fat dispersed in 60.75% moisture fine lactic gel gives smooth spreadable mouthfeel"
+  },
+  "crumbliness": {
+   "score": 6.0,
+   "reason": "acid-demineralized calcium-depleted casein network fractures short with no rennet elasticity"
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "high-moisture lactic gel log, soft and spreadable, not pressed or aged to firm"
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "2-phenylethanol only 9 ug/kg from limited phenylalanine catabolism, no ripened floral esters"
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "ethyl butanoate 1 ug/kg and ethyl hexanoate 2 ug/kg, minimal esterase esterification without aging"
+  },
+  "goaty": {
+   "score": 8.0,
+   "reason": "goat-specific 4-methyloctanoic 128-142 ug/kg and 4-ethyloctanoic 88-187 ug/kg far above ~2 ug/kg threshold"
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "Strecker aldehydes 2-/3-methylbutanal and pyrazines absent without cooking or aging"
+  },
+  "melt": {
+   "score": 1.0,
+   "reason": "acid low-pH demineralized curd contracts and softens but does not flow on heating"
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "1-octen-3-one mushroom GC-O only trace from linoleate oxidation, no Geotrichum maturation in plain fresh"
+  },
+  "oil_off": {
+   "score": 1.0,
+   "reason": "intact milk fat globules in cold fresh matrix, very low free oil release"
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "unsmoked make, guaiacol only low sour-burnt GC-O note with no quantification"
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "lactic acid from mesophilic starter lactose fermentation plus acetic 71-198 ug/kg, pH 4.2-5.22"
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "no pasta-filata hot-kneading and no calcium-pH window for casein fiber formation"
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "methional potato GC-O trace only, no cooked curd and minimal methionine catabolism"
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "most lactose converted to lactic acid, faint sweet from residual lactose and acetoin"
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "very low free glutamate and peptides without proteolysis during 1-3 days"
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://vitahoy.ch/en/ndb/pml/us-01159",
+  "https://ri.conicet.gov.ar/bitstream/handle/11336/66698/CONICET_Digital_Nro.7c39dc9b-a7ab-4343-8236-288bf7b28b_A.pdf",
+  "https://www.academia.edu/91428042/Identification_and_Quantification_of_Character_Aroma_Components_in_Fresh_Chevre_style_Goat_Cheese",
+  "https://hal.science/hal-00929594/document",
+  "https://ri.conicet.gov.ar/bitstream/handle/11336/66698/CONICET_Digital_Nro.7c39dc9b-a7ab-4343-8236-288bfcf7b28b_A.pdf;jsessionid=7FDC224770D4C8A982B4EEBB51FEB422?sequence=2"
+ ]
+}

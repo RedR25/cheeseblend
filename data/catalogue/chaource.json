@@ -1,0 +1,149 @@
+{
+ "id": "chaource",
+ "name": "Chaource",
+ "milk": "cow",
+ "treatment": "thermized",
+ "style": "soft_bloomy",
+ "origin": "France",
+ "process": {
+  "aging_months": 0.5,
+  "coagulation": "mixed",
+  "cooked": false,
+  "mold": "white",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 56.1,
+   "unit": "%",
+   "source_url": "https://mdpi.com/2306-5710/4/1/13/pdf?version=1517478387",
+   "quote": "| Moisture (H2O) | **56.1 g / 100 g = 56.1 %** | 2-week thermized-cow PDO Chaource, soft-ripened, creamy slightly crumbly, France | https://mdpi.com/2306-5710/4/1/13/pdf?version=1517478387 |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 22.0,
+   "unit": "%",
+   "source_url": "https://mdpi.com/2306-5710/4/1/13/pdf?version=1517478387",
+   "quote": "| Fat (Lipids) | **22.0 g / 100 g = 22 %** | same as above | same as above |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.8,
+   "unit": "%",
+   "source_url": "https://www.excellencefromagere.com/wp-content/uploads/2020/09/Fiche_Chaource_500g-EN.pdf",
+   "quote": "| Salt (NaCl) | **1.8 g / 100 g** | same | same |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.1,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.5,
+   "reason": "NH3 from amino acid deamination/deamidation by Penicillium camemberti surface flora, low at 14 days"
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Very low p-cresol/indole from Tyr/Trp catabolism due to short age and clean lactic flora"
+  },
+  "bitter": {
+   "score": 2.5,
+   "reason": "Low hydrophobic peptides from rennet/chymosin and starter peptidases in short-aged lactic gel"
+  },
+  "blue_moldy": {
+   "score": 2.0,
+   "reason": "Low methyl ketones 2-heptanone/2-nonanone from Penicillium beta-oxidation of free fatty acids"
+  },
+  "browning": {
+   "score": 3.0,
+   "reason": "Limited Maillard due to low residual lactose, high moisture and short low-heat aging"
+  },
+  "buttery": {
+   "score": 6.5,
+   "reason": "Diacetyl/acetoin from citrate metabolism by Lactococcus lactis in high-moisture uncooked curd"
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "Low butanoic/hexanoic acids from limited lipolysis by rennet and Penicillium lipases in 2 weeks"
+  },
+  "creaminess": {
+   "score": 8.0,
+   "reason": "High moisture 56.1% plus 50% fat-in-dry-matter and surface proteolysis softening casein matrix"
+  },
+  "crumbliness": {
+   "score": 5.0,
+   "reason": "Demineralized acid gel at pH ~5.1 gives friable lactic core under bloomy rind"
+  },
+  "firmness": {
+   "score": 2.5,
+   "reason": "Soft-ripened unpressed lactic curd with high moisture gives low resistance to deformation"
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Trace phenylacetaldehyde/2-phenylethanol from phenylalanine Strecker degradation by starter/mold"
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Low ethyl butanoate/hexanoate from esterification of free fatty acids with ethanol by lactic flora"
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Absent caprine branched C8 acids 4-methyl/4-ethyloctanoic acid in full-cream cow milk"
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Low 2-/3-methylbutanal and pyrazines from Leu/Ile Strecker degradation due to limited proteolysis"
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "Moderate flow from high moisture and demineralized fat-rich matrix despite acidic pH limiting fusion"
+  },
+  "mushroom_earthy": {
+   "score": 5.0,
+   "reason": "1-octen-3-ol/1-octen-3-one from linoleic acid lipoxygenase by Penicillium candidum bloomy rind"
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Little free oil release due to high water, intact emulsion and short age limiting fat coalescence"
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking and no guaiacol/phenols from wood smoke or high-heat cooking"
+  },
+  "sour_vinegar": {
+   "score": 5.0,
+   "reason": "Lactic/acetic acid from lactose fermentation by mesophilic lactic ferments in predominantly lactic curd"
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata kneading and low pH demineralized curd cannot form aligned paracasein fibers"
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Minimal H2S/methanethiol/dimethyl sulfide as curd uncooked and short-aged with low Met catabolism"
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Trace residual lactose/galactose and glycerol from lipolysis, largely masked by lactic acidity"
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Low free glutamate from short rennet/starter proteolysis, 17-18% protein largely intact"
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://mdpi.com/2306-5710/4/1/13/pdf?version=1517478387",
+  "https://www.excellencefromagere.com/wp-content/uploads/2020/09/Fiche_Chaource_500g-EN.pdf",
+  "https://fdc.nal.usda.gov/",
+  "https://books.lib.uoguelph.ca/cheesemakingtechnologyebook/?p=68"
+ ]
+}

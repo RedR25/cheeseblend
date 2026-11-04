@@ -1,0 +1,151 @@
+{
+ "id": "pecorino_toscano",
+ "name": "Pecorino Toscano",
+ "milk": "sheep",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Italy",
+ "process": {
+  "aging_months": 1,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 39.5,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC92830/",
+   "quote": "| I | Pecorino Toscano (C) | Pasteurized | 40–45 | 30 days | 7.8 | 5.4 | 39.5 | 4.5 |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 28.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 3.151,
+   "unit": "%",
+   "source_url": "https://jsite.uwm.edu.pl/index/getFile/1452",
+   "quote": "Significantly (p ≤ 0.01) the most salt (3.151 g 100 g-1) was",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.4,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC92830/",
+   "quote": "| I | Pecorino Toscano (C) | Pasteurized | 40–45 | 30 days | 7.8 | 5.4 | 39.5 | 4.5 |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Low deamination and urease activity in 30-day pasteurized cheese with limited proteolysis."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "Low p-cresol/indole from pasteurized ewe milk and starter, no stable contamination."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Low accumulation of hydrophobic bitter peptides from chymosin and NSLAB in young curd."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation and no methyl ketone blue-mold pathway."
+  },
+  "browning": {
+   "score": 2.0,
+   "reason": "Limited Maillard due to low residual lactose and short 30-day ripening."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl/acetoin from citrate metabolism by Lactococcus lactis starter culture."
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "Low butanoic/hexanoic acids from limited calf rennet-paste lipolysis in young cheese."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "Fat ~28% with hydrated para-casein and intact milk fat gives smooth mouthfeel."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "High moisture 39.5% and limited proteolysis keep matrix cohesive, not fracturable."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Moisture 39.5% with pH 5.4 calcium-retained rennet gel gives semi-firm elastic body."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol from limited phenylalanine Strecker degradation."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Low ethyl butanoate/hexanoate from limited esterase activity in 30-day pasteurized curd."
+  },
+  "goaty": {
+   "score": 4.0,
+   "reason": "Moderate caproic/caprylic/capric acids characteristic of ewe milk triglycerides."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "Low 3-methylbutanal/2-methylpropanal from Strecker and low propanal in young cheese."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "pH 5.4 demineralized rennet network with 39.5% moisture flows moderately on heating."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "Trace 1-octen-3-ol/1-octen-3-one from linoleate lipoxygenase, no rind flora."
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Moderate free oil release from sheep milk fat on heating, not excessive coalescence."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoke application and no guaiacol/phenol formation during make."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Lactic and trace acetic acid from starter fermentation to pH 5.4."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "Rennet-coagulated, non pasta-filata curd lacks aligned demineralized casein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Low H2S/methional from pasteurization 73C and limited methionine catabolism."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Residual lactose, galactose and low acid mask bitterness in young sweet pecorino."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Low free glutamate from limited chymosin/plasmin proteolysis at 30 days."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC92830/",
+  "https://jsite.uwm.edu.pl/index/getFile/1452",
+  "https://fdc.nal.usda.gov/food-search?type=Foundation&query=Pecorino",
+  "https://Journals.Plos.org/plosone/article?id=10.1371/journal.pone.0153213",
+  "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2012.00171/full",
+  "https://www.iris.unina.it/bitstream/11588/1055617/1/Balivo%20et%20al.%2c%202026%20%28International%20Dairy%20Journal%29.pdf"
+ ]
+}

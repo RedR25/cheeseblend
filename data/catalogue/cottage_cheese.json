@@ -1,0 +1,192 @@
+{
+ "id": "cottage_cheese",
+ "name": "Cottage cheese",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "fresh",
+ "origin": "USA",
+ "process": {
+  "aging_months": 0,
+  "coagulation": "acid",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 80.0,
+   "unit": "%",
+   "source_url": "https://www.ams.usda.gov",
+   "quote": "* **Creamed cottage : moisture not more than 80 % by weight**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 4.0,
+   "unit": "%",
+   "source_url": "https://www.ams.usda.gov",
+   "quote": "* **milkfat not less than 4 % by weight**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.0,
+   "unit": "%",
+   "source_url": "https://chem.libretexts.org",
+   "quote": "> Regular creamed cottage cheese 79 % moisture, 4 % fat, 1 % salt",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.05,
+   "unit": "",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)30367-9/fulltext",
+   "quote": "> After cheese production, the pH (5.05) was similar … Moisture 83.0a 82.9a",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 130000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(12)00071-9/fulltext",
+   "quote": "* acetic acid 130 (SD 17) µg/g = 130 mg/kg = 13,000 µg/100g",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 29000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(12)00071-9/fulltext",
+   "quote": "* propanoic acid 29 (7.6) µg/g = 29 mg/kg",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 1000.0,
+   "unit": "µg/kg",
+   "source_url": "https://c.coek.info/pdf-acid-and-acid-rennet-curd-cheeses-part-b-cottage-cheese-.html",
+   "quote": "> The acidic taste of Cottage cheese is due largely to lactic acid, which is present at a concentration in the range 124-452 mg/kg; other acids present include formic (23-306 mg/kg) and acetic (11-292 mg/kg), while the concentrations of propionic and butyric acids are <1 mg/kg (Brocklehurst and Lund, 1985)",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 25.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(67)87346-6/pdf",
+   "quote": "> Cottage cheese – Acetic Acid 30.0 – Acetaldehyde 0.2 – Dimethyl sulfide 0.025 – Diacetyl (low) 1.0 – (high) 2.0 – pH 5.2",
+   "confidence": "measured",
+   "name": "dimethyl sulfide"
+  },
+  {
+   "value": 1000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(67)87346-6/pdf",
+   "quote": "> Cottage cheese – Acetic Acid 30.0 – Acetaldehyde 0.2 – Dimethyl sulfide 0.025 – Diacetyl (low) 1.0 – (high) 2.0 – pH 5.2",
+   "confidence": "measured",
+   "name": "diacetyl"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 0.0,
+   "reason": "Fresh unripened curd with no proteolysis or deamination, no ammonia quantified."
+  },
+  "animal_barnyard": {
+   "score": 0.0,
+   "reason": "Pasteurized cow milk with no p-cresol or indole quantified."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "Fresh acid curd with minimal proteolysis to hydrophobic bitter peptides."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium mold and no 2-heptanone 2-nonanone methyl ketones."
+  },
+  "browning": {
+   "score": 0.0,
+   "reason": "Fresh high-moisture unaged cheese with minimal Maillard browning on heating."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Lactococcus diacetylactis citrate metabolism gives diacetyl 210-780 ug/100g."
+  },
+  "cheesy_sweaty": {
+   "score": 1.0,
+   "reason": "Butyric acid <1 mg/kg and no lipolysis in fresh skim acid curd."
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "Curd in 11.5% fat cream dressing gives smooth coating despite 4.3% total fat."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Soft discrete acid grains in liquid dressing, not pressed to fracture."
+  },
+  "firmness": {
+   "score": 2.0,
+   "reason": "Very high moisture 79.8% loose acid-coagulated grains in cream."
+  },
+  "floral_honey": {
+   "score": 0.0,
+   "reason": "No phenylacetaldehyde or 2-phenylethanol quantified in fresh cottage."
+  },
+  "fruity": {
+   "score": 1.0,
+   "reason": "No ethyl butanoate or ethyl hexanoate quantified, negligible esterification."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk with no 4-methyloctanoic or 4-ethyloctanoic goaty acids."
+  },
+  "malty_nutty": {
+   "score": 0.0,
+   "reason": "No aging and no Strecker aldehydes 2-methylbutanal 3-methylbutanal found."
+  },
+  "melt": {
+   "score": 1.0,
+   "reason": "Acid isoelectric curd pH 5.05 does not flow, only softens on heating."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No 1-octen-3-ol or 1-octen-3-one quantified in fresh product."
+  },
+  "oil_off": {
+   "score": 0.0,
+   "reason": "Low 4.3% fat emulsified in dressing, no free oil separation."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked with no guaiacol or phenols."
+  },
+  "sour_vinegar": {
+   "score": 5.0,
+   "reason": "Lactic acid 124-452 mg/kg plus acetic 72-150 ug/g at pH 5.05 from mesophilic starter."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Unstretched acid curd with no aligned para-casein network."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low dimethyl sulfide 20-25 ppb plus gentle cooking of cut curd."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose and sweet cream dressing partly offsets lactic acidity."
+  },
+  "umami": {
+   "score": 1.0,
+   "reason": "No ripening proteolysis, very low free glutamate and peptides."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://www.ams.usda.gov",
+  "https://chem.libretexts.org",
+  "https://www.journalofdairyscience.org/article/S0022-0302(17)30367-9/fulltext",
+  "https://www.journalofdairyscience.org/article/S0022-0302(12)00071-9/fulltext",
+  "https://c.coek.info/pdf-acid-and-acid-rennet-curd-cheeses-part-b-cottage-cheese-.html",
+  "https://www.journalofdairyscience.org/article/S0022-0302(67)87346-6/pdf"
+ ]
+}

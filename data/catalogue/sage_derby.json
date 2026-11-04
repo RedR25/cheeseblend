@@ -1,0 +1,150 @@
+{
+ "id": "sage_derby",
+ "name": "Sage Derby",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Derbyshire, England",
+ "process": {
+  "aging_months": 3.0,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 36.0,
+   "unit": "%",
+   "source_url": "https://www.mariovo.mk/sr/documents/doc_download/196-derby-cheeses-mariovo.html",
+   "quote": "* Sample description: “My proposal: Sage-Derby; the middle layer of the cheese is made with extract from fresh sage leaves.” Analysis: Composition: % Moisture 36-39",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 28.0,
+   "unit": "%",
+   "source_url": "https://www.mariovo.mk/sr/documents/doc_download/196-derby-cheeses-mariovo.html",
+   "quote": "* Sample description: same Sage-Derby proposal sample as 1a. Fat 28-30,5",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.0,
+   "unit": "%",
+   "source_url": "https://www.mariovo.mk/sr/documents/doc_download/196-derby-cheeses-mariovo.html",
+   "quote": "* Sample description: same Sage-Derby proposal as 1a. Salt 2",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.3,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Low deamination in young rindless block with little free NH3 accumulation."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Pasteurized milk and clean Lactococcus culture give very low p-cresol and indole."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Limited hydrophobic peptides from chymosin and starter peptidases in short age."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti, so no 2-heptanone and 2-nonanone methyl ketones."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Moderate Maillard of residual galactose and amino acids when heated."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Diacetyl and acetoin from Lactococcus lactis citrate metabolism in young curd."
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "Low butanoic and hexanoic acids from limited lipolysis during 1-3 mo aging."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "28-30% fat in 36-39% moisture pressed matrix gives moderate palate coating."
+  },
+  "crumbliness": {
+   "score": 5.0,
+   "reason": "Cheddared-type acidified pressed curd fractures readily at 1-3 mo."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Moisture ~36% pressed semi-hard matrix gives firm-sliceable body."
+  },
+  "floral_honey": {
+   "score": 4.0,
+   "reason": "Sage leaf 1,8-cineole, camphor and thujone plus low phenylacetaldehyde add herbal-floral."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Few ethyl butanoate and ethyl hexanoate esters due to short aging and low lipolysis."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk lacks caprine 4-methyloctanoic and 4-ethyloctanoic acids."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Low Strecker 3-methylbutanal and 2-methylbutanal from limited proteolysis."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "pH ~5.3 calcium-solubilized para-casein network flows readily when heated."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "No mold-derived 1-octen-3-ol; only faint sage-derived green notes."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "Moderate free-fat coalescence on heating, limited by young intact protein network."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked curd with no wood-smoke guaiacol or syringol."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Lactic acid from starter fermentation plus trace acetic acid at pH ~5.3."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "Non-pasta-filata, proteolyzed network lacks aligned demineralized fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Minimal methionine-derived methanethiol and dimethyl sulfide without high cook."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Lactose largely fermented; faint sweet from milkfat and low-acid balance."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Short proteolysis yields modest glutamate with no long-aged peptide boost."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.mariovo.mk/sr/documents/doc_download/196-derby-cheeses-mariovo.html",
+  "https://fdc.nal.usda.gov/fdc-app.html#/food-details/1723206/nutrients",
+  "https://www.prospre.io/ingredients/sage-derby-cheese-sage-derby-399005",
+  "https://www.nutridex.org.uk/foods/21rxq0s/cheese-sage-derby",
+  "https://api.parliament.uk/historic-hansard/written-answers/1952/dec/19/cheeses-fat-content"
+ ]
+}

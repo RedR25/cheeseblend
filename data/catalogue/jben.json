@@ -1,0 +1,165 @@
+{
+ "id": "jben",
+ "name": "Jben",
+ "milk": "mixed",
+ "treatment": "raw",
+ "style": "fresh",
+ "origin": "Morocco",
+ "process": {
+  "aging_months": 0,
+  "coagulation": "mixed",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 62.5,
+   "unit": "%",
+   "source_url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/prangos",
+   "quote": "Benkerroum and Tamime (2004) reported that the mean chemical composition of Jben was as follows: 62.5% moisture, 16.5% fat, 15.8% crude protein, 4.1% lactose, 1.04% titratable acidity, and pH 4.1.",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 16.5,
+   "unit": "%",
+   "source_url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/prangos",
+   "quote": "Benkerroum and Tamime (2004) reported that the mean chemical composition of Jben was as follows: 62.5% moisture, 16.5% fat, 15.8% crude protein, 4.1% lactose, 1.04% titratable acidity, and pH 4.1.",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 0.8,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 4.1,
+   "unit": "",
+   "source_url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/prangos",
+   "quote": "Benkerroum and Tamime (2004) reported that the mean chemical composition of Jben was as follows: 62.5% moisture, 16.5% fat, 15.8% crude protein, 4.1% lactose, 1.04% titratable acidity, and pH 4.1.",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 19510.0,
+   "unit": "µg/kg",
+   "source_url": "https://openaccess.biruni.edu.tr/xmlui/handle/20.500.12445/2166",
+   "quote": "The acetoin content of unsalted Jben (19.51 mg/kg) was twice that of the salted one (8.56 mg/kg).",
+   "confidence": "measured",
+   "name": "acetoin"
+  },
+  {
+   "value": 4090.0,
+   "unit": "µg/kg",
+   "source_url": "https://openaccess.biruni.edu.tr",
+   "quote": "ethyl butyrate (4.09 mg/kg), hexyl acetate (2.7",
+   "confidence": "measured",
+   "name": "ethyl butanoate"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 0.0,
+   "reason": "No ripening proteolysis/deamination in fresh pH 4.1 curd, no ammonia accumulation."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Raw-milk flora without p-cresol/indole accumulation in fresh unripened curd."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "No aged proteolysis to hydrophobic bitter peptides despite lamb/vegetable rennet use."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti; only ketone is acetoin, no 2-heptanone/2-nonanone."
+  },
+  "browning": {
+   "score": 1.0,
+   "reason": "High 62.5% moisture and low free amino acids limit Maillard on heating."
+  },
+  "buttery": {
+   "score": 3.0,
+   "reason": "Acetoin 8.56-19.51 mg/kg from LAB citrate metabolism, diacetyl not detected."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Low butanoic/hexanoic/isopentanoic acids from minimal lipolysis in fresh curd."
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "High moisture 62.5% with 16.5% fat in acid gel gives lubricating spoonable creaminess."
+  },
+  "crumbliness": {
+   "score": 4.0,
+   "reason": "Low-pH acid-precipitated demineralized casein fractures short, fresh drained curd."
+  },
+  "firmness": {
+   "score": 2.0,
+   "reason": "62.5% moisture unpressed fresh acid gel with no rind gives very soft body."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Trace phenylethyl alcohol from LAB/yeast phenylalanine catabolism gives faint rose."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butyrate 4.09 mg/kg plus ethyl caproate/isoamyl acetate/hexyl acetate from LAB/yeast esterification."
+  },
+  "goaty": {
+   "score": 3.0,
+   "reason": "Mixed cow/goat/ewe milk but fresh, no concentrated branched goaty acids like 4-methyloctanoic."
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "No aging, no Strecker aldehydes or propionic-eyed nutty pyrazines in fresh cheese."
+  },
+  "melt": {
+   "score": 1.0,
+   "reason": "pH 4.1 calcium-depleted acid curd shrinks and wheys-off instead of flowing on heating."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No 1-octen-3-ol/1-octen-3-one from lipoxygenase-mold pathway in fresh curd."
+  },
+  "oil_off": {
+   "score": 1.0,
+   "reason": "Only 16.5% fat entrapped in acid gel, no aged fat coalescence to oil on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make, no guaiacol/phenols from smoking process."
+  },
+  "sour_vinegar": {
+   "score": 7.0,
+   "reason": "pH 4.1, 1.04% titratable acidity from spontaneous lactic fermentation with acetic acid."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Non-pasta-filata acid curd outside pH 5.2-5.4 calcium window for aligned stretch."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Trace methionol from methionine catabolism, no cooked-curd H2S; curd uncooked."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual 4.1% lactose gives milky sweetness balanced by high lactic acidity."
+  },
+  "umami": {
+   "score": 1.0,
+   "reason": "Minimal proteolysis and free glutamate without aging; fresh casein intact."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/prangos",
+  "https://openaccess.biruni.edu.tr/xmlui/handle/20.500.12445/2166",
+  "https://openaccess.biruni.edu.tr"
+ ]
+}

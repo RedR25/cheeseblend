@@ -1,0 +1,183 @@
+{
+ "id": "queso_de_la_serena",
+ "name": "Queso de La Serena",
+ "milk": "sheep",
+ "treatment": "raw",
+ "style": "semi_hard",
+ "origin": "Extremadura, Spain",
+ "process": {
+  "aging_months": 2,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 52.9,
+   "unit": "%",
+   "source_url": "https://1library.org/document/ynle77lq-microbiology-biochemistry-cheeses-appelation-protegee-manufactured-iberian-peninsula.html",
+   "quote": "* 52.90 % wt/wt – Sample: La Serena 2-d-old",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 43.0,
+   "unit": "%",
+   "source_url": "https://1library.org/document/ynle77lq-microbiology-biochemistry-cheeses-appelation-protegee-manufactured-iberian-peninsula.html",
+   "quote": "* 43.0 % wt/wt TS – Sample: La Serena 60-d-old, dataset 1",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.45,
+   "unit": "%",
+   "source_url": "https://1library.org/document/ynle77lq-microbiology-biochemistry-cheeses-appelation-protegee-manufactured-iberian-peninsula.html",
+   "quote": "* 2.45 % wt/wt TS – Sample: La Serena 2-d-old",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.29,
+   "unit": "",
+   "source_url": "https://1library.org/document/ynle77lq-microbiology-biochemistry-cheeses-appelation-protegee-manufactured-iberian-peninsula.html",
+   "quote": "* 5.29 – unit: pH units – Sample: La Serena, 2-d-old, raw ovine milk + plant rennet, Extremadura – Source: https://1library.org/document/ynle77lq-microbiology-biochemistry-cheeses-appelation-protegee-manufactured-iberian-peninsula.html",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 682000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.academia.edu/13286603/seasonal_variation_of_the_free_fatty_acids_contents_of_spanish_ovine_milk_cheeses_protected_by_a_designation_of_origin_a_comparative_study",
+   "quote": "* i.e. 2-mo: Spring 682±148, Summer 823±193, Autumn 863±266, Winter 807±159 mg/kg; 4-mo: Spring 973±252, Summer 1144±238, Autumn 1127±317, Winter 859±323 mg/kg",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 81000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.academia.edu/13286603/seasonal_variation_of_the_free_fatty_acids_contents_of_spanish_ovine_milk_cheeses_protected_by_a_designation_of_origin_a_comparative_study",
+   "quote": "* i.e. 2-mo: 81±35, 71±12, 90±27, 73±19 mg/kg Spring/Summer/Autumn/Winter; 4-mo: 169±68, 145±46, 142±40, 150±50 mg/kg",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 51000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.academia.edu/13286603/seasonal_variation_of_the_free_fatty_acids_contents_of_spanish_ovine_milk_cheeses_protected_by_a_designation_of_origin_a_comparative_study",
+   "quote": "* i.e. 2-mo: 51±21, 52±20, 70±21, 52±10 mg/kg; 4-mo: 93±40, 83±33, 86±29, 91±34 mg/kg",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 101000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.academia.edu/13286603/seasonal_variation_of_the_free_fatty_acids_contents_of_spanish_ovine_milk_cheeses_protected_by_a_designation_of_origin_a_comparative_study",
+   "quote": "* i.e. 2-mo: 101±55, 87±17, 116±38, 102±43 mg/kg; 4-mo: 178±89, 140±39, 151±49, 189±96 mg/kg",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.5,
+   "reason": "Limited amino-acid deamination by wild LAB, no surface mold, pH stays ~5.3 at 60d."
+  },
+  "animal_barnyard": {
+   "score": 4.5,
+   "reason": "Raw Merino ewe milk with pasture-derived p-cresol/indole and enterococci metabolism."
+  },
+  "bitter": {
+   "score": 7.5,
+   "reason": "Excess hydrophobic peptides from Cynara cardunculus cardosin A/B aspartic proteases."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation and no blue-mold methyl-ketone pathway."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Maillard between residual galactose and sheep-milk protein during heating."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Diacetyl and acetoin from citrate fermentation by wild Lactococcus/Leuconostoc in raw milk."
+  },
+  "cheesy_sweaty": {
+   "score": 6.0,
+   "reason": "Butyric 71-169 mg/kg plus caproic lipolysis by raw-milk lipase and cardoon coagulant."
+  },
+  "creaminess": {
+   "score": 8.5,
+   "reason": "Uncooked curd 42.6% moisture plus extensive cardosin proteolysis gives spoonable paste."
+  },
+  "crumbliness": {
+   "score": 1.5,
+   "reason": "Highly proteolyzed, high-moisture matrix flows rather than fractures."
+  },
+  "firmness": {
+   "score": 2.5,
+   "reason": "Softened by 60d proteolysis and retained moisture, 1-kg flattened format sags."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Pasture terpenes transferred to Merino milk plus phenylacetaldehyde from Strecker."
+  },
+  "fruity": {
+   "score": 4.5,
+   "reason": "Ethyl butanoate/decanoate from esterification of liberated FFA by yeasts/wild LAB."
+  },
+  "goaty": {
+   "score": 5.0,
+   "reason": "Sheep-milk caproic 51-93 mg/kg and caprylic 87-189 mg/kg released by lipolysis."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "Low Strecker aldehydes 2/3-methylbutanal from short 60d ripening, no cooked-curd propionibacteria."
+  },
+  "melt": {
+   "score": 7.5,
+   "reason": "pH 5.34 demineralized para-casein with high moisture and fat flows on heating."
+  },
+  "mushroom_earthy": {
+   "score": 3.0,
+   "reason": "C8 alcohols from linoleic acid lipoxygenase and wild yeast metabolism."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "Free sheep-milk fat released by extensive lipolysis total FFA 2500-3370 mg/kg at 4 mo."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and no guaiacol-producing process."
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "Acetic acid 682-1144 mg/kg from heterofermentative wild LAB with no starter."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata hot-water kneading, rennet gel does not align into fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Raw milk, no curd cooking, minimal methionine catabolism to methanethiol/DMS."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Lactose depleted by 60d, slight sweetness from proline and sheep-milk fat glycerol."
+  },
+  "umami": {
+   "score": 6.5,
+   "reason": "Glutamate and savory peptides from cardosin plus plasmin proteolysis of ewe casein."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://1library.org/document/ynle77lq-microbiology-biochemistry-cheeses-appelation-protegee-manufactured-iberian-peninsula.html",
+  "https://www.academia.edu/13286603/seasonal_variation_of_the_free_fatty_acids_contents_of_spanish_ovine_milk_cheeses_protected_by_a_designation_of_origin_a_comparative_study",
+  "https://www.journalofdairyscience.org/article/S0022-0302(07)71818-0/pdf",
+  "https://c.coek.info/pdf-microbiology-and-biochemistry-of-cheeses-with-appelation-dorigine-protegee-and-m.html",
+  "https://fdc.nal.usda.gov/food-search?type=Foundation&query=La%20Serena%20cheese"
+ ]
+}

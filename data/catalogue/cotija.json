@@ -1,0 +1,149 @@
+{
+ "id": "cotija",
+ "name": "Cotija",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "hard_grana",
+ "origin": "Cotija, Michoacán/Jalisco, Mexico",
+ "process": {
+  "aging_months": 3.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 37.3,
+   "unit": "%",
+   "source_url": "https://www.ideals.illinois.edu/items/112827/bitstreams/369797/data.pdf",
+   "quote": "Moisture: 37.3-38.2 %, unit % w/w",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 24.0,
+   "unit": "%",
+   "source_url": "https://www.ideals.illinois.edu/items/112827/bitstreams/369797/data.pdf",
+   "quote": "Fat: 24-25 %, unit % w/w",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 4.11,
+   "unit": "%",
+   "source_url": "https://www.ideals.illinois.edu/items/112827/bitstreams/369797/data.pdf",
+   "quote": "Salt (NaCl): 4.11-4.63 %, unit % w/w",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.2,
+   "unit": "",
+   "source_url": "https://www.ideals.illinois.edu/items/112827/bitstreams/369797/data.pdf",
+   "quote": "pH: 5.20-5.65, unit pH",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Modest amino-acid deamination by NSLAB during dry aging with low moisture limiting diffusion."
+  },
+  "animal_barnyard": {
+   "score": 5.0,
+   "reason": "p-cresol, indole and 3-methylbutanoic acid from raw-milk microbiota and branched-chain amino acid breakdown."
+  },
+  "bitter": {
+   "score": 6.0,
+   "reason": "Accumulation of hydrophobic bitter peptides from chymosin and LAB peptidases accentuated by 4%+ salt."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation and no blue veining in closed pressed paste."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Maillard between residual amino acids and trace lactose/galactose on dry surface when heated."
+  },
+  "buttery": {
+   "score": 2.0,
+   "reason": "Residual diacetyl/acetoin from Lactococcus citrate metabolism largely lost during 3-month dry aging."
+  },
+  "cheesy_sweaty": {
+   "score": 8.0,
+   "reason": "Extensive lipolysis by raw-milk lipases and LAB esterases releases butanoic/hexanoic acids."
+  },
+  "creaminess": {
+   "score": 2.0,
+   "reason": "Low 24% fat and low 37% moisture inhibit fat coalescence and oral lubrication."
+  },
+  "crumbliness": {
+   "score": 9.0,
+   "reason": "High salt, low pH and extensive proteolysis shorten casein network causing fracture."
+  },
+  "firmness": {
+   "score": 8.0,
+   "reason": "Low moisture, heavy pressing and 3-month drying creates dense cross-linked paracasein matrix."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism by wild lactobacilli."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Limited ethyl butanoate/hexanoate esterification by LAB esterases in low-aw salty matrix."
+  },
+  "goaty": {
+   "score": 3.0,
+   "reason": "Free C6:0-C8:0 caproic/caprylic acids from milk-fat lipolysis without goat-specific branched acids."
+  },
+  "malty_nutty": {
+   "score": 5.0,
+   "reason": "Strecker aldehydes 2-/3-methylbutanal from leucine/isoleucine catabolism during ripening."
+  },
+  "melt": {
+   "score": 1.0,
+   "reason": "Low moisture, high NaCl and demineralized aged casein prevent flow; softens only on heating."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "Trace 1-octen-3-ol from linoleic acid oxidation, no surface mold contribution."
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Low 24% fat entrapped in dry firm matrix limits free oil release despite heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoke exposure; unsmoked curd with no guaiacol/syringol deposition."
+  },
+  "sour_vinegar": {
+   "score": 5.0,
+   "reason": "Lactic and acetic acids from mesophilic LAB lactose fermentation to pH ~5.2."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata hot-water kneading and no aligned paracasein fibers for extension."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Uncooked rennet curd limits whey-protein denaturation and methionine-derived sulfides."
+  },
+  "sweet": {
+   "score": 1.0,
+   "reason": "Near-complete lactose depletion to lactic acid leaves no residual lactose sweetness."
+  },
+  "umami": {
+   "score": 7.0,
+   "reason": "High free glutamate and savory peptides from rennet plus plasmin proteolysis over months."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://www.ideals.illinois.edu/items/112827/bitstreams/369797/data.pdf",
+  "http://rdcb.cbg.ipn.mx/bitstream/20.500.12273/87/1/REBECA%20FLORES%20MAGALLON%202011.pdf",
+  "https://pubmed.ncbi.nlm.nih.gov/40846059/",
+  "https://www.nutritionvalue.org/Queso_cotija_14134000_nutritional_value.html?size=100%20g"
+ ]
+}

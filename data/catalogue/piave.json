@@ -1,0 +1,147 @@
+{
+ "id": "piave",
+ "name": "Piave",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Veneto, Italy",
+ "process": {
+  "aging_months": 12,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 27.8,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9778634/",
+   "quote": "| Moisture | 27.8 ± 1.4 | % (g/100g) | Piave PDO, n=6, 1-24 mo ripening, wheels 7.3±0.4 cm height, 29.0±0.8 cm diam., 5.5±0.1 kg, Caseus Veneti, Veneto, Italy | https://pmc.ncbi.nlm.nih.gov/articles/PMC9778634/ |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 37.2,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9778634/",
+   "quote": "| Fat | 37.2 ± 0.1 | % | Same Piave PDO n=6, 1-24 mo as above | https://pmc.ncbi.nlm.nih.gov/articles/PMC9778634/ |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.65,
+   "unit": "%",
+   "source_url": "https://doi.org/10.3168/jds.2017-13001",
+   "quote": "| Salt (NaCl) | 1.65 ± 0.11 | g/100g = % | Same Piave PDO n=8 | https://doi.org/10.3168/jds.2017-13001 |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.59,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9778634/",
+   "quote": "| pH | 5.59 ± 0.13 | dimensionless | Same Piave PDO n=6, 1-24 mo | https://pmc.ncbi.nlm.nih.gov/articles/PMC9778634/ |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Limited amino acid deamination and urease activity in low-moisture cooked paste."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Very low p-cresol/indole from clean pasteurized cow milk with no smear flora."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Moderate hydrophobic peptides from chymosin/plasmin balanced by starter peptidase debittering."
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "Minimal 2-heptanone/2-nonanone/2-undecanone without Penicillium roqueforti inoculation."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Maillard between residual galactose and Lys from proteolysis during dry heating."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl/acetoin from citrate fermentation by mesophilic starter plus delta-lactones from fat."
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "Butanoic/hexanoic/octanoic acids from pregastric and microbial lipase lipolysis during aging."
+  },
+  "creaminess": {
+   "score": 3.0,
+   "reason": "High 37.2% fat but low 27.8% moisture firm matrix limits mouth-coating fat release."
+  },
+  "crumbliness": {
+   "score": 6.0,
+   "reason": "Low-moisture proteolyzed paracasein with tyrosine crystals giving granular fracture."
+  },
+  "firmness": {
+   "score": 8.0,
+   "reason": "Cooked whey expulsion to 27.8% moisture plus calcium-phosphate crosslinked casein, 26N firmness."
+  },
+  "floral_honey": {
+   "score": 4.0,
+   "reason": "Phenylacetaldehyde/2-phenylethanol from Phe catabolism plus alpine pasture terpenes."
+  },
+  "fruity": {
+   "score": 5.0,
+   "reason": "Ethyl butanoate/hexanoate from esterase esterification of free fatty acids with ethanol."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Absent 4-methyloctanoic/4-ethyloctanoic acids as 100% cow milk cheese."
+  },
+  "malty_nutty": {
+   "score": 7.0,
+   "reason": "Strecker aldehydes 2-methylpropanal/2- and 3-methylbutanal from Val/Leu/Ile plus cooking."
+  },
+  "melt": {
+   "score": 4.0,
+   "reason": "Rennet pH 5.59 network flows but aged low moisture and high protein restrict flow."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "Trace 1-octen-3-ol/1-octen-3-one without white/blue mold lipoxygenase pathway."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "Coalesced fat globules from cooked high-fat matrix leak free oil on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking and no guaiacol/phenol formation."
+  },
+  "sour_vinegar": {
+   "score": 2.0,
+   "reason": "Low acetic/propanoic acid, lactose converted to lactic and buffered at pH 5.59."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata hot-water kneading, calcium-bound casein does not align."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low methional/dimethyl sulfide/disulfide after pasteurization heat dissipates with aging."
+  },
+  "sweet": {
+   "score": 5.0,
+   "reason": "Glycerol plus sweet amino acids Ala/Pro/Gly and low sour enhancing sweet perception."
+  },
+  "umami": {
+   "score": 7.0,
+   "reason": "High glutamate from extensive proteolysis with WSN ~9% by rennet/plasmin and peptidases."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9778634/",
+  "https://doi.org/10.3168/jds.2017-13001"
+ ]
+}

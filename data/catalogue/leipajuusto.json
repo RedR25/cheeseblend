@@ -1,0 +1,149 @@
+{
+ "id": "leipajuusto",
+ "name": "Leipäjuusto",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "fresh",
+ "origin": "Finland",
+ "process": {
+  "aging_months": 0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 41.3,
+   "unit": "%",
+   "source_url": "http://article.foodscienceandtechnology.com/pdf/ajfst-7-3-4.pdf",
+   "quote": "* **Moisture %:** 41.30 ± 0.74 % - same sample - source above",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 25.3,
+   "unit": "%",
+   "source_url": "http://article.foodscienceandtechnology.com/pdf/ajfst-7-3-4.pdf",
+   "quote": "* **Fat %:** 25.30 ± 0.13 % - same sample - source above",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.66,
+   "unit": "%",
+   "source_url": "https://cdr.wisc.edu/assets/pipeline-pdfs/01_Squeakiness_-Maggie.pdf",
+   "quote": "* **Salt %:** range 1.66b to 2.02a %: 1.79, 1.89, 1.86, 1.66, 2.02, 1.73 - same samples `Salt, % 1 79ab 1 89ab 1 86ab 1 66b 2 02a 1 73b`",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.11,
+   "unit": "",
+   "source_url": "http://article.foodscienceandtechnology.com/pdf/ajfst-7-3-4.pdf",
+   "quote": "* **pH:** 6.11 ± 0.01 - same sample - source above",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 0.0,
+   "reason": "No aging or deamination of amino acids in fresh rennet curd, no NH3 accumulation."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Pasteurized clean milk with no ripening, very low p-cresol, indole and skatole."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "No proteolysis to hydrophobic peptides, high pH and very short age prevents bitterness."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti and no lipolysis-derived 2-heptanone, 2-nonanone."
+  },
+  "browning": {
+   "score": 8.0,
+   "reason": "Maillard between lactose and lysine plus caramelization during 200-285C oven baking to 82C internal."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Milkfat diacetyl and acetoin at milk background only, no starter citrate fermentation."
+  },
+  "cheesy_sweaty": {
+   "score": 1.0,
+   "reason": "Minimal lipase activity in fresh curd, very low free butanoic and hexanoic acids."
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "26% fat gives creamy mouthfeel but dense calcium-crosslinked rennet network resists cream flow."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "High pH intact casein with insoluble calcium retains elastic cohesive network, not short."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Moisture 41-42% baked fresh gel with squeaky elastic protein matrix, not hard-aged."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Only trace milk lactones and phenylacetaldehyde, no ripened phenylalanine catabolism."
+  },
+  "fruity": {
+   "score": 1.0,
+   "reason": "No esterase activity or ethanol fermentation, negligible ethyl butanoate/hexanoate formation."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Bovine milk low in caproic, caprylic and branched 4-methyloctanoic goaty acids."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "No Strecker aldehydes from aging, light pyrazines and maltol only from crust baking."
+  },
+  "melt": {
+   "score": 2.0,
+   "reason": "High pH 6.1-6.6 rennet plus baked protein denaturation prevents casein flow on reheating."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No mold metabolism, no 1-octen-3-ol or 1-octen-3-one from linoleic acid oxidation."
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Intact fat globules trapped in fresh protein matrix, minimal free oil without proteolysis."
+  },
+  "smoky": {
+   "score": 3.0,
+   "reason": "Trace guaiacol and furans from oven char spots, not wood-smoked, mild toasted note."
+  },
+  "sour_vinegar": {
+   "score": 1.0,
+   "reason": "No starter culture, whey drainage at pH 6.55 and final pH 6.11, very low lactic/acetic acid."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "Rennet gel without pasta-filata hot-water alignment, calcium-bound casein squeaks not strings."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Brief high-heat bake denatures beta-lactoglobulin releasing trace H2S and dimethyl sulfide."
+  },
+  "sweet": {
+   "score": 5.0,
+   "reason": "Residual lactose retained due to no fermentation plus caramelized lactose perceived as sweet."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "Intact casein with very low proteolysis, little free glutamate or 5-nucleotides released."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "http://article.foodscienceandtechnology.com/pdf/ajfst-7-3-4.pdf",
+  "https://cdr.wisc.edu/assets/pipeline-pdfs/01_Squeakiness_-Maggie.pdf",
+  "https://www.jdscommun.org/article/S2666-9102(24)00116-9/pdf",
+  "https://www.aqua-calc.com/calculate/food-calories/substance/juusto-coma-and-blank-baked-blank-cheese-coma-and-blank-upc-column--blank-810507021145"
+ ]
+}

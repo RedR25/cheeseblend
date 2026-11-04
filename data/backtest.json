@@ -1,0 +1,154 @@
+{
+ "metrics": {
+  "train": {
+   "n": 3,
+   "exact_hit@3": 1,
+   "style_hit@3": 2
+  },
+  "test": {
+   "n": 2,
+   "exact_hit@3": 0,
+   "style_hit@3": 1
+  }
+ },
+ "rows": [
+  {
+   "name": "pizza",
+   "split": "train",
+   "human": {
+    "mozzarella": 0.75,
+    "provolone": 0.25
+   },
+   "missing": [],
+   "top3": [
+    {
+     "mozzarella": 0.724,
+     "mozzarella_bufala": 0.276
+    },
+    {
+     "oaxaca": 0.561,
+     "monterey_jack": 0.439
+    },
+    {
+     "mozzarella_bufala": 0.501,
+     "oaxaca": 0.499
+    }
+   ],
+   "exact": 0.33,
+   "style": 1.0,
+   "share_error": null
+  },
+  {
+   "name": "mac_and_cheese",
+   "split": "train",
+   "human": {
+    "cheddar": 0.6,
+    "gruyere": 0.4
+   },
+   "missing": [],
+   "top3": [
+    {
+     "gruyere": 1.0
+    },
+    {
+     "taleggio": 0.701,
+     "gorgonzola": 0.299
+    },
+    {
+     "cream_cheese": 0.9,
+     "manchego": 0.1
+    }
+   ],
+   "exact": 0.5,
+   "style": 0.5,
+   "share_error": null
+  },
+  {
+   "name": "cacio_e_pepe",
+   "split": "train",
+   "human": {
+    "pecorino_romano": 0.8,
+    "parmigiano": 0.2
+   },
+   "missing": [],
+   "top3": [
+    {
+     "domiati": 0.62,
+     "quartirolo": 0.256,
+     "cottage_cheese": 0.124
+    },
+    {
+     "cottage_cheese": 0.473,
+     "domiati": 0.349,
+     "nabulsi": 0.179
+    },
+    {
+     "squacquerone": 0.742,
+     "quartirolo": 0.153,
+     "manchego": 0.105
+    }
+   ],
+   "exact": 0.0,
+   "style": 0.0,
+   "share_error": null
+  },
+  {
+   "name": "fondue_moitie_moitie",
+   "split": "test",
+   "human": {
+    "gruyere": 0.5,
+    "vacherin_fribourgeois": 0.5
+   },
+   "missing": [],
+   "top3": [
+    {
+     "lincolnshire_poacher": 0.37,
+     "provolone": 0.316,
+     "reblochon": 0.314
+    },
+    {
+     "burrata": 0.423,
+     "cream_cheese": 0.244,
+     "domiati": 0.232,
+     "manchego": 0.101
+    },
+    {
+     "comte": 0.684,
+     "provolone": 0.316
+    }
+   ],
+   "exact": 0.0,
+   "style": 0.33,
+   "share_error": null
+  },
+  {
+   "name": "quattro_formaggi",
+   "split": "test",
+   "human": {
+    "mozzarella": 0.4,
+    "gorgonzola": 0.2,
+    "fontina": 0.2,
+    "parmigiano": 0.2
+   },
+   "missing": [],
+   "top3": [
+    {
+     "oaxaca": 0.649,
+     "domiati": 0.351
+    },
+    {
+     "mozzarella": 0.686,
+     "monterey_jack": 0.314
+    },
+    {
+     "mozzarella_bufala": 0.508,
+     "domiati": 0.392,
+     "american_cheese": 0.1
+    }
+   ],
+   "exact": 0.2,
+   "style": 0.5,
+   "share_error": null
+  }
+ ]
+}

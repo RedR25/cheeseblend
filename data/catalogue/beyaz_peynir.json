@@ -1,0 +1,191 @@
+{
+ "id": "beyaz_peynir",
+ "name": "Beyaz peynir",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "brined",
+ "origin": "Turkey",
+ "process": {
+  "aging_months": 3,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 61.36,
+   "unit": "%",
+   "source_url": "https://dergipark.org.tr/en/download/article-file/3485739",
+   "quote": "The average moisture value of Beyaz cheese samples was determined as 61.36% (Table 1).",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 15.29,
+   "unit": "%",
+   "source_url": "https://dergipark.org.tr/en/download/article-file/3485739",
+   "quote": "The average fat value of Beyaz cheese samples was determined as 15.29% (Table 1).",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.362,
+   "unit": "%",
+   "source_url": "https://dergipark.org.tr/en/download/article-file/3485739",
+   "quote": "The average salt value of Beyaz cheese samples was determined as 1.362% (Table 1).",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.75,
+   "unit": "",
+   "source_url": "https://dergipark.org.tr/en/download/article-file/3485739",
+   "quote": "The pH of Beyaz cheese samples was determined as the lowest at 4.30, the highest at 6.67 and the average at 5.75 (Table 1).",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 79600.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.frontiersin.org/articles/10.3389/fnut.2023.1107491/full",
+   "quote": "- Propionic 7.96 ± 0.29a 9.9 ± 0.53b 11.10 ± 0.46c 11.07 ± 0.55c 13.00 ± 0.52d 15.38 ± 0.82e 0.28",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 201600.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.frontiersin.org/articles/10.3389/fnut.2023.1107491/full",
+   "quote": "- Acetic 20.16 ± 0.94a 22.38 ± 1.04b 25.28 ± 1.18c 28.25 ± 0.95d 34.46 ± 1.15e 38.45 ± 0.93f 0.87",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 900.0,
+   "unit": "µg/kg",
+   "source_url": "https://acikerisim.ibu.edu.tr/server/api/core/bitstreams/46fbd386-b7d0-4c41-be39-a92fe85ac32c/content",
+   "quote": "Butyric acid 1 0.90 ± 0.09a1 0.13 ± 0.00b1 0.11 ± 0.02b1 0.78 ± 0.06a1",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 380.0,
+   "unit": "µg/kg",
+   "source_url": "https://acikerisim.ibu.edu.tr/server/api/core/bitstreams/46fbd386-b7d0-4c41-be39-a92fe85ac32c/content",
+   "quote": "Caproic acid 1 0.38 ± 0.01a1 0.11 ± 0.01b1 0.13 ± 0.03b1 0.25 ± 0.00a1",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 410.0,
+   "unit": "µg/kg",
+   "source_url": "https://acikerisim.ibu.edu.tr/server/api/core/bitstreams/46fbd386-b7d0-4c41-be39-a92fe85ac32c/content",
+   "quote": "Caprylic acid 1 0.41 ± 0.06a1 0.31 ± 0.10ab1 0.30 ± 0.00ab1 0.25 ± 0.03b1",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Limited deamination during 3-month 4C brine storage; low proteolysis yields little NH3."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "p-cresol/indole/skatole absent in pasteurized cow milk and clean Lactococcus brine ripening."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Hydrophobic rennet peptides from alpha-s1-casein plus NaCl brine accentuates bitterness at low pH."
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "No Penicillium; low 2-heptanone/2-nonanone (~8-14 ug/100g) from beta-oxidation, not mold."
+  },
+  "browning": {
+   "score": 1.0,
+   "reason": "High-moisture low-pH non-melting curd with little residual sugar inhibits Maillard browning."
+  },
+  "buttery": {
+   "score": 3.0,
+   "reason": "Moderate diacetyl/acetoin from citrate metabolism by Lactococcus lactis, limited by brine and low fat."
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "Low butyric (2.7 mg/kg) and hexanoic acids from milk lipase and starter lipolysis in 90-d ripening."
+  },
+  "creaminess": {
+   "score": 3.0,
+   "reason": "Low fat 15% (~39% fat-in-dry-matter) and acid curd limits milkfat globule cream coating."
+  },
+  "crumbliness": {
+   "score": 7.0,
+   "reason": "Low-pH demineralized casein network stored in brine fractures without cohesion, typical feta-type."
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "High moisture ~61% but acid-rennet gel firmed by 12-14% NaCl brine gives semi-soft sliceable body."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Phenylacetaldehyde/2-phenylethanol not detected; limited phenylalanine catabolism in short brine aging."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Low ethyl butanoate (~0.3 ug/100g) and ethyl octanoate from esterification by lactococci."
+  },
+  "goaty": {
+   "score": 2.0,
+   "reason": "Very low caproic/caprylic free fatty acids (~0.5-1.7 mg/kg) and cow milk with no goat branched-chain acids."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Trace 3-methylbutanal (0.03-0.11 ug/100g) from leucine Strecker degradation by lactococci."
+  },
+  "melt": {
+   "score": 2.0,
+   "reason": "Acidified low-pH high-salt casein does not flow; calcium-depleted para-casein only softens on heating."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "1-octen-3-ol/1-octen-3-one not detected; no mold or linoleic acid lipoxygenase pathway."
+  },
+  "oil_off": {
+   "score": 1.0,
+   "reason": "Low total fat 15% entrapped in brine-swollen protein matrix releases almost no free oil on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked curd and brine; guaiacol and phenols absent."
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "High acetic (20-38 mg/100g) plus lactic acid from mesophilic Lactococcus fermentation, pH ~4.8-5.7."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Non-pasta-filata; no hot-water kneading and low pH/high salt prevents fibrous casein alignment."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Only trace methanethiol trend from methionine catabolism; pasteurized uncooked curd gives no H2S."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Residual lactose depleted by starter; little lactose/galactose remains for sweetness."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "Moderate glutamate release from rennet and lactococcal peptidase proteolysis over 60-100 days."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://dergipark.org.tr/en/download/article-file/3485739",
+  "https://www.frontiersin.org/articles/10.3389/fnut.2023.1107491/full",
+  "https://acikerisim.ibu.edu.tr/server/api/core/bitstreams/46fbd386-b7d0-4c41-be39-a92fe85ac32c/content",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10439100/",
+  "https://www.journalofdairyscience.org/article/S0022-0302(02)74239-2/pdf"
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "id": "leyden",
+ "name": "Leyden (Leidse kaas)",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "semi_hard",
+ "origin": "Netherlands",
+ "process": {
+  "aging_months": 4,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 40.6,
+   "unit": "%",
+   "source_url": "https://en.wikipedia.org/wiki/Leyden_cheese",
+   "quote": "Sample: unspecified age, Netherlands, described as “typical analysis of the cheese” : moisture 40.6%, fat 13.5% and protein 37.3%.",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 13.5,
+   "unit": "%",
+   "source_url": "https://en.wikipedia.org/wiki/Leyden_cheese",
+   "quote": "Sample: same unspecified “typical analysis”: moisture 40.6%, fat 13.5% and protein, 37.3%.",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.5,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.2,
+   "unit": "",
+   "source_url": "http://www.cheeselandinc.com/Leyden.pdf",
+   "quote": "Sample: Leyden 40+, 5 weeks, The Netherlands, Chemical characteristics-at 14 days : pH approx. 5.2",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Limited amino acid deamination/deamidation in 3-4 mo washed-curd interior, no surface flora urease."
+  },
+  "animal_barnyard": {
+   "score": 3.0,
+   "reason": "Raw farm milk and cumin terpenes give low p-cresol/indole/skatole from Tyr/Trp catabolism."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Hydrophobic peptides from chymosin/plasmin and lactococcal peptidases, accentuated by low-fat and 2.5% salt."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation or piercing, so no 2-heptanone/2-nonanone beta-oxidation pathway."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Maillard between residual galactose/lactose and lysine during heating; dense low-moisture matrix browns moderately."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Diacetyl/acetoin from citrate-fermenting Lactococcus plus delta-lactones, lowered by partial skim 30-40% FDM."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "Lipase/esterase release of butanoic, hexanoic and 3-methylbutanoic acids from milk triacylglycerols."
+  },
+  "creaminess": {
+   "score": 3.0,
+   "reason": "Low absolute fat ~18.5% and firm 42% moisture matrix reduce fat-globule lubrication and creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 6.0,
+   "reason": "Low FDM plus pH 5.2 solubilizes colloidal calcium phosphate, shortening para-casein network to fracture."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Low moisture, low fat, pressed flat loaf and salt-brining concentrate casein and calcium crosslinking."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Very low phenylacetaldehyde/2-phenylethanol from Phe catabolism; caraway limonene adds only faint floral note."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Limited ethyl butanoate/hexanoate synthesis due to low fat substrate and washed-curd low acidity."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk lacks high 4-methyloctanoic/4-ethyloctanoic branched acids characteristic of goat lipolysis."
+  },
+  "malty_nutty": {
+   "score": 5.0,
+   "reason": "Strecker 2-/3-methylbutanal and 2-methylpropanal from Leu/Ile/Val plus cuminaldehyde/carvone from added cumin-caraway."
+  },
+  "melt": {
+   "score": 5.0,
+   "reason": "Rennet pH 5.2 demineralized para-casein flows on heating, but low fat and firm body limit complete fluidity."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "Low 1-octen-3-ol/1-octen-3-one from linoleate oxidation; earthiness mainly cumin/caraway terpenes."
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Low absolute fat and emulsified fat in pressed curd limit free-oil coalescence and oiling-off on melt."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked loaf; no lignin pyrolysis so no guaiacol/syringol unless smoked variant."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Mesophilic starter lactic acid plus small acetic/propanoic acids; pH ~5.2 washed-curd acidity."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata hot-water kneading at pH 5.1-5.3 to align casein fibers, so no long stretch."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Mild methional/dimethyl sulfide/disulfide from Met catabolism; low-heat washed curd, no high cook."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Most lactose fermented to lactate; faint sweetness from free Pro/Gly/Ala and low salt masking only."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "Free glutamate from chymosin/plasmin and starter proteolysis during 4-month ripening."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://en.wikipedia.org/wiki/Leyden_cheese",
+  "http://www.cheeselandinc.com/Leyden.pdf",
+  "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L:2009:274:FULL",
+  "https://www.qualigeo.eu/en/product/boeren-leidse-met-sleutels-pdo/",
+  "https://fdc.nal.usda.gov/food-search?type=Foundation&query=Leyden",
+  "https://openpub.fmach.it/handle/10449/19885"
+ ]
+}

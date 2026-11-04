@@ -1,0 +1,272 @@
+{
+ "id": "feta",
+ "name": "Feta",
+ "milk": "mixed",
+ "treatment": "pasteurized",
+ "style": "brined",
+ "origin": "Greece",
+ "process": {
+  "aging_months": 2,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 55.22,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/173434/nutrients",
+   "quote": "**Moisture: 55.22 g/100g = 55.22 %** – USDA SR Legacy Cheese, feta, per 100 g – Source URL above",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 21.49,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/173434/nutrients",
+   "quote": "**Total lipid (fat): 21.49 g/100g = 21.49 %** – same sample – Source URL above",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.05,
+   "unit": "%",
+   "source_url": "https://doi.org/10.3390/foods12112176",
+   "quote": "**Salt %: 1.05% (day 1) to 2.37% (day 100), increased with ripening; wooden barrel and tin can higher than stainless-steel tank** – same Feta – Source URL above",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 4.34,
+   "unit": "",
+   "source_url": "https://doi.org/10.3390/foods12112176",
+   "quote": "**pH: 4.85 (day 1) to 4.34 (day 100), packaging no effect for given day** – same Feta above, all packagings – Source URL above",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 17.0,
+   "unit": "µg/kg",
+   "source_url": "https://doi.org/10.3390/foods12112176",
+   "quote": "17.0 µg/kg – WB, day 2 – Source URL above",
+   "confidence": "measured",
+   "name": "diacetyl"
+  },
+  {
+   "value": 190.4,
+   "unit": "µg/kg",
+   "source_url": "https://doi.org/10.3390/foods12112176",
+   "quote": "190.4 ± 48.0 µg/kg – WB, day 60 – Source URL above",
+   "confidence": "measured",
+   "name": "acetoin"
+  },
+  {
+   "value": 12.4,
+   "unit": "µg/kg",
+   "source_url": "https://doi.org/10.3390/foods12112176",
+   "quote": "12.4 ± 2.4 µg/kg – WB, day 60 – Source URL above",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 8.3,
+   "unit": "µg/kg",
+   "source_url": "https://doi.org/10.3390/foods12112176",
+   "quote": "8.3 ± 4.4 µg/kg – WB, day 40; day 60 not detected – Source URL above",
+   "confidence": "measured",
+   "name": "3-methylbutanal"
+  },
+  {
+   "value": 15.8,
+   "unit": "µg/kg",
+   "source_url": "https://doi.org/10.3390/foods12112176",
+   "quote": "15.8 ± 2.3 µg/kg – WB, day 40 – Source URL above",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 2153.2,
+   "unit": "µg/kg",
+   "source_url": "https://doi.org/10.3390/foods12112176",
+   "quote": "2153.2 ± 624.1 µg/kg – WB, day 60 – Source URL above",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 110.7,
+   "unit": "µg/kg",
+   "source_url": "https://doi.org/10.3390/foods12112176",
+   "quote": "110.7 ± 9.0 µg/kg – WB, day 60 – Source URL above",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 171.5,
+   "unit": "µg/kg",
+   "source_url": "https://doi.org/10.3390/foods12112176",
+   "quote": "171.5 ± 24.4 µg/kg – WB, day 60 – Source URL above",
+   "confidence": "measured",
+   "name": "ethyl butanoate"
+  },
+  {
+   "value": 143.1,
+   "unit": "µg/kg",
+   "source_url": "https://doi.org/10.3390/foods12112176",
+   "quote": "143.1 ± 37.8 µg/kg – WB, day 60 – Source URL above",
+   "confidence": "measured",
+   "name": "ethyl hexanoate"
+  },
+  {
+   "value": 16390.0,
+   "unit": "µg/kg",
+   "source_url": "http://jomardpublishing.com/UploadFiles/Files/journals/RV/V2N2/GeorgalaA.pdf",
+   "quote": "16.39 µg/g = 16.39 mg/kg – Feta, 180 d, wooden barrels – Source URL above",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 30640.0,
+   "unit": "µg/kg",
+   "source_url": "http://jomardpublishing.com/UploadFiles/Files/journals/RV/V2N2/GeorgalaA.pdf",
+   "quote": "30.64 µg/g = 30.64 mg/kg – Feta, 60 d, wooden barrels – Source URL above",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  },
+  {
+   "value": 12.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1563647/",
+   "quote": "12 µg/kg – Surface-salted kefir feta-type ripened in 7% brine, bovine milk, 30 d, 4-6 C – Source URL above",
+   "confidence": "measured",
+   "name": "delta-decalactone"
+  },
+  {
+   "value": 8.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1563647/",
+   "quote": "8 µg/kg – Commercial feta-type cheese, bovine milk, 30 d – Source URL above",
+   "confidence": "measured",
+   "name": "delta-dodecalactone"
+  },
+  {
+   "value": 3.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1563647/",
+   "quote": "3 µg/kg – Surface-salted kefir feta-type, 30 d – Source URL above",
+   "confidence": "measured",
+   "name": "2-undecanone"
+  },
+  {
+   "value": 18.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1563647/",
+   "quote": "18 µg/kg – Surface-salted kefir feta-type ripened in 7% brine, 30 d – Source URL above",
+   "confidence": "measured",
+   "name": "2-phenylethanol"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Short 60d brine ripening with limited deamination, no ammonia quantified."
+  },
+  "animal_barnyard": {
+   "score": 5.0,
+   "reason": "Ewe/goat milk plus p-cresol trace and propanoic acid from wooden-barrel microflora."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Rennet-derived hydrophobic peptides unmasked by 2-3% salt and low pH."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium; 2-heptanone only 12 ug/kg and 2-nonanone ND."
+  },
+  "browning": {
+   "score": 1.0,
+   "reason": "High-moisture acid curd with 0.2% residual lactose, minimal Maillard."
+  },
+  "buttery": {
+   "score": 2.0,
+   "reason": "Very low diacetyl 17 ug/kg ND at 60d and acetoin 190 ug/kg from lactococcal citrate metabolism."
+  },
+  "cheesy_sweaty": {
+   "score": 8.0,
+   "reason": "High butanoic acid 2153 ug/kg SPME and 65 mg/kg total plus hexanoic/octanoic from lipolysis."
+  },
+  "creaminess": {
+   "score": 3.0,
+   "reason": "21.5% fat acid-rennet gel stored in brine, no cream homogenization."
+  },
+  "crumbliness": {
+   "score": 8.0,
+   "reason": "Low pH 4.34 demineralized paracasein plus brine salt gives short crumbly fracture."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "55% moisture brined block, firm sliceable but not hard-grana."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Trace 2-phenylethanol <1-18 ug/kg from phenylalanine catabolism, no honey lactones high."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Moderate ethyl butanoate 171 ug/kg and ethyl hexanoate 143 ug/kg from esterase esterification."
+  },
+  "goaty": {
+   "score": 7.0,
+   "reason": "70/30 ewe/goat milk rich in C6-C10 free fatty acids from pregastric lipase lipolysis."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Transient 3-methylbutanal 8 ug/kg from leucine Strecker, lost by day 60."
+  },
+  "melt": {
+   "score": 1.0,
+   "reason": "Acid pH 4.34 and high brine salt prevents casein flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No 1-octen-3-ol/1-octen-3-one detected, no surface mold."
+  },
+  "oil_off": {
+   "score": 1.0,
+   "reason": "Low fat 21.5% high moisture emulsified curd, no free oil on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked; guaiacol not detected."
+  },
+  "sour_vinegar": {
+   "score": 7.0,
+   "reason": "Acetic acid 164-284 mg/kg plus lactic acid to pH 4.34 from starter fermentation."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Non-pasta-filata rennet curd, no hot-water kneading."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Uncooked curd, no methanethiol/DMS detected, pasteurized only."
+  },
+  "sweet": {
+   "score": 1.0,
+   "reason": "Lactose depleted to 0.2% and delta-decalactone 12 ug/kg masked by salt-acid."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "60-100d brine proteolysis releasing glutamate enhanced by salt."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://fdc.nal.usda.gov/fdc-app.html#/food-details/173434/nutrients",
+  "https://doi.org/10.3390/foods12112176",
+  "http://jomardpublishing.com/UploadFiles/Files/journals/RV/V2N2/GeorgalaA.pdf",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC1563647/",
+  "https://www.thefreelibrary.com/Evaluation+of+a+New+Bulk+Packaging+Container+for+the+Ripening+of+Feta...-a0752474922",
+  "http://jomardpublishing.com/UploadFiles/Files\\journals\\RV\\V2N2\\GeorgalaA.pdf"
+ ]
+}

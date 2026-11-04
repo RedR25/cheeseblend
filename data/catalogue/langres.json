@@ -1,0 +1,149 @@
+{
+ "id": "langres",
+ "name": "Langres",
+ "milk": "cow",
+ "treatment": "thermized",
+ "style": "washed_rind",
+ "origin": "Langres, Haute-Marne, France",
+ "process": {
+  "aging_months": 1.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 52.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 22.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 1.0,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8219077/",
+   "quote": "> | Langres | 1.0 | 2.0 | 5.0–5.2 | 6.7–6.8 |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.0,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8219077/",
+   "quote": "> | Langres | 1.0 | 2.0 | 5.0–5.2 | 6.7–6.8 |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 5.0,
+   "reason": "NH3 from amino-acid deamination by Brevibacterium/smear flora raising rind pH to ~6.8."
+  },
+  "animal_barnyard": {
+   "score": 7.0,
+   "reason": "Isovaleric acid, p-cresol and indole from Brevibacterium linens leucine and tryptophan catabolism."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Hydrophobic peptides from rennet/plasmin alpha-s1 casein proteolysis in 3-5 week smear ripening."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation, no blue methyl-ketone pathway."
+  },
+  "browning": {
+   "score": 3.0,
+   "reason": "Maillard between casein lysine and residual galactose/lactose on heating."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl/acetoin from citrate fermentation by Lactococcus lactis biovar diacetylactis."
+  },
+  "cheesy_sweaty": {
+   "score": 7.0,
+   "reason": "Butanoic/hexanoic and 3-methylbutanoic acids from lipolysis and Brevibacterium deamination."
+  },
+  "creaminess": {
+   "score": 7.0,
+   "reason": "50% fat-in-dry, ~52% moisture and proteolyzed smooth paste."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Cohesive acid-rennet paste with solubilized colloidal calcium, not crumbly."
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "High-moisture uncooked rennet gel, acid demineralized soft body with firm washed rind."
+  },
+  "floral_honey": {
+   "score": 6.0,
+   "reason": "High 2-phenylethanol and 2-phenylethyl acetate ++++ from phenylalanine Ehrlich pathway."
+  },
+  "fruity": {
+   "score": 5.0,
+   "reason": "Ethyl butanoate/hexanoate/octanoate from yeast/Brevibacterium esterification of free fatty acids."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk lacks 4-methyloctanoic/4-ethyloctanoic goat acids, only trace caproic."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "Strecker 2-/3-methylbutanal and 2-methylpropanal from leucine/isoleucine/valine, limited by short age."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "Phe-casein network at pH ~5.0-5.2 with intact casein flows readily when heated."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "Low 1-octen-3-ol from linoleic acid oxidation; sparse Geotrichum, smear-dominated."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "Coalesced milk fat exudation on melting from soft high-moisture matrix."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step, no guaiacol/syringol deposition."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Lactic acid core pH 5.0-5.2 plus acetic acid from heterofermentative and smear metabolism."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata hot-water kneading, no aligned para-casein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 6.0,
+   "reason": "Dimethyl disulfide +++, methanethiol acetate from Brevibacterium methionine gamma-lyase."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Lactose largely fermented, slight sweetness from galactose, glycerol and fat."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Free glutamate accumulation from rennet and bacterial proteolysis."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8219077/",
+  "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52011XC0825(02)",
+  "https://www.excellencefromagere.com/wp-content/uploads/2021/01/Fiche_Langres_180g-EN.pdf",
+  "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf"
+ ]
+}

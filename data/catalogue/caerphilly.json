@@ -1,0 +1,151 @@
+{
+ "id": "caerphilly",
+ "name": "Caerphilly",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Wales, United Kingdom",
+ "process": {
+  "aging_months": 1,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 41.8,
+   "unit": "%",
+   "source_url": "https://www.scribd.com/document/Free-Fatty-Acids-and-Gouda-Texture",
+   "quote": "Caerphilly 41.8 23.2 31.3 90 1554",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 31.3,
+   "unit": "%",
+   "source_url": "https://www.scribd.com/document/Free-Fatty-Acids-and-Gouda-Texture",
+   "quote": "Caerphilly 41.8 23.2 31.3 90 1554",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.2,
+   "unit": "%",
+   "source_url": "https://www.nutridex.org.uk/foods/3tex76y/cheese-caerphilly",
+   "quote": "Salt, 1.2 g, Sodium, 480 mg",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 4.6,
+   "unit": "",
+   "source_url": "https://www.food.gov.uk/sites/default/files/media/document/822-1-1503_FS231037_Combined_cheese_report.pdf",
+   "quote": "| pH  5.0 - 5.2 *  4.6- 5.4  5.1-6.1* |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Short 2-4 week age gives minimal protein deamination and no surface-flora urease ammonia."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "No Brevibacterium linens washed rind so p-cresol, indole and skatole are minimal."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Limited chymosin and plasmin to hydrophobic peptides in young cheese, partly masked by 1.2% salt."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti so no methyl-ketone pathway to 2-heptanone and 2-nonanone."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Residual lactose-galactose plus lysine drives moderate Maillard on heating."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Lactococcus lactis biovar diacetylactis converts citrate to diacetyl and acetoin in moist young curd."
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "Limited milk lipase and starter esterase lipolysis yields low butanoic and hexanoic acids."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "31.3% fat emulsion lubricates mouthfeel despite acid-crumbly casein network."
+  },
+  "crumbliness": {
+   "score": 8.0,
+   "reason": "Low pH demineralizes colloidal calcium phosphate and light pressing gives friable acid-curd fracture."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "41.8% moisture lightly pressed rennet gel gives semi-firm but not hard-grana body."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Minimal phenylalanine catabolism to phenylacetaldehyde and 2-phenylethanol in short age."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Brief aging limits esterase esterification of fatty acids to ethyl butanoate and ethyl hexanoate."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk lacks goat branched-chain 4-methyloctanoic and 4-ethyloctanoic acids."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Short age limits leucine-isoleucine Strecker to 2-methylbutanal and 3-methylbutanal and pyrazines."
+  },
+  "melt": {
+   "score": 5.0,
+   "reason": "pH near 5.0 partly demineralized para-casein flows moderately on heating without fibrous stretch."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "No Geotrichum or Penicillium camemberti so no linoleic oxidation to 1-octen-3-ol."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "Moderate fat in young intact protein network entraps fat with limited free-oil release."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make with no wood-smoke phenols such as guaiacol."
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "Homofermentative Lactococcus starter converts lactose to L-lactic acid to pH 4.6-5.2 with little acetic acid."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "Rennet-gelled non-kneaded curd lacks aligned pasta-filata para-casein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "No high curd cook and low starter methionine catabolism to methanethiol and dimethyl sulfide."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Most lactose drained and fermented leaving only residual galactose and lactate sweetness."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Short rennet-plasmin proteolysis yields low free glutamate and savory peptides."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.scribd.com/document/Free-Fatty-Acids-and-Gouda-Texture",
+  "https://www.nutridex.org.uk/foods/3tex76y/cheese-caerphilly",
+  "https://www.food.gov.uk/sites/default/files/media/document/822-1-1503_FS231037_Combined_cheese_report.pdf",
+  "https://fdc.nal.usda.gov/food-search?type=Foundation&query=Caerphilly",
+  "https://zjar.journals.ekb.eg/article_94495_0f9528624fad48edecc8434b92782389.pdf",
+  "https://www.yumpu.com/en/document/view/59581085/biochemistry-of-cheese-ripening-guide/30"
+ ]
+}

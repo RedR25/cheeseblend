@@ -1,0 +1,149 @@
+{
+ "id": "vacherin_fribourgeois",
+ "name": "Vacherin Fribourgeois AOP",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "semi_hard",
+ "origin": "Switzerland",
+ "process": {
+  "aging_months": 3.5,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 45.0,
+   "unit": "%",
+   "source_url": "http://shop.hr-gastro.ch/dta.php/vendfiles/hrgastro/prodspecs/de/23688.pdf",
+   "quote": "Storage condition: Keep refrigerated at max. +5°C Origin: Product of Switzerland Nutritional Information per 100g: Energy: 372 kcal / 1560 kJ Moisture: 45.0 g Fat: 30.0 g",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 30.0,
+   "unit": "%",
+   "source_url": "http://shop.hr-gastro.ch/dta.php/vendfiles/hrgastro/prodspecs/de/23688.pdf",
+   "quote": "Storage condition: Keep refrigerated at max. +5°C Origin: Product of Switzerland Nutritional Information per 100g: Energy: 372 kcal / 1560 kJ Moisture: 45.0 g Fat: 30.0 g",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.5,
+   "unit": "%",
+   "source_url": "http://shop.hr-gastro.ch/dta.php/vendfiles/hrgastro/prodspecs/de/23688.pdf",
+   "quote": "Protein: 26.0 g Carbohydrate: 0.0 g Minerals: 4.0 g Salt: 1.5 g Calcium: 600 mg Sodium: 500 mg Phosphorus: 130 mg Potassium: 88 mg Iron: 0.8 mg Vitamin",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.4,
+   "unit": "",
+   "source_url": "http://shop.hr-gastro.ch/dta.php/vendfiles/hrgastro/prodspecs/de/23688.pdf",
+   "quote": "A: 0.5 mg pH: 5.4-5.9",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Low NH3 from deamination by smear Brevibacterium / Debaryomyces in 3-month rind wash."
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "Moderate p-cresol and branched fatty acids from smear Coryneform tyrosine/catabolism and brine wash."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Low hydrophobic peptides from rennet + Lactobacillus proteolysis, balanced by brine and raw-milk peptidases."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation so no C7-C11 2-alkanone blue ketone pathway."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Moderate Maillard lactose-protein + fat browning in classic fondue melter, lower than Gruyere."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Diacetyl/acetoin from citrate-positive Lactococcus lactis citrate metabolism in raw-milk starter."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "Butanoic/hexanoic acids from starter esterase + mild lipolysis during 3.5-month ripening."
+  },
+  "creaminess": {
+   "score": 7.0,
+   "reason": "High 30% fat, 45% moisture and smear proteolysis giving smooth fondue paste."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Pressed elastic semi-hard paste at pH 5.6 retains calcium phosphate, low fracture."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Semi-hard pressed curd cooked ~40C, 45% moisture gives sliceable but supple body."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol from phenylalanine Strecker by starter/smear flora."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate/hexanoate from ethanol + free fatty acid esterification by lactic flora."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk low in caproic/caprylic goat acids, no goat-specific branched lipolysis."
+  },
+  "malty_nutty": {
+   "score": 5.0,
+   "reason": "2-/3-methylbutanal and benzaldehyde from leucine/isoleucine Strecker during Alpine ripening."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "pH 5.6 intact casein + 45% moisture flows fully, classic moitie-moitie fondue cheese."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "Trace 1-octen-3-ol/1-octen-3-one from linoleic acid lipoxygenase on smear rind."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "30% fat semi-hard releases moderate free oil on heating, less than hard grana."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and no guaiacol/phenol wood-smoke deposition."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Low acetic acid from heterofermentative starter, mild acidity at pH 5.4-5.9."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "No pasta-filata hot-water kneading, rennet gel only slightly extensible when melted."
+  },
+  "sulfur_cooked": {
+   "score": 3.0,
+   "reason": "Low methanethiol/dimethyl sulfide/methional from methionine catabolism by Brevibacterium linens."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Residual sweet perception from diacetyl, glycerol and low salt despite lactose depletion."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Moderate glutamate and savory peptides from 3.5-month Lactobacillus proteolysis."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "http://shop.hr-gastro.ch/dta.php/vendfiles/hrgastro/prodspecs/de/23688.pdf",
+  "https://www.agroscope.admin.ch/agroscope/de/home/publikationen/suchen/_jcr_content/par/externalcontent.bitexternalcontent.exturl.pdf/aHR0cHM6Ly9pcmEuYWdyb3Njb3BlLmNoL2RlLUNIL0FqYXgvRW/luemVscHVibGlrYXRpb24vRG93bmxvYWQ_ZWluemVscHVibGlr/YXRpb25JZD0zNjc5OA==.pdf",
+  "https://vitahoy.ch/en/ndb/pml/ch-6130",
+  "https://vitahoy.ch/en/ndb/pml/ch-11144"
+ ]
+}

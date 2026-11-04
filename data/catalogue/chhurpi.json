@@ -1,0 +1,148 @@
+{
+ "id": "chhurpi",
+ "name": "Chhurpi (hard)",
+ "milk": "mixed",
+ "treatment": "raw",
+ "style": "hard_grana",
+ "origin": "High Himalaya - Ladakh, India; Nepal and Bhutan",
+ "process": {
+  "aging_months": 0.2,
+  "coagulation": "acid_heat",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 10.22,
+   "unit": "%",
+   "source_url": "https://lelow.online/churpi-know-everything-10-unknown-facts/",
+   "quote": "* **Moisture (% wt): 10.22 ± 2.02 %**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 7.2,
+   "unit": "%",
+   "source_url": "https://lelow.online/churpi-know-everything-10-unknown-facts/",
+   "quote": "* **Fat (% DM = g /100 g dry matter): 7.2 ± 0.32 % DM**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 0.3,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 4.32,
+   "unit": "",
+   "source_url": "https://lelow.online/churpi-know-everything-10-unknown-facts/",
+   "quote": "* **pH: 4.32 ± 0.02**",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 0.0,
+   "reason": "Very low water activity arrests proteolysis and amino acid deamination so no NH3 accumulates."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "Raw yak/dzomo pastoral milk indole and p-cresol from forage concentrated but largely volatilized on sun-drying."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "Acid-heat coagulation without rennet produces no hydrophobic bitter peptides and proteolysis is arrested."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti and no lipolysis-derived methyl ketones in defatted dried curd."
+  },
+  "browning": {
+   "score": 1.0,
+   "reason": "High protein with residual lactose can Maillard if toasted but low fat and glassy matrix limits even browning."
+  },
+  "buttery": {
+   "score": 1.0,
+   "reason": "Defatted buttermilk curd with ~6.5% fat wet and sun-drying loss of diacetyl/acetoin from Lactococcus citrate metabolism."
+  },
+  "cheesy_sweaty": {
+   "score": 1.0,
+   "reason": "Minimal triglyceride substrate and no rennet lipase so almost no butyric/hexanoic free fatty acids."
+  },
+  "creaminess": {
+   "score": 0.0,
+   "reason": "10% moisture and ~6.5% fat gives no fat emulsion or mouth lubrication, only hard glassy protein."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Dense heat-fused acid curd fractures as hard splinters, not short crumbly rennet curd."
+  },
+  "firmness": {
+   "score": 10.0,
+   "reason": "10.2% moisture, 92% dry matter protein matrix sun-dried 5-7 days to rock-hard glassy state."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Arrested proteolysis limits phenylalanine catabolism to phenylacetaldehyde and 2-phenylethanol."
+  },
+  "fruity": {
+   "score": 1.0,
+   "reason": "Only 0.01% ethanol and low water activity inhibits microbial esterase formation of ethyl esters."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow/yak/dzomo fat not goat fat, poor in caproic/caprylic/capric acids and further defatted by churning."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "Precipitation heating to ~85-90C plus sun-drying drives Maillard/Strecker maltol and pyrazines, limited by low aw."
+  },
+  "melt": {
+   "score": 0.0,
+   "reason": "pH 4.32 calcium-depleted acid network with denatured whey proteins cannot flow, only softens."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No Penicillium/Geotrichum growth and no 1-octen-3-ol pathway in sun-dried low-aw curd."
+  },
+  "oil_off": {
+   "score": 0.0,
+   "reason": "~6% fat tightly entrapped in denatured protein, no free oil exudation on heating."
+  },
+  "smoky": {
+   "score": 2.0,
+   "reason": "Sun-drying and traditional hearth storage deposits trace guaiacol/phenols, not directly smoked."
+  },
+  "sour_vinegar": {
+   "score": 7.0,
+   "reason": "pH 4.32 with 0.51% titratable acidity, lactic 0.23 mg/g and acetic 0.16 mg/g from LAB concentrated by drying."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No intact rennet para-casein and no pasta-filata acid kneading, cannot align fibers."
+  },
+  "sulfur_cooked": {
+   "score": 3.0,
+   "reason": "High-heat denaturation of beta-lactoglobulin releases H2S and cooked-milk sulfides retained in precipitate."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Residual carbohydrate ~23% DM gives faint lactose sweetness overpowered by lactic/acetic sourness."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "63% DM protein concentrates glutamate but little free glutamate without enzymatic ripening."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://lelow.online/churpi-know-everything-10-unknown-facts/",
+  "https://www.fao.org/4/t0251e/T0251E12.htm",
+  "https://www.scinovex.com/articles/W7163756912.pdf"
+ ]
+}

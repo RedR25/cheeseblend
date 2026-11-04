@@ -1,0 +1,151 @@
+{
+ "id": "requeijao",
+ "name": "Requeijão",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "fresh",
+ "origin": "Brazil",
+ "process": {
+  "aging_months": 0,
+  "coagulation": "mixed",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 62.2,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)30790-7/fulltext",
+   "quote": "| Moisture (%) | 62.20 ± 0.47 | 64.99 ± 1.4 | 63.14 ± 0.1 | 61.20 ± 0.70 | 62.10 ± 0.10 |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 22.25,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)30790-7/fulltext",
+   "quote": "| Fat (%) | 22.25 ± 0.17 | 21.75 ± 1.06 | 23.25 ± 0.17 | 23.00 ± 0.35 | 22.00 ± 1.06 |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.2,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.19,
+   "unit": "",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)30790-7/fulltext",
+   "quote": "| pH | 5.19 ± 0.01 | 5.59 ± 0.02 | 5.75 ± 0.02 | 6.08 ± 0.01 | 6.22 ± 0.00 |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Negligible amino acid deamination and proteolysis in days-old fused cheese."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Pasteurized milk with no Brevibacterium, p-cresol or indole maturation."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "No aged hydrophobic peptides; slight bitterness only from emulsifying salts."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti and no blue maturation."
+  },
+  "browning": {
+   "score": 3.0,
+   "reason": "Lactose plus milk protein Maillard on 85-90C fusion but high moisture limits color."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "High milkfat from added cream/butter oil retaining diacetyl and delta-lactones."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Minimal lipolysis so only trace butyric/hexanoic/octanoic acids by HS-SPME."
+  },
+  "creaminess": {
+   "score": 9.0,
+   "reason": "Homogenized fat-in-caseinate emulsion with phosphate/citrate melting salts."
+  },
+  "crumbliness": {
+   "score": 0.0,
+   "reason": "Fused emulsified network spreads rather than fracturing."
+  },
+  "firmness": {
+   "score": 2.0,
+   "reason": "High moisture ~62% and calcium-chelated protein gives spreadable soft body."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Minimal phenylacetaldehyde/2-phenylethanol without ripening."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Trace methyl ketones 2-heptanone/2-nonanone but minimal ester synthesis when fresh."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk low in caprine 4-methyloctanoic/4-ethyloctanoic acids."
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "No aged Strecker aldehydes or propionibacteria from fresh short storage."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "Emulsifying salts chelate calcium restoring casein flow on reheating."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "Only trace 1-octanol, no 1-octen-3-ol mold linoleate oxidation."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "Stable 22% fat emulsion but free butter oil can leak on overheating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and no guaiacol formation."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Direct lactic acid acidification to pH 5.2-5.8 with little acetic fermentation."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata alignment; short calcium-chelated caseinate network."
+  },
+  "sulfur_cooked": {
+   "score": 3.0,
+   "reason": "Milk heated to 80C plus 85-90C fusion denatures whey protein releasing sulfhydryls."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose and cream perception balanced by lactic acidity."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "Soluble glutamate from casein/caseinate but no aged proteolysis to intensify."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.journalofdairyscience.org/article/S0022-0302(17)30790-7/fulltext",
+  "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0101-20612019005023105",
+  "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171477/nutrients",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11015516/",
+  "https://real.mtak.hu/185242/1/066-article-p656.pdf",
+  "https://revistadoilct.com.br/rilct/article/download/220/229"
+ ]
+}

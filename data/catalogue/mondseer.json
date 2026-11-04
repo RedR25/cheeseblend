@@ -1,0 +1,147 @@
+{
+ "id": "mondseer",
+ "name": "Mondseer",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "washed_rind",
+ "origin": "Austria",
+ "process": {
+  "aging_months": 1.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 43.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 26.0,
+   "unit": "%",
+   "source_url": "https://world.openfoodfacts.org",
+   "quote": "| fat % absolute | **26** | g / 100 g = 26% | Commercial product: DER MONDSEER – Woerle – 450g, Austria. Age not stated. Nutrition declaration, not a study measurement. Fat 26 g reported. | https://world.openfoodfacts.org – product `DER MONDSEER – Woerle – 450g` |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.8,
+   "unit": "%",
+   "source_url": "https://world.openfoodfacts.org",
+   "quote": "| salt as NaCl | **1.8** | g / 100 g = 1.8% | Commercial product: DER MONDSEER – Woerle – 450g, Austria. Age not stated. Nutrition declaration: Salt 1.8 g. Sodium 0.72 g reported for same product. | https://world.openfoodfacts.org – product `DER MONDSEER – Woerle – 450g` |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.9,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 3.0,
+   "reason": "Protein deamination by Brevibacterium linens smear during 3-6 week wash-ripening"
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "p-cresol and indole from Brevibacterium / smear metabolism of tyrosine and tryptophan"
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Hydrophobic peptides from rennet and starter proteolysis in young smear cheese"
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti or methyl ketone blue-mold pathway used"
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Moderate lactose and lysine residue for Maillard on heating in 4-week cheese"
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Diacetyl and acetoin from lactococcal citrate fermentation"
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "Butanoic and hexanoic acids from starter and smear lipolysis"
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "High moisture ~43% and 45% FDM fat giving smooth smear-ripened paste"
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Elastic washed-rind paste with small holes, not dry-granular"
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Semi-hard pressed body ripened 3-6 weeks, sliceable but yielding"
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low 2-phenylethanol and phenylacetaldehyde from phenylalanine catabolism"
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate and ethyl hexanoate from smear esterification of free fatty acids"
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk low in branched caprylic acids, no goat-milk 4-methyloctanoic note"
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "Strecker 2- and 3-methylbutanal from leucine/isoleucine during early proteolysis"
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "pH ~5.9 intact rennet casein network flows well when heated"
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "Limited 1-octen-3-ol from surface flora, no bloomy rind"
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "26% fat semi-hard emulsion releases moderate free oil on melting"
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make, no wood-smoke guaiacol"
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Lactic and acetic acids from mesophilic starter and brine wash"
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "Non-pasta-filata rennet curd, flows but does not form long strings"
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low methanethiol and dimethyl sulfide from smear methionine catabolism"
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Residual lactose and sweet amino acids proline and alanine, mild smear"
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Glutamate released by starter and Brevibacterium proteolysis"
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://world.openfoodfacts.org",
+  "https://en.wikipedia.org/wiki/Mondseer"
+ ]
+}

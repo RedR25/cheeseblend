@@ -1,0 +1,157 @@
+{
+ "id": "grana_padano",
+ "name": "Grana Padano",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "hard_grana",
+ "origin": "Italy",
+ "process": {
+  "aging_months": 12.0,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 35.05,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)30860-3/fulltext",
+   "quote": "| **moisture** | **35.05 ± 0.96 g/100 g = 35.05 %** | n=22 Grana Padano PDO, mixed commercial ages 1-40 mo in study: `Grana Padano \\| 22 \\| 35.05 ± 0.96a \\| 27.53 ± 0.62a \\| 33.18 ± 0.54b \\| 1.52 ± 0.06a` | https://www.journalofdairyscience.org/article/S0022-0302(17)30860-3/fulltext |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 27.53,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)30860-3/fulltext",
+   "quote": "| **fat** | **27.53 ± 0.62 g/100 g = 27.53 %** | same n=22 Grana Padano as above | same |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.52,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)30860-3/fulltext",
+   "quote": "| **salt NaCl** | **1.52 ± 0.06 g/100 g = 1.52 % NaCl** | same n=22 Grana Padano as above | same |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.4,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [
+  {
+   "value": 124.0,
+   "unit": "µg/kg",
+   "source_url": "https://doi.org/10.1016/j.idairyj.2004.02.010",
+   "quote": "| **ethyl butanoate / ethyl butyrate** | **0.124 – 0.362 ppm = 0.124 – 0.362 mg/kg = 124 – 362 µg/kg** | Grana Padano cheese, literature compilation: `The concentration of ethyl butanoate was reported in different cheeses such as Goat cheese (0.146 ppm), Fruity Cheddar (0.280 -1.820 ppm), Emmental (0.0260-0.0500 ppm), Mozzarella (0.0700 ppm), Grana Padano (0.124-0.362 ppm), and Parmigiano-Reggiano (0.250-1.140 ppm)` Table defined as `Ester Aroma Threshold (ppm)b Quantity (ppm)b Milk/Cheese` with `0.124–0.362 Grana Padano` | Review: Liu et al. Int. Dairy J. 2004 https://doi.org/10.1016/j.idairyj.2004.02.010 via https://higiene.unex.es/Bibliogr/CURIONI%20Esters%20and%20their%20biosynthesis%20in%20fermented%20dairy%20products.pdf – snippet via search |",
+   "confidence": "measured",
+   "name": "ethyl butanoate"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Long proteolysis releases NH3 by deamination but low Aw limits urease activity."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "Low p-cresol/indole from cow milk and whey starter; no manure taint."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Accumulation of hydrophobic casein peptides from rennet and plasmin proteolysis."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation; methyl ketones only at background lipolysis levels."
+  },
+  "browning": {
+   "score": 7.0,
+   "reason": "Low moisture plus free amino acids and residual galactose drive Maillard on heating."
+  },
+  "buttery": {
+   "score": 2.0,
+   "reason": "Diacetyl/acetoin from Lactobacillus citrate metabolism largely volatilized during long aging."
+  },
+  "cheesy_sweaty": {
+   "score": 7.0,
+   "reason": "Moderate lipolysis by native lipase releases butanoic and hexanoic acids."
+  },
+  "creaminess": {
+   "score": 2.0,
+   "reason": "Low moisture 35% and dense cooked-pressed protein matrix limit fat lubrication."
+  },
+  "crumbliness": {
+   "score": 8.0,
+   "reason": "Extensive proteolysis plus tyrosine crystals create granular fracture in cooked hard paste."
+  },
+  "firmness": {
+   "score": 9.0,
+   "reason": "Cooked to 53-56C, pressed and aged 9-16mo with 35% moisture gives very hard body."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Phenylalanine catabolism to phenylacetaldehyde and 2-phenylethanol by lactobacilli."
+  },
+  "fruity": {
+   "score": 5.0,
+   "reason": "Esterification forms ethyl butanoate 124-362 ug/kg and ethyl hexanoate during aging."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk lacks high 4-methyloctanoic/4-ethyloctanoic branched acids of goat."
+  },
+  "malty_nutty": {
+   "score": 7.0,
+   "reason": "Strecker degradation of leucine/isoleucine to 2-/3-methylbutanal and pyrazines."
+  },
+  "melt": {
+   "score": 2.0,
+   "reason": "Low moisture, pH 5.4 and highly crosslinked paracasein restrict flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "Low 1-octen-3-ol/1-octen-3-one from linoleic oxidation; no surface mold geosmin."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "27.5% fat in contracted protein matrix releases moderate free oil when heated."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoke application; no guaiacol/syringol phenols formed."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Natural whey culture ferments lactose to lactic with some acetic to pH ~5.4."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Rennet-cooked curd not pasta-filata; no aligned micelle fibers for stretching."
+  },
+  "sulfur_cooked": {
+   "score": 4.0,
+   "reason": "High curd cook plus methionine catabolism to methanethiol, DMS and H2S."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Free amino acids, glycerol and low salt 1.52% give mild sweet balance."
+  },
+  "umami": {
+   "score": 8.0,
+   "reason": "Intense secondary proteolysis releases abundant glutamate and savory peptides."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.journalofdairyscience.org/article/S0022-0302(17)30860-3/fulltext",
+  "https://doi.org/10.1016/j.idairyj.2004.02.010",
+  "https://ri.conicet.gov.ar/bitstream/handle/11336/101225/CONICET_Digital_Nro.99f81035-f062-42d5-8d38-599dab3bff2d_A.pdf?sequence=2&isAllowed=y"
+ ]
+}

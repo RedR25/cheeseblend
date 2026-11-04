@@ -1,0 +1,150 @@
+{
+ "id": "sbrinz",
+ "name": "Sbrinz",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "hard_grana",
+ "origin": "Switzerland",
+ "process": {
+  "aging_months": 24,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 26.63,
+   "unit": "%",
+   "source_url": "https://www.agroscope.admin.ch/agroscope/fr/home/themes/animaux-rente/abeilles/bienenkrankheiten/varroa/varroa-bekaempfung/thymol/_jcr_content/par/columncontrols/items/0/column/externalcontent.bitexternalcontent.exturl.pdf/aHR0cHM6Ly9pcmEuYWdyb3Njb3BlLmNoL2l0LUNIL0FqYXgvRW/luemVscHVibGlrYXRpb24vRG93bmxvYWQ_ZWluemVscHVibGlr/YXRpb25JZD0xNzEzOA==.pdf",
+   "quote": "* **26.63 % mean** = 266.3 g/kg, SD 53.5 g/kg, n=7",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 34.27,
+   "unit": "%",
+   "source_url": "https://www.agroscope.admin.ch/agroscope/fr/home/themes/animaux-rente/abeilles/bienenkrankheiten/varroa/varroa-bekaempfung/thymol/_jcr_content/par/columncontrols/items/0/column/externalcontent.bitexternalcontent.exturl.pdf/aHR0cHM6Ly9pcmEuYWdyb3Njb3BlLmNoL2l0LUNIL0FqYXgvRW/luemVscHVibGlrYXRpb24vRG93bmxvYWQ_ZWluemVscHVibGlr/YXRpb25JZD0xNzEzOA==.pdf",
+   "quote": "* **34.27 % mean** = 342.7 g/kg, SD 34.1 g/kg, range 32.10-41.90 % = 321.0-419.0 g/kg, n=7",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.79,
+   "unit": "%",
+   "source_url": "https://www.agroscope.admin.ch/agroscope/fr/home/publications/agroscope-magazine-en-ligne-et-rapport-annuel/2016/edition-4/wissenschaft-in-kuerze/lebensmittel/_jcr_content/par/columncontrols/items/0/column/externalcontent.bitexternalcontent.exturl.pdf/aHR0cHM6Ly9pcmEuYWdyb3Njb3BlLmNoL2ZyLUNIL0FqYXgvRW/luemVscHVibGlrYXRpb25JZD0yOTE2MQ==.pdf",
+   "quote": "* **1.79 %** = 17.9 g/kg ±2.77 g/kg, Water 319 g/kg, salt-in-moisture 5.6%",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.3,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Low NH3 from amino-acid deamination; no surface flora deacidification and low moisture limits urease activity."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "Trace p-cresol/indole from Tyr/Trp catabolism by raw-milk wild microbiota from pasture milk."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Residual hydrophobic alpha-s1-casein peptides, mostly hydrolyzed to amino acids by NSLAB peptidases over 2-3 yr."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation; methyl ketones 2-heptanone/2-nonanone essentially absent."
+  },
+  "browning": {
+   "score": 6.0,
+   "reason": "Concentrated free amino acids and carbonyls from long proteolysis drive Maillard browning when grated and heated."
+  },
+  "buttery": {
+   "score": 2.0,
+   "reason": "Diacetyl from citrate by Lactococcus reduced to acetoin and 2,3-butanediol during extended aging."
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "Butanoic 92 mg/kg and hexanoic 30 mg/kg from lipoprotein lipase and NSLAB esterase lipolysis."
+  },
+  "creaminess": {
+   "score": 1.0,
+   "reason": "Very low 26.6% moisture and rigid Ca-phosphate para-casein prevents fat coalescence and mouth-coating."
+  },
+  "crumbliness": {
+   "score": 9.0,
+   "reason": "Long proteolysis plus tyrosine and calcium-lactate crystals create fracture planes in low-moisture matrix."
+  },
+  "firmness": {
+   "score": 10.0,
+   "reason": "High cook, pressing and 24-mo drying to 26.6% moisture with Ca-phosphate crosslinked para-casein."
+  },
+  "floral_honey": {
+   "score": 4.0,
+   "reason": "Phenylacetaldehyde and 2-phenylethanol from phenylalanine Strecker degradation by lactobacilli."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate/hexanoate from esterification of free fatty acids with ethanol by NSLAB esterases."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "No goat milk branched-chain acids; 3-methylbutanoic acid <1 mg/kg from Leu catabolism only."
+  },
+  "malty_nutty": {
+   "score": 9.0,
+   "reason": "Strecker aldehydes 2-/3-methylbutanal from Leu/Ile via NSLAB aminotransferases plus pyrazines in long aging."
+  },
+  "melt": {
+   "score": 2.0,
+   "reason": "Low moisture and 5.6% salt-in-moisture with demineralized aged casein restricts flow to softening with oiling."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "Very low 1-octen-3-ol from linoleic acid oxidation; no mold lipoxygenase activity."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "34.3% fat, 46.7% FDM pools as free oil when contracted protein matrix cannot emulsify on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step; no guaiacol/syringol deposition from wood smoke."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Acetic acid 594 mg/kg from heterofermentative NSLAB and lactose fermentation; propionic <74 mg/kg."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Rennet-cooked aged matrix lacks intact plasticizable casein for pasta-filata stretching."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Residual H2S/methional from Met demethiolation; high-cook sulfhydryls largely dissipated over aging."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Zero lactose; sweet perception from glycerol, proline, alanine and low propionate balancing salt."
+  },
+  "umami": {
+   "score": 9.0,
+   "reason": "Very high free glutamate from chymosin/plasmin plus Lactobacillus peptidase proteolysis over 2-3 yr."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.agroscope.admin.ch/agroscope/fr/home/themes/animaux-rente/abeilles/bienenkrankheiten/varroa/varroa-bekaempfung/thymol/_jcr_content/par/columncontrols/items/0/column/externalcontent.bitexternalcontent.exturl.pdf/aHR0cHM6Ly9pcmEuYWdyb3Njb3BlLmNoL2l0LUNIL0FqYXgvRW/luemVscHVibGlrYXRpb24vRG93bmxvYWQ_ZWluemVscHVibGlr/YXRpb25JZD0xNzEzOA==.pdf",
+  "https://www.agroscope.admin.ch/agroscope/fr/home/publications/agroscope-magazine-en-ligne-et-rapport-annuel/2016/edition-4/wissenschaft-in-kuerze/lebensmittel/_jcr_content/par/columncontrols/items/0/column/externalcontent.bitexternalcontent.exturl.pdf/aHR0cHM6Ly9pcmEuYWdyb3Njb3BlLmNoL2ZyLUNIL0FqYXgvRW/luemVscHVibGlrYXRpb25JZD0yOTE2MQ==.pdf",
+  "https://www.agroscope.admin.ch/agroscope/fr/home/publications/agroscope-magazine-en-ligne-et-rapport-annuel/2016/edition-4/wissenschaft-in-kuerze/lebensmittel/_jcr_content/par/columncontrols/items/0/column/externalcontent_112315166.bitexternalcontent.exturl.pdf/aHR0cHM6Ly9pcmEuYWdyb3Njb3BlLmNoL2ZyLUNIL0FqYXgvRW/luemVscHVibGlrYXRpb24vRG93bmxvYWQ_ZWluemVscHVibGlr/YXRpb25JZD0yOTE2MQ==.pdf",
+  "https://www.agroscope.admin.ch/agroscope/fr/home/publications/agroscope-magazine-en-ligne-et-rapport-annuel/2016/edition-4/wissenschaft-in-kuerze/la-durabilite/_jcr_content/par/columncontrols/items/0/column/externalcontent.bitexternalcontent.exturl.pdf/aHR0cHM6Ly9pcmEuYWdyb3Njb3BlLmNoL2ZyLUNIL0FqYXgvRW/luemVscHVibGlrYXRpb24vRG93bmxvYWQ_ZWluemVscHVibGlr/YXRpb25JZD01MzYwNg==.pdf",
+  "https://www.agroscope.admin.ch/agroscope/fr/home/themes/animaux-rente/abeilles/bienenkrankheiten/varroa/varroa-bekaempfung/thymol/_jcr_content/par/columncontrols/items/0/column/externalcontent.bitexternalcontent.exturl.pdf/aHR0cHM6Ly9pcmEuYWdyb3Njb3BlLmNoL2ZyLUNIL0FqYXgvRW/luemVscHVibGlrYXRpb24vRG93bmxvYWQ_ZWluemVscHVibGlr/YXRpb25JZD0zODUyNg==.pdf"
+ ]
+}

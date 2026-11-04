@@ -1,0 +1,148 @@
+{
+ "id": "epoisses",
+ "name": "Époisses",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "washed_rind",
+ "origin": "Burgundy, France",
+ "process": {
+  "aging_months": 1.0,
+  "coagulation": "mixed",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 54.12,
+   "unit": "%",
+   "source_url": "https://t-stor.teagasc.ie/bitstream/handle/11019/1309/EoPR%204213.pdf?sequence=3&isAllowed=y",
+   "quote": "Epoisses 54.12 26.00 56.67 19.49 2.91 6.01",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 26.0,
+   "unit": "%",
+   "source_url": "https://t-stor.teagasc.ie/bitstream/handle/11019/1309/EoPR%204213.pdf?sequence=3&isAllowed=y",
+   "quote": "Epoisses 54.12 26.00 56.67 19.49 2.91 6.01",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.91,
+   "unit": "%",
+   "source_url": "https://t-stor.teagasc.ie/bitstream/handle/11019/1309/EoPR%204213.pdf?sequence=3&isAllowed=y",
+   "quote": "Epoisses 54.12 26.00 56.67 19.49 2.91 6.01",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.01,
+   "unit": "",
+   "source_url": "https://t-stor.teagasc.ie/bitstream/handle/11019/1309/EoPR%204213.pdf?sequence=3&isAllowed=y",
+   "quote": "Epoisses 54.12 26.00 56.67 19.49 2.91 6.01",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 8.0,
+   "reason": "Amino acid/urea deamination by smear yeasts and Brevibacterium raising rind pH 4.5 to 6.5"
+  },
+  "animal_barnyard": {
+   "score": 9.0,
+   "reason": "p-cresol, indole and isovaleric/propionic acids from Brevibacterium proteolysis and Marc wash"
+  },
+  "bitter": {
+   "score": 5.0,
+   "reason": "Hydrophobic peptides from chymosin and Brevibacterium proteinases during 28d ripening"
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti, no C7/C9 methyl-ketone blue-mold pathway"
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Maillard between proteolysis peptides and residual lactose/galactose on heating"
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl/acetoin from citrate fermentation by Lactococcus, partly masked by wash"
+  },
+  "cheesy_sweaty": {
+   "score": 9.0,
+   "reason": "Butanoic 2340 ppm plus 3-methylbutanoic 430 ppm from lipolysis and Leu catabolism"
+  },
+  "creaminess": {
+   "score": 8.0,
+   "reason": "26% fat, 56.67% FDM with proteolyzed smooth oozing paste"
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "High-moisture 54.12% deacidified paste flows, no dry fracture"
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "Unpressed lactic curd, high moisture ripened to spoonable soft body"
+  },
+  "floral_honey": {
+   "score": 6.0,
+   "reason": "2-phenylethanol ++++ and phenylacetaldehyde from Phe catabolism"
+  },
+  "fruity": {
+   "score": 7.0,
+   "reason": "Ethyl butanoate/octanoate and 2-phenylethyl acetate ++++ esterification with Marc ethanol"
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk with no 4-methyl/4-ethyl-octanoic acids, hexanoic only 160 ppm"
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "Strecker 2-/3-methylbutanal from Leu/Ile by smear coryneforms at low level"
+  },
+  "melt": {
+   "score": 9.0,
+   "reason": "pH 6.01 deacidified hydrated casein flows readily when heated"
+  },
+  "mushroom_earthy": {
+   "score": 3.0,
+   "reason": "1-octen-3-ol from linoleic acid oxidation, minor versus smear sulfur"
+  },
+  "oil_off": {
+   "score": 6.0,
+   "reason": "Free oil coalescence from 26% lipolyzed fat on heating"
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking and no guaiacol, only trace Marc brandy congeners"
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "Acetic 1760 ppm plus propanoic 1490 ppm partly neutralized by rind deacidification"
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata stretching, short lactic curd with no aligned casein"
+  },
+  "sulfur_cooked": {
+   "score": 8.0,
+   "reason": "Methanethiol to dimethyl disulfide from Met catabolism by Brevibacterium linens"
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Lactose depleted by >16h lactic fermentation, slight glycerol/ester sweetness"
+  },
+  "umami": {
+   "score": 7.0,
+   "reason": "Glutamate release from extensive rennet and smear proteolysis of 19.49% protein"
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://t-stor.teagasc.ie/bitstream/handle/11019/1309/EoPR%204213.pdf?sequence=3&isAllowed=y",
+  "https://www.journalofdairyscience.org/article/S0022-0302(21)00498-7/fulltext",
+  "https://lait.dairy-journal.org/articles/lait/abs/1986/03/contents/contents.html"
+ ]
+}

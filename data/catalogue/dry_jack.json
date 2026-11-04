@@ -1,0 +1,146 @@
+{
+ "id": "dry_jack",
+ "name": "Dry Jack",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "hard_grana",
+ "origin": "California, USA",
+ "process": {
+  "aging_months": 8.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 32.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 34.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 1.8,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.2,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 3.0,
+   "reason": "Moderate deamination of amino acids during 7-10 month aging."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Trace p-cresol/indole, pasteurized cow milk and clean brine aging limit barnyard."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Accumulation of hydrophobic bitter peptides, partially balanced by salt and sweetness."
+  },
+  "blue_moldy": {
+   "score": 2.0,
+   "reason": "Low methyl ketones 2-heptanone/2-nonanone from background fat oxidation, no blue mold."
+  },
+  "browning": {
+   "score": 6.0,
+   "reason": "Concentrated free amino acids and residual galactose drive Maillard on heating."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Residual diacetyl/acetoin from Lactococcus lactis citrate metabolism, partly lost in aging."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "Moderate lipolysis releasing butanoic, hexanoic and 3-methylbutanoic acids."
+  },
+  "creaminess": {
+   "score": 3.0,
+   "reason": "High fat but low moisture and crystalline texture reduce creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 6.0,
+   "reason": "Dry proteolyzed matrix with tyrosine/calcium lactate crystals fractures easily."
+  },
+  "firmness": {
+   "score": 8.0,
+   "reason": "Low ~32% moisture and dense pressed paste plus Ca-paracaseinate crosslinking after aging."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Phenylalanine catabolites phenylacetaldehyde and 2-phenylethanol."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate/hexanoate from esterification of free fatty acids with ethanol during aging."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Very low caproic/caprylic branched goaty acids in pasteurized cow milk, no goat milk."
+  },
+  "malty_nutty": {
+   "score": 7.0,
+   "reason": "Strecker aldehydes 2-/3-methylbutanal and roasted notes from extended proteolysis and drying."
+  },
+  "melt": {
+   "score": 4.0,
+   "reason": "Aged low-moisture lower-pH network flows poorly versus young Monterey Jack."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "Trace 1-octen-3-ol/1-octen-3-one from linoleic acid oxidation."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate free oil release from coalesced fat in aged low-moisture matrix when heated."
+  },
+  "smoky": {
+   "score": 1.0,
+   "reason": "No smoke applied, only trace guaiacol and pepper-cocoa rind dust."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Lactic and acetic acids from starter fermentation, mellowed by washing and aging."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Non-pasta-filata rennet gel with no hot-water alignment, no stretch."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low methionine-derived methanethiol/dimethyl sulfide, no high-heat cook."
+  },
+  "sweet": {
+   "score": 5.0,
+   "reason": "Glycerol, proline and caramel lactones like delta-decalactone from long aging."
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "High free glutamate and savory peptides from prolonged rennet/plasmin proteolysis."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.nutritionvalue.org/Cheese%2C_monterey_nutritional_value.html?size=100%20g"
+ ]
+}

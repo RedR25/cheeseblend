@@ -1,0 +1,151 @@
+{
+ "id": "cheshire",
+ "name": "Cheshire",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "cheddar",
+ "origin": "England",
+ "process": {
+  "aging_months": 3,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 37.65,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/10008/nutrients",
+   "quote": "| **Water = moisture** | **37.65 g / 100 g = 37.65 %** | `Cheese, cheshire` – USDA SR Legacy composite, age / origin not specified. Listed as `Water 37.65 g`. Source stated as `USDA Nutrient Database` | https://fdc.nal.usda.gov/fdc-app.html#/food-details/10008/nutrients – values via mirror |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 30.6,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/10008/nutrients",
+   "quote": "| **Total lipid (fat)** | **30.6 g / 100 g = 30.6 %** | Same USDA `Cheese, cheshire` composite, age / origin not specified. Listed as `Total lipid (fat) 30.6 g` | https://fdc.nal.usda.gov/fdc-app.html#/food-details/10008/nutrients – values via mirror |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.43,
+   "unit": "%",
+   "source_url": "https://bmjopen.bmj.com/content/4/8/e005051.full",
+   "quote": "| **Salt (NaCl) measured from label** | **Mean 1.43 g / 100 g, n=8, 100% met 2012 target 1.8 g / 100 g** | 8 pre-packaged Cheshire cheeses, UK top-7 supermarkets, survey 2012, age not stated. Table header: `2012 salt target (g/100 g) … Mean±SD (g/100 g)`, row: `Cheshire 1.8 8 8 100 1.43 na`. Study design: `cross-sectional survey in 2012, including 612 cheeses available in UK supermarkets`, `salt (g/100 g) was collected from product packaging` | https://bmjopen.bmj.com/content/4/8/e005051.full ; https://bmjopen.bmj.com/content/4/8/e005051/T3 |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 4.85,
+   "unit": "",
+   "source_url": "https://faqs.org/rulings/rulings1993NY852725.html",
+   "quote": "| **Moisture, fat, salt, pH – manufacturer claim for customs** | **moisture 41.5 %, butterfat 35 to 36 %, butterfat on dry basis 59 to 60 %, salt 2 %, pH 4.85** | Cheshire cheese from Wales, cow's milk, age not stated. Text: `composition, by weight, of moisture (41.5 percent), butterfat (35 to 36 percent), butterfat on a dry basis (59 to 60 percent), and salt (2 percent), with a pH of 4.85` | https://faqs.org/rulings/rulings1993NY852725.html |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Short 2-3 mo age and low deamination limits free NH3 from amino acid catabolism."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "No washed-rind Brevibacterium; negligible p-cresol/indole from tyrosine/tryptophan degradation."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Low-moderate hydrophobic peptides from chymosin cleavage; lactococcal peptidases largely debitter in young cheese."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation so no C7-C11 methyl ketone blue pathway."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Moderate Maillard from residual lactose/galactose plus lysine on heating."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Moderate diacetyl/acetoin from citrate fermentation by Lactococcus lactis biovar diacetylactis."
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "Moderate free butanoic/hexanoic acids from starter esterase lipolysis; moderate lipolysis type."
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "30-31% fat gives mouthfeel but low-pH crumbly fracture reduces creamy coalescence."
+  },
+  "crumbliness": {
+   "score": 8.0,
+   "reason": "Signature short fracture from low pH, early acid drain, milled dry-salted curd and calcium loss."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "Firm pressed body at ~37.6% moisture and pH ~4.85-5.2 with calcium-phosphate solubilization."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Trace phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism by lactococci."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Low ethyl butanoate/hexanoate from esterification of free fatty acids with starter ethanol."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk low in 4-methyloctanoic/4-ethyloctanoic acids; no caprine character."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "Low Strecker 3-methylbutanal/2-methylbutanal from leucine/isoleucine catabolism in short proteolysis."
+  },
+  "melt": {
+   "score": 5.0,
+   "reason": "Moderate flow when heated; pH ~5.0 para-casein melts grainy, less complete than young Cheddar."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No bloomy/soil molds; negligible 1-octen-3-ol from linoleic acid oxidation."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate free oil on heating from 30% fat and acid-weakened casein emulsion."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Typical White/Red Cheshire unsmoked; no wood-smoke guaiacol/phenols."
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "Distinct lactic tang from early high-acid drain plus trace acetic acid from starter fermentation."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Rennet-pressed non-pasta-filata curd with no hot-water kneading; no aligned casein fibres."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Low methanethiol/dimethyl sulfide; no high-heat whey denaturation and limited methionine catabolism."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Low residual lactose, slight sweet from glycerol/proline; high acidity suppresses sweetness."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "Moderate free glutamate from early chymosin plus lactococcal peptidase proteolysis."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://fdc.nal.usda.gov/fdc-app.html#/food-details/10008/nutrients",
+  "https://bmjopen.bmj.com/content/4/8/e005051.full",
+  "https://faqs.org/rulings/rulings1993NY852725.html",
+  "http://bmjopen.bmj.com/content/4/8/e005051.full",
+  "https://bmjopen.bmj.com/content/4/8/e005051/T3",
+  "https://www.actiononsalt.org.uk/media/action-on-salt/news/surveys/2024/Cheese-Report.pdf"
+ ]
+}

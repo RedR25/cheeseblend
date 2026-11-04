@@ -1,0 +1,218 @@
+{
+ "id": "caciocavallo",
+ "name": "Caciocavallo",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "pasta_filata",
+ "origin": "Italy",
+ "process": {
+  "aging_months": 3,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": true
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 38.1,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 30.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 1.9,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.3,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [
+  {
+   "value": 30.48,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(19)31055-0/fulltext",
+   "quote": "| 2,3-butanedione = diacetyl | 30.48 | 24.23 | 32.98 | 24.06 | µg/kg |",
+   "confidence": "measured",
+   "name": "diacetyl"
+  },
+  {
+   "value": 517.54,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(19)31055-0/fulltext",
+   "quote": "| 3-hydroxy-2-butanone = acetoin | 517.54 | 328.01 | 421.6 | 286.41 | µg/kg |",
+   "confidence": "measured",
+   "name": "acetoin"
+  },
+  {
+   "value": 93.08,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(19)31055-0/fulltext",
+   "quote": "| 2-heptanone | 93.08 | 67.61 | 81.11 | 55.5 | µg/kg |",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 22.41,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(19)31055-0/fulltext",
+   "quote": "| 2-nonanone | 22.41 | 17.5 | 21.08 | 14.17 | µg/kg |",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  },
+  {
+   "value": 83.68,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(19)31055-0/fulltext",
+   "quote": "| acetic acid | 83.68B | 63.29B | 137.7AB | 193.76A | µg/kg |",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 490.92,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(19)31055-0/fulltext",
+   "quote": "| butanoic acid | 490.92B | 368.65B | 735.84A | 789.53A | µg/kg |",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 397.08,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(19)31055-0/fulltext",
+   "quote": "| hexanoic acid | 397.08B | 143.37C | 616.16A | 333.64B | µg/kg |",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 43.85,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(19)31055-0/fulltext",
+   "quote": "| octanoic acid | 43.85B | 15.47C | 74.06A | 39.4B | µg/kg |",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Low deamination during 2-3 mo ripening; no surface flora urease activity."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "Very low p-cresol/indole from raw cow milk pasture; clean thermophilic starter dominates."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Moderate hydrophobic peptides from chymosin and S. thermophilus/Lactobacillus proteolysis."
+  },
+  "blue_moldy": {
+   "score": 2.0,
+   "reason": "No Penicillium; low 2-heptanone ~93 ug/kg and 2-nonanone ~22 ug/kg from fatty-acid beta-oxidation."
+  },
+  "browning": {
+   "score": 6.0,
+   "reason": "Good Maillard of residual galactose and casein in low-moisture stretched curd when heated."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Low diacetyl ~30 ug/kg from S. thermophilus citrate metabolism; acetoin ~400 ug/kg less potent."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "Moderate butanoic ~491 ug/kg and hexanoic ~397 ug/kg from rennet and microbial lipolysis."
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "Medium fat ~30% and moisture ~38% with fibrous pasta-filata matrix limits creaminess."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Aligned stretched paracasein fibers give sliceable, fibrous fracture not short crumbly."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "Semi-hard from brine salting, moisture loss 46% to 38%, and hot-stretch contraction."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylacetaldehyde and 2-phenylethanol from phenylalanine catabolism by NSLAB."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Low-moderate ethyl acetate ~30-60 ug/kg and ethyl butanoate/hexanoate from esterase esterification."
+  },
+  "goaty": {
+   "score": 2.0,
+   "reason": "Cow milk low in C6-C10 sharp acids; octanoic ~44 ug/kg gives only mild caprine sharpness."
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "Strecker 2-methylpropanal, 2/3-methylbutanal from Leu/Ile/Val by L. paracasei and aging proteolysis."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "Excellent flow from demineralized pH 5.3 paracasein and ~30% fat; classic pasta-filata melter."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "No bloomy or blue mold; negligible 1-octen-3-ol/1-octen-3-one lipid oxidation."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "Moderate free-oil release on melting from coalesced fat pools in aged stretched network."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Typical version unsmoked; no wood-smoke guaiacol/syringol deposition."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Acetic ~84 ug/kg headspace, ~27 ppm total plus lactic acid from thermophilic starter, pH ~5.3."
+  },
+  "stretch": {
+   "score": 8.0,
+   "reason": "Longitudinal calcium-paracasein alignment at pH 5.2-5.4 gives strong hot stretch."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low methanethiol/DMS from Met catabolism; hot-water stretching volatilizes sulfur notes."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Lactose <LOQ; mild sweetness from free amino acids, glycerol and acetoin."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "Moderate glutamate release by chymosin/plasmin and Lactobacillus peptidases during ripening."
+  }
+ },
+ "filata": true,
+ "non_melter": false,
+ "sources": [
+  "https://www.journalofdairyscience.org/article/S0022-0302(19)31055-0/fulltext",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12071272/",
+  "https://mdpi-res.com/d_attachment/foods/foods-12-04339/article_deploy/foods-12-04339.pdf?version=1701417125",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4178672/",
+  "https://www.journalofdairyscience.org/article/S0022-0302(14)00049-6/fulltext",
+  "https://www.mdpi.com/1450592",
+  "https://www.journalofdairyscience.org/article/S0022-0302(19)30529-6/fulltext",
+  "https://www.mdpi.com/2624-862X/4/3/32/htm"
+ ]
+}

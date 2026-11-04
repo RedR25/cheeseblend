@@ -1,0 +1,148 @@
+{
+ "id": "mascarpone",
+ "name": "Mascarpone",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "fresh",
+ "origin": "Italy",
+ "process": {
+  "aging_months": 0.0,
+  "coagulation": "acid_heat",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 44.0,
+   "unit": "%",
+   "source_url": "https://epubs.icar.org.in/index.php/IJDS/article/download/50385/pdf_189/141723",
+   "quote": "It has 44 - 50 % moisture",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 45.0,
+   "unit": "%",
+   "source_url": "https://epubs.icar.org.in/index.php/IJDS/article/download/50385/pdf_189/141723",
+   "quote": "fat - 45 to 55%",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 0.08,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.7,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7179404/",
+   "quote": "The raw materials for its production are milk cream ... and acidifying substances ... with a final pH ranging from 5.7 to 6.6",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 0.0,
+   "reason": "fresh unripened, no proteolysis/deamination to release NH3"
+  },
+  "animal_barnyard": {
+   "score": 0.0,
+   "reason": "pasteurized cream, no p-cresol/indole from manure or washed-rind flora"
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "no rennet and no aging, negligible hydrophobic peptides"
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "no Penicillium roqueforti, no methyl-ketone ripening pathway"
+  },
+  "browning": {
+   "score": 3.0,
+   "reason": "residual lactose plus whey protein allows Maillard but diluted by high fat/moisture"
+  },
+  "buttery": {
+   "score": 8.0,
+   "reason": "retained milkfat diacetyl/acetoin and C-delta-lactones from pasteurized cream"
+  },
+  "cheesy_sweaty": {
+   "score": 1.0,
+   "reason": "minimal lipolysis in fresh curd, very low free C4-C6 butanoic/hexanoic acids"
+  },
+  "creaminess": {
+   "score": 9.0,
+   "reason": "about 45% fat / 85% FDM emulsion stabilized by heat-denatured whey protein"
+  },
+  "crumbliness": {
+   "score": 0.0,
+   "reason": "homogeneous high-fat gel, no calcium-paracasein matrix to fracture"
+  },
+  "firmness": {
+   "score": 1.0,
+   "reason": "acid-heat thickened cream gel at 44-50% moisture, spoonable not cuttable"
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "low delta-lactones and benzaldehyde from cream fat, no concentrated terpenes"
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "trace 2-heptanone/2-nonanone and ethyl acetate from milk, no aged esterification"
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "cow cream only, no caprine branched C6-C10 fatty acids"
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "no aging/proteolysis, negligible Strecker aldehydes like 3-methylbutanal"
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "high moisture plus fat with weak whey gel slumps and fluidifies on warming"
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "no Geotrichum/Brevibacterium, no 1-octen-3-ol/1-octen-3-one formation"
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "very high free milkfat coalesces to free oil when warmed"
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "unsmoked, no guaiacol/volatile phenols from smoking"
+  },
+  "sour_vinegar": {
+   "score": 2.0,
+   "reason": "mild citric/acetic addition to pH ~6.0, no lactic fermentation"
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "no pasta-filata kneading, heat-precipitated whey cannot form aligned casein fibers"
+  },
+  "sulfur_cooked": {
+   "score": 3.0,
+   "reason": "85-95C cream heating denatures beta-lactoglobulin releasing H2S/sulfides"
+  },
+  "sweet": {
+   "score": 6.0,
+   "reason": "high residual lactose and very low salt/low acidity enhances sweet perception"
+  },
+  "umami": {
+   "score": 1.0,
+   "reason": "very low free glutamate, intact casein/whey with no ripened proteolysis"
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://epubs.icar.org.in/index.php/IJDS/article/download/50385/pdf_189/141723",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7179404/",
+  "https://www.scielo.br/scielo.php?script=sci_arttext&pid=S0101-20612020005027211&lng=en&tlng=en"
+ ]
+}

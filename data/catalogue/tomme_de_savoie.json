@@ -1,0 +1,147 @@
+{
+ "id": "tomme_de_savoie",
+ "name": "Tomme de Savoie",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "semi_hard",
+ "origin": "Savoie, France",
+ "process": {
+  "aging_months": 1.5,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 43.2,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 29.2,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 1.59,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.5,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "NH3 from amino acid deamination by surface Geotrichum/Mucor, light due to short 30-40d age"
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "p-cresol, indole and skatole from pasture-derived raw milk plus rind coryneforms"
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "hydrophobic peptides from chymosin/plasmin proteolysis, moderated by brine salt"
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "low 2-heptanone/2-nonanone from adventitious rind Penicillium, little interior diffusion"
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Maillard between residual galactose and lysine on heating, moderate due to low residual sugar"
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "diacetyl/acetoin from Lactococcus lactis citrate metabolism retained in young pressed curd"
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "butanoic/hexanoic acids from raw-milk lipase plus starter lipolysis, moderate in 40d age"
+  },
+  "creaminess": {
+   "score": 3.0,
+   "reason": "limited fat-coating and calcium-paracasein lubrication due to part-skim 29% fat paste"
+  },
+  "crumbliness": {
+   "score": 3.0,
+   "reason": "pressed uncooked curd with small eyes fractures but retains elastic paracasein network"
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "56.8% dry matter pressed texture with intact casein, firm-supple not hard"
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "2-phenylethanol/phenylacetaldehyde from phenylalanine catabolism by lactobacilli, low"
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "ethyl butanoate/hexanoate from esterase esterification of free fatty acids with yeast ethanol"
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "cow milk lacks caprine 4-methyloctanoic/4-ethyloctanoic branched acids"
+  },
+  "malty_nutty": {
+   "score": 5.0,
+   "reason": "3-methylbutanal/2-methylpropanal from leucine/valine Strecker degradation in alpine raw milk"
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "pH ~5.5 demineralized paracasein flows on heating, not excessively cross-linked"
+  },
+  "mushroom_earthy": {
+   "score": 6.0,
+   "reason": "1-octen-3-ol/geosmin from rind Mucor/Geotrichum linoleic acid oxidation in humid cellar"
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "moderate fat-in-casein emulsion stability gives little free oil on heating"
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "no smoking step and no guaiacol/phenol formation in make"
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "lactic plus low acetic acid from mesophilic raw-milk starters, pH ~5.5 retains sourness"
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "non-pasta-filata rennet gel with no hot-water alignment, flows but does not string"
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "uncooked curd with minimal whey-protein denaturation and low methional/H2S"
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "trace lactose/galactose plus sweet amino acids proline/alanine, mostly fermented away"
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "free glutamate from rennet/plasmin proteolysis during 1-2 month ripening"
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://hal.archives-ouvertes.fr/hal-00895569/document",
+  "https://eur-lex.europa.eu/legal-content/GA/ALL/?uri=CELEX:52020XC0605(02)"
+ ]
+}

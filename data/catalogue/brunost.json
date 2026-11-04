@@ -1,0 +1,176 @@
+{
+ "id": "brunost",
+ "name": "Brunost (Norwegian brown whey cheese)",
+ "milk": "mixed",
+ "treatment": "pasteurized",
+ "style": "fresh",
+ "origin": "Norway",
+ "process": {
+  "aging_months": 0,
+  "coagulation": "acid_heat",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 13.44,
+   "unit": "%",
+   "source_url": "https://www.aqua-calc.com/calculate/food-calories/substance/cheese-coma-and-blank-gjetost",
+   "quote": "| **Water / moisture** | **13.44 g / 100 g = 13.44%** | NDB No. 01021 - Cheese, gjetost, USDA National Nutrient Database / FoodData Central. Commercial Gjetost, origin Norway / USA retail, age: n.a. - unaged concentrated whey cheese. Proximates per 100 g: Water 13.44 g, Energy 466 kcal, Protein 9.65 g, Total lipid 29.51 g. Data calculated using USDA Food Composition Databases, Data sources: U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. | https://www.aqua-calc.com/calculate/food-calories/substance/cheese-coma-and-blank-gjetost Mirror of USDA FoodData Central NDB 01021. Direct FDC portal: https://fdc.nal.usda.gov/ |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 29.51,
+   "unit": "%",
+   "source_url": "https://www.aqua-calc.com/calculate/food-calories/substance/cheese-coma-and-blank-gjetost",
+   "quote": "| **Fat** | **29.51 g / 100 g = 29.51%** | Same USDA NDB 01021 sample as above: Protein 9.65 g, Total lipid (fat) 29.51 g | https://www.aqua-calc.com/calculate/food-calories/substance/cheese-coma-and-blank-gjetost |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 0.7,
+   "unit": "%",
+   "source_url": "https://norbites.com/products/cream-whey-cheese-innherred-500g-tine",
+   "quote": "| **Salt (NaCl)** | **0.7 g / 100 g** | Same TINE Innherred Brunost, Norway, 500 g, commercial, age n.a.: Carbohydrates 39 g, Sugars 38 g, Protein 11 g, Salt 0.7 g | https://norbites.com/products/cream-whey-cheese-innherred-500g-tine |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.8,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [
+  {
+   "value": 106000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(84)81380-6/pdf",
+   "quote": "| **butanoic acid (C4:0, butyric acid), free** | **106 mg/kg cheese** | Commercial Gjetost, retail purchase, USA retail of Norwegian-type product, age n.a., goat milk whey + some cow's milk, caramelized, mild goaty. GC with silicic acid-KOH arrestant column. | https://www.journalofdairyscience.org/article/S0022-0302(84)81380-6/pdf Original: Woo, A.H., Kollodge, S., Lindsay, R.C. 1984. Quantification of Major Free Fatty Acids in Several Cheese Varieties. J. Dairy Sci. 67:874-878. Values as compiled in McSweeney review Table 1, and Biochemistry of Cheese Ripening Guide: https://vdocuments.net/blackwell-publishing-ltd-biochemistry-of-cheese-during-cheese-during-ripening.html and https://www.yumpu.com/en/document/view/59581085/biochemistry-of-cheese-ripening-guide/32 |",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 35000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(84)81380-6/pdf",
+   "quote": "| **hexanoic acid (C6:0, caproic acid), free** | **35 mg/kg cheese** | Same sample as above | Same URLs as above |",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 31000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(84)81380-6/pdf",
+   "quote": "| **octanoic acid (C8:0, caprylic acid), free** | **31 mg/kg cheese** | Same sample as above | Same URLs as above |",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 0.0,
+   "reason": "no ripening proteolysis, low protein 9.65%, no amino acid deamination"
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "trace goat-derived p-cresol/indole diluted by cow milk and cream addition"
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Maillard melanoidins and concentrated whey minerals offset by high sugar"
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "no Penicillium roqueforti inoculation, no methyl ketone blue pathway"
+  },
+  "browning": {
+   "score": 10.0,
+   "reason": "hours evaporation Maillard of lactose with whey protein to melanoidins brown mass"
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "added cream 51g/100g retains milkfat diacetyl/acetoin from sweet whey starter"
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "low free butanoic acid 106 mg/kg with no rennet lipolysis or ripening"
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "29.51% fat homogenized whey-cream emulsion smooth in mouth despite low moisture"
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "evaporated kneaded lactose-crystallized mass with no rennet curd fracture"
+  },
+  "firmness": {
+   "score": 8.0,
+   "reason": "13.44% moisture ~86% solids lactose-crystallized plastic block sliceable thin"
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Maillard phenylalanine Strecker phenylacetaldehyde plus lactose sweetness as honey"
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "no yeast/NSLAB fermentation, minimal ethyl butanoate/hexanoate esterification"
+  },
+  "goaty": {
+   "score": 5.0,
+   "reason": "goat whey free C6:0 35mg/kg C8:0 31mg/kg C10:0 180mg/kg caprine fatty acids"
+  },
+  "malty_nutty": {
+   "score": 7.0,
+   "reason": "prolonged boiling Maillard and Strecker aldehydes maltol furanones toasted-nut"
+  },
+  "melt": {
+   "score": 2.0,
+   "reason": "denatured whey protein plus crystallized lactose, no intact casein network to flow"
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "no mold metabolism, no 1-octen-3-ol/1-octen-3-one formation"
+  },
+  "oil_off": {
+   "score": 1.0,
+   "reason": "fat emulsified in concentrated lactose-protein matrix, little free oil release"
+  },
+  "smoky": {
+   "score": 1.0,
+   "reason": "not smoked, only trace Maillard furans/guaiacol from browning"
+  },
+  "sour_vinegar": {
+   "score": 1.0,
+   "reason": "sweet whey pH>5.6 evaporated, no lactic/acetic acid ripening"
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "no rennet para-casein network, no pasta-filata alignment"
+  },
+  "sulfur_cooked": {
+   "score": 6.0,
+   "reason": "heat denaturation of beta-lactoglobulin releases H2S/DMS/methional cooked-milk"
+  },
+  "sweet": {
+   "score": 10.0,
+   "reason": "39% carbohydrate 38% sugar lactose plus added sucrose, most sugary cheese"
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "concentrated whey glutamate/peptides but masked by caramel sweetness"
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://www.aqua-calc.com/calculate/food-calories/substance/cheese-coma-and-blank-gjetost",
+  "https://norbites.com/products/cream-whey-cheese-innherred-500g-tine",
+  "https://www.journalofdairyscience.org/article/S0022-0302(84)81380-6/pdf",
+  "https://www.sciencedirect.com/topics/food-science/cheese-type",
+  "https://vdocuments.net/blackwell-publishing-ltd-biochemistry-of-cheese-during-cheese-during-ripening.html",
+  "https://www.yumpu.com/en/document/view/59581085/biochemistry-of-cheese-ripening-guide/32"
+ ]
+}

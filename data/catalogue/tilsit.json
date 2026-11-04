@@ -1,0 +1,190 @@
+{
+ "id": "tilsit",
+ "name": "Tilsit",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "washed_rind",
+ "origin": "Tilsit, East Prussia - Germany/Switzerland",
+ "process": {
+  "aging_months": 2.5,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 42.86,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/",
+   "quote": "| moisture (Water) | **42.86 g /100 g = 42.86 %** | generic Cheese, tilsit, USDA SR, 100 g | https://fdc.nal.usda.gov/ – legacy SR NDB 01041, as reported: `Water 42.86 g 42.86%` and `Water 42.86 g` |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 25.98,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/",
+   "quote": "| fat (Total lipid) | **25.98 g /100 g = 25.98 %** | same | same USDA record: `Total lipid (fat) 25.98 g 25.98%` ; also `100 grams of Cheese, tilsit contains 1.88 grams of carbohydrate, 24.41 grams of protein and 25.98 grams of fat.` |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.8,
+   "unit": "%",
+   "source_url": "https://journals.asm.org/doi/full/10.1128/microbiolspec.cm-0010-2012",
+   "quote": "| salt | **1.8 g /100 g = 1.8 % NaCl** | same 3 Austrian Tilsit batches, during ripening, surface layer included to ~3 mm | same: `highest levels of salt were found in Gubbeen and Tilsit (Fig. 3) at 2.0 and 1.8 g/100 g, respectively` |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 7.5,
+   "unit": "",
+   "source_url": "https://journals.asm.org/doi/full/10.1128/microbiolspec.cm-0010-2012",
+   "quote": "| pH surface / whole | **final pH 7.5**, increase during ripening | same Austrian Tilsit | same: `highest in Livarot and Tilsit, which reached final pH values of 7.8 and 7.5, respectively.` |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 23.0,
+   "unit": "µg/kg",
+   "source_url": "https://ira.agroscope.ch/fr-CH/Ajax/Einzelpublikation/Download?einzelpublikationId=35619",
+   "quote": "| methanethiol (MeSH), rotten cabbage, burnt rubber, odour threshold 0.02 µg/kg | **23 ±2.1 ; 307 ±19.5 ; 164 ±19.2 µg/kg** for cheeses A ; B ; C respectively as ordered in table | three commercial Swiss Tilsit as above, 30-60 d pasteurized 45% FDM ; 30-75 d pasteurized 55% FDM ; 70-110 d thermized/raw 45% FDM. Table row: `Methanethiol rotten cabbage, burnt (MeSH) rubber 0.02 23 ±2.1 307 ±19.5 164 ±19.2` | https://ira.agroscope.ch/fr-CH/Ajax/Einzelpublikation/Download?einzelpublikationId=35619 |",
+   "confidence": "measured",
+   "name": "methanethiol"
+  },
+  {
+   "value": 15.0,
+   "unit": "µg/kg",
+   "source_url": "https://ira.agroscope.ch/fr-CH/Ajax/Einzelpublikation/Download?einzelpublikationId=35619",
+   "quote": "| dimethyl sulfide (DMS), pungent, cabbage, cooked vegetables, threshold 0.3-1 µg/kg | **15 ±0.6 ; 27 ±0.8 ; 56 ±4.9 µg/kg** | same three Swiss Tilsit | same table: `(DMS) cooked vegetables 0.3-1 15 ±0.6 27 ±0.8 56 ± 4.9` |",
+   "confidence": "measured",
+   "name": "dimethyl sulfide"
+  },
+  {
+   "value": 1.5,
+   "unit": "µg/kg",
+   "source_url": "https://ira.agroscope.ch/fr-CH/Ajax/Einzelpublikation/Download?einzelpublikationId=35619",
+   "quote": "| dimethyl disulfide (DMDS), vegetal, cabbage, onion-like, threshold 0.16-1.2 µg/kg | **1.5 ±0.1 ; 37 ±0.7 ; 75 ±6.8 µg/kg** | same three Swiss Tilsit | same table: `(DMDS) onion-like at high levels 0.16-1.2 1.5 ± 0.1 37 ±0.7 75 ±6.8` |",
+   "confidence": "measured",
+   "name": "dimethyl disulfide"
+  },
+  {
+   "value": 0.5,
+   "unit": "µg/kg",
+   "source_url": "https://ira.agroscope.ch/fr-CH/Ajax/Einzelpublikation/Download?einzelpublikationId=35619",
+   "quote": "| dimethyl trisulfide (DMTS), sulfurous, alliaceous, cooked, savory, meaty, threshold 0.005-0.01 µg/kg | **0.5 ±0.03 ; 4.8 ±0.07 ; 4.4 ±0.22 µg/kg** | same three Swiss Tilsit | same table: `(DMTS) cooked, savory, meaty 0.005–0.01 0.5 ±0.03 4.8 ± 0.07 4.4 ±0.22` |",
+   "confidence": "measured",
+   "name": "dimethyl trisulfide"
+  },
+  {
+   "value": 7.0,
+   "unit": "µg/kg",
+   "source_url": "https://ira.agroscope.ch/fr-CH/Ajax/Einzelpublikation/Download?einzelpublikationId=35619",
+   "quote": "| methional, boiled potatoes, threshold 0.2 µg/kg | **7.0 ±1.62 ; 5.9 ±1.62 ; 36 ±1.3 µg/kg** | same three Swiss Tilsit | same table: `Methional Boiled potatoes 0.2 7.0 ±1.62 5.9 ±1.62 36 ±1.3 Fig. 4` |",
+   "confidence": "measured",
+   "name": "methional"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 4.5,
+   "reason": "NH3 from amino-acid deamination by Brevibacterium/lactobacilli raises smear surface to pH 7.5"
+  },
+  "animal_barnyard": {
+   "score": 4.5,
+   "reason": "p-cresol/indole plus Brevibacterium sulfur from Trp/Tyr catabolism in smear"
+  },
+  "bitter": {
+   "score": 3.5,
+   "reason": "hydrophobic peptides from rennet/plasmin proteolysis, partly debittered by smear peptidases"
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "no Penicillium roqueforti inoculation, no C7/C9 methyl-ketone blue pathway"
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Maillard between residual lactose/galactose and lysine on heating"
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "diacetyl/acetoin from citrate metabolism by mesophilic Lactococcus starters"
+  },
+  "cheesy_sweaty": {
+   "score": 6.5,
+   "reason": "butanoic acid lipolysis plus 3-methylbutanoic acid from Leu catabolism, cited as main cheesy notes"
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "25.98% fat ~45% FDM with 42.86% moisture and 2-3 mo proteolysis gives smooth supple paste"
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "elastic washed-rind protein matrix, not dry-grana fracture"
+  },
+  "firmness": {
+   "score": 5.5,
+   "reason": "semi-hard smear loaf at ~43% moisture, sliceable supple body with small eyes"
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "low phenylacetaldehyde/2-phenylethanol from Phe transamination by lactobacilli"
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "low ethyl butanoate/hexanoate from lipase free acids + ethanol esterification"
+  },
+  "goaty": {
+   "score": 0.5,
+   "reason": "cow milk lacks 4-methyloctanoic/4-ethyloctanoic goaty branched acids"
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "Strecker 2-/3-methylbutanal from Ile/Leu plus methional boiled-potato note"
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "rennet gel demineralized then smear-deacidified flows well, not acid heat-set"
+  },
+  "mushroom_earthy": {
+   "score": 2.5,
+   "reason": "low 1-octen-3-ol/1-octen-3-one from linoleic acid oxidation by Geotrichum/microflora"
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "moderate 26% fat releases some free oil on heating, not high-fat oiling"
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "typical make unsmoked, no guaiacol/phenol deposition"
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "lactic/acetic from mesophilic starter, largely consumed/deacidified by smear yeasts"
+  },
+  "stretch": {
+   "score": 1.5,
+   "reason": "no pasta-filata hot-water kneading, rennet curd only short elasticity"
+  },
+  "sulfur_cooked": {
+   "score": 6.5,
+   "reason": "MeSH 23-307 ppb, DMS, DMDS, DMTS 50-500x threshold from Met demethiolation by Brevibacterium"
+  },
+  "sweet": {
+   "score": 2.5,
+   "reason": "trace residual lactose/galactose and diacetyl sweet impression, low"
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "free glutamate and savory DMTS/methional from 1-3 mo proteolysis"
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://fdc.nal.usda.gov/",
+  "https://journals.asm.org/doi/full/10.1128/microbiolspec.cm-0010-2012",
+  "https://ira.agroscope.ch/fr-CH/Ajax/Einzelpublikation/Download?einzelpublikationId=35619",
+  "http://www.abah.bioflux.com.ro/docs/2022.48-53.pdf"
+ ]
+}

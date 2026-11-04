@@ -1,0 +1,146 @@
+{
+ "id": "majorero",
+ "name": "Majorero",
+ "milk": "goat",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Fuerteventura, Canary Islands, Spain",
+ "process": {
+  "aging_months": 2,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 40.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 32.5,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 2.8,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 4.95,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "No ammonia measured; 60-d rennet cheese with modest deamination, no washed-rind Brevibacterium activity."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "No phenols/indole/p-cresol detected; faint animal note only from branched 2-methylpropanoic/3-methylbutanoic acids."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Chymosin plus LAB proteinases produce hydrophobic peptides at pH ~5, partly masked by salt and FFAs."
+  },
+  "blue_moldy": {
+   "score": 2.0,
+   "reason": "No Penicillium; low methyl ketones 2-heptanone 2.7-7.4 mg/kg and 2-nonanone <1 mg/kg from fatty-acid beta-oxidation."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Low residual lactose limits Maillard; moderate protein 38-41% TS plus fat gives light golden browning on heating."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Citrate fermentation by Lactococcus/Leuconostoc starter yields diacetyl 1.5-8.6 mg/kg and acetoin 3.8-19.9 mg/kg."
+  },
+  "cheesy_sweaty": {
+   "score": 7.0,
+   "reason": "Kid-goat pregastric lipase in rennet paste releases butanoic 33-173 mg/kg and hexanoic 16-40 mg/kg."
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "55% fat-in-dry-matter (~33% fat) lubricates but low moisture and goat short-chain fat reduce melt-in-mouth."
+  },
+  "crumbliness": {
+   "score": 6.0,
+   "reason": "Low pH demineralization solubilizes colloidal calcium phosphate, giving short crumbly goat-curd fracture."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "Pressed 59-65% total solids, pH ~5, 2-mo drying to ~40% moisture gives dense semi-hard body."
+  },
+  "floral_honey": {
+   "score": 0.0,
+   "reason": "No phenylalanine catabolites phenylacetaldehyde/2-phenylethanol detected in 28-compound profile."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethanol esterified with FFAs by LAB esterases to ethyl butanoate 0.4-3.8 mg/kg and ethyl hexanoate 0.2-2.8 mg/kg."
+  },
+  "goaty": {
+   "score": 8.0,
+   "reason": "Goat milk plus rennet-paste lipolysis gives 32 g/kg total FFA with 28% C4-C12 including hexanoic and branched acids."
+  },
+  "malty_nutty": {
+   "score": 5.0,
+   "reason": "Leucine Strecker degradation by LAB yields abundant 3-methylbutanal 8-12 mg/kg and 3-methylbutanoic acid."
+  },
+  "melt": {
+   "score": 5.0,
+   "reason": "Rennet gel retains meltability but pH <5.1 and ~2.8% salt limit casein hydration and flow when heated."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No 1-octen-3-ol/1-octen-3-one detected; alcohol fraction only ethanol, propanol, pentanol, heptanol."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "High 55% FDM with extensive lipolysis frees short-chain triglycerides, releasing moderate free oil on melting."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked curd, no phenols/guaiacol detected; paprika/gofio coating is not smoke-derived."
+  },
+  "sour_vinegar": {
+   "score": 5.0,
+   "reason": "Homofermentative lactic acid plus acetic 10-32 mg/kg from lactose/citrate gives pH ~4.9-5.0."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Non-pasta-filata rennet curd set at 32C with no hot-water stretching, no aligned casein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "No S-volatiles among 28 headspace compounds; mild 72-76C 20s pasteurization, uncooked 32C curd."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Lactose depleted by starter; faint sweet from acetoin/diacetyl and glycerol, no residual sugar."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "60-d rennet/plasmin plus LAB peptidases release glutamate/small peptides, enhanced by ~2.8% NaCl."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.foodswinesfromspain.com/en/food/products/cheese/queso-majorero-pdo"
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "id": "tulum",
+ "name": "Tulum",
+ "milk": "sheep",
+ "treatment": "raw",
+ "style": "semi_hard",
+ "origin": "Turkey",
+ "process": {
+  "aging_months": 4,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 48.77,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(07)71597-7/pdf",
+   "quote": "final values in the P1 and P2 cheeses were 48.77 and 48.06%, respectively",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 30.28,
+   "unit": "%",
+   "source_url": "http://www.scielo.br/j/cta/a/zygdpzqqkhxH63qZCzYsZxp/?format=pdf&lang=en",
+   "quote": "dry matter content %61.71 ± 8.77, fat %30.28 ± 4.84, fat in dry matter %49.09 ± 5.15, protein content %20.17 ± 3.19, ash %4.67 ± 2.09, salt %4.76 ± 1.67, salt in dry matter %7.67 ± 2.43, titration acidity (as lactic acid) %1.41 ± 1.18 and pH is 4.64 ± 0.21",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 4.76,
+   "unit": "%",
+   "source_url": "http://www.scielo.br/j/cta/a/zygdpzqqkhxH63qZCzYsZxp/?format=pdf&lang=en",
+   "quote": "dry matter content %61.71 ± 8.77, fat %30.28 ± 4.84, fat in dry matter %49.09 ± 5.15, protein content %20.17 ± 3.19, ash %4.67 ± 2.09, salt %4.76 ± 1.67, salt in dry matter %7.67 ± 2.43, titration acidity (as lactic acid) %1.41 ± 1.18 and pH is 4.64 ± 0.21",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 4.64,
+   "unit": "",
+   "source_url": "http://www.scielo.br/j/cta/a/zygdpzqqkhxH63qZCzYsZxp/?format=pdf&lang=en",
+   "quote": "dry matter content %61.71 ± 8.77, fat %30.28 ± 4.84, fat in dry matter %49.09 ± 5.15, protein content %20.17 ± 3.19, ash %4.67 ± 2.09, salt %4.76 ± 1.67, salt in dry matter %7.67 ± 2.43, titration acidity (as lactic acid) %1.41 ± 1.18 and pH is 4.64 ± 0.21",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 750000.0,
+   "unit": "µg/kg",
+   "source_url": "https://avesis.ankara.edu.tr/yayin/1c9b03a7-5e96-4d9e-95ff-658297b5ae00/proteolytic-and-lipolytic-composition-of-tulum-cheeses",
+   "quote": "The mean free fatty acid (FFA) content (mg/kg cheese) were: of butyric acid 750, caproic acid 625, caprylic acid 733, capric acid 1846, lauric acid 1536, myristic acid 2717, palmitic acid 5608, stearic acid 2210, oleic acid 4999 and total free fatty acid 21027",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 625000.0,
+   "unit": "µg/kg",
+   "source_url": "https://avesis.ankara.edu.tr/yayin/1c9b03a7-5e96-4d9e-95ff-658297b5ae00/proteolytic-and-lipolytic-composition-of-tulum-cheeses",
+   "quote": "The mean free fatty acid (FFA) content (mg/kg cheese) were: of butyric acid 750, caproic acid 625, caprylic acid 733, capric acid 1846, lauric acid 1536, myristic acid 2717, palmitic acid 5608, stearic acid 2210, oleic acid 4999 and total free fatty acid 21027",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 733000.0,
+   "unit": "µg/kg",
+   "source_url": "https://avesis.ankara.edu.tr/yayin/1c9b03a7-5e96-4d9e-95ff-658297b5ae00/proteolytic-and-lipolytic-composition-of-tulum-cheeses",
+   "quote": "The mean free fatty acid (FFA) content (mg/kg cheese) were: of butyric acid 750, caproic acid 625, caprylic acid 733, capric acid 1846, lauric acid 1536, myristic acid 2717, palmitic acid 5608, stearic acid 2210, oleic acid 4999 and total free fatty acid 21027",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Extensive proteolysis but pH 4.64 protonates NH3 to NH4+, little free ammonia volatilizes."
+  },
+  "animal_barnyard": {
+   "score": 6.0,
+   "reason": "Raw ewe milk plus goatskin tulum contact; p-cresol/indole from skin coryneforms and enterococci."
+  },
+  "bitter": {
+   "score": 6.0,
+   "reason": "Hydrophobic peptides from raw-milk rennet/plasmin proteolysis plus high salt and FFA bitterness."
+  },
+  "blue_moldy": {
+   "score": 3.0,
+   "reason": "2-heptanone and 2-nonanone from fatty-acid beta-oxidation, no Penicillium roqueforti added."
+  },
+  "browning": {
+   "score": 2.0,
+   "reason": "Lactose depleted and pH 4.64 inhibits Maillard, limited browning despite 38% moisture."
+  },
+  "buttery": {
+   "score": 3.0,
+   "reason": "Diacetyl from LAB citrate metabolism largely reduced to acetoin/butanediol during 4-mo ripening."
+  },
+  "cheesy_sweaty": {
+   "score": 8.0,
+   "reason": "Very high lipolysis: 750 mg/kg butyric and 625 mg/kg caproic from raw-milk lipase and skin flora."
+  },
+  "creaminess": {
+   "score": 3.0,
+   "reason": "30% fat with 49% fat-in-dry-matter but acidic demineralized crumbly matrix coats poorly."
+  },
+  "crumbliness": {
+   "score": 8.0,
+   "reason": "pH 4.64 calcium loss plus 4.76% salt and proteolysis fractures casein into short crumbly body."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Low moisture 38% and high salt with 4-mo drying in permeable skin concentrates casein matrix."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Low 2-phenylethanol 0.76 ug/100g from phenylalanine catabolism by skin yeasts."
+  },
+  "fruity": {
+   "score": 6.0,
+   "reason": "Ethyl butanoate and ethyl hexanoate up to 23.69 ug/100g from esterification by yeasts/LAB."
+  },
+  "goaty": {
+   "score": 6.0,
+   "reason": "C6-C10 acids from sheep-milk fat: capric 1846 mg/kg, caprylic 733 mg/kg via lipolysis."
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "Strecker aldehydes e.g. 2-methylbutanal from leucine/isoleucine catabolism, restrained by acidity."
+  },
+  "melt": {
+   "score": 2.0,
+   "reason": "Low pH demineralization and high salt-in-moisture impair casein flow, softens but does not flow."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "1-octen-3-ol not detected; limited linoleate oxidation in dry skin-ripened environment."
+  },
+  "oil_off": {
+   "score": 6.0,
+   "reason": "Total free fatty acids 21027 mg/kg and 30% fat release free oil on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make, no smoke-derived phenols like guaiacol."
+  },
+  "sour_vinegar": {
+   "score": 7.0,
+   "reason": "1.41% titratable acidity as lactic acid, pH 4.64 from prolonged raw-milk LAB fermentation."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Non-pasta-filata acid-rennet curd with no hot-water kneading, no aligned para-casein."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Uncooked curd, minimal heat-induced H2S; only trace methionine catabolism to sulfides."
+  },
+  "sweet": {
+   "score": 1.0,
+   "reason": "Residual lactose depleted by LAB; high acidity and 4.76% salt suppress sweet perception."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Glutamate released by 4-mo proteolysis of 20% protein, partly masked by very high salt."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "http://www.scielo.br/j/cta/a/zygdpzqqkhxH63qZCzYsZxp/?format=pdf&lang=en",
+  "https://www.journalofdairyscience.org/article/S0022-0302(07)71597-7/pdf",
+  "https://avesis.ankara.edu.tr/yayin/1c9b03a7-5e96-4d9e-95ff-658297b5ae00/proteolytic-and-lipolytic-composition-of-tulum-cheeses",
+  "https://www.mdpi.com/2304-8158/15/15/2665/pdf",
+  "http://:@www.scielo.br/j/cta/a/zygdpzqqkhxH63qZCzYsZxp/?format=pdf&lang=en&ilang=es",
+  "https://mdpi-res.com/d_attachment/dairy/dairy-07-00008/article_deploy/dairy-07-00008.pdf?version=1767970905"
+ ]
+}

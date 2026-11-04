@@ -1,0 +1,245 @@
+{
+ "id": "cream_cheese",
+ "name": "Cream cheese",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "fresh",
+ "origin": "USA",
+ "process": {
+  "aging_months": 0,
+  "coagulation": "acid",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 55.44,
+   "unit": "%",
+   "source_url": "https://journalofdairyscience.org",
+   "quote": "| Moisture (%) | 55.44 ± 0.91 |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 33.59,
+   "unit": "%",
+   "source_url": "https://journalofdairyscience.org",
+   "quote": "| Fat (%) | 33.59 ± 1.10 |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.0,
+   "unit": "%",
+   "source_url": "https://journalofdairyscience.org",
+   "quote": "| Salt (%) | 1.00 ± 0.13 |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 4.98,
+   "unit": "",
+   "source_url": "https://journalofdairyscience.org",
+   "quote": "| pH | 4.98 ± 0.06 |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 1480.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.jstage.jst.go.jp/article/milk/70/1/70_22/_article",
+   "quote": "Test productions of cream cheese and fermented butter were performed using #003 as an adjunct LAB starter. In the products, diacetyl was accumulated 1.48 and 1.30 μg/g, respectively",
+   "confidence": "measured",
+   "name": "diacetyl"
+  },
+  {
+   "value": 130.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11150910/",
+   "quote": "| 22 | 3-hydroxybutan-2-one | 55 | buttery | 0.13 ± 0.00 d | 0.16 ± 0.05c | 0.68 ± 0.05a | 0.69 ± 0.05a | 0.49 ± 0.00 b |",
+   "confidence": "measured",
+   "name": "acetoin"
+  },
+  {
+   "value": 20.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11150910/",
+   "quote": "| 28 | δ-decalactone | 66 | – | 0.02 ± 0.01e | 0.11 ± 0.11 d | 0.37 ± 0.00 b | 0.55 ± 0.00a | 0.64 ± 0.01c |",
+   "confidence": "measured",
+   "name": "delta-decalactone"
+  },
+  {
+   "value": 180.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11150910/",
+   "quote": "| 4 | 3-methylbutanoic acid | 130 | cheesy | 0.06 ± 0.06 b | 0.07 ± 0.01 b | 0.09 ± 0.00 b | 0.18 ± 0.01a | 0.06 ± 0.05 b |",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  },
+  {
+   "value": 320.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11150910/",
+   "quote": "| 6 | Hexanoic acid | 3000 | sweety | 0.26 ± 0.06a | 0.19 ± 0.07 b | 0.28 ± 0.01a | 0.32 ± 0.00a | 0.07 ± 0.01c |",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 350.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11150910/",
+   "quote": "| 7 | Octanoic acid | 2701.23 | sweat | 0.38 ± 0.06 b | 0.22 ± 0.18c | 0.46 ± 0.00a | 0.35 ± 0.00 b | 0.086 ± 0.00c |",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  },
+  {
+   "value": 620.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11150910/",
+   "quote": "| 1 | Acetic acid | 22,000 | sour | 0.03 ± 0.01 d | 0.04 ± 0.00 d | 0.26 ± 0.06c | 0.62 ± 0.01 b | 0.79 ± 0.05a |",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 230.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11150910/",
+   "quote": "| 21 | Heptan-2-one | 140 | sweety musty | 0.29 ± 0.01 ab | 0.13 ± 0.11 d | 0.26 ± 0.05BCE | 0.23 ± 0.04c | 0.47 ± 0.01a |",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 590.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11150910/",
+   "quote": "| 23 | Nonan-2-one | 1087 | floral | 0.39 ± 0.00 d | 0.36 ± 0.06e | 0.67 ± 0.02 b | 0.59 ± 0.02c | 0.95 ± 0.02a |",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  },
+  {
+   "value": 440.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11150910/",
+   "quote": "| 24 | Undecan-2-one | 100 | fruity | 0.07 ± 0.00 d | 0.05 ± 0.02e | 0.37 ± 0.00c | 0.44 ± 0.0025 b | 0.86 ± 0.00a |",
+   "confidence": "measured",
+   "name": "2-undecanone"
+  },
+  {
+   "value": 20.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11150910/",
+   "quote": "| 18 | 2-phenylacetaldehyde | 4 | honey | – | – | 0.02 ± 0.00a | – | – |",
+   "confidence": "measured",
+   "name": "phenylacetaldehyde"
+  },
+  {
+   "value": 50.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11150910/",
+   "quote": "| 16 | 2-phenylethanol | 28922.73 | rosey | – | 0 ± 0 | 0.05 ± 0.00a | 0.03 ± 0.00 b | – |",
+   "confidence": "measured",
+   "name": "2-phenylethanol"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 0.0,
+   "reason": "No proteolysis/deamination in fresh unripened curd, no NH3 accumulation."
+  },
+  "animal_barnyard": {
+   "score": 0.0,
+   "reason": "No p-cresol/indole/skatole; pasteurized cow milk, no smear flora."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "Minimal proteolysis to hydrophobic peptides in 0-day acid gel."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti; methyl ketones 2-heptanone 230, 2-nonanone 590 ug/kg below blue threshold."
+  },
+  "browning": {
+   "score": 1.0,
+   "reason": "High moisture 55.4% fresh emulsion, Maillard only on baking, not in cheese as such."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Lactococcus citrate metabolism gives diacetyl 1.48 mg/kg + acetoin 0.69 mg/kg."
+  },
+  "cheesy_sweaty": {
+   "score": 1.0,
+   "reason": "Very low free fatty acids: hexanoic 0.32, octanoic 0.35, 3-methylbutanoic 0.18 mg/kg, no lipolysis."
+  },
+  "creaminess": {
+   "score": 9.0,
+   "reason": "33.6% homogenized milkfat in 55.4% moisture stabilized emulsion gives smooth mouthfeel."
+  },
+  "crumbliness": {
+   "score": 0.0,
+   "reason": "Homogenized hot-filled acid gel with hydrocolloids, no granular pressed curd."
+  },
+  "firmness": {
+   "score": 2.0,
+   "reason": "High-moisture acid gel, unpressed and homogenized, spreadable-soft with light gum firmness."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Trace Phe catabolites only: phenylacetaldehyde 0.02 and 2-phenylethanol 0.03-0.05 mg/kg."
+  },
+  "fruity": {
+   "score": 1.0,
+   "reason": "No ethyl esters detected; delta-decalactone only 0.02-0.55 mg/kg in fresh curd."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk only, no caprine 4-methyl/4-ethyloctanoic acids, C6-C10 acids very low."
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "No Strecker aldehydes 2/3-methylbutanal detected and no aged Maillard/pyrazines."
+  },
+  "melt": {
+   "score": 2.0,
+   "reason": "Acid casein network at pH 4.98, calcium-depleted, softens but does not flow."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No 1-octen-3-ol/1-octen-3-one; no fungal lipoxygenase activity."
+  },
+  "oil_off": {
+   "score": 1.0,
+   "reason": "Homogenized 15-18 MPa plus stabilizers emulsify 33.6% fat, prevents free oiling."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No guaiacol/phenols, unsmoked fresh cheese."
+  },
+  "sour_vinegar": {
+   "score": 5.0,
+   "reason": "Mesophilic lactic fermentation to pH 4.98 with lactic acid dominant; acetic acid only 0.62 mg/kg."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata kneading, acid-precipitated casein lacks elastic calcium-paracasein network."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "90C/10 min milk heat denatures beta-lactoglobulin giving sulfhydryl note, but no ripened thiols/sulfides."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose/lactate plus buttery acetoin/lactones at pH ~5 perceived as mild sweet."
+  },
+  "umami": {
+   "score": 1.0,
+   "reason": "No aging proteolysis to free glutamate; fresh casein intact."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://journalofdairyscience.org",
+  "https://www.jstage.jst.go.jp/article/milk/70/1/70_22/_article",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11150910/"
+ ]
+}

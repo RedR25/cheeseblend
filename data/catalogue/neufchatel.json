@@ -1,0 +1,147 @@
+{
+ "id": "neufchatel",
+ "name": "Neufchâtel",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "fresh",
+ "origin": "USA",
+ "process": {
+  "aging_months": 0,
+  "coagulation": "mixed",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 61.24,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(08)70916-0/fulltext",
+   "quote": "In the case of Neufchatel cheeses, the variability between brands in their moisture (from 61.24 to 65.59%) and fat contents (from 20.69 to 25.17%) was even greater than what was observed for the full-fat cream cheeses.",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 20.69,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(08)70916-0/fulltext",
+   "quote": "In the case of Neufchatel cheeses, the variability between brands in their moisture (from 61.24 to 65.59%) and fat contents (from 20.69 to 25.17%) was even greater than what was observed for the full-fat cream cheeses.",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 0.9,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 4.62,
+   "unit": "",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(08)70916-0/fulltext",
+   "quote": "The pH values of Neufchatel cheeses were similar to those of full-fat cream cheeses, with values between 4.62 and 5.16.",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 0.0,
+   "reason": "Fresh low pH with no surface flora deamination/urease activity."
+  },
+  "animal_barnyard": {
+   "score": 0.0,
+   "reason": "Pasteurized cow milk fresh curd lacks p-cresol/indole barnyard notes."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "Very limited rennet/plasmin proteolysis to hydrophobic bitter peptides."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti; no C7/C9 methyl ketones in fresh cheese."
+  },
+  "browning": {
+   "score": 1.0,
+   "reason": "High moisture dilute protein/lactose limits Maillard on heating."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Mesophilic Lactococcus citrate metabolism yields diacetyl/acetoin in fresh acid curd."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Minimal lipolysis in unripened curd gives very low free butanoic/hexanoic acids."
+  },
+  "creaminess": {
+   "score": 7.0,
+   "reason": "Homogenized milkfat plus whey proteins/gums form smooth creamy emulsion."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "High-moisture acid gel deforms plastically rather than fracturing."
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "High moisture ~63% acid gel with homogenized fat gives soft spreadable body."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Minimal aromatic amino acid catabolism to phenylacetaldehyde/phenylethanol."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Very short storage limits esterase formation of ethyl butanoate/hexanoate."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk fat lacks goaty branched C8 acids like 4-ethyloctanoic acid."
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "No ripening proteolysis/Strecker aldehydes; only faint milky notes."
+  },
+  "melt": {
+   "score": 2.0,
+   "reason": "Acid-decalcified low-pH casein softens without flowing on heating."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No Geotrichum/Penicillium lipoxygenase to make 1-octen-3-ol."
+  },
+  "oil_off": {
+   "score": 1.0,
+   "reason": "Low homogenized fat with stabilizers keeps emulsion, little free oil."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make; no guaiacol/syringol from smoke."
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "Mesophilic starter ferments lactose to lactic acid to pH ~4.8, sharp lactic tang."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata alignment; acid network lacks extensible para-casein."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Gentle pasteurization, no cooked curd; trace H2S from starter only."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose/galactose and diacetyl impart mild milky sweetness."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "Low free glutamate due to minimal proteolysis in unripened gel."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://www.journalofdairyscience.org/article/S0022-0302(08)70916-0/fulltext",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11150910/"
+ ]
+}

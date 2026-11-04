@@ -1,0 +1,149 @@
+{
+ "id": "fontina",
+ "name": "Fontina",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "semi_hard",
+ "origin": "Italy",
+ "process": {
+  "aging_months": 3.0,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 37.92,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/",
+   "quote": "| Moisture | **37.92 g / 100 g = 37.92%** | Cheese, fontina, USDA Standard Reference, generic, age / origin not specified. Food data sourced from USDA FoodData Central. Values republished as Water 37.92 g | https://fdc.nal.usda.gov/ – values viewed via https://www.aqua-calc.com/ : The food data for this page is sourced from the U.S. Department of Agriculture, Agricultural Research Service, FoodData Central |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 31.14,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/",
+   "quote": "| Total lipid (fat) | **31.14 g / 100 g = 31.14%** | Same USDA fontina as above : Total lipid (fat) g 31.14, also reported as Total lipid (fat) 31.14 g 31.14% | https://fdc.nal.usda.gov/ via https://www.aqua-calc.com/ |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.31,
+   "unit": "%",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf",
+   "quote": "| Salt (NaCl) | **2.31 g.100g-1 = 2.31%** | Same Lawlor Fontina sample. 4th column = Salt : Fontina … 30.04 2.31 4.01 … | https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.29,
+   "unit": "",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf",
+   "quote": "| pH | **6.29** | Same Lawlor Fontina single sample, last column = pH : … 6.28 6.29 | https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Limited urea and amino acid deamination in 3-mo aged paste with brushed rind, not overripe."
+  },
+  "animal_barnyard": {
+   "score": 3.0,
+   "reason": "Trace p-cresol and indole plus sulfur from Brevibacterium linens rind smear proteolysis."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Low hydrophobic peptide accumulation due to balanced rennet and thermophilic starter proteolysis at pH 6.29."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation so no C7-C11 methyl ketones and secondary alcohols."
+  },
+  "browning": {
+   "score": 6.0,
+   "reason": "Maillard between residual galactose and lysine on heating plus fat-promoted dehydration."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Diacetyl and acetoin from citrate metabolism by mesophilic starters plus C4-C12 lactones in 31% milk fat."
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "Low free butyric 0.48 mmol/kg and hexanoic 0.08 mmol/kg from mild lipase and esterase lipolysis."
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "31% fat at about 50% FDM lubricating intact protein matrix at pH 6.29."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Elastic rennet-cooked curd with intact casein fractures little rather than crumbling."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Semi-hard 37.9% moisture calcium-paracasein network cooked and pressed, aged 3 mo."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Phenylethanol and phenylacetaldehyde from phenylalanine transamination by lactobacilli."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate and hexanoate from esterification of free fatty acids with ethanol by NSLAB esterases."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk low in caprylic and capric free acids and no branched 4-methyloctanoic goat notes."
+  },
+  "malty_nutty": {
+   "score": 6.0,
+   "reason": "Strecker 2- and 3-methylbutanal from leucine and isoleucine catabolism during 3-mo ripening."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "pH 6.29 intact para-kappa-casein and 38% moisture allow flow without excessive crosslinking."
+  },
+  "mushroom_earthy": {
+   "score": 4.0,
+   "reason": "1-octen-3-ol and 1-octen-3-one from linoleic acid oxidation plus rind Geotrichum activity."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate free oil release from coalesced 31% fat globules on melting with fairly stable emulsion."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No wood smoking so no guaiacol and syringol phenols."
+  },
+  "sour_vinegar": {
+   "score": 2.0,
+   "reason": "Moderate acetic acid about 10.6 mmol/kg from heterofermentative metabolism buffered by high pH 6.29."
+  },
+  "stretch": {
+   "score": 3.0,
+   "reason": "No pasta-filata hot-water kneading so limited aligned casein fiber extensibility."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low methionine catabolism to methional and DMS; gentle 46-48C cooking retains some whey sulfur."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Residual lactose and galactose plus sweet amino acids proline and alanine and diacetyl rounding."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Glutamate accumulation from rennet, plasmin and starter peptidase proteolysis."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://fdc.nal.usda.gov/",
+  "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7915116/",
+  "https://www.e-periodica.ch/cntmng?pid=mlh-002%3A2004%3A95%3A%3A823"
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "id": "akkawi",
+ "name": "Akkawi",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "brined",
+ "origin": "Levant - Acre region (Palestine, Lebanon, Syria, Cyprus)",
+ "process": {
+  "aging_months": 0.25,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 51.0,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(12)00488-2/fulltext",
+   "quote": "In general, Akawi cheese contains about 51.0% moisture, 21.6% fat, 22.5% protein, and 5% ash.",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 21.6,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(12)00488-2/fulltext",
+   "quote": "In general, Akawi cheese contains about 51.0% moisture, 21.6% fat, 22.5% protein, and 5% ash.",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 3.9,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(22)00201-6/fulltext",
+   "quote": "* salt content **3.9±0.20 g/100g**",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.6,
+   "unit": "",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(12)00488-2/fulltext",
+   "quote": "* pH **6.60±0.03** – unitless",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 1312000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(12)00488-2/fulltext",
+   "quote": "* d 0 A control: acetic acid **131.2±2.8 mg/100g** (=1312 mg/kg), lactic **110.9±0.8 mg/100g**, citric **181.4±4.9 mg/100g**",
+   "confidence": "measured",
+   "name": "acetic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Minimal amino acid deamination/ureolysis in low-proteolysis fresh cheese stored at 4C."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Pasteurization and clean brine limit p-cresol/indole/skatole from contaminant microbes."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Few hydrophobic bitter peptides from primary proteolysis; high salt and high pH suppress perception."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation, no 2-heptanone/2-nonanone formation."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Residual lactose/lysine undergoes Maillard when baked for knafeh but pale fresh due to high moisture."
+  },
+  "buttery": {
+   "score": 2.0,
+   "reason": "Low diacetyl/acetoin from Strep. thermophilus citrate metabolism and short cold storage."
+  },
+  "cheesy_sweaty": {
+   "score": 1.0,
+   "reason": "Minimal lipolysis and free C4-C6 from pasteurized bovine fat without added lipase and brief aging."
+  },
+  "creaminess": {
+   "score": 3.0,
+   "reason": "21.6% fat in high-moisture matrix gives smooth but chalky/firm rather than creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 4.0,
+   "reason": "Low acid development with intact casein network fractures chalky due to brine salt uptake."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "Rennet gel with colloidal calcium phosphate intact at pH 6.6 plus pressing/brining firms body."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Trace phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism in unripened curd."
+  },
+  "fruity": {
+   "score": 1.0,
+   "reason": "Very low ethyl butanoate/hexanoate esterification due to low free fatty acids and short age."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk lacks goat-specific 4-methyloctanoic/4-ethyloctanoic branched acids."
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "Negligible Strecker 2-/3-methylbutanal from limited proteolysis in fresh rennet curd."
+  },
+  "melt": {
+   "score": 5.0,
+   "reason": "High pH/high calcium plus 3.9% salt restrict casein hydration so melts after desalting with limited flow."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No surface mold/Geotrichum lipoxygenase to form 1-octen-3-ol/1-octen-3-one."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "Moderate 21.6% fat pools modestly on heating as protein network contracts."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make, no lignin-derived guaiacol/syringol deposition."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "HPLC acetic ~131 mg/100g plus lactic ~111 mg/100g from thermophilic starter gives mild sour at pH 6.6."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "Non-pasta-filata, no hot-water kneading to align casein, so minimal fibrous stretch when heated."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Pasteurized not cooked curd; low methionine catabolism to methanethiol/DMS in young cheese."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Small residual lactose/galactose at high pH gives slight sweet whey note."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "Low free glutamate from limited rennet/chymosin proteolysis at pH 6.6 and days-old age."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.journalofdairyscience.org/article/S0022-0302(12)00488-2/fulltext",
+  "https://www.journalofdairyscience.org/article/S0022-0302(22)00201-6/fulltext",
+  "https://scholarworks.aub.edu.lb/xmlui/bitstream/handle/10938/28030/2015-10008.pdf?sequence=1&isAllowed=y",
+  "https://www.aqua-calc.com/calculate/food-calories/substance/akawi-blank-cheese-coma-and-blank-upc-column--blank-738960280988"
+ ]
+}

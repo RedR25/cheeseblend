@@ -1,0 +1,201 @@
+{
+ "id": "kashkaval",
+ "name": "Kashkaval",
+ "milk": "sheep",
+ "treatment": "pasteurized",
+ "style": "pasta_filata",
+ "origin": "Bulgaria",
+ "process": {
+  "aging_months": 3,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": true
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 41.9,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7996614/",
+   "quote": "Month 1 at 4°C: Moisture 41.9%, Protein 21.8%, Fat in dry matter without significant change in range 34.5–35.1, NaCl 2.10%, pH 5.55, Total acidity 175.0 °T.",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 26.017,
+   "unit": "%",
+   "source_url": "http://www.agricultforest.ac.me/data/20210930-08 Santa.pdf",
+   "quote": "Fats 26.017 ±0.975%.",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.8,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7996614/",
+   "quote": "Salt (%) 1.8–3.0.",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.55,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7996614/",
+   "quote": "Month 1 at 4°C: Moisture 41.9%, Protein 21.8%, Fat in dry matter without significant change in range 34.5–35.1, NaCl 2.10%, pH 5.55, Total acidity 175.0 °T.",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 1778000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.mdpi.com/2413-4155/8/4/74",
+   "quote": "Sample S2 1.25% extract recorded highest for most amino/organic acids, especially lysine up to 7.83 g/100g, lactic acid >1200 mg/100g and acetic acid 177.80 mg/100g.",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 27200.000000000004,
+   "unit": "µg/kg",
+   "source_url": "https://dergipark.org.tr/tr/pub/gida/issue/6878/92069.xml",
+   "quote": "Kashar Erzurum and Kars market average mg/100g: acetic 7.69±0.93, propionic 2.72±0.59, butyric 11.56±1.48, caproic 6.08±0.64, caprylic 9.17±1.99 and capric 6.96±1.44.",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 115600.0,
+   "unit": "µg/kg",
+   "source_url": "https://dergipark.org.tr/tr/pub/gida/issue/6878/92069.xml",
+   "quote": "Kashar Erzurum and Kars market average mg/100g: acetic 7.69±0.93, propionic 2.72±0.59, butyric 11.56±1.48, caproic 6.08±0.64, caprylic 9.17±1.99 and capric 6.96±1.44.",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 60800.0,
+   "unit": "µg/kg",
+   "source_url": "https://dergipark.org.tr/tr/pub/gida/issue/6878/92069.xml",
+   "quote": "Kashar Erzurum and Kars market average mg/100g: acetic 7.69±0.93, propionic 2.72±0.59, butyric 11.56±1.48, caproic 6.08±0.64, caprylic 9.17±1.99 and capric 6.96±1.44.",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 91700.0,
+   "unit": "µg/kg",
+   "source_url": "https://dergipark.org.tr/tr/pub/gida/issue/6878/92069.xml",
+   "quote": "Kashar Erzurum and Kars market average mg/100g: acetic 7.69±0.93, propionic 2.72±0.59, butyric 11.56±1.48, caproic 6.08±0.64, caprylic 9.17±1.99 and capric 6.96±1.44.",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  },
+  {
+   "value": 10270.0,
+   "unit": "µg/kg",
+   "source_url": "https://link.springer.com/article/10.1007/s11947-024-03377-9",
+   "quote": "d) Pasta-filata Kashar + 4% black cumin beeswax film, 90 d storage Turkey: propionic 2.835 mg/kg, butyric 0.610 mg/kg, diacetyl 10.27 mg/kg highest amounts.",
+   "confidence": "measured",
+   "name": "diacetyl"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Limited amino acid deamination with WSN/TN 14-30% and NPN/TN 10-16% over 3 months."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "Low p-cresol/indole from sheep pasture milk, reduced by pasteurization and no washed rind."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Moderate hydrophobic peptides from chymosin/plasmin balanced by 2.1% salt."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation and no blue veining in closed pasta-filata paste."
+  },
+  "browning": {
+   "score": 6.0,
+   "reason": "Residual lactose/galactose plus lysine drives Maillard when grilled/fried."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Lactococcus citrate fermentation yields diacetyl ~10 mg/kg and acetoin."
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "Lipolysis releases butyric 115 mg/kg, caproic 60 mg/kg, total FFA up to ~1600 mg/kg."
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "Fat 26% and FDM ~43-45% lubricates but stretched curd stays firmer than soft cheese."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Aligned stretched paracasein fibers give elastic slice, not short crumbly fracture."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "Semi-hard pasta-filata with ~41.9% moisture and dense cheddared-stretched protein network."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism during ripening."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Esterase esterification of free fatty acids with ethanol forms ethyl butanoate/hexanoate."
+  },
+  "goaty": {
+   "score": 4.0,
+   "reason": "Sheep-milk C6-C10 acids caproic/caprylic/capric persist after lipolysis."
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "Strecker degradation of leucine/isoleucine and early Maillard during hot-water stretching."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "Cheddared pH 5.55 demineralized calcium phosphate allows casein flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "Minimal 1-octen-3-ol/1-octen-3-one with no surface mold and pasteurized milk."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate free-fat release on heating from 26% fat in coalesced pools in stretched matrix."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Typical unsmoked make with no wood-smoke phenols like guaiacol."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Starter lactic acid >1200 mg/100g plus acetic ~77 mg/kg lowers pH to 5.55."
+  },
+  "stretch": {
+   "score": 7.0,
+   "reason": "Pasta-filata hot-water kneading aligns caseins giving long elastic stretch when melted."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Hot-water kneading at 52-70C causes whey denaturation with low H2S/DMS formation."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose ~1% plus proline/glycine and galactose retained."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "Rennet plus plasmin proteolysis releases glutamate increasing over 2-6 month aging."
+  }
+ },
+ "filata": true,
+ "non_melter": false,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7996614/",
+  "http://www.agricultforest.ac.me/data/20210930-08 Santa.pdf",
+  "https://www.mdpi.com/2413-4155/8/4/74",
+  "https://dergipark.org.tr/tr/pub/gida/issue/6878/92069.xml",
+  "https://link.springer.com/article/10.1007/s11947-024-03377-9",
+  "https://grasasyaceites.revistas.csic.es/index.php/grasasyaceites/article/download/544/558/558",
+  "https://www.prospre.io/ingredients/kashkaval-sheeps-cheese-kashkaval-439171"
+ ]
+}

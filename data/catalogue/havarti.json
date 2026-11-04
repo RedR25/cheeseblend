@@ -1,0 +1,150 @@
+{
+ "id": "havarti",
+ "name": "Havarti",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Denmark",
+ "process": {
+  "aging_months": 2.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 40.0,
+   "unit": "%",
+   "source_url": "https://cdnimg.webstaurantstore.com/documents/nutrition/atalanta_havarti.pdf",
+   "quote": "Moisture % 40 ±1 Fat in Dry Matter % 60 ±1 Milk Fat % Salt 1.5 ±0.5 Water Activity pH 5.2 ±0.2 Ash",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 27.0,
+   "unit": "%",
+   "source_url": "https://prod-ruokavirastofi.solitaonline.fi/globalassets/yhteisot/tieteellinen-tutkimus/vaitoskirjat/2013-ritvanen--kopio-2.pdf",
+   "quote": "Havarti F 59-62 27-34 1.0-1.6 67-150 I",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.0,
+   "unit": "%",
+   "source_url": "https://prod-ruokavirastofi.solitaonline.fi/globalassets/yhteisot/tieteellinen-tutkimus/vaitoskirjat/2013-ritvanen--kopio-2.pdf",
+   "quote": "Havarti F 59-62 27-34 1.0-1.6 67-150 I",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.2,
+   "unit": "",
+   "source_url": "https://cdnimg.webstaurantstore.com/documents/nutrition/atalanta_havarti.pdf",
+   "quote": "Moisture % 40 ±1 Fat in Dry Matter % 60 ±1 Milk Fat % Salt 1.5 ±0.5 Water Activity pH 5.2 ±0.2 Ash",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Short 60-day ripening and low deamination by mesophilic Lactococcus gives little NH3."
+  },
+  "animal_barnyard": {
+   "score": 0.5,
+   "reason": "Pasteurized cow milk and clean starter limit indole and p-cresol from tryptophan/tyrosine."
+  },
+  "bitter": {
+   "score": 1.5,
+   "reason": "Washed curd removes lactose and bitter hydrophobic peptides; low chymosin bitterness."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation so no C7-C11 methyl ketones."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Residual galactose/lactose plus casein gives moderate Maillard when heated."
+  },
+  "buttery": {
+   "score": 6.5,
+   "reason": "Mesophilic Lactococcus lactis biovar diacetylactis citrate metabolism yields diacetyl/acetoin."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Very limited lipolysis with no mold lipase so little free butanoic/hexanoic acid."
+  },
+  "creaminess": {
+   "score": 7.0,
+   "reason": "High moisture ~40% and 60% FDM with washed elastic curd gives smooth creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 1.5,
+   "reason": "Cohesive pressed washed-curd calcium-phosphate network fractures little."
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "Semi-hard moisture 38-41% and young proteolysis gives soft-elastic sliceable body."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Minimal phenylalanine catabolism to phenylacetaldehyde/2-phenylethanol in young cheese."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Low esterase activity and short age limit ethyl butanoate/hexanoate esterification."
+  },
+  "goaty": {
+   "score": 0.5,
+   "reason": "Cow milk fat lacks goat 4-methyloctanoic/4-ethyloctanoic branched acids."
+  },
+  "malty_nutty": {
+   "score": 2.5,
+   "reason": "Mild Strecker 2-/3-methylbutanal and propionic pathways during 1-3 month ripening."
+  },
+  "melt": {
+   "score": 7.5,
+   "reason": "pH ~5.2 intact para-casein with high moisture/fat allows good flow without oiling excessively."
+  },
+  "mushroom_earthy": {
+   "score": 0.5,
+   "reason": "No surface Geotrichum/Brevibacterium so almost no 1-octen-3-ol geosmin."
+  },
+  "oil_off": {
+   "score": 4.5,
+   "reason": "High fat-in-dry-matter ~60% releases moderate free oil on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make with no wood-smoke guaiacol/syringol deposition."
+  },
+  "sour_vinegar": {
+   "score": 2.5,
+   "reason": "Lactic acid from mesophilic starter to pH 5.2 with little acetic acid."
+  },
+  "stretch": {
+   "score": 3.0,
+   "reason": "Non-pasta-filata but pH 5.2 demineralized casein gives slight extensibility."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Pasteurization drives off dimethyl sulfide and no high-cook whey protein H2S."
+  },
+  "sweet": {
+   "score": 3.5,
+   "reason": "Washed curd low acidity and salt with diacetyl and sweet amino acids enhance sweetness."
+  },
+  "umami": {
+   "score": 3.5,
+   "reason": "Modest rennet and starter proteolysis releases some glutamate but no long-age accumulation."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://prod-ruokavirastofi.solitaonline.fi/globalassets/yhteisot/tieteellinen-tutkimus/vaitoskirjat/2013-ritvanen--kopio-2.pdf",
+  "https://cdnimg.webstaurantstore.com/documents/nutrition/atalanta_havarti.pdf",
+  "https://superiorfs.com.au/documents/PDF/HC200_1.pdf",
+  "https://www.aqua-calc.com/calculate/food-calories/substance/havarti-blank-semisoft-blank-cheese-coma-and-blank-upc-column--blank-078742158556",
+  "https://www.cambridge.org/core/journals/journal-of-dairy-research/article/abs/effect-of-specific-wavelengths-on-lightinduced-quality-changes-in-havarti-cheese/2C6D31B4AA3D5DBC6CC0778E9BA1FB85"
+ ]
+}

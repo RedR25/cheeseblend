@@ -1,0 +1,151 @@
+{
+ "id": "panela",
+ "name": "Queso panela",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "fresh",
+ "origin": "Mexico",
+ "process": {
+  "aging_months": 0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 54.0,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)00491-4/pdf",
+   "quote": "Moisture 37.5 37.5 54.0 56.1 1.26 0.419 <0.001 0.979",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 17.3,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)00491-4/pdf",
+   "quote": "Fat 22.7 22.8 17.3 17.6 1.54 0.888 0.027 0.961",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.16,
+   "unit": "%",
+   "source_url": "https://www.researchgate.net/publication/...Effect_of_grazing_cows_in_an_intensive_silvopastoral_system...",
+   "quote": "Salt 1.16 1.11 0.03 NS |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.6,
+   "unit": "",
+   "source_url": "https://www.mdpi.com/2304-8158/9/3/313",
+   "quote": "Cheese made with milk HIU-treated for a long time (10 min) had lower pH values (6.37) than cheese made with milk sonicated for short time (5 min). When using short HIU times, the cheese had a pH of 6.74; this value was closer to the fresh raw milk cheese. The controls had a pH of 6.6",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 0.0,
+   "reason": "No ammonia from amino acid deamination or deamidation due to zero aging and minimal proteolysis."
+  },
+  "animal_barnyard": {
+   "score": 0.0,
+   "reason": "No p-cresol/indole/skatole as pasteurized clean milk without Brevibacterium washed-rind activity."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "Few hydrophobic bitter peptides due to short 45-min rennet set and no aged proteolysis."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti so no 2-heptanone/2-nonanone methyl ketones from fatty acid beta-oxidation."
+  },
+  "browning": {
+   "score": 2.0,
+   "reason": "High moisture and intact calcium-phosphate casein limit Maillard, only slight surface color when fried."
+  },
+  "buttery": {
+   "score": 2.0,
+   "reason": "Low diacetyl/acetoin from minimal citrate fermentation due to direct rennet set with no starter ripening."
+  },
+  "cheesy_sweaty": {
+   "score": 1.0,
+   "reason": "Very low C4-C8 free fatty acids from negligible lipolysis without mold lipases or aging."
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "Moderate 17.3% fat in 54% moisture matrix gives soft creamy mouthfeel without aged fat proteolysis."
+  },
+  "crumbliness": {
+   "score": 3.0,
+   "reason": "Cohesive 1-cm cut rennet curd lightly basket-pressed, not dried-aged, so low fracture crumbliness."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Basket-molded rennet gel with calcium-retained para-casein gives sliceable firm body at 54% moisture."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Trace phenylacetaldehyde/phenylethanol only, no extended phenylalanine catabolism by lactobacilli."
+  },
+  "fruity": {
+   "score": 1.0,
+   "reason": "Negligible ethyl butanoate/hexanoate due to no ethanol fermentation or esterase activity in fresh curd."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Low caproic/caprylic/capric acids because cow milk triglycerides lack high short-chain goat fat character."
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "Absent Strecker aldehydes like 3-methylbutanal due to no proteolysis-driven leucine/isoleucine catabolism."
+  },
+  "melt": {
+   "score": 1.0,
+   "reason": "Calcium-crosslinked para-casein at pH 6.6 resists flow, softens only when heated, classic non-melter."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No 1-octen-3-ol from linoleic acid oxidation as no Geotrichum or white-mold surface flora."
+  },
+  "oil_off": {
+   "score": 1.0,
+   "reason": "Fat entrapped in non-melting rennet network with minimal free oil release on heating due to no melt."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No guaiacol/volatile phenols because curd is uncooked, unstretched and never wood-smoke exposed."
+  },
+  "sour_vinegar": {
+   "score": 1.0,
+   "reason": "Minimal lactic/acetic acid accumulation due to high pH 6.6 and no acid culture development."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata hot-water kneading at pH 5.2, so no aligned demineralized casein fibers for stretch."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Slight sulfhydryl/H2S note from pasteurization at 72C for 15s denaturing whey proteins."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose around 2.2% and fresh milk flavor perceived sweet without acid or bitter masking."
+  },
+  "umami": {
+   "score": 1.0,
+   "reason": "Very low free glutamate from casein due to minimal rennet proteolysis at 0 months aging."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://www.journalofdairyscience.org/article/S0022-0302(21)00491-4/pdf",
+  "https://www.mdpi.com/2304-8158/9/3/313",
+  "https://www.researchgate.net/publication/...Effect_of_grazing_cows_in_an_intensive_silvopastoral_system...",
+  "https://www.journalofdairyscience.org/article/S0022-0302(17)30132-7/fulltext",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11121727/",
+  "https://www.aqua-calc.com/calculate/food-calories/substance/panela-blank-part-blank-skim-blank-milk-blank-cheese-coma-and-blank-upc-column--blank-631602102269"
+ ]
+}

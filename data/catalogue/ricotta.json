@@ -1,0 +1,254 @@
+{
+ "id": "ricotta",
+ "name": "Ricotta",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "fresh",
+ "origin": "Italy",
+ "process": {
+  "aging_months": 0,
+  "coagulation": "acid_heat",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 74.67,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6603433/",
+   "quote": "| Moisture | **74.67% ±1.81%** | Fresh small-size slightly salted smoked sheep-whey NS-Ricotta, 0-45 d MAP storage at 4°C / 7°C, n=126, industrial plant Sardinia, Italy | https://pmc.ncbi.nlm.nih.gov/articles/PMC6603433/ |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 10.25,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6603433/",
+   "quote": "| Fat | **10.25% ±1.35%** product basis | Same NS-Ricotta as above | https://pmc.ncbi.nlm.nih.gov/articles/PMC6603433/ |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.7,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6603433/",
+   "quote": "| Salt – NaCl | **1.70% ±0.42%** | Same NS-Ricotta as above | https://pmc.ncbi.nlm.nih.gov/articles/PMC6603433/ |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.06,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6603433/",
+   "quote": "| pH | **6.06 ±0.22** | Same NS-Ricotta as above | https://pmc.ncbi.nlm.nih.gov/articles/PMC6603433/ |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 3.35,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(18)30130-9/pdf",
+   "quote": "| butanoic acid | **3.35 µg/kg equiv. internal standard** – LSM ln = 1.27 ; Butanoic acid 1.27 in ricotta | Sample A, fresh, Malga Juribello, Italy | https://www.journalofdairyscience.org/article/S0022-0302(18)30130-9/pdf |",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 400000.0,
+   "unit": "µg/kg",
+   "source_url": "http://www.giuseppezeppa.com/files/148.pdf",
+   "quote": "| 3-methylbutanoic acid = isovaleric acid | **0.40 g/kg mean ±0.32 g/kg = 400 mg/kg** – Isovaleric acid 0.40 0.32 | Sample B, 30-d, Piedmont | http://www.giuseppezeppa.com/files/148.pdf |",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  },
+  {
+   "value": 11.47,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(18)30130-9/pdf",
+   "quote": "| hexanoic acid | **11.47 µg/kg equiv.** – LSM ln = 2.44 ; Hexanoic acid 2.39 fresh cheese, 2.44 ricotta | Sample A, fresh, Malga, Italy | https://www.journalofdairyscience.org/article/S0022-0302(18)30130-9/pdf |",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 6.11,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(18)30130-9/pdf",
+   "quote": "| octanoic acid | **6.11 µg/kg equiv.** – LSM ln = 1.81 ; Octanoic acid 1.81 | Sample A, fresh, Malga, Italy | same as above |",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  },
+  {
+   "value": 26.84,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(18)30130-9/pdf",
+   "quote": "| acetic acid | **26.84 µg/kg equiv.** – LSM ln = 3.29 ; Acetic acid 3.29 in ricotta | Sample A, fresh, Malga, Italy – acetic acid appeared only in cream and ricotta samples | same as above |",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 230000.0,
+   "unit": "µg/kg",
+   "source_url": "http://www.giuseppezeppa.com/files/148.pdf",
+   "quote": "| propanoic acid = propionic acid | **0.23 g/kg mean ±0.07 g/kg = 230 mg/kg** – Propionic acid 0.23 0.07 | Sample B, 30-d, Piedmont | same as above |",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 46.53,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(18)30130-9/pdf",
+   "quote": "| 2-methylpropanal | **46.53 µg/kg equiv.** – LSM ln = 3.84 ; 2-Methylpropanal 3.84 ricotta | Sample A, fresh, Malga, Italy | same as above |",
+   "confidence": "measured",
+   "name": "2-methylpropanal"
+  },
+  {
+   "value": 3.94,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(18)30130-9/pdf",
+   "quote": "| dimethyl sulfide = methylthiomethane | **3.94 µg/kg equiv.** – LSM ln = 1.37 ; Methylthiomethane 1.37 ricotta | Sample A, fresh, Malga, Italy | same as above |",
+   "confidence": "measured",
+   "name": "dimethyl sulfide"
+  },
+  {
+   "value": 34.12,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(18)30130-9/pdf",
+   "quote": "| 2-heptanone = heptan-2-one | **34.12 µg/kg equiv.** – LSM ln = 3.53 ; Heptan-2-one 3.53 ricotta | Sample A, fresh, Malga, Italy | same as above |",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 13.74,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(18)30130-9/pdf",
+   "quote": "| 2-nonanone = nonan-2-one | **13.74 µg/kg equiv.** – LSM ln = 2.62 ; Nonan-2-one 2.62 ricotta | Sample A, fresh, Malga, Italy | same as above |",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  },
+  {
+   "value": 1.82,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(18)30130-9/pdf",
+   "quote": "| ethyl butanoate | **1.82 µg/kg equiv.** – LSM ln = 0.60 ; Ethyl butanoate 0.60 ricotta | Sample A, fresh, Malga, Italy | same as above |",
+   "confidence": "measured",
+   "name": "ethyl butanoate"
+  },
+  {
+   "value": 2.14,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(18)30130-9/pdf",
+   "quote": "| ethyl hexanoate | **2.14 µg/kg equiv.** – LSM ln = 0.76 ; Ethyl hexanoate 0.76 ricotta | Sample A, fresh, Malga, Italy | same as above |",
+   "confidence": "measured",
+   "name": "ethyl hexanoate"
+  },
+  {
+   "value": 14.15,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(18)30130-9/pdf",
+   "quote": "| 1-octen-3-ol | **14.15 µg/kg equiv.** – LSM ln = 2.65 ; 1-Octen-3-ol 2.65 ricotta | Sample A, fresh, Malga, Italy | same as above |",
+   "confidence": "measured",
+   "name": "1-octen-3-ol"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 0.0,
+   "reason": "No proteolysis/deamination in fresh unripened whey curd; ammonia not detected."
+  },
+  "animal_barnyard": {
+   "score": 0.0,
+   "reason": "p-cresol/indole not detected; fresh whey with no fecal Enterobacteriaceae metabolism."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "No chymosin/plasmin hydrophobic bitter peptides; fresh acid-heat precipitation with days age."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti; 2-heptanone ~34 ug/kg and 2-nonanone ~14 ug/kg are heat background not mold lipolysis."
+  },
+  "browning": {
+   "score": 1.0,
+   "reason": "White high-moisture low free amino-acid curd; minimal Maillard until dried/heated."
+  },
+  "buttery": {
+   "score": 2.0,
+   "reason": "Diacetyl and acetoin nd with no LAB citrate fermentation; only ~10% milk fat for lactones."
+  },
+  "cheesy_sweaty": {
+   "score": 1.0,
+   "reason": "Butanoic acid only ~3.35 ug/kg equiv fresh; minimal lipolysis in fresh acid-heat curd."
+  },
+  "creaminess": {
+   "score": 7.0,
+   "reason": "High moisture ~74.7% plus 10% fat as fine denatured lactalbumin particles gives creamy spoonable mouthfeel."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Moist granular whey-protein gel deforms rather than fractures; no pressed demineralized matrix."
+  },
+  "firmness": {
+   "score": 2.0,
+   "reason": "Very high moisture denatured whey-protein gel with no rennet network; soft not firm."
+  },
+  "floral_honey": {
+   "score": 0.0,
+   "reason": "Phenylacetaldehyde/2-phenylethanol not found; no phenylalanine catabolism without ripening."
+  },
+  "fruity": {
+   "score": 1.0,
+   "reason": "Ethyl butanoate ~1.82 ug/kg and ethyl hexanoate ~2.14 ug/kg only; no esterase flora or ethanol fermentation."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "4-methyl/4-ethyloctanoic acids not found; C6-C8 acids at ug/kg levels only, no goat-milk branched acids."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "2-methylpropanal ~46.5 ug/kg from Strecker degradation during ~90C whey heating gives faint malty note."
+  },
+  "melt": {
+   "score": 1.0,
+   "reason": "Heat-denatured whey proteins already coagulated cannot flow; softens/dries on heating as non-melter."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "1-octen-3-ol ~14 ug/kg from linoleate lipoxygenase at sub-threshold; no mold 1-octen-3-one pathway."
+  },
+  "oil_off": {
+   "score": 1.0,
+   "reason": "Only ~10% fat entrapped in whey-protein gel; no free oil release on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Typical plain fresca with no smoke exposure; smoked variants excluded from typical."
+  },
+  "sour_vinegar": {
+   "score": 1.0,
+   "reason": "Acetic acid ~26.8 ug/kg trace only and pH ~6.06; no lactic-acid accumulation from starter."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No intact paracasein network at pH 5.2 demineralization; acid-heat curd cannot form fibers."
+  },
+  "sulfur_cooked": {
+   "score": 3.0,
+   "reason": "Beta-lactoglobulin denaturation at 85-90C releases H2S/thiols; dimethyl sulfide ~3.94 ug/kg cooked-milky note."
+  },
+  "sweet": {
+   "score": 5.0,
+   "reason": "Residual lactose/whey solids at pH 6.06 with no acid conversion gives sweet milky taste."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "Minimal free glutamate/peptides with no rennet proteolysis or long aging for savory depth."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6603433/",
+  "https://www.journalofdairyscience.org/article/S0022-0302(18)30130-9/pdf",
+  "http://www.giuseppezeppa.com/files/148.pdf",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5090109/"
+ ]
+}

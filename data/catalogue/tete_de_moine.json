@@ -1,0 +1,152 @@
+{
+ "id": "tete_de_moine",
+ "name": "Tête de Moine",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "semi_hard",
+ "origin": "Switzerland",
+ "process": {
+  "aging_months": 3.0,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 35.0,
+   "unit": "%",
+   "source_url": "https://tetedemoine.ch/en/infos/health",
+   "quote": "* **35.0 g / 100 g = 35.0 % water**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 35.0,
+   "unit": "%",
+   "source_url": "https://tetedemoine.ch/en/infos/health",
+   "quote": "* **35.0 g / 100 g = 35.0 % fat**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.9,
+   "unit": "%",
+   "source_url": "https://spielhofer-shop.ch/en/product/tete-de-moine-aop/",
+   "quote": "* **1.9 g / 100 g = 1.9 % salt as NaCl**",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.4,
+   "unit": "",
+   "source_url": "https://tech-sheet-web-production.up.railway.app/10299.pdf",
+   "quote": "* **pH 5.4 – 6.0 – specification range, dimensionless**",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 3.0,
+   "reason": "Urea and amino-acid deamination by smear Brevibacterium / Arthrobacter on brine-smeared rind during 75+ days aging."
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "p-cresol and indole from raw-milk pasture tyrosine/tryptophan catabolism plus smear coryneforms."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Hydrophobic peptides from rennet chymosin and Lactobacillus proteolysis, partly masked by salt and fat."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation, no internal blue veins so no 2-heptanone/2-nonanone blue pathway."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Maillard between residual galactose and proteolysis-derived lysine on heating of 3-month cooked curd."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Diacetyl and acetoin from citrate fermentation by Lactococcus lactis biovar diacetylactis plus 35% milk fat."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "Butanoic and 3-methylbutanoic acids from lipolysis and leucine catabolism by raw-milk flora and smear."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "High fat-in-dry-matter ~53% and 35% moisture giving creamy mouthfeel despite firm cooked paste."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Cooked, pressed elastic paste with intact calcium-phosphate network, not acid-crumbly."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "Cooked and pressed curd at 35% moisture aged 3 months on spruce boards to firm shavable body."
+  },
+  "floral_honey": {
+   "score": 5.0,
+   "reason": "Phenylacetaldehyde and 2-phenylethanol from phenylalanine Strecker degradation by lactobacilli."
+  },
+  "fruity": {
+   "score": 5.0,
+   "reason": "Ethyl butanoate and ethyl hexanoate esterification of free fatty acids by Debaryomyces / smear yeasts."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk low in caproic/caprylic goat acids; only trace 4-methyloctanoic from lipolysis."
+  },
+  "malty_nutty": {
+   "score": 7.0,
+   "reason": "2- and 3-methylbutanal from leucine/isoleucine Strecker degradation during cooked-curd aging, signature nutty note."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "Rennet-coagulated pH ~5.4-6.0 semi-hard paste with intact casein flows moderately when heated."
+  },
+  "mushroom_earthy": {
+   "score": 3.0,
+   "reason": "1-octen-3-ol from linoleic acid lipoxygenase plus Geotrichum on smeared rind."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "Free oil release from 53% FDM fat coalescence on heating of aged cooked paste."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoke applied; only trace wood phenols from fir-board maturation, no guaiacol formation."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Lactic and acetic acids from mesophilic/thermophilic starter lactose fermentation to pH 5.4-6.0."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata hot-water kneading; rennet gel does not align into stretchable fibers."
+  },
+  "sulfur_cooked": {
+   "score": 3.0,
+   "reason": "Methanethiol and dimethyl sulfide from methionine catabolism by Lactobacillus and Brevibacterium, mild cooked note."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Residual lactose depleted but sweet impression from propylene-type diols, glycerol and low acidity balance."
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "Glutamate accumulation from prolonged rennet and plasmin proteolysis over 75-120 days."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://tetedemoine.ch/en/infos/health",
+  "https://spielhofer-shop.ch/en/product/tete-de-moine-aop/",
+  "https://tech-sheet-web-production.up.railway.app/10299.pdf",
+  "https://fdc.nal.usda.gov/food-search?type=Foundation&query=Tete%20de%20Moine",
+  "https://www.tetedemoine.ch/media/acfupload/1659/260331_Tete_de_Moine_Anderung_PH_2026_e.pdf",
+  "https://ira.agroscope.ch/fr-CH/Page/Einzelpublikation/Download?einzelpublikationId=66088",
+  "https://www.e-periodica.ch/cntmng?pid=mlh-002%3A2004%3A95%3A%3A824"
+ ]
+}

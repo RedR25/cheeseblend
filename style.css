@@ -1,0 +1,168 @@
+/* CheeseBlend: cartoon cheese. Saturated yellow paste, big scooped holes, thick ink outlines, hard comic shadows. */
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&family=Shrikhand&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --cheese: #FFD23F;      /* the paste */
+  --cheese-hi: #FFE27A;   /* lit face */
+  --hole: #F5A815;        /* hole floor */
+  --hole-dark: #D98500;   /* hole wall in shadow */
+  --orange: #FF8A1F;      /* rind / accent */
+  --paper: #FFFBEA;       /* the panel cheese sits on */
+  --paper-2: #FFF0B3;
+  --ink: #2B1A0E;         /* every outline */
+  --shadow: 6px 6px 0 var(--ink);
+  --shadow-sm: 3px 3px 0 var(--ink);
+  --display: 'Young Serif', Georgia, serif;  /* one weight: never ask it for bold */
+  --sign: 'Shrikhand', 'Young Serif', serif;
+  --body: 'Atkinson Hyperlegible', 'Segoe UI', sans-serif;
+}
+
+/* The paste: a wall of cartoon cheese. Each hole = shadowed wall (offset up-left) under a lighter floor.
+   Different tile sizes per hole so the pattern never visibly repeats. */
+.stApp {
+  font-family: var(--body);
+  color: var(--ink);
+  background-color: var(--cheese);
+  background-image:
+    radial-gradient(circle at 128px 98px, var(--hole) 0 38px, transparent 39px),
+    radial-gradient(circle at 120px 90px, var(--hole-dark) 0 40px, transparent 41px),
+    radial-gradient(circle at 392px 270px, var(--hole) 0 24px, transparent 25px),
+    radial-gradient(circle at 386px 264px, var(--hole-dark) 0 25px, transparent 26px),
+    radial-gradient(circle at 64px 404px, var(--hole) 0 15px, transparent 16px),
+    radial-gradient(circle at 60px 400px, var(--hole-dark) 0 16px, transparent 17px),
+    radial-gradient(circle at 303px 63px, var(--hole) 0 9px, transparent 10px),
+    radial-gradient(circle at 300px 60px, var(--hole-dark) 0 10px, transparent 11px),
+    radial-gradient(circle at 482px 492px, var(--hole) 0 52px, transparent 53px),
+    radial-gradient(circle at 472px 482px, var(--hole-dark) 0 55px, transparent 56px),
+    radial-gradient(circle at 210px 560px, var(--hole) 0 20px, transparent 21px),
+    radial-gradient(circle at 205px 555px, var(--hole-dark) 0 21px, transparent 22px),
+    linear-gradient(160deg, var(--cheese-hi), var(--cheese) 45%, #FFC72C);
+  background-size: 520px 460px, 520px 460px, 610px 540px, 610px 540px, 430px 610px, 430px 610px,
+    370px 330px, 370px 330px, 760px 700px, 760px 700px, 680px 720px, 680px 720px, 100% 100%;
+  background-attachment: fixed;
+}
+
+/* The panel: a comic frame over the cheese. */
+.block-container {
+  background: var(--paper);
+  border: 4px solid var(--ink);
+  border-radius: 34px;
+  box-shadow: 10px 10px 0 var(--ink);
+  max-width: min(1500px, calc(100vw - 7rem)) !important;  /* leave a wall of cheese showing on both sides */
+  margin-top: 3.2rem;
+  margin-bottom: 3.2rem;
+  padding-top: 2.4rem !important;
+}
+[data-testid="stHeader"] { background: transparent; }
+
+h1, h2, h3, h4 {
+  font-family: var(--display) !important;
+  font-weight: 400 !important;
+  color: var(--ink) !important;
+  letter-spacing: -0.015em;
+}
+strong { color: var(--ink); background: linear-gradient(transparent 60%, var(--cheese-hi) 60%); }
+[data-testid="stCaptionContainer"], .stCaption { color: rgba(43, 26, 14, 0.72) !important; }
+
+/* ---------- hero ---------- */
+.cb-hero { display: flex; align-items: center; gap: 1.4rem; margin-bottom: 1.6rem; }
+.cb-wedge { width: 104px; flex: none; }
+.cb-kicker {
+  font-family: var(--body); font-weight: 700; font-size: 0.76rem; letter-spacing: 0.28em;
+  text-transform: uppercase; color: var(--ink);
+}
+/* Cartoon logo: yellow letters, ink outline, hard shadow. */
+.cb-title {
+  font-family: var(--display); font-weight: 400; font-size: 3.6rem;
+  line-height: 1; letter-spacing: -0.01em; margin: 0 0 0.45rem;
+  color: var(--cheese); -webkit-text-stroke: 2.5px var(--ink); paint-order: stroke fill;
+  text-shadow: 4px 4px 0 var(--ink);
+}
+.cb-title em { font-family: var(--sign); font-style: normal; color: var(--orange); margin-left: 0.06em; }
+.cb-sub { font-size: 1.02rem; max-width: 60ch; margin: 0; color: var(--ink); }
+.cb-stamp { width: 104px; margin-left: auto; flex: none; transform: rotate(-11deg); filter: drop-shadow(3px 3px 0 var(--ink)); }
+
+/* Divider: a row of cartoon holes. */
+.cb-holes {
+  height: 22px; margin: 1.6rem 0 1.2rem;
+  background:
+    radial-gradient(circle at 15px 12px, var(--hole) 0 6px, transparent 7px) left center / 30px 22px repeat-x,
+    radial-gradient(circle at 13px 10px, var(--hole-dark) 0 7px, transparent 8px) left center / 30px 22px repeat-x;
+}
+
+/* ---------- tabs: cartoon labels ---------- */
+[data-baseweb="tab-list"] { gap: 0.6rem; border-bottom: 4px solid var(--ink); padding-bottom: 0; overflow: visible; }
+[data-baseweb="tab"] {
+  font-family: var(--body) !important; background: var(--paper-2) !important;
+  border: 2.5px solid var(--ink) !important; border-bottom: none !important;
+  border-radius: 16px 16px 0 0; padding: 0.45rem 1.1rem !important; transition: transform 0.15s, background 0.15s;
+}
+[data-baseweb="tab"] p { font-size: 0.98rem; font-weight: 700; color: var(--ink); }
+[data-baseweb="tab"]:hover { transform: translateY(-3px); background: var(--cheese-hi) !important; }
+[data-baseweb="tab"][aria-selected="true"] { background: var(--cheese) !important; }
+[data-baseweb="tab-highlight"], [data-baseweb="tab-border"] { display: none; }
+
+/* Radio as cartoon tags. */
+[data-testid="stRadio"] [role="radiogroup"] { gap: 0.6rem; }
+[data-testid="stRadio"] label[data-baseweb="radio"] {
+  background: var(--paper-2); border: 3px solid var(--ink); border-radius: 999px; box-shadow: var(--shadow-sm);
+  padding: 0.3rem 1rem 0.3rem 0.6rem; margin: 0; transition: transform 0.12s, box-shadow 0.12s, background 0.12s;
+}
+[data-testid="stRadio"] label[data-baseweb="radio"]:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--ink); }
+[data-testid="stRadio"] label[data-baseweb="radio"]:has(input:checked) { background: var(--cheese); }
+[data-testid="stRadio"] label[data-baseweb="radio"] p { font-family: var(--display); font-weight: 400; }
+
+/* ---------- metrics: little cheese blocks ---------- */
+[data-testid="stMetric"] {
+  background-color: var(--cheese);
+  background-image:
+    radial-gradient(circle at 86% 30%, var(--hole) 0 9px, transparent 10px),
+    radial-gradient(circle at calc(86% - 2px) calc(30% - 2px), var(--hole-dark) 0 10px, transparent 11px),
+    radial-gradient(circle at 70% 78%, var(--hole) 0 5px, transparent 6px),
+    radial-gradient(circle at calc(70% - 1px) calc(78% - 1px), var(--hole-dark) 0 6px, transparent 7px),
+    radial-gradient(circle at 94% 82%, var(--hole) 0 4px, transparent 5px);
+  border: 3px solid var(--ink); border-radius: 18px; padding: 0.75rem 1rem; box-shadow: var(--shadow);
+}
+[data-testid="stMetricLabel"] p { font-weight: 700; letter-spacing: 0.04em; color: var(--ink); }
+[data-testid="stMetricValue"] { font-family: var(--display); font-weight: 400; color: var(--ink); }
+
+/* Share chips under each wheel. */
+.cb-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: -0.2rem 0 0.8rem; }
+.cb-chips span {
+  display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.9rem; font-weight: 700;
+  background: var(--paper); border: 2.5px solid var(--ink); border-radius: 999px; box-shadow: 2px 2px 0 var(--ink);
+  padding: 0.15rem 0.6rem 0.15rem 0.3rem;
+}
+.cb-chips i { width: 15px; height: 15px; border-radius: 50%; background: var(--cheese); border: 2px solid var(--ink); }
+.cb-blendname { font-family: var(--display); font-weight: 400; font-size: 1.3rem; line-height: 1.15; margin: 0 0 0.3rem; }
+.js-plotly-plot .main-svg, [data-testid="stPlotlyChart"] { background: transparent !important; }
+
+/* ---------- buttons, inputs, expanders ---------- */
+button[kind="primary"], [data-testid="stBaseButton-primary"] {
+  font-family: var(--display) !important; font-weight: 400; color: var(--ink) !important;
+  background: var(--orange) !important; border: 3px solid var(--ink) !important; border-radius: 16px !important;
+  box-shadow: 4px 4px 0 var(--ink); transition: transform 0.1s, box-shadow 0.1s;
+}
+button[kind="primary"]:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--ink); }
+button[kind="primary"]:active { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--ink); }
+[data-testid="stExpander"] details {
+  border: 3px solid var(--ink) !important; border-radius: 18px !important; background: var(--paper-2);
+  box-shadow: var(--shadow-sm);
+}
+[data-testid="stExpander"] summary p { font-family: var(--display); font-weight: 400; }
+[data-baseweb="tag"] { background: var(--orange) !important; border: 2px solid var(--ink); border-radius: 999px !important; }
+[data-baseweb="tag"] span { color: var(--ink) !important; font-weight: 700; }
+[data-baseweb="select"] > div, [data-baseweb="input"] > div, [data-baseweb="textarea"] > div {
+  border: 3px solid var(--ink) !important; border-radius: 16px !important; background: #FFFFFF !important;
+}
+[data-testid="stSlider"] [role="slider"] { border: 3px solid var(--ink); box-shadow: 2px 2px 0 var(--ink); }
+[data-testid="stDataFrame"] { border: 3px solid var(--ink); border-radius: 16px; overflow: hidden; box-shadow: var(--shadow-sm); }
+[data-testid="stAlert"] { border: 3px solid var(--ink); border-radius: 16px; box-shadow: var(--shadow-sm); }
+
+@keyframes cb-rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@keyframes cb-stamp { from { opacity: 0; transform: rotate(-40deg) scale(1.6); } to { opacity: 1; transform: rotate(-11deg) scale(1); } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+@media (max-width: 720px) {
+  .cb-stamp, .cb-wedge { display: none; }
+  .block-container { border-radius: 0; margin: 0; border-width: 0 0 4px; box-shadow: none; }
+}

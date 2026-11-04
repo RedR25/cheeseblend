@@ -1,0 +1,148 @@
+{
+ "id": "gubbeen",
+ "name": "Gubbeen",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "washed_rind",
+ "origin": "Ireland",
+ "process": {
+  "aging_months": 1.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 43.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 30.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 2.0,
+   "unit": "%",
+   "source_url": "https://journals.asm.org/doi/full/10.1128/microbiolspec.cm-0010-2012",
+   "quote": "highest levels of salt were found in Gubbeen and Tilsit (Fig.3) at 2.0 and 1.8 g/100 g, respectively; the other three cheeses all contained around 1.5 g/100 g",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.9,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1287636/",
+   "quote": "surface pHs ranged from 5.9 for Gubbeen cheese to 6.8 for Ardrahan cheese",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 3.0,
+   "reason": "NH3 from oxidative deamination of amino acids by Brevibacterium linens / smear flora raising surface pH to ~5.9"
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "p-cresol, phenol and indole from Tyr/Trp catabolism by smear coryneforms and Microbacterium gubbeenense"
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "low accumulation of hydrophobic rennet-derived peptides due to short 4-5 week ripening and yeast debittering"
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "no Penicillium roqueforti and negligible methyl ketones 2-heptanone/2-nonanone in washed-rind make"
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Maillard between free amino acids from smear proteolysis and residual galactose on heating, typical washed-rind"
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "diacetyl/acetoin from citrate metabolism by mesophilic Lactococcus lactis starter"
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "butanoic, hexanoic and 3-methylbutanoic acids from lipolysis and Leu catabolism by smear bacteria"
+  },
+  "creaminess": {
+   "score": 7.0,
+   "reason": "43% moisture with ~30% fat plus rennet/plasmin proteolysis softening casein matrix"
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "elastic rennet gel with washed low-acid curd, not acid-precipitated or long-aged"
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "semi-soft uncooked rennet curd at 43% moisture, firmer than bloomy but far from hard cheese"
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "2-phenylethanol and phenylacetaldehyde from phenylalanine catabolism by yeasts/smear flora"
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "ethyl butanoate/hexanoate from esterification of fatty acids with ethanol by Debaryomyces / Geotrichum yeasts"
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "cow milk lacks high 4-methyloctanoic/4-ethyloctanoic goat acids, no caprine character"
+  },
+  "malty_nutty": {
+   "score": 5.0,
+   "reason": "3-methylbutanal/2-methylbutanal from Leu/Ile Strecker degradation, described nutty note"
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "rennet-coagulated pH ~5.9 calcium-paracasein network flows on heating, not acid/heat-set"
+  },
+  "mushroom_earthy": {
+   "score": 4.0,
+   "reason": "1-octen-3-ol from linoleic acid oxidation via yeast/Geotrichum lipoxygenase on rind"
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "limited free oil from moderate lipolysis of milkfat at ~52% fat-in-dry-matter"
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "no smoking step and no guaiacol/phenol deposition in typical Gubbeen"
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "residual lactic plus acetic acid from starter, partly deacidified by surface yeasts to pH 5.9"
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "no pasta-filata hot-water stretching, rennet curd does not align into fibers"
+  },
+  "sulfur_cooked": {
+   "score": 4.0,
+   "reason": "methanethiol/dimethyl disulfide from methionine demethiolation by B. linens and M. gubbeenense"
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "lactose depleted but sweet amino acids and glycerol from lipolysis remain"
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "glutamate release from rennet and starter proteolysis during 4-5 week smear ripening"
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://journals.asm.org/doi/full/10.1128/microbiolspec.cm-0010-2012",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC1287636/",
+  "https://www.journalofdairyscience.org/article/S0022-0302(07)71711-3/fulltext"
+ ]
+}

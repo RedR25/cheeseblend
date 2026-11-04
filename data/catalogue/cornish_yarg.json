@@ -1,0 +1,149 @@
+{
+ "id": "cornish_yarg",
+ "name": "Cornish Yarg",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Cornwall, England, UK",
+ "process": {
+  "aging_months": 1.25,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "white",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 37.0,
+   "unit": "%",
+   "source_url": "https://media.thomasridley.co.uk/Products/SPECS/13692.pdf",
+   "quote": "Moisture (%) Occasionally =39 37 to 41 10",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 20.0,
+   "unit": "%",
+   "source_url": "https://media.thomasridley.co.uk/Products/SPECS/13692.pdf",
+   "quote": "Fat Content (%) Occasionally =31 20 to 32 10",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.3,
+   "unit": "%",
+   "source_url": "https://media.thomasridley.co.uk/Products/SPECS/13692.pdf",
+   "quote": "Salt 2.3 g 38% 2.3 g 38%",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.2,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Early surface deamination by Geotrichum/Penicillium yields low NH3 at 4-6 weeks."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Minimal Tyr/Trp degradation to p-cresol/indole in pasteurized short-aged rind."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Limited accumulation of hydrophobic bitter peptides from short rennet proteolysis."
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "Grey Penicillium nalgiovense/Geotrichum makes little 2-heptanone/2-nonanone vs P. roqueforti."
+  },
+  "browning": {
+   "score": 2.0,
+   "reason": "High moisture and low free amino acids/reducing sugars limit Maillard browning on heating."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Lactococcus lactis biovar diacetylactis converts citrate to diacetyl/acetoin in young curd."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Limited lipolysis in 5-week cow curd yields low butanoic/hexanoic acids."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "Surface proteolysis and lipolysis soften paste under rind to creamy while core stays firm."
+  },
+  "crumbliness": {
+   "score": 5.0,
+   "reason": "Uncooked pressed rennet curd with open structure fractures rather than slicing smooth."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Pressed ~39% moisture pH 5.2 calcium-retaining curd gives medium-firm body."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylalanine catabolism to phenylacetaldehyde/2-phenylethanol in young rind."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Brief aging limits esterase formation of ethyl butanoate/hexanoate."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk lacks caprine branched C6-C10 acids like 4-ethyloctanoic acid."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Short proteolysis gives minimal leucine Strecker 3-methylbutanal; no cooked-curd pyrazines."
+  },
+  "melt": {
+   "score": 5.0,
+   "reason": "pH 5.2 intact casein network with ~30% fat flows moderately without pasta-filata structure."
+  },
+  "mushroom_earthy": {
+   "score": 6.0,
+   "reason": "Surface Geotrichum/Penicillium lipoxygenase makes 1-octen-3-ol/3-octanone; nettle wrap adds earthy note."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "Moderate fat in intact protein matrix releases little free oil on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking process; no guaiacol/syringol deposition."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Mesophilic starter lactic plus trace acetic acid retained at pH ~5.2 gives lactic tang."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No hot-water kneading; calcium-linked casein does not align into fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "No curd cooking and low methionine catabolism; minimal H2S/methanethiol."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose/galactose and mild acidity perceived as lactic sweetness."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Modest rennet plus starter proteolysis releases some glutamate by 5 weeks."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://media.thomasridley.co.uk/Products/SPECS/13692.pdf",
+  "https://lynherdairies.co.uk/shop/cornish-yarg/",
+  "https://www.paxtonandwhitfield.co.uk/shop/cheese-library/cornish-yarg?c=42",
+  "https://app.ckbk.com/reference/food77337c24s001e009/yarg"
+ ]
+}

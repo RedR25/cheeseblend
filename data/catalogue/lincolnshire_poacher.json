@@ -1,0 +1,148 @@
+{
+ "id": "lincolnshire_poacher",
+ "name": "Lincolnshire Poacher",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "cheddar",
+ "origin": "Lincolnshire, England",
+ "process": {
+  "aging_months": 18,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 33.5,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 37.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 1.45,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.2,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Low NH3 from amino acid deamination during extended proteolysis; open cloth allows diffusion."
+  },
+  "animal_barnyard": {
+   "score": 3.0,
+   "reason": "Raw pasture-milk p-cresol/indole plus cloth-rind Brevibacterium metabolites."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Moderate hydrophobic peptides from chymosin and NSLAB proteolysis balanced by salt and age."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation; no methyl-ketone blue-mold pathway."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Maillard between residual galactose and lysine plus fat browning on heating aged cheddar."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Diacetyl/acetoin from Lactococcus lactis citrate metabolism in raw-milk cheddaring."
+  },
+  "cheesy_sweaty": {
+   "score": 7.0,
+   "reason": "Butanoic/hexanoic acids from native lipase and NSLAB lipolysis over 14-24 months."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "37% fat gives mouth-coating despite firm aged matrix; no bloomy creaminess."
+  },
+  "crumbliness": {
+   "score": 6.0,
+   "reason": "Aged cheddar calcium-phosphate solubilization and tyrosine crystals cause short fracture."
+  },
+  "firmness": {
+   "score": 8.0,
+   "reason": "Low ~33.5% moisture, calcium-crosslinked casein and 18-month maturation hard paste."
+  },
+  "floral_honey": {
+   "score": 4.0,
+   "reason": "Phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism by lactobacilli."
+  },
+  "fruity": {
+   "score": 7.0,
+   "reason": "Ethyl butanoate/hexanoate from esterification of free fatty acids with ethanol by NSLAB esterases."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk low in branched C8 goaty acids 4-methyloctanoic/4-ethyloctanoic."
+  },
+  "malty_nutty": {
+   "score": 8.0,
+   "reason": "Strecker aldehydes 2-methylbutanal/3-methylbutanal and roasted notes from long proteolysis."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "Rennet-cheddar pH ~5.2 network flows with heat but reduced by long aging and proteolysis."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "Trace 1-octen-3-ol from cloth-rind fungi and linoleic acid oxidation."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "Free-fat coalescence on melting from high 37% fat and aged oiling-off."
+  },
+  "smoky": {
+   "score": 1.0,
+   "reason": "No smoking; trace guaiacol/phenols only from pasture feed and rind."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Low acetic acid from heterofermentative NSLAB buffered by aged low-moisture paste."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata hot-water kneading; cheddar milling/salting prevents fiber formation."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low methional/DMDS from methionine catabolism; no high-heat cook."
+  },
+  "sweet": {
+   "score": 5.0,
+   "reason": "Sweet perception from glycerol, calcium lactate and delta-decalactone/dodecalactone."
+  },
+  "umami": {
+   "score": 7.0,
+   "reason": "High free glutamate and savory peptides from rennet, plasmin and NSLAB proteolysis."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://manuals.plus/m/6c7a98a325bbe49ed60cd7271d26209b29be988a0dcefcab65ab6bd6e3f615b7",
+  "https://static1.squarespace.com/static/6043eda7133ffa41758ce2ee/t/620faea90ac02e04a52e6197/1645194922013/vision-Vince-Razionale.pdf",
+  "https://lafromagerie.co.uk/products/lincolnshire-poacher"
+ ]
+}

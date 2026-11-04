@@ -1,0 +1,267 @@
+{
+ "id": "castelmagno",
+ "name": "Castelmagno",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "semi_hard",
+ "origin": "Piedmont, Italy",
+ "process": {
+  "aging_months": 2,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 37.7,
+   "unit": "%",
+   "source_url": "https://fdokumen.com/documents/food-chemistry-zeppa-giuseppe.html",
+   "quote": "* moisture: **37.7 ± 0.79 %, w/w** , 60 d ripening,",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 29.9,
+   "unit": "%",
+   "source_url": "https://fdokumen.com/documents/food-chemistry-zeppa-giuseppe.html",
+   "quote": "* fat: **29.9 ± 1.09 %, w/w**, 60 d ripening,",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.75,
+   "unit": "%",
+   "source_url": "https://fdokumen.com/documents/food-chemistry-zeppa-giuseppe.html",
+   "quote": "* salt NaCl: **2.75 ± 0.54 %, w/w**, 60 d ripening,",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 4.8,
+   "unit": "",
+   "source_url": "https://fdokumen.com/documents/food-chemistry-zeppa-giuseppe.html",
+   "quote": "* pH: **4.80 ± 0.11**, 60 d ripening,",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 136.0,
+   "unit": "µg/kg",
+   "source_url": "https://fdokumen.com/documents/food-chemistry-zeppa-giuseppe.html",
+   "quote": "* 60 d: **136 ± 71.4 µg/kg**, artisan Castelmagno winter,",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 12.7,
+   "unit": "µg/kg",
+   "source_url": "https://fdokumen.com/documents/food-chemistry-zeppa-giuseppe.html",
+   "quote": "* 60 d: **12.7 ± 14.3 µg/kg**,",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 235.0,
+   "unit": "µg/kg",
+   "source_url": "https://fdokumen.com/documents/food-chemistry-zeppa-giuseppe.html",
+   "quote": "* 60 d: **235 ± 120 µg/kg**,",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 10.3,
+   "unit": "µg/kg",
+   "source_url": "https://fdokumen.com/documents/food-chemistry-zeppa-giuseppe.html",
+   "quote": "* 60 d: **10.3 ± 9.50 µg/kg**,",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  },
+  {
+   "value": 1002.0,
+   "unit": "µg/kg",
+   "source_url": "https://fdokumen.com/documents/food-chemistry-zeppa-giuseppe.html",
+   "quote": "* 60 d: **1002 ± 358 µg/kg**,",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 509.0,
+   "unit": "µg/kg",
+   "source_url": "https://fdokumen.com/documents/food-chemistry-zeppa-giuseppe.html",
+   "quote": "* 60 d: **509 ± 285 µg/kg**,",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  },
+  {
+   "value": 3.86,
+   "unit": "µg/kg",
+   "source_url": "https://fdokumen.com/documents/food-chemistry-zeppa-giuseppe.html",
+   "quote": "* 60 d: **3.86 ± 2.40 µg/kg**,",
+   "confidence": "measured",
+   "name": "acetoin"
+  },
+  {
+   "value": 77.6,
+   "unit": "µg/kg",
+   "source_url": "https://fdokumen.com/documents/food-chemistry-zeppa-giuseppe.html",
+   "quote": "* 60 d: **77.6 ± 13.9 µg/kg**,",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 65.4,
+   "unit": "µg/kg",
+   "source_url": "https://fdokumen.com/documents/food-chemistry-zeppa-giuseppe.html",
+   "quote": "* 60 d: **65.4 ± 82.8 µg/kg**,",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  },
+  {
+   "value": 11.5,
+   "unit": "µg/kg",
+   "source_url": "https://fdokumen.com/documents/food-chemistry-zeppa-giuseppe.html",
+   "quote": "* 60 d: **11.5 ± 15.8 µg/kg**,",
+   "confidence": "measured",
+   "name": "ethyl butanoate"
+  },
+  {
+   "value": 111.0,
+   "unit": "µg/kg",
+   "source_url": "https://fdokumen.com/documents/food-chemistry-zeppa-giuseppe.html",
+   "quote": "* 60 d: **111 ± 10.9 µg/kg**,",
+   "confidence": "measured",
+   "name": "ethyl hexanoate"
+  },
+  {
+   "value": 23.1,
+   "unit": "µg/kg",
+   "source_url": "https://fdokumen.com/documents/food-chemistry-zeppa-giuseppe.html",
+   "quote": "* 60 d: **23.1 ± 6.18 µg/kg**,",
+   "confidence": "measured",
+   "name": "delta-decalactone"
+  },
+  {
+   "value": 9.77,
+   "unit": "µg/kg",
+   "source_url": "https://fdokumen.com/documents/food-chemistry-zeppa-giuseppe.html",
+   "quote": "* 60 d: **9.77 ± 5.82 µg/kg**,",
+   "confidence": "measured",
+   "name": "delta-dodecalactone"
+  },
+  {
+   "value": 0.21,
+   "unit": "µg/kg",
+   "source_url": "https://fdokumen.com/documents/food-chemistry-zeppa-giuseppe.html",
+   "quote": "* 60 d: **0.21 ± 0.24 µg/kg**,",
+   "confidence": "measured",
+   "name": "3-methylbutanal"
+  },
+  {
+   "value": 12.5,
+   "unit": "µg/kg",
+   "source_url": "https://fdokumen.com/documents/food-chemistry-zeppa-giuseppe.html",
+   "quote": "* 60 d: **12.5 ± 13.4 µg/kg**,",
+   "confidence": "measured",
+   "name": "2-phenylethanol"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "No washed-rind deamination, only trace N,N-dibutylformamide, low amino-acid deaminase at 60d."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "p-cresol, indole and 4-ethyloctanoic acids absent in 92-compound survey, clean winter cow milk."
+  },
+  "bitter": {
+   "score": 5.0,
+   "reason": "Hydrophobic rennet peptides plus HPLC isovaleric 440 mg/kg and NaCl 2.75% at pH 4.8."
+  },
+  "blue_moldy": {
+   "score": 3.0,
+   "reason": "2-heptanone 77.6 plus 2-nonanone 65.4 ug/kg from fatty-acid beta-oxidation but no Penicillium inoculation."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Lactose depleted during 2-4d whey holding, moderate Maillard from protein plus residual sugar on heating."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "HPLC diacetyl 1170 mg/kg from native LAB citrate metabolism but SPME diacetyl ND and acetoin 3.86 ug/kg."
+  },
+  "cheesy_sweaty": {
+   "score": 7.0,
+   "reason": "Dominant lipolysis acids hexanoic 1002 plus octanoic 509 plus butanoic 235 ug/kg from raw-milk lipase."
+  },
+  "creaminess": {
+   "score": 3.0,
+   "reason": "29.9% fat gives richness but 37.7% moisture acidic milled-curd matrix limits creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 7.0,
+   "reason": "pH 4.8 demineralization plus milling, dry-salting and pressing gives short acid fracture."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Pressed milled curd at 37.7% moisture and 26% protein, semi-hard after 60d ripening."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "2-phenylethanol only 12.5 ug/kg and phenylacetaldehyde absent, low Phe catabolism."
+  },
+  "fruity": {
+   "score": 5.0,
+   "reason": "Ethyl hexanoate 111 plus ethyl butanoate 11.5 ug/kg from NSLAB ethanol-acid esterification."
+  },
+  "goaty": {
+   "score": 3.0,
+   "reason": "C6-C8 acids present from cow-milk lipolysis but 4-methyloctanoic absent, no goat milk."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Strecker aldehyde 3-methylbutanal only 0.21 ug/kg, minimal Leu/Ile catabolism at 60d."
+  },
+  "melt": {
+   "score": 3.0,
+   "reason": "pH 4.8 plus 2.75% salt restricts casein hydration, softens with limited flow when heated."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "1-octen-3-ol and 1-octen-3-one absent, no Geotrichum lipoxygenase C8 pathway."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate free-oil release from 29.9% fat lipolyzed matrix on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and guaiacol absent."
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "pH 4.80 with HPLC acetic 570 mg/kg after 3d under-whey acidification by mesophilic NSLAB."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata hot-water kneading, rennet curd only."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "No curd cooking and dimethyl disulfide ND at 60d, minimal Met catabolism."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Lactose depleted, only delta-decalactone 23.1 and dodecalactone 9.77 ug/kg sweet lactones."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "Moderate 60d rennet/plasmin proteolysis releasing Glu, with propionic 830 mg/kg background."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://fdokumen.com/documents/food-chemistry-zeppa-giuseppe.html"
+ ]
+}

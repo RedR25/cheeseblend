@@ -1,0 +1,148 @@
+{
+ "id": "garrotxa",
+ "name": "Garrotxa",
+ "milk": "goat",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Catalonia, Spain",
+ "process": {
+  "aging_months": 2,
+  "coagulation": "mixed",
+  "cooked": false,
+  "mold": "white",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 42.2,
+   "unit": "%",
+   "source_url": "https://hal.science/hal-00895356/file/hal-00895356.pdf",
+   "quote": "freshmade Garrotxa cheese (42.2% moisture, 2.8% ash, 37.1% fat, and 18.2% protein).",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 37.1,
+   "unit": "%",
+   "source_url": "https://hal.science/hal-00895356/file/hal-00895356.pdf",
+   "quote": "freshmade Garrotxa cheese (42.2% moisture, 2.8% ash, 37.1% fat, and 18.2% protein).",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 0.69,
+   "unit": "%",
+   "source_url": "https://hal.science/hal-00895356/file/hal-00895356.pdf",
+   "quote": "Core 0.69 g NaCl/100 g, Rind 1.10 g NaCl/100 g – control; Core 0.80 g NaCl/100 g, Rind 1.00 g NaCl/100 g – HHP",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.01,
+   "unit": "",
+   "source_url": "https://hal.science/hal-00895356/file/hal-00895356.pdf",
+   "quote": "pH 5.01 control; pH 5.12 HHP-treated",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Limited NH3 from amino-acid deamination during short 8-week pressed ripening."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "Trace p-cresol/indole from Tyr/Trp catabolism plus goat-milk carryover."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Hydrophobic peptides from chymosin/plasmin proteolysis partly trimmed by starter peptidases."
+  },
+  "blue_moldy": {
+   "score": 2.0,
+   "reason": "Low 2-heptanone/2-nonanone via surface Penicillium beta-oxidation of free fatty acids."
+  },
+  "browning": {
+   "score": 3.0,
+   "reason": "Limited Maillard between residual lactose/galactose and lysine on heating."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Diacetyl/acetoin from Lactococcus citrate metabolism in young uncooked curd."
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "Butanoic/isovaleric acids from lipoprotein lipase and starter esterase lipolysis."
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "High 57% fat-in-dry-matter and small goat fat globules lubricate mouthfeel."
+  },
+  "crumbliness": {
+   "score": 4.0,
+   "reason": "Mixed rennet-acid gel at pH 5.0 demineralized, giving short friable pressed body."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "Pressed uncooked paracasein network with calcium-phosphate crosslinks at pH 5.0."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Ethyl butanoate/hexanoate from microbial esterase esterification of FFA with ethanol."
+  },
+  "goaty": {
+   "score": 5.0,
+   "reason": "Hexanoic/octanoic/decanoic plus 4-methyloctanoic from goat triglyceride lipolysis."
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "3-methylbutanal/2-methylpropanal from Leu/Val Strecker degradation during 2-mo aging."
+  },
+  "melt": {
+   "score": 4.0,
+   "reason": "pH 5.0 intact casein network softens and flows moderately when heated."
+  },
+  "mushroom_earthy": {
+   "score": 3.0,
+   "reason": "1-octen-3-ol from linoleic acid lipoxygenase activity of natural grey-mold rind."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Free oil release from coalesced high-fat goat milk fat on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step, therefore no guaiacol/syringol deposition."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "L-lactic plus trace acetic acid from starter fermentation to pH 5.0."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata hot-water kneading, casein fibers do not align."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Uncooked curd with minimal methionine catabolism to H2S/methional."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose/lactate plus lactones masking acidity in young paste."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Free glutamate released by chymosin and starter peptidase proteolysis."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://hal.science/hal-00895356/file/hal-00895356.pdf",
+  "https://www.academia.edu/6915883/High_pressure_treatment_decelerates_the_lipolysis_in_a_caprine_cheese",
+  "https://dissem.in/p/30345696/changes-in-organic-acids-during-ripening-of-cheeses-made-from-raw-pasteurized-or-high-pressure-treated-goats-milk/"
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "id": "reblochon",
+ "name": "Reblochon",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "washed_rind",
+ "origin": "Savoie, France",
+ "process": {
+  "aging_months": 1.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 53.5,
+   "unit": "%",
+   "source_url": "https://vitahoy.ch",
+   "quote": "Water, 53.50, ggram",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 25.1,
+   "unit": "%",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1997/04/lait_77_1997_4_36.pdf",
+   "quote": "* C: **25.1 g / 100 g = 25.1 %**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.47,
+   "unit": "%",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1997/04/lait_77_1997_4_36.pdf",
+   "quote": "* C: **1.47 % NaCl, = 14.7 g/kg**",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.87,
+   "unit": "",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1997/04/lait_77_1997_4_36.pdf",
+   "quote": "pH 5.87 5.86 5.98",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 1760000.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1997/04/lait_77_1997_4_36.pdf",
+   "quote": "* C: **176 mg / 100 g = 1760 mg/kg**",
+   "confidence": "measured",
+   "name": "ammonia"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 4.0,
+   "reason": "Measured 1760 mg/kg NH3 from urea catabolism and deamination during smear ripening."
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "Brevibacterium linens proteolysis yielding p-cresol/indole at rind."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Limited hydrophobic peptides due to short 30-d age and moderate salt 1.47%."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti and no methyl ketones 2-heptanone/2-nonanone."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Glutamate/lysine plus fat support Maillard when baked for tartiflette."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Diacetyl/acetoin from citrate metabolism by Streptococcus thermophilus plus rich milkfat."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "Butanoic plus 3-methylbutanoic acids from lipolysis and Leu catabolism by smear flora."
+  },
+  "creaminess": {
+   "score": 7.0,
+   "reason": "Fat 25.1%, FDM ~52% plus rind deacidification to pH 6.8 gives creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Rennet-coagulated pressed curd with Ca solubilization retains cohesive smooth paste."
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "High moisture 53.5% and smear proteolysis soften paste to supple pressed body."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Phe catabolism to phenylacetaldehyde/2-phenylethanol by yeasts."
+  },
+  "fruity": {
+   "score": 5.0,
+   "reason": "Yeast Geotrichum/Debaryomyces esterification to ethyl butanoate/hexanoate."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk contains no caprine branched C8 acids 4-methyloctanoic/4-ethyloctanoic."
+  },
+  "malty_nutty": {
+   "score": 6.0,
+   "reason": "Strecker aldehydes 3-methylbutanal/2-methylbutanal from Leu/Ile give hazelnut note."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "pH 5.87 demineralized paracasein plus high fat/moisture allows excellent flow."
+  },
+  "mushroom_earthy": {
+   "score": 5.0,
+   "reason": "Geotrichum candidum lipoxygenase-derived 1-octen-3-ol/1-octen-3-one."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate free oil from 25% fat coalescence on heating without emulsion failure."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and no guaiacol/phenol deposition."
+  },
+  "sour_vinegar": {
+   "score": 2.0,
+   "reason": "Low residual lactic acid at pH 5.87 with early acetate 0.26 g/kg mostly metabolized."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata hot-water kneading so no aligned paracasein fibers to pull."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Uncooked curd with minimal whey-protein denaturation so low H2S/DMS."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Galactose exhausted by day 20 leaving only slight milkfat-lactone sweetness."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Measured 2.3 g/kg glutamate on day 35 from rennet/plasmin proteolysis."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://lait.dairy-journal.org/articles/lait/pdf/1997/04/lait_77_1997_4_36.pdf",
+  "https://vitahoy.ch",
+  "https://d.docksci.com/investigation-of-geotrichum-candidum-gene-expression-during-the-ripening-of-rebl_5a7bc047d64ab2165a823acb.html",
+  "https://hal.science/hal-02349939v1/file/S0963996919305290.pdf"
+ ]
+}

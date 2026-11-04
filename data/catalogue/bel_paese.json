@@ -1,0 +1,148 @@
+{
+ "id": "bel_paese",
+ "name": "Bel Paese",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Italy",
+ "process": {
+  "aging_months": 1.5,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 44.0,
+   "unit": "%",
+   "source_url": "https://core.ac.uk/download/pdf/77519680.pdf",
+   "quote": "Bel Paese type cheeses have a moisture content of 44-47%, fat content of 28-29%, and a salt content of 2.3-2.5%",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 28.0,
+   "unit": "%",
+   "source_url": "https://core.ac.uk/download/pdf/77519680.pdf",
+   "quote": "Bel Paese type cheeses have a moisture content of 44-47%, fat content of 28-29%, and a salt content of 2.3-2.5%",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.3,
+   "unit": "%",
+   "source_url": "https://core.ac.uk/download/pdf/77519680.pdf",
+   "quote": "Bel Paese type cheeses have a moisture content of 44-47%, fat content of 28-29%, and a salt content of 2.3-2.5%",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.3,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 0.5,
+   "reason": "Very low amino acid deamination/urease activity due to short 6-8 week age and no surface flora."
+  },
+  "animal_barnyard": {
+   "score": 0.5,
+   "reason": "Negligible p-cresol/indole/skatole; clean pasteurized dairy with no smear or clostridial activity."
+  },
+  "bitter": {
+   "score": 1.5,
+   "reason": "Few hydrophobic bitter peptides from limited chymosin/plasmin proteolysis and masking by salt."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation so no 2-heptanone/2-nonanone/2-undecanone beta-oxidation pathway."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Maillard between residual galactose/lactose and lysine plus milk-fat browning on heating."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl/acetoin from citrate-positive Lactococcus lactis citrate metabolism in young high-moisture curd."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Low butanoic/hexanoic/octanoic acids from limited starter esterase lipolysis during short ripening."
+  },
+  "creaminess": {
+   "score": 5.5,
+   "reason": "28-30% fat, ~49% FDM and 44-47% moisture lubricates palate with hydrated young para-casein."
+  },
+  "crumbliness": {
+   "score": 1.5,
+   "reason": "Cohesive calcium-phosphate para-casein network at pH ~5.3 gives elastic, non-granular fracture."
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "Rennet gel at 44-47% moisture with light warming to ~38C gives elastic semi-soft body, not hard."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Trace phenylacetaldehyde/2-phenylethanol from phenylalanine transamination by starter."
+  },
+  "fruity": {
+   "score": 1.5,
+   "reason": "Trace ethyl butanoate/hexanoate from starter esterase esterification of fatty acids with ethanol."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk fat lacks caprine 4-methyl/4-ethyloctanoic branched-chain goaty acids."
+  },
+  "malty_nutty": {
+   "score": 1.5,
+   "reason": "Minimal Strecker 2-/3-methylbutanal/2-methylpropanal from leucine/isoleucine due to low proteolysis."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "pH ~5.3 intact hydrated casein with high moisture allows micelle flow and fat coalescence on heating."
+  },
+  "mushroom_earthy": {
+   "score": 0.5,
+   "reason": "No surface mold; negligible 1-octen-3-ol/1-octen-3-one from linoleic acid lipoxygenase."
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Moderate emulsified fat in young protein network retains fat, limited free oil on melt."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked cheese; no guaiacol/syringol deposition from wood smoke."
+  },
+  "sour_vinegar": {
+   "score": 2.0,
+   "reason": "Mild L-lactic acid from mesophilic starter with little acetic/propanoic acid due to short aging."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "Non-pasta-filata; no hot-water kneading and casein alignment so no fibrous stretch despite flow."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Low H2S/methional/dimethyl sulfide; pasteurized milk sulfur driven off, no high cook retention."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual galactose/lactate plus diacetyl sweet-milk perception with low acid masking."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "Low free glutamate from limited rennet/plasmin proteolysis and ~84g/kg free amino acids max at 6 weeks."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://core.ac.uk/download/pdf/77519680.pdf",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12057542/",
+  "https://www.mdpi.com/2304-8158/14/13/2208/pdf"
+ ]
+}

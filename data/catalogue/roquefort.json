@@ -1,0 +1,281 @@
+{
+ "id": "roquefort",
+ "name": "Roquefort",
+ "milk": "sheep",
+ "treatment": "raw",
+ "style": "blue",
+ "origin": "France",
+ "process": {
+  "aging_months": 3.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "blue",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 39.38,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171250/nutrients",
+   "quote": "| Water | 39.38 g | 39.38% |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 30.64,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171250/nutrients",
+   "quote": "| Total lipid (fat) | 30.64 g | 30.64% |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 3.56,
+   "unit": "%",
+   "source_url": "https://journals.ekb.eg/article_405939_b230815c68bbf90g5c6ae9c56217757.pdf",
+   "quote": "Salt was ranged to 1.42 and 3.56% in Lugriri and Roquefort cheese, respectively",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.9,
+   "unit": "",
+   "source_url": "https://journals.ekb.eg/article_405939_b230815c68bbf90g5c6ae9c56217757.pdf",
+   "quote": "Roquefort 28.04 47.65 3.56 2.22 20.01 5.90",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 3955.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "2-heptanone 3955 6 4320 32 13090 18 2855 8 1 810 2 '897",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 3915.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "2-nonanone 3915 10 7235 10 10040 11 1600 6 4570 18 '1 100",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  },
+  {
+   "value": 515.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "2-undecanone 515 5 990 2 1090 9 455 14 1490 10 '1 296",
+   "confidence": "measured",
+   "name": "2-undecanone"
+  },
+  {
+   "value": 50.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "ethyl butanoate 50 8 15 22 60 8 55 14 30 14 \"803",
+   "confidence": "measured",
+   "name": "ethyl butanoate"
+  },
+  {
+   "value": 75.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "ethyl hexanoate 75 13 70 10 75 12 70 9 60 9 \"1 005",
+   "confidence": "measured",
+   "name": "ethyl hexanoate"
+  },
+  {
+   "value": 20.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "1-octen 3-01 20 12 35 6 20 6 10 62 20 4 '984",
+   "confidence": "measured",
+   "name": "1-octen-3-ol"
+  },
+  {
+   "value": 140.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "phenylethanol 140 21 145 7 - 130 5 1400 5 '1 116",
+   "confidence": "measured",
+   "name": "2-phenylethanol"
+  },
+  {
+   "value": 80.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "3-hydroxy 2-butanone - - 80 12 - - '702",
+   "confidence": "measured",
+   "name": "acetoin"
+  },
+  {
+   "value": 5.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "indole 5 3 5 15 5 15 - - *1 308",
+   "confidence": "measured",
+   "name": "indole"
+  },
+  {
+   "value": 7.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "CH3 SCH3 1267 7 20 970 7 42 2218 11 30 58345 70 14 256 8 12",
+   "confidence": "measured",
+   "name": "dimethyl sulfide"
+  },
+  {
+   "value": 29.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "CH3 SSCH3 155 tr 20 7702 29 27 8004 29 9 75985 90 25 1 819 24 25",
+   "confidence": "measured",
+   "name": "dimethyl disulfide"
+  },
+  {
+   "value": 961000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(84)81380-6/pdf",
+   "quote": "Roquefort 961 626 707 2280 1295 3185 6230 2241 6282 896 25969",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 626000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(84)81380-6/pdf",
+   "quote": "Roquefort 961 626 707 2280 1295 3185 6230 2241 6282 896 25969",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 707000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(84)81380-6/pdf",
+   "quote": "Roquefort 961 626 707 2280 1295 3185 6230 2241 6282 896 25969",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 2280000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(84)81380-6/pdf",
+   "quote": "Roquefort 961 626 707 2280 1295 3185 6230 2241 6282 896 25969",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  },
+  {
+   "value": 1530.0,
+   "unit": "µg/kg",
+   "source_url": "https://journalofdairyscience.org",
+   "quote": "the Roquefort cheese sample at a concentration of 1.53 ppm",
+   "confidence": "measured",
+   "name": "4-methyloctanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 4.0,
+   "reason": "Extensive deamination of amino acids during Penicillium proteolysis in caves."
+  },
+  "animal_barnyard": {
+   "score": 6.0,
+   "reason": "Sheep branched-chain 4-methyloctanoic acid 1.53 ppm plus indole 5 ug/kg."
+  },
+  "bitter": {
+   "score": 6.0,
+   "reason": "Hydrophobic peptides from rennet and Penicillium proteinases plus 3.56% salt."
+  },
+  "blue_moldy": {
+   "score": 10.0,
+   "reason": "Beta-oxidation of free fatty acids to 2-heptanone 3955 and 2-nonanone 3915 ug/kg by P. roqueforti."
+  },
+  "browning": {
+   "score": 3.0,
+   "reason": "Moderate Maillard from 20% protein and residual lactose despite high salt and moist paste."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Citrate-derived diacetyl/acetoin 80 ug/kg present but masked by dominant ketones and acids."
+  },
+  "cheesy_sweaty": {
+   "score": 8.0,
+   "reason": "Intense lipolysis: butanoic 626, hexanoic 707, octanoic 2280 mg/kg free fatty acids."
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "30.6% fat and softened proteolyzed paste despite crumbly salted curd."
+  },
+  "crumbliness": {
+   "score": 7.0,
+   "reason": "Rennet curd, dry-salted, needled and proteolyzed with no stretch, moisture 39.38%."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Uncooked pressed sheep curd aged 3 mo, semi-hard but moist and veined."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylalanine-derived 2-phenylethanol 140 ug/kg, no delta-lactones detected."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Low ethyl butanoate 50 and ethyl hexanoate 75 ug/kg esterification in salty blue."
+  },
+  "goaty": {
+   "score": 8.0,
+   "reason": "Sheep milk short and branched-chain acids including 4-methyloctanoic mutton-goat note."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Few Strecker aldehydes; 3-methylbutanal only trace, benzaldehyde 5-15 ug/kg."
+  },
+  "melt": {
+   "score": 5.0,
+   "reason": "High fat melts but high salt, pH 5.9 and proteolysis give soft flow not firm stretch."
+  },
+  "mushroom_earthy": {
+   "score": 5.0,
+   "reason": "Linoleate-derived 1-octen-3-ol 20 ug/kg plus Penicillium earthy metabolites."
+  },
+  "oil_off": {
+   "score": 6.0,
+   "reason": "Free oil from extensive lipolysis and 30.6% fat releasing short-chain fatty acids."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked cave cheese; guaiacol and p-cresol not detected."
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "Acetic acid 961 mg/kg from heterofermentation plus lactic acid tang."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Rennet-set non-pasta-filata curd with no hot-water stretching."
+  },
+  "sulfur_cooked": {
+   "score": 3.0,
+   "reason": "Methionine catabolism to H2S, methanethiol, dimethyl sulfide 7 and disulfide 29 ug/kg."
+  },
+  "sweet": {
+   "score": 1.0,
+   "reason": "Lactose depleted to ~2.2% and masked by acids, salt and peppery ketones."
+  },
+  "umami": {
+   "score": 7.0,
+   "reason": "High free glutamate from Lactococcus and Penicillium roqueforti proteolysis."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171250/nutrients",
+  "https://journals.ekb.eg/article_405939_b230815c68bbf90g5c6ae9c56217757.pdf",
+  "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+  "https://www.journalofdairyscience.org/article/S0022-0302(84)81380-6/pdf",
+  "https://journalofdairyscience.org",
+  "https://journals.ekb.eg/article_405939_b230815c68bbf90b65f6ae9c56217757.pdf",
+  "https://www.yumpu.com/en/document/view/59581085/biochemistry-of-cheese-ripening-guide/28"
+ ]
+}

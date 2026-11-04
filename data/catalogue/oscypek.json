@@ -1,0 +1,190 @@
+{
+ "id": "oscypek",
+ "name": "Oscypek",
+ "milk": "sheep",
+ "treatment": "raw",
+ "style": "pasta_filata",
+ "origin": "Poland - Podhale, Tatra Mountains (PDO)",
+ "process": {
+  "aging_months": 0.5,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": true,
+  "stretched": true
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 39.03,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8297890/",
+   "quote": "**Moisture / Water %:** 39.03 % ± 0.31 %, mean ± SD, n=triplicate",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 27.59,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8297890/",
+   "quote": "**Fat %:** 27.59 % ± 0.37 %",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.7,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8297890/",
+   "quote": "**Salt NaCl %:** 1.70 % ± 0.00 %",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.18,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8297890/",
+   "quote": "**pH:** 5.18 ± 0.03",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 187750.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8297890/",
+   "quote": "**acetic acid:** 187.75 mg/kg ±2.23 mg/kg for B",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 2140.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8297890/",
+   "quote": "**propanoic acid reported as Propionic:** 2.14 mg/kg ±0.04 mg/kg for B",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 11180.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8297890/",
+   "quote": "**butanoic acid reported as Butyric:** 11.18 mg/kg ±0.36 mg/kg for B",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 1940.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8297890/",
+   "quote": "**3-methylbutanoic acid reported as Isovaleric:** 1.94 mg/kg ±0.27 mg/kg for B",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  },
+  {
+   "value": 4610.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8297890/",
+   "quote": "**hexanoic acid reported as Caproic:** 4.61 mg/kg ±0.26 mg/kg for B",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Short ~2-3 week aging limits deamination and proteolysis, no ammonia accumulation."
+  },
+  "animal_barnyard": {
+   "score": 6.0,
+   "reason": "p-Cresol 998 ug/kg (OAV256) fecal phenol from tyrosine plus stable/smoke and sheep-milk pastoral notes."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Minimal accumulation of hydrophobic bitter peptides in young pasta-filata matrix."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti and no quantified methyl ketones (2-heptanone/2-nonanone absent)."
+  },
+  "browning": {
+   "score": 6.0,
+   "reason": "Residual lactose/galactose + lysine plus smoke carbonyls drive Maillard browning on grilling."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl 396 ug/kg (OAV132) from citrate/lactose metabolism by starter LAB retains buttery note despite smoking loss."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "Butanoic acid 21.6 mg/kg (OAV9) + 3-methylbutanoic acid 6.6 mg/kg (OAV13.4) from lipolysis and leucine catabolism."
+  },
+  "creaminess": {
+   "score": 3.0,
+   "reason": "Fat 27.6% (FDM 45.5%) moderated by low moisture and firm stretched protein network."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Hot-kneaded aligned paracasein fibers deform rather than fracture."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Moisture 39% + brining + smoke-dried rind + dense kneaded paracasein gives firm sliceable body."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Phenylacetaldehyde only FD4, no 2-phenylethanol quantified; limited phenylalanine catabolism."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "No quantified ethyl butanoate/hexanoate; short aging limits esterase fruity ester formation."
+  },
+  "goaty": {
+   "score": 4.0,
+   "reason": "Sheep-milk C6:0 caproic 4.6 mg/kg plus branched-chain acids from lipolysis give moderate caprine sharpness."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "Maltol 2093 ug/kg from wood-smoke/heat plus low Strecker aldehydes gives light toasted-nutty note."
+  },
+  "melt": {
+   "score": 5.0,
+   "reason": "pH 5.18 demineralized curd softens/flows on grilling but smoke drying and aging reduce full flow."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "1-octen-3-ol/one not quantified and no surface mold limits linoleate-derived mushroom note."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate free fat at 27.6% fat releases some oil on heating without heavy oiling."
+  },
+  "smoky": {
+   "score": 9.0,
+   "reason": "Guaiacol 1075 ug/kg (OAV1280) + 4-methylguaiacol 1979 ug/kg from spruce/pine lignin pyrolysis during prolonged smoking."
+  },
+  "sour_vinegar": {
+   "score": 5.0,
+   "reason": "Acetic acid 188-258 mg/kg (OAV~2.6) from heterofermentative LAB plus smoke-deposited acetate at pH 5.18."
+  },
+  "stretch": {
+   "score": 7.0,
+   "reason": "Pasta-filata hot-water stretching creates aligned fibers that re-extend when grilled."
+  },
+  "sulfur_cooked": {
+   "score": 3.0,
+   "reason": "Methional 1.2 ug/kg (OAV2.8) from methionine Strecker during 65-70C scalding and smoking."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose plus smoke maltol 2093 ug/kg and caramelized carbonyls give light sweetness."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Short rennet aging limits free glutamate and savory peptides."
+  }
+ },
+ "filata": true,
+ "non_melter": false,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8297890/",
+  "http://www.food.actapol.net/volume9/issue3/abstract-2.html",
+  "https://bibliotekanauki.pl/articles/14559.pdf",
+  "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0254431"
+ ]
+}

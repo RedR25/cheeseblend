@@ -1,0 +1,148 @@
+{
+ "id": "saint_marcellin",
+ "name": "Saint-Marcellin",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "soft_bloomy",
+ "origin": "Isère, Rhône-Alpes, France",
+ "process": {
+  "aging_months": 0.7,
+  "coagulation": "mixed",
+  "cooked": false,
+  "mold": "white",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 60.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 23.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 1.5,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.5,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 4.0,
+   "reason": "Ammonia from yeast and Geotrichum amino-acid deamination raises pH to >6 by day 28."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "Very low p-cresol/indole from cow milk; no washed-rind Brevibacterium activity."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Hydrophobic peptides from rennet/chymosin and Lactococcus proteinases in lactic curd."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti; no blue methyl-ketone pathway."
+  },
+  "browning": {
+   "score": 3.0,
+   "reason": "Low residual lactose/lysine Maillard when heated; high moisture limits browning."
+  },
+  "buttery": {
+   "score": 7.0,
+   "reason": "Diacetyl/acetoin from Lactococcus lactis citrate fermentation plus milkfat lactones."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "Moderate butanoic/hexanoic acids from native and Geotrichum lipase lipolysis."
+  },
+  "creaminess": {
+   "score": 8.0,
+   "reason": "55% fat-in-dry-matter, 60% moisture and late proteolysis solubilize casein to spoonable paste."
+  },
+  "crumbliness": {
+   "score": 3.0,
+   "reason": "Lactic demineralized curd is chalky when young but proteolyzed to smooth when ripe."
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "High moisture, acid demineralization and surface-mold proteolysis soften body to soft."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism by yeasts."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate/hexanoate from yeast esterification of acids and ethanol."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk lacks high 4-methyloctanoic/4-ethyloctanoic goaty branched acids."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Low Strecker 3-methylbutanal/2-methylbutanal; short 15-28 day age limits Maillard-type notes."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "High moisture and pH rise from 4.3 to 5.5-6 restores casein hydration and flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 5.0,
+   "reason": "1-octen-3-ol/1-octen-3-one from Geotrichum candidum and P. camemberti white-mold lipoxygenase."
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Stable acid-gel emulsion and small 80g format limit free-oil release."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking; no guaiacol/syringol phenols."
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "Lactic acid from Lactococcus fermentation to pH 4.3 plus minor acetic acid."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata stretching; acid-demineralized casein does not align into fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "No curd cooking; very low methional/dimethyl sulfide from methionine."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Lactose depleted; slight sweetness from glycerol, lactones and low salt masking."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "Moderate glutamate from early Lactococcus/Geotrichum proteolysis, limited by short age."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC3166927/",
+  "https://fdc.nal.usda.gov/food-search?type=Foundation&query=Saint-Marcellin",
+  "https://gourmetdeparis.co.th/th/collections/cheese-collection/products/cheese-st-marcellin-igp-cow-milk-lfm-80gr"
+ ]
+}

@@ -1,0 +1,205 @@
+{
+ "id": "mozzarella",
+ "name": "Mozzarella (low-moisture)",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "pasta_filata",
+ "origin": "USA",
+ "process": {
+  "aging_months": 0.5,
+  "coagulation": "mixed",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": true
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 52.82,
+   "unit": "%",
+   "source_url": "https://iris.unirc.it/retrieve/443c8567-a968-4c04-a64d-b1395b287fcd/foods-13-00209.pdf",
+   "quote": "* **Moisture: 52.82 ± 0.25 %**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 19.78,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/",
+   "quote": "* **Total lipid (fat): 19.78 g /100 g = 19.78 %**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.5,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.91,
+   "unit": "",
+   "source_url": "https://iris.unirc.it/retrieve/443c8567-a968-4c04-a64d-b1395b287fcd/foods-13-00209.pdf",
+   "quote": "* **pH: 5.91 ± 0.02**",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 2590.0,
+   "unit": "µg/kg",
+   "source_url": "https://iris.unirc.it/retrieve/443c8567-a968-4c04-a64d-b1395b287fcd/foods-13-00209.pdf",
+   "quote": "* **Diacetyl = 2,3-butanedione: 2.59 ± 0.35 µg/g = 2590 µg/kg = 2.59 mg/kg**",
+   "confidence": "measured",
+   "name": "diacetyl"
+  },
+  {
+   "value": 270.0,
+   "unit": "µg/kg",
+   "source_url": "https://iris.unirc.it/retrieve/443c8567-a968-4c04-a64d-b1395b287fcd/foods-13-00209.pdf",
+   "quote": "* **Acetoin = 3-hydroxy-2-butanone: 0.27 ± 0.06 µg/g = 270 µg/kg = 0.27 mg/kg**",
+   "confidence": "measured",
+   "name": "acetoin"
+  },
+  {
+   "value": 80.0,
+   "unit": "µg/kg",
+   "source_url": "https://iris.unirc.it/retrieve/443c8567-a968-4c04-a64d-b1395b287fcd/foods-13-00209.pdf",
+   "quote": "* **2-Heptanone: 0.08 ± 0.01 µg/g = 80 µg/kg**",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 100.0,
+   "unit": "µg/kg",
+   "source_url": "https://iris.unirc.it/retrieve/443c8567-a968-4c04-a64d-b1395b287fcd/foods-13-00209.pdf",
+   "quote": "* **2-Nonanone: 0.10 ± 0.02 µg/g = 100 µg/kg**",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  },
+  {
+   "value": 11080.0,
+   "unit": "µg/kg",
+   "source_url": "https://iris.unirc.it/retrieve/443c8567-a968-4c04-a64d-b1395b287fcd/foods-13-00209.pdf",
+   "quote": "* **Acetic acid (volatile HS-SPME): 11.08 ± 3.35 µg/g = 11080 µg/kg = 11.08 mg/kg**",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 3190.0,
+   "unit": "µg/kg",
+   "source_url": "https://iris.unirc.it/retrieve/443c8567-a968-4c04-a64d-b1395b287fcd/foods-13-00209.pdf",
+   "quote": "* **Butanoic acid (volatile): 3.19 ± 0.28 µg/g = 3190 µg/kg = 3.19 mg/kg**",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 290.0,
+   "unit": "µg/kg",
+   "source_url": "https://iris.unirc.it/retrieve/443c8567-a968-4c04-a64d-b1395b287fcd/foods-13-00209.pdf",
+   "quote": "* **Hexanoic acid (volatile): 0.29 ± 0.02 µg/g = 290 µg/kg**",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 0.0,
+   "reason": "No extended proteolysis or deamination; fresh low-moisture block with minimal free NH3."
+  },
+  "animal_barnyard": {
+   "score": 0.0,
+   "reason": "Pasteurized cow milk, defined thermophilic starter; no enteric or brevi p-cresol/indole/scatole."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "Very short age, limited hydrophobic peptide accumulation from camel/microbial chymosin."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti; methyl ketones very low 2-heptanone 80 ug/kg, 2-nonanone 100 ug/kg."
+  },
+  "browning": {
+   "score": 7.0,
+   "reason": "Strong Maillard on pizza from residual galactose + whey protein in low-moisture matrix."
+  },
+  "buttery": {
+   "score": 3.0,
+   "reason": "Citrate metabolism by Streptococcus thermophilus gives diacetyl 2.59 mg/kg and acetoin 0.27 mg/kg."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Limited lipolysis; butanoic acid only 3.19 mg/kg and hexanoic 0.29 mg/kg, no rind flora."
+  },
+  "creaminess": {
+   "score": 3.0,
+   "reason": "Dense calcium-paracasein network with ~20% fat; firm-elastic rather than creamy."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Aligned pasta-filata fibers deform, do not fracture into crumbs."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "Low-moisture 47-49% with stretched, salted paracasein gives firm sliceable block."
+  },
+  "floral_honey": {
+   "score": 0.0,
+   "reason": "No phenylacetaldehyde/2-phenylethanol reported; no floral lactones in fresh curd."
+  },
+  "fruity": {
+   "score": 1.0,
+   "reason": "Almost no ethyl esters; only trace methyl ketones from beta-oxidation of fatty acids."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk only; no caprine 4-methyloctanoic/4-ethyloctanoic acids."
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "Minimal Strecker 3-methylbutanal/2-methylbutanal and no aged pyrazine/nutty development."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "pH 5.2-5.4 solubilizes colloidal calcium phosphate allowing para-casein flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No 1-octen-3-ol/1-octen-3-one; no mold surface metabolism."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "Heated fat coalescence in stretched matrix releases free oil as pizza topping."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make; no guaiacol or phenols from smoke."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Thermophilic lactic + heterolactic acetic acid 11.08 mg/kg, pH ~5.3, free acidity as lactic."
+  },
+  "stretch": {
+   "score": 9.0,
+   "reason": "Hot-water stretching at ~71C aligns demineralized casein fibers into long strings."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Cook to 41C plus hot stretch denatures whey protein, retains sulfhydryls/H2S cooked-milk note."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Residual lactose/galactose with low acid and diacetyl gives faint sweet-milky background."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "Very short proteolysis; low free glutamate, no aged glutamyl peptide accumulation."
+  }
+ },
+ "filata": true,
+ "non_melter": false,
+ "sources": [
+  "https://iris.unirc.it/retrieve/443c8567-a968-4c04-a64d-b1395b287fcd/foods-13-00209.pdf",
+  "https://fdc.nal.usda.gov/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10171539/"
+ ]
+}

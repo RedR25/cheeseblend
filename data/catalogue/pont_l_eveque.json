@@ -1,0 +1,150 @@
+{
+ "id": "pont_l_eveque",
+ "name": "Pont-l'Évêque",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "washed_rind",
+ "origin": "Normandy, France",
+ "process": {
+  "aging_months": 1.25,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 36.1,
+   "unit": "%",
+   "source_url": "https://wellcomelibrary.org/moh/report/b18254718/23",
+   "quote": "It contained only 36.1 per cent. of moisture, whereas the moisture content should range from 45 to 50 per cent.",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 47.8,
+   "unit": "%",
+   "source_url": "https://wellcomelibrary.org/moh/report/b18254718/23",
+   "quote": "The fat was 47.8 per cent. calculated on the dry matter, and the label claimed \"45 per cent. matiere grasse.\"",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.21,
+   "unit": "%",
+   "source_url": "https://wellcomelibrary.org/moh/report/b18254718/23",
+   "quote": "The salt, 1.21 per cent., was low, as this cheese generally contains about 2 per cent. of salt.",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.3,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 5.0,
+   "reason": "Surface deacidification and amino-acid deamination by Brevibacterium linens/Geotrichum raises rind pH and NH3."
+  },
+  "animal_barnyard": {
+   "score": 5.0,
+   "reason": "Indole ++++ and p-cresol trace from Trp/Tyr catabolism by smear bacteria give barnyard note."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Moderate hydrophobic peptides from rennet/plasmin proteolysis, partly debittered by smear peptidases."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation and no blue methyl-ketone dominance."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Maillard between proteolysis-derived amino groups and residual galactose on heating."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Diacetyl/acetoin from Lactococcus citrate metabolism, partially masked by washed-rind sulfur."
+  },
+  "cheesy_sweaty": {
+   "score": 7.0,
+   "reason": "170 mg/kg 3-methylbutanoic plus 53 mg/kg butanoic and 30 mg/kg hexanoic from lipolysis/Leu catabolism."
+  },
+  "creaminess": {
+   "score": 7.0,
+   "reason": "Around 45% fat-in-dry-matter and 47% moisture give smooth supple high-fat paste."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Rennet-lactic supple paste with solubilized calcium, not friable or granular."
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "Soft washed-rind square holds shape but deforms easily at 45-50% moisture."
+  },
+  "floral_honey": {
+   "score": 6.0,
+   "reason": "2-phenylethanol rated ++++ major from phenylalanine catabolism by yeast/smear flora."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Ethyl butanoate/hexanoate only traces plus 2-heptanone/2-nonanone + from beta-oxidation."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk with no 4-methyloctanoic/4-ethyloctanoic goat markers and low caproic intensity."
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "Strecker 2-/3-methylbutanal and benzaldehyde reduced to alcohols during ripening."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "pH ~6.3 solubilizes colloidal calcium so intact casein network flows on heating."
+  },
+  "mushroom_earthy": {
+   "score": 4.0,
+   "reason": "1-octen-3-ol/1-octen-3-one from linoleic acid lipoxygenase by Geotrichum/P. camemberti."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Soft high-moisture fat matrix releases moderate free oil when melted."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make with no wood-smoke guaiacol/phenols."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "165 mg/kg acetic acid plus 280 mg/kg propionic+2-methylpropionic from heterofermentative flora."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata hot-kneading, acid-rennet curd gives flow without extensibility."
+  },
+  "sulfur_cooked": {
+   "score": 4.0,
+   "reason": "Dimethyl disulfide ++ and trisulfide trace from methionine catabolism by Brevibacterium."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Low residual lactose balanced by lactones and reduced Strecker alcohols."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Glutamate and savory peptides from rennet plus smear surface proteolysis."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://wellcomelibrary.org/moh/report/b18254718/23",
+  "https://fdc.nal.usda.gov/fdc-app.html#/food-search?query=Pont",
+  "http://lib3.dss.go.th/fulltext/Journal/Journal%20of%20food%20science/2000%20v.65/no.1/jfsv65n1p0168-0172ms19990214[1].pdf",
+  "https://wellcomelibrary.org:443/moh/report/b18254718/23",
+  "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf"
+ ]
+}

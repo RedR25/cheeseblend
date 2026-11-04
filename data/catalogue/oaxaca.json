@@ -1,0 +1,159 @@
+{
+ "id": "oaxaca",
+ "name": "Queso Oaxaca",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "pasta_filata",
+ "origin": "Oaxaca, Mexico",
+ "process": {
+  "aging_months": 0,
+  "coagulation": "mixed",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": true
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 53.78,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(16)30416-7/pdf",
+   "quote": "* TC 53.78 ± 0.34 %",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 20.41,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(16)30416-7/pdf",
+   "quote": "* TC 20.41 ± 0.21 %",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.8,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(15)00122-8/fulltext",
+   "quote": "* Plant 1: 1.8 ± 0.1 %",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.25,
+   "unit": "",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(16)30416-7/pdf",
+   "quote": "* TC 5.25 ± 0.10",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 18600.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(15)00122-8/fulltext",
+   "quote": "* d1: 1.86 ± 1.40 mg /100 g cheese",
+   "confidence": "measured",
+   "name": "acetic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 0.0,
+   "reason": "No proteolysis or deamination in 1-day fresh cheese, no NH3 accumulation."
+  },
+  "animal_barnyard": {
+   "score": 0.0,
+   "reason": "Pasteurized cow milk and fresh washed curd, no p-cresol/indole/skatole."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "Minimal proteolysis to hydrophobic peptides in unaged rennet curd."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti, no C7-C11 methyl ketones."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Residual lactose plus protein gives moderate Maillard when melted, limited by high moisture."
+  },
+  "buttery": {
+   "score": 3.0,
+   "reason": "Trace diacetyl and acetoin from Streptococcus thermophilus citrate metabolism, low due to no aging."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Minimal lipolysis to butanoic/hexanoic acids in fresh 1-day curd."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "53.78% moisture with 20.41% fat in stretched paracasein gives soft creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Demineralized stretched paracasein network is fibrous-cohesive, not fracture-crumbly."
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "High moisture aligned pasta-filata casein gives pliable-elastic body, not hard."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Trace milk-fat delta-decalactone/dodecalactone present but un-concentrated without aging."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Trace propyl butanoate and ethyl esters from esterification, very young cheese."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk only, no caprine C6-C10 branched fatty acids."
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "No aged Strecker aldehydes or propionibacteria activity in fresh cheese."
+  },
+  "melt": {
+   "score": 9.0,
+   "reason": "pH 5.25 demineralized calcium-paracasein plus high moisture flows readily on heating."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No mold-derived 1-octen-3-ol/1-octen-3-one."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "Moderate 20.41% fat with intact stretched network limits free oil on melting."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Not smoked, no guaiacol/syringol."
+  },
+  "sour_vinegar": {
+   "score": 2.0,
+   "reason": "Lactic acid from thermophilic starter at pH 5.25 plus only 1.86 mg/100g acetic acid."
+  },
+  "stretch": {
+   "score": 9.0,
+   "reason": "pH 5.2-5.3 aligned pasta-filata fibers from hot-water kneading form long strings."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Hot-water kneading denatures whey protein releasing trace H2S but volatiles flash off."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose and mild lactate with low salt gives milky-sweet perception."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "Very low free glutamate and peptides from minimal proteolysis."
+  }
+ },
+ "filata": true,
+ "non_melter": false,
+ "sources": [
+  "https://www.journalofdairyscience.org/article/S0022-0302(16)30416-7/pdf",
+  "https://www.journalofdairyscience.org/article/S0022-0302(15)00122-8/fulltext",
+  "https://www.journalofdairyscience.org/article/S0022-0302(16)00093-X/fulltext",
+  "https://tools.myfooddata.com/recipe-nutrition-calculator/2647441/100g/1",
+  "http://ri.uaemex.mx/handle/20.500.11799/99322"
+ ]
+}

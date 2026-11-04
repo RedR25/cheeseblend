@@ -1,0 +1,181 @@
+{
+ "id": "livarot",
+ "name": "Livarot",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "washed_rind",
+ "origin": "Normandy, France",
+ "process": {
+  "aging_months": 2.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 52.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 21.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 1.5,
+   "unit": "%",
+   "source_url": "https://journals.asm.org/doi/full/10.1128/microbiolspec.CM-0010-2012",
+   "quote": "cheeses all contained around 1.5 g/100 g.",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 7.8,
+   "unit": "",
+   "source_url": "https://journals.asm.org/doi/full/10.1128/microbiolspec.CM-0010-2012",
+   "quote": "and Tilsit, which reached final pH values of 7.8 and 7.5, respectively.",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 267000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "| **acetic acid** | **267-743 ppm** (= mg/kg) `Livarot 267-743 12` | French Livarot, age/origin not specified in review; data from Kuzdzal-Savoie & Kuzdzal 1971 | http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf |",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 293000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "| **butanoic acid** | **293-327 ppm** `Livarot 293-327 12` in row `butanoic acid rancid, cheesy, putrid, sweaty` | French Livarot, age not specified; from Kuzdzal-Savoie & Kuzdzal 1971 | http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf |",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 455000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "| **3-methylbutanoic acid** | **455-467 ppm** `Livarot 455-467 12` in row `3-methylbutanoic acid rotten fruit, mild, sweaty` | French Livarot, age not specified; from Kuzdzal-Savoie & Kuzdzal 1971 | http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf |",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  },
+  {
+   "value": 14000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "| **hexanoic acid** | **14-103 ppm** `Livarot 14-103 12` in row `hexanoic acid pungent, blue cheese, sour` | French Livarot, age not specified; from Kuzdzal-Savoie & Kuzdzal 1971 | http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf |",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 8.0,
+   "reason": "Extensive amino acid deamination by Brevibacterium linens smear raises surface pH to 7.8 with free NH3."
+  },
+  "animal_barnyard": {
+   "score": 7.0,
+   "reason": "p-cresol, phenol, indole and 3-methylbutanoic acid from Tyr/Trp/Leu catabolism by smear flora."
+  },
+  "bitter": {
+   "score": 5.0,
+   "reason": "Hydrophobic rennet/plasmin peptides accumulated during 60d proteolysis, partly trimmed by smear peptidases."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation and only trace heptan-2-one/nonane-2-one, no blue ketone pathway."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Free amino acids plus residual galactose drive Maillard plus carotenoid smear pigments on heating."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Diacetyl/acetoin from citrate metabolism by mesophilic lactococci, partially masked by smear sulfur."
+  },
+  "cheesy_sweaty": {
+   "score": 9.0,
+   "reason": "Very high 3-methylbutanoic 455-467 ppm plus butanoic 293-327 ppm from lipolysis and leucine catabolism."
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "52% moisture plus rennet proteolysis and ~21% fat softens casein matrix to creamy paste."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Rennet-coagulated, deacidified washed-rind paste deforms plastically rather than fracturing."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Soft but sliceable washed-rind body with banded rind and DM ~48% from light pressing and brining."
+  },
+  "floral_honey": {
+   "score": 4.0,
+   "reason": "2-phenylethanol rated ++++ and phenylacetaldehyde from phenylalanine Ehrlich pathway by yeast/smear."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate/hexanoate from ethanol plus free fatty acids esterification by Debaryomyces/Brevibacterium."
+  },
+  "goaty": {
+   "score": 2.0,
+   "reason": "Low hexanoic 14-103 ppm and absence of goat 4-methyl/4-ethyloctanoic acids in cow milk."
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "2-methylbutanal/3-methylbutanal/isovaleric from Ile/Leu Strecker/transamination by B. linens."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "Rennet gel demineralized then smear-deacidified flows readily on heating, not acid heat-set."
+  },
+  "mushroom_earthy": {
+   "score": 3.0,
+   "reason": "1-octen-3-ol from linoleic acid oxidation, present but lower than bloomy-rind cheeses."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate free oil release from ~21% fat and lipolyzed protein network when melted."
+  },
+  "smoky": {
+   "score": 1.0,
+   "reason": "Only trace phenol from Tyr catabolism, no smoking step applied."
+  },
+  "sour_vinegar": {
+   "score": 5.0,
+   "reason": "Acetic 267-743 ppm from lactate oxidation and heterofermentative metabolism by smear flora."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata hot-water kneading, casein network lacks aligned stretchable fibers."
+  },
+  "sulfur_cooked": {
+   "score": 7.0,
+   "reason": "Methanethiol/dimethyl di-tri-sulfide and methional from methionine demethiolation by B. linens."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Lactose depleted during ripening, faint sweetness only from glycerol and amino acids."
+  },
+  "umami": {
+   "score": 7.0,
+   "reason": "High free glutamate from rennet/plasmin and smear proteolysis during prolonged washed-rind aging."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://journals.asm.org/doi/full/10.1128/microbiolspec.CM-0010-2012",
+  "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+  "https://journals.asm.org/doi/full/10.1128/microbiolspec.cm-0010-2012"
+ ]
+}

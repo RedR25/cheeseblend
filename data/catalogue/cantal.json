@@ -1,0 +1,207 @@
+{
+ "id": "cantal",
+ "name": "Cantal",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "France",
+ "process": {
+  "aging_months": 9,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 37.89,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 29.33,
+   "unit": "%",
+   "source_url": "https://www.thefreelibrary.com/Characterization+of+Cantal+and+Salers+Protected+Designation+of+Origin...-a0830043132",
+   "quote": "| Fat | `29.33 ± 1.29 %` | same | same |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.34,
+   "unit": "%",
+   "source_url": "https://www.thefreelibrary.com/Characterization+of+Cantal+and+Salers+Protected+Designation+of+Origin...-a0830043132",
+   "quote": "| Salt (NaCl) | `2.34 ± 0.15 %` | same | same |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.5,
+   "unit": "",
+   "source_url": "https://www.thefreelibrary.com/Characterization+of+Cantal+and+Salers+Protected+Designation+of+Origin...-a0830043132",
+   "quote": "| pH | `5.50 ± 0.11` | PDO Cantal, 8-12 mo, Massif Central, n=6 | https://www.thefreelibrary.com/Characterization+of+Cantal+and+Salers+Protected+Designation+of+Origin...-a0830043132 |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 63400.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(08)71395-X/fulltext",
+   "quote": "| butanoic acid | control 95 d `63.4±15.4 µg/g` = 63 400 µg/kg = 63.4 mg/kg = 63.4 ppm. With adjuncts: *K. lactis* `88.4±18.6 µg/g`, *P. fermentans* `78.2±6.5 µg/g` same lines. Sample: Cantalet control, 95 d, microfiltered milk + pasteurized cream, France. Method: `Individual FFA (from C2:0 to C18:3) were quantified by GC` | Cantalet 95 d, control, France | https://www.journalofdairyscience.org/article/S0022-0302(08)71395-X/fulltext |",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 18100.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(08)71395-X/fulltext",
+   "quote": "| hexanoic acid | control 95 d `18.1±1.1 µg/g` = 18 100 µg/kg = 18.1 mg/kg. *K. lactis* `18.2±1.5`, *P. fermentans* `19.8±2.6` same lines. | Cantalet 95 d, control, France | same URL |",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 1262000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(08)71395-X/fulltext",
+   "quote": "| acetic acid | control 95 d `1,262±78 µg/g` = 1 262 000 µg/kg = 1 262 mg/kg. *K. lactis* `1,438±3`, *P. fermentans* `1,025±166` same line. | Cantalet 95 d, control, France | same URL |",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 600000.0,
+   "unit": "µg/kg",
+   "source_url": "https://hal.science/hal-00895567/document",
+   "quote": "| propanoic acid / propionate | cheese propionate `0.6 g·kg-1` A, `0.8 g·kg-1` B = 600 000 µg/kg / 600 mg/kg A, 800 mg/kg B propionate anion by ionic chromatography `anions (lactate, propionate, butyrate …) were determined by ionic chromatography`. Sample: Cantal A/B 129/131 d raw milk. No free propanoic acid as volatile absolute in Cantalet paper. | Cantal 129/131 d, raw milk, France | https://hal.science/hal-00895567/document |",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 7.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(08)71395-X/fulltext",
+   "quote": "| 3-methylbutanal | control: 3 d `ND`, 45 d `7±0.2 ng/g` , 95 d `62±23 ng/g` = 62 µg/kg 95 d. *K. lactis* 95 d `183±147 ng/g`, *P. fermentans* `35±17 ng/g` same line. `ND = not detected (zero value was used for ANOVA)`. Quantified with authentic standards, `Compounds were quantified by a regression curve obtained using authentic standards` | Cantalet control 95 d, microfiltered milk, France | https://www.journalofdairyscience.org/article/S0022-0302(08)71395-X/fulltext |",
+   "confidence": "measured",
+   "name": "3-methylbutanal"
+  },
+  {
+   "value": 19.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(08)71395-X/fulltext",
+   "quote": "| ethyl butanoate | control 95 d `19±10 ng/g` = 19 µg/kg = 19 ppb. 3 d `ND`, 45 d `8±3 ng/g`. *K. lactis* 95 d `124±12 ng/g`, *P. fermentans* `16±2` | Cantalet control 95 d, microfiltered milk, France | https://www.journalofdairyscience.org/article/S0022-0302(08)71395-X/fulltext |",
+   "confidence": "measured",
+   "name": "ethyl butanoate"
+  },
+  {
+   "value": 45.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(08)71395-X/fulltext",
+   "quote": "| ethyl hexanoate | control 95 d `45±25 ng/g` = 45 µg/kg. 45 d `6±8 ng/g`. *K. lactis* 95 d `182±39 ng/g` | Cantalet control 95 d, microfiltered milk, France | same URL |",
+   "confidence": "measured",
+   "name": "ethyl hexanoate"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Long 8-12 mo proteolysis and deamination yields low NH3, uncooked pressed interior with no washed rind."
+  },
+  "animal_barnyard": {
+   "score": 3.5,
+   "reason": "Pasture cow milk with p-cresol/indole traces and 600-800 mg/kg propionate from Propionibacterium/rumen carryover."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Accumulated hydrophobic peptides from chymosin/plasmin plus 2.34% NaCl enhances bitter taste in aged paste."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation, methyl ketones 2-heptanone/2-nonanone only trace relative abundance."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Maillard between proteolysis-derived amino acids and residual galactose on heating in aged low-moisture paste."
+  },
+  "buttery": {
+   "score": 3.0,
+   "reason": "Diacetyl/acetoin not detected in ripened Cantal by GC-MS; citrate metabolism by Lactococcus exhausted by 95-130 d."
+  },
+  "cheesy_sweaty": {
+   "score": 5.5,
+   "reason": "High free butanoic 63.4 mg/kg plus hexanoic 18.1 mg/kg and methylbutanoic 6.5 mg/kg from lipolysis and Leu/Ile catabolism."
+  },
+  "creaminess": {
+   "score": 4.5,
+   "reason": "29.3% fat, 47% FDM gives mouth-coating fat, limited by firm 62% DM aged matrix and pH 5.5."
+  },
+  "crumbliness": {
+   "score": 6.0,
+   "reason": "Milled tomme grains salted and pressed, 37.9% moisture and pH 5.5 cause granular fracture."
+  },
+  "firmness": {
+   "score": 7.5,
+   "reason": "High dry matter 62.1% and Ca-phosphate crosslinked uncooked pressed curd aged 9 mo."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Trace phenylethanol floral by GC-O from Phe catabolism by lactococci/yeasts, no quantified phenylacetaldehyde."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Low ethyl butanoate 19 ug/kg and ethyl hexanoate 45 ug/kg from esterase esterification of FFA with ethanol."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk only, no caprine 4-methyloctanoic/4-ethyloctanoic acids."
+  },
+  "malty_nutty": {
+   "score": 5.0,
+   "reason": "3-methylbutanal 62 ug/kg at 95 d from Leu Strecker degradation, increasing with proteolysis to nutty/malty notes."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "pH 5.5 intact casein with 29% fat flows moderately, uncooked but not acid-set non-melter."
+  },
+  "mushroom_earthy": {
+   "score": 3.0,
+   "reason": "1-octen-3-ol/1-octen-3-one mushroom GC-O from linoleate oxidation and natural rind flora."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "Moderate fat 29% with only ~0.6% as free FFA (1.75 g/kg) gives limited free oil on melting."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and no guaiacol reported."
+  },
+  "sour_vinegar": {
+   "score": 5.5,
+   "reason": "Very high acetic 1262 mg/kg from heterofermentative lactate/ citrate metabolism plus lactic acid pH 5.5."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "Rennet-coagulated, milled and pressed, no hot-water pasta-filata alignment."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "No sulfur odors by GC-O, only trace dimethyl disulfide; no cooked-curd H2S/methional accumulation."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactate 16 g/kg and propionate plus fat masking of acidity perceived as mild milky sweet."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Extensive 8-12 mo proteolysis WSN/TN rise releases glutamate and savory peptides."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.thefreelibrary.com/Characterization+of+Cantal+and+Salers+Protected+Designation+of+Origin...-a0830043132",
+  "https://www.journalofdairyscience.org/article/S0022-0302(08)71395-X/fulltext",
+  "https://hal.science/hal-00895567/document",
+  "https://fdc.nal.usda.gov/food-search?type=Foundation&query=cantal",
+  "https://www.mdpi.com/2076-3417/15/2/961"
+ ]
+}

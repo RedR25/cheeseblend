@@ -1,0 +1,151 @@
+{
+ "id": "queijo_minas",
+ "name": "Queijo Minas frescal",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "fresh",
+ "origin": "Brazil",
+ "process": {
+  "aging_months": 0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 63.05,
+   "unit": "%",
+   "source_url": "https://www.Scielo.br/j/pab/a/KTYzNmVZsbX8bxyLsWyZSDJ/?format=pdf&lang=en",
+   "quote": "* **Moisture %, low-SCC (125,000 cells/mL):** 63.05 at 2 d, 64.25 at 9 d, 64.03 at 16 d, 61.52 at 23 d, 62.07 at 30 d",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 21.12,
+   "unit": "%",
+   "source_url": "https://www.Scielo.br/j/pab/a/KTYzNmVZsbX8bxyLsWyZSDJ/?format=pdf&lang=en",
+   "quote": "* **Fat %:** 21.12 low, 23.00 intermediate, 22.75 high, ns",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 0.85,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)00906-1/fulltext",
+   "quote": "* **pH, temperature, salt content ranged from 5.80 to 6.62, 5°C to 12°C, and 0.85% to 1.70%, respectively.**",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.8,
+   "unit": "",
+   "source_url": "https://www.Scielo.br/j/pab/a/KTYzNmVZsbX8bxyLsWyZSDJ/?format=pdf&lang=en",
+   "quote": "* **pH:** 6.80 low, 6.78 intermediate, 6.74 high, ns",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 0.0,
+   "reason": "2-day-old cheese with minimal deamination/urease; no surface flora ammonia release."
+  },
+  "animal_barnyard": {
+   "score": 0.0,
+   "reason": "No p-cresol/indole/skatole from washed-rind or barnyard microbiota."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "Short rennet contact, no accumulation of hydrophobic bitter peptides."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation; 2-heptanone/2-nonanone only trace background."
+  },
+  "browning": {
+   "score": 1.0,
+   "reason": "High moisture and low reducing-sugar/lysine Maillard during brief heating."
+  },
+  "buttery": {
+   "score": 3.0,
+   "reason": "Low diacetyl/acetoin from Lactococcus starter in pasteurized milk fat without ripening concentration."
+  },
+  "cheesy_sweaty": {
+   "score": 1.0,
+   "reason": "Total FFA ~2 mM/kg only; minimal lipase action yields trace butanoic/hexanoic acids."
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "High moisture plus 21% fat gives smooth, moist mouthfeel without ripened breakdown."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Cohesive rennet curd, not dry-aged; fractures little."
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "High moisture 63% rennet gel, dry-salted and molded; soft elastic body."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Trace phenylethyl alcohol from phenylalanine catabolism, diluted by high moisture."
+  },
+  "fruity": {
+   "score": 1.0,
+   "reason": "Ethyl butanoate/hexanoate detected as presence only; no esterase ripening to accumulate esters."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk lacks caprine branched C8-C10 acids like 4-methyloctanoic acid."
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "No ripening proteolysis/Strecker degradation, so 2-/3-methylbutanal near absent."
+  },
+  "melt": {
+   "score": 2.0,
+   "reason": "pH 6.8 retains colloidal calcium phosphate crosslinks, restricting casein flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No 1-octen-3-ol/1-octen-3-one lipoxygenase-mold pathway in fresh vacuum-packed curd."
+  },
+  "oil_off": {
+   "score": 1.0,
+   "reason": "Intact fresh protein network entraps fat; little free oil on warming."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make; no guaiacol/syringol from wood smoke deposition."
+  },
+  "sour_vinegar": {
+   "score": 1.0,
+   "reason": "pH 6.8 with lactic ~1-2 ug/mL and acetic ~0.5 ug/mL extract; almost no acid development."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Not pasta-filata; no hot-water kneading or pH 5.2 demineralization for alignment."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Low-heat batch pasteurization 65C 30min, uncooked curd; little whey protein H2S/methional."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Residual lactose and fresh milkfat lactones perceived sweet at high pH/low salt."
+  },
+  "umami": {
+   "score": 1.0,
+   "reason": "Very low free glutamate; rennet proteolysis index minimal at 2 d storage."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.Scielo.br/j/pab/a/KTYzNmVZsbX8bxyLsWyZSDJ/?format=pdf&lang=en",
+  "https://www.journalofdairyscience.org/article/S0022-0302(21)00906-1/fulltext",
+  "https://www.journalofdairyscience.org/article/S0022-0302(15)00774-2/pdf",
+  "https://www.journalofdairyscience.org/article/S0022-0302(20)30229-0/fulltext",
+  "https://qa1.scielo.br/j/cta/a/qQwrtrgvkyvpGNdLtXQYPfb/?format=pdf&lang=en&ilang=en",
+  "https://www.journalofdairyscience.org/article/S0022-0302(21)00196-X/fulltext"
+ ]
+}

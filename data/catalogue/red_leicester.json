@@ -1,0 +1,150 @@
+{
+ "id": "red_leicester",
+ "name": "Red Leicester",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "cheddar",
+ "origin": "England",
+ "process": {
+  "aging_months": 6.0,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 34.0,
+   "unit": "%",
+   "source_url": "https://media.thomasridley.co.uk/Products/SPECS/98032.pdf",
+   "quote": "Total Moisture | 34-39%",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 33.5,
+   "unit": "%",
+   "source_url": "https://media.thomasridley.co.uk/Products/SPECS/98032.pdf",
+   "quote": "Total Fat | 33.5 – 35.5%",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.86,
+   "unit": "%",
+   "source_url": "https://media.thomasridley.co.uk/Products/SPECS/98032.pdf",
+   "quote": "Salt (g) | 1.86",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.2,
+   "unit": "",
+   "source_url": "https://media.thomasridley.co.uk/Products/SPECS/98032.pdf",
+   "quote": "pH | 5.2",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Low deamination of amino acids during 4-9 mo cloth-bound ripening; no surface flora."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Cow milk only; very low p-cresol/indole from tryptophan catabolism."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Moderate hydrophobic peptides from chymosin/plasmin proteolysis, mostly degraded by starter peptidases."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti; no 2-heptanone/2-nonanone blue-mold ketone pathway."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Maillard between residual galactose/lactose and lysine plus lipid browning when grilled."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Diacetyl/acetoin from Lactococcus lactis citrate metabolism plus C10-C12 delta-lactones from milk fat."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "Moderate lipolysis releasing butanoic/hexanoic/octanoic free fatty acids by starter esterases."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "33.5% fat, >48% FDM with cheddared protein matrix coating mouthfeel."
+  },
+  "crumbliness": {
+   "score": 5.0,
+   "reason": "Cheddared, milled and pressed curd with 34-39% moisture giving firm slightly open fracture."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "Low-moisture pressed cheddar-make with acid-driven calcium loss and cloth-bound aging."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol from phenylalanine Strecker catabolism."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate/hexanoate from esterification of fatty acids with ethanol by lactococci."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "No goat milk; no 4-methyloctanoic/4-ethyloctanoic branched-chain acids."
+  },
+  "malty_nutty": {
+   "score": 6.0,
+   "reason": "Strecker 2-methylbutanal/3-methylbutanal from leucine/isoleucine plus aged pyrazines, classic nutty Leicester note."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "pH 5.2 rennet gel with demineralized casein flows on heating, cheddar-type melt."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "Trace 1-octen-3-ol from linoleic acid oxidation; no bloomy rind metabolism."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Free oil release from coalesced milk-fat globules on heating at ~35% fat."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoke application; no guaiacol/syringol phenols in typical make."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Lactic acid from Lactococcus starter plus trace acetic acid, pH 5.2."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "Milled cheddared curd with no hot-water stretching; no aligned paracasein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low methionine catabolism to methanethiol/dimethyl sulfide; mild cooked note from pasteurization."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Residual lactose fermentation balanced by sweet amino acids proline/glycine and diacetyl caramel."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Glutamate accumulation from starter proteolysis during 6-month maturation."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://media.thomasridley.co.uk/Products/SPECS/98032.pdf",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5656932/",
+  "https://fdc.nal.usda.gov/food-search?type=Branded&query=Red%20Leicester",
+  "https://bmjopen.bmj.com/content/4/8/e005051",
+  "https://bmjopen.bmj.com/content/4/8/e005051/T3"
+ ]
+}

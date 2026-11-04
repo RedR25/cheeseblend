@@ -1,0 +1,172 @@
+{
+ "id": "queso_anejo",
+ "name": "Queso añejo",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "semi_hard",
+ "origin": "Mexico",
+ "process": {
+  "aging_months": 5,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 31.8,
+   "unit": "%",
+   "source_url": "https://www.researchgate.net/publication/229688027_Physicochemical_microbiological_textural_and_sensory_characterisation_of_Mexican_Anejo_cheese",
+   "quote": "* **moisture %:** 31.8 %, 32.9 %, 41.9 %, 36.5 %, 35.9 %, 34.8 % for dairies A-F respectively, range 31.8–41.9 %",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 25.0,
+   "unit": "%",
+   "source_url": "https://www.researchgate.net/publication/229688027_Physicochemical_microbiological_textural_and_sensory_characterisation_of_Mexican_Anejo_cheese",
+   "quote": "* **fat % (Gerber–Van Gulik):** 33.8 %, 33.3 %, 25.3 %, 26.0 %, 25.0 %, 28.7 % for A-F, range 25.0–33.8 % – Fat determined using Gerber–Van Gulik method",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.8,
+   "unit": "%",
+   "source_url": "https://www.researchgate.net/publication/229688027_Physicochemical_microbiological_textural_and_sensory_characterisation_of_Mexican_Anejo_cheese",
+   "quote": "* **salt NaCl % (method 935.43 AOAC):** 2.4 %, 1.8 %, 2.3 %, 2.8 %, 2.8 %, 2.0 % for A-F, range 1.8–2.8 % – NaCl (method 935.43 AOAC) determined",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.1,
+   "unit": "",
+   "source_url": "https://www.researchgate.net/publication/229688027_Physicochemical_microbiological_textural_and_sensory_characterisation_of_Mexican_Anejo_cheese",
+   "quote": "* **pH (penetration pH meter, direct, 24°C, 3 points):** 5.1, 5.1, 5.1, 5.4, 5.3, 5.4 for A-F, range 5.1–5.4 – pH meter calibrated with pH 4 and 7 buffers used to determine pH at 24°C in three different points",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 548000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.researchgate.net/publication/229688027_Physicochemical_microbiological_textural_and_sensory_characterisation_of_Mexican_Anejo_cheese",
+   "quote": "* D: 548 µg/g = 548 mg/kg",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 52000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.researchgate.net/publication/229688027_Physicochemical_microbiological_textural_and_sensory_characterisation_of_Mexican_Anejo_cheese",
+   "quote": "* F: 52 µg/g = 52 mg/kg",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 86000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.researchgate.net/publication/229688027_Physicochemical_microbiological_textural_and_sensory_characterisation_of_Mexican_Anejo_cheese",
+   "quote": "* D: 86 µg/g = 86 mg/kg",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Limited amino acid deamination by LAB/non-starter LAB at aw ~0.94 and dry-salted pressed curd."
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "Raw cow milk pasture-derived p-cresol/indole plus propionic acid from lactate fermentation."
+  },
+  "bitter": {
+   "score": 5.0,
+   "reason": "Hydrophobic peptides from uninhibited chymosin/plasmin proteolysis accentuated by 2-3% NaCl."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation and no blue-mold methyl-ketone pathway."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Moderate Maillard from residual galactose/lactose plus proteolysis peptides when grated and heated."
+  },
+  "buttery": {
+   "score": 3.0,
+   "reason": "Diacetyl/acetoin from Lactococcus lactis citrate metabolism diminished by salt and long aging."
+  },
+  "cheesy_sweaty": {
+   "score": 7.0,
+   "reason": "High free butanoic up to 1500 mg/kg plus hexanoic from milk lipase and microbial lipolysis."
+  },
+  "creaminess": {
+   "score": 2.0,
+   "reason": "Low moisture ~35.6% and high protein ~28-30% give dry granular mouthfeel, not fat-emulsion cream."
+  },
+  "crumbliness": {
+   "score": 8.0,
+   "reason": "Low pH 5.1-5.4 calcium-solubilized paracasein plus pressing, salting and aging fracture."
+  },
+  "firmness": {
+   "score": 8.0,
+   "reason": "Pressed, dry-salted, aged low-moisture 32-42% matrix with dense cross-linked casein."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Very low phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism in salty low-aw curd."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Limited ethyl butanoate/hexanoate esterification by LAB esterases under low moisture/high salt."
+  },
+  "goaty": {
+   "score": 2.0,
+   "reason": "Cow milk only, no goat branched medium-chain acids; only low caproic/caprylic from lipolysis."
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "Strecker aldehydes 3-methylbutanal/2-methylbutanal from leucine/isoleucine plus proteolysis nuttiness."
+  },
+  "melt": {
+   "score": 2.0,
+   "reason": "Low pH, low moisture and ~2.35% salt restrict paracasein hydration and flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "No bloomy/Geotrichum flora; negligible 1-octen-3-ol from linoleic acid oxidation."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "~29% fat largely entrapped in hard aged protein network, little free oil release."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and no guaiacol/phenol deposition process."
+  },
+  "sour_vinegar": {
+   "score": 7.0,
+   "reason": "Very high free acetic 548-3600 mg/kg from heterofermentative LAB lactose/lactate and citrate metabolism."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Rennet curd not pasta-filata; no hot-water kneading or aligned demineralized casein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "No curd cooking and low methionine catabolism to methanethiol/dimethyl sulfides/methional."
+  },
+  "sweet": {
+   "score": 1.0,
+   "reason": "Lactose depleted by fermentation and sweetness masked by acid plus high NaCl."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Free glutamate accumulation from calf chymosin plus plasmin/ LAB peptidase proteolysis over months."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://www.researchgate.net/publication/229688027_Physicochemical_microbiological_textural_and_sensory_characterisation_of_Mexican_Anejo_cheese",
+  "https://www.journalofdairyscience.org/article/S0022-0302(17)30132-7/fulltext"
+ ]
+}

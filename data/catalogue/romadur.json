@@ -1,0 +1,191 @@
+{
+ "id": "romadur",
+ "name": "Romadur",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "washed_rind",
+ "origin": "Germany",
+ "process": {
+  "aging_months": 0.75,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 52.8,
+   "unit": "%",
+   "source_url": "https://www.nutridatabaze.cz/en/food/?id=0107",
+   "quote": "| **moisture %** | **52.8 g /100 g = 52.8 % water**<br>Water \\| WATER \\| g \\| 52.8<br>Protein 23.0 g, Fat 19.9 g, Carbohydrate 1.8 g, Ash 3.7 g in same record | Reference food: `Sýr, Romadur, 40 % t. v s.` / `Cheese, Romadur, 40% fidm` FCDB ID 0107<br>Cow milk, soft cured ripened cheese, Czech database, age not specified | https://www.nutridatabaze.cz/en/food/?id=0107 |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 19.9,
+   "unit": "%",
+   "source_url": "https://www.nutridatabaze.cz/en/food/?id=0107",
+   "quote": "| **fat %** | **19.9 g /100 g = 19.9 % total lipid**<br>Fat, total (total lipid) \\| 19.9 \\| g, `FAT \\| g \\| 19.9`<br>Label: 40 % fat in dry matter | Same NutriDatabaze.cz 0107 reference food as above, 40 % fidm, Czech, age not specified | https://www.nutridatabaze.cz/en/food/?id=0107 |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.7,
+   "unit": "%",
+   "source_url": "https://www.nutridatabaze.cz/en/food/?id=0107",
+   "quote": "| **salt (NaCl) %** | **2.7 g /100 g = 2.7 % NaCl**<br>Salt \\| 2.7 \\| g, `Salt \\| NACL \\| g \\| 2.7`<br>Sodium 1063 mg /100 g | Same NutriDatabaze.cz 0107 reference food, 40 % fidm, Czech, age not specified | https://www.nutridatabaze.cz/en/food/?id=0107 |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 7.0,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [
+  {
+   "value": 1968000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "| **acetic acid** | **1968 ppm = 1968 mg/kg = 196.8 mg/100 g**<br>`Epoisses 1760 4 Romadur 1968 17` within acetic acid range `Camembert 13-66/300/++/59-92 12,14/4,17/20/11` | Romadur, Schormüller & Langner 1960, age/origin n.s. in review | http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf = J. Agric. Food Chem. 1999, 47, 4825-4836 |",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 947000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "| **propanoic acid (= propionic acid)** | **947 ppm = 947 mg/kg**<br>`Romadur 947 17` | Same as above | Same as above |",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 139000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "| **butanoic acid** | **139 ppm = 139 mg/kg**<br>`Epoisses 2340 4 Romadur 139 17` | Same | Same |",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 130000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "| **3-methylbutanoic acid** | **130 ppm = 130 mg/kg**<br>`Vacherin 24 12 Epoisses 430 4 Romadur 130 17` | Same | Same |",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  },
+  {
+   "value": 139000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "| **hexanoic acid** | **139 ppm = 139 mg/kg**<br>`Epoisses 160 4 Romadur 139 17` within hexanoic block `Camembert 23-143/290/5/tr/58.5-70 12/17/9,22/8,20/11` | Same | Same |",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 7.0,
+   "reason": "NH3 from amino-acid deamination by Brevibacterium linens/Arthrobacter drives deacidification pH 5 to ~7"
+  },
+  "animal_barnyard": {
+   "score": 6.0,
+   "reason": "p-cresol, m-cresol and indole from tyrosine/tryptophan catabolism by red-smear flora"
+  },
+  "bitter": {
+   "score": 5.0,
+   "reason": "Hydrophobic peptides from chymosin/plasmin proteolysis partly trimmed by smear peptidases"
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation; 2-heptanone/2-nonanone/2-undecanone not reported"
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Maillard between free amino acids and residual galactose/lactose on heating"
+  },
+  "buttery": {
+   "score": 3.0,
+   "reason": "Low diacetyl/acetoin from lactococcal citrate fermentation, masked by smear acids/sulfur"
+  },
+  "cheesy_sweaty": {
+   "score": 7.0,
+   "reason": "High branched acids: isobutyric 633ppm, 2-methylbutanoic 163ppm, 3-methylbutanoic 130ppm plus butanoic 139ppm from Val/Leu/Ile catabolism and lipolysis"
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "52.8% moisture with 40% FDM plus smear proteolysis softening to smooth creamy paste"
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "High moisture rennet gel with extensive surface proteolysis gives pliable non-fracturing body"
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "Soft washed-rind paste at 52.8% moisture, much softer than semi-hard/hard cheeses"
+  },
+  "floral_honey": {
+   "score": 4.0,
+   "reason": "2-phenylethanol/phenylacetaldehyde from phenylalanine catabolism plus p-cresol detected"
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "10 ethyl esters from esterification of ethanol with acids by Debaryomyces/Brevibacterium"
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "4-methyloctanoic/4-ethyloctanoic not detected in cow-milk soft cheese; hexanoic only 139ppm"
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "3-methylbutanal/2-methylbutanal from leucine/isoleucine Strecker degradation, qualitative only"
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "Rennet-coagulated high-moisture pH-neutralized casein network flows readily on heating"
+  },
+  "mushroom_earthy": {
+   "score": 3.0,
+   "reason": "1-octen-3-ol from linoleic acid oxidation and smear metabolism, lower than bloomy rinds"
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate 19.9% fat with free decanoic 705ppm/dodecanoic 600ppm from lipolysis promotes oiling"
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked; guaiacol and phenolic smoke compounds not reported"
+  },
+  "sour_vinegar": {
+   "score": 7.0,
+   "reason": "Very high acetic acid 1968ppm plus propanoic 947ppm from lactate metabolism and smear deacidification"
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No hot-water kneading/stretching; rennet curd without aligned paracasein fibers"
+  },
+  "sulfur_cooked": {
+   "score": 6.0,
+   "reason": "Methanethiol/dimethyl disulfide/trisulfide from methionine gamma-lyase in B. linens"
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Most lactose fermented leaving ~1.8% carbohydrate; slight sweetness from glycerol and Ala/Gly"
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "Glutamate release from rennet/plasmin plus intense Brevibacterium proteolysis"
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.nutridatabaze.cz/en/food/?id=0107",
+  "https://journals.asm.org/doi/10.1128/aem.63.12.4812-4817.1997",
+  "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+  "https://nutrelino.com/en/food-detail/syr-romadur-40-t-v-s-2",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12057542/"
+ ]
+}

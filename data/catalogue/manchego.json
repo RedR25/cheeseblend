@@ -1,0 +1,230 @@
+{
+ "id": "manchego",
+ "name": "Manchego",
+ "milk": "sheep",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "La Mancha, Spain",
+ "process": {
+  "aging_months": 4,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 37.15,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10301324/",
+   "quote": "**Moisture 37.15 ± 1.93 % (w/w)**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 32.51,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10301324/",
+   "quote": "**Fat 32.51 ± 1.18 % (w/w) WCC**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.8,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 4.85,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10301324/",
+   "quote": "**pH 4.85 ± 0.25 WCC**",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 1145810.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10301324/",
+   "quote": "| **diacetyl** = 2,3-butanedione | **1145.81 ±56.38 mg·kg-1 cheese WCC ; 1041.65 ±59.98 mg·kg-1 WEC** | Sample A, 3-mo, pasteurized ewe's milk Manchego, Spain | https://pmc.ncbi.nlm.nih.gov/articles/PMC10301324/ |",
+   "confidence": "measured",
+   "name": "diacetyl"
+  },
+  {
+   "value": 248700.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10301324/",
+   "quote": "| **acetoin** = 3-hydroxy-2-butanone | **248.70 ±20.09 mg·kg-1 WCC ; 212.60 ±24.60 mg·kg-1 WEC** | Sample A, same | same |",
+   "confidence": "measured",
+   "name": "acetoin"
+  },
+  {
+   "value": 17320.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10301324/",
+   "quote": "| **butanoic acid** = butyric acid | **17.32 ±3.60 mg·kg-1 WCC ; 21.16 ±3.93 mg·kg-1 WEC** Total SCFFAs 189.71 vs 192.43 mg·kg-1, no significant difference (p≤0.05) | Sample A, 3-mo, Spain | https://pmc.ncbi.nlm.nih.gov/articles/PMC10301324/ |",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 3960.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10301324/",
+   "quote": "| **hexanoic acid** = caproic acid | **3.96 ±3.12 mg·kg-1 WCC ; 3.72 ±3.61 mg·kg-1 WEC** | Sample A, 3-mo, Spain | https://pmc.ncbi.nlm.nih.gov/articles/PMC10301324/ |",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 133060.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10301324/",
+   "quote": "| **acetic acid** | **133.06 ±6.19 mg·kg-1 WCC ; 129.53 ±8.96 mg·kg-1 WEC** | Sample A, 3-mo, Spain | https://pmc.ncbi.nlm.nih.gov/articles/PMC10301324/ |",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 35360.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10301324/",
+   "quote": "| **propanoic acid** = propionic acid | **35.36 ±4.96 mg·kg-1 WCC ; 38.02 ±4.90 mg·kg-1 WEC** | Sample A, 3-mo, Spain | https://pmc.ncbi.nlm.nih.gov/articles/PMC10301324/ |",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 1358960.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10301324/",
+   "quote": "| **3-methylbutanal** | **1358.96 ±70.32 mg·kg-1 WCC ; 1452.95 ±77.80 mg·kg-1 WEC** Aldehydes total 1377.45 vs 1472.90 mg/kg | Sample A, 3-mo, Spain | https://pmc.ncbi.nlm.nih.gov/articles/PMC10301324/ |",
+   "confidence": "measured",
+   "name": "3-methylbutanal"
+  },
+  {
+   "value": 512179.99999999994,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10301324/",
+   "quote": "| **2-heptanone** | **512.18 ±22.78 mg·kg-1 WCC ; 496.21 ±30.21 mg·kg-1 WEC** Ketones total 2306.05 vs 2141.87 mg/kg | Sample A, 3-mo, Spain | https://pmc.ncbi.nlm.nih.gov/articles/PMC10301324/ |",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 125.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(07)71967-7/fulltext",
+   "quote": "| **phenylacetaldehyde** | **125 ±12.2 µg/kg in fraction F4 ; 45 ±4.2 µg/kg in fraction F5** Quantification in µg/kg with floral/rose aroma in F4 and F5 fractions; calibration y=3785x-7535 R2=0.988 | Sample B, WSF <1000 Da F4/F5 from 4-mo PDO Manchego, Spain – **fraction value, not whole cheese** | https://www.journalofdairyscience.org/article/S0022-0302(07)71967-7/fulltext |",
+   "confidence": "measured",
+   "name": "phenylacetaldehyde"
+  },
+  {
+   "value": 345.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(07)71967-7/fulltext",
+   "quote": "| **2-phenylethanol** | **345 ±40 µg/kg in F4 ; 60 ±2.8 µg/kg in F5** Same table/units as above | Sample B, same – fraction value, not whole cheese | same |",
+   "confidence": "measured",
+   "name": "2-phenylethanol"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Low secondary deamination in pressed low-moisture interior; ammonia not quantified in Manchego."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "p-cresol/indole not found; slight sheep pasture phenols but clean brine-pressed make."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Hydrophobic rennet peptides from sheep casein at low pH 4.85, tempered by salt and fat."
+  },
+  "blue_moldy": {
+   "score": 2.0,
+   "reason": "No Penicillium; background 2-heptanone 512 mg/kg from fatty-acid beta-oxidation gives faint ketone must."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Residual peptides, amino acids and lactate undergo Maillard on heating to golden-brown."
+  },
+  "buttery": {
+   "score": 7.0,
+   "reason": "Lactococcus citrate metabolism yields diacetyl 1145 mg/kg plus acetoin 249 mg/kg in high-fat sheep matrix."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "Moderate lipolysis: butyric 17.3 mg/kg plus caproic 4.0 mg/kg plus acetic 133 mg/kg from lipase/esterase."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "Fat 32.5% ~52% FDM sheep butterfat coats mouth despite firm pressed paste."
+  },
+  "crumbliness": {
+   "score": 5.0,
+   "reason": "Moisture 37.2% plus 3-4 mo proteolysis and calcium-lactate crystals cause granular fracture."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Washed-curd pressed 20h to moisture 37.2% forms dense demineralized paracasein network."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Phe catabolism yields phenylacetaldehyde and 2-phenylethanol rose/floral in <1000 Da WSF fractions."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "High ethanol 4385 mg/kg drives esterification to even-chain ethyl butyrate to decanoate, low vs surface cheeses."
+  },
+  "goaty": {
+   "score": 3.0,
+   "reason": "Sheep-milk short and branched-chain fatty acids including caproic and methyloctanoic-type; calf rennet not goat-pregastric."
+  },
+  "malty_nutty": {
+   "score": 7.0,
+   "reason": "Very high Strecker 3-methylbutanal 1359 mg/kg from leucine catabolism gives malty-hazelnut note."
+  },
+  "melt": {
+   "score": 5.0,
+   "reason": "pH 4.85 demineralized casein at 37% moisture flows moderately on heating but not fluid."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "1-octen-3-ol/1-octen-3-one not detected; no mold linoleate oxidation."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "High 32.5% sheep butterfat coalesces and leaks free oil on melting."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked paste; guaiacol not detected and smoked false."
+  },
+  "sour_vinegar": {
+   "score": 5.0,
+   "reason": "Lactic fermentation to pH 4.85 plus acetic 133 mg/kg and propionic 35 mg/kg from heterofermentative LAB."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Rennet-pressed non-pasta-filata curd lacks aligned plasticized casein; stretched false."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Light heating only to 37-38C without whey-protein denaturation; methanethiol/DMDS not detected."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Lactose depleted but diacetyl/acetoin and propionic acid give faint sweet-caramel against acid."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "3-4 mo rennet plus LAB proteolysis of 25% protein releases glutamate savory peptides."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10301324/",
+  "https://www.journalofdairyscience.org/article/S0022-0302(07)71967-7/fulltext",
+  "https://www.mdpi.com/2304-8158/9/11/1666",
+  "https://food.saltie.app/food/436da80d-a98f-4b71-a6fc-ffeedc422912"
+ ]
+}

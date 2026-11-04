@@ -1,0 +1,150 @@
+{
+ "id": "roncal",
+ "name": "Roncal",
+ "milk": "sheep",
+ "treatment": "raw",
+ "style": "semi_hard",
+ "origin": "Spain (Navarre, Roncal Valley)",
+ "process": {
+  "aging_months": 6,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 30.0,
+   "unit": "%",
+   "source_url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/cheeses",
+   "quote": "| Roncal | 30.0 | 38.2 | 26.2 | 1.3 | – | 454 |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 38.2,
+   "unit": "%",
+   "source_url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/cheeses",
+   "quote": "| Roncal | 30.0 | 38.2 | 26.2 | 1.3 | – | 454 |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.8,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.3,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Low ammonia from limited amino acid deamination in low-moisture pressed curd."
+  },
+  "animal_barnyard": {
+   "score": 6.0,
+   "reason": "Sheepy wool/stable notes from p-cresol and branched-chain 4-methyloctanoic acids in ewe milk fat."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Moderate bitter hydrophobic peptides from rennet and plasmin proteolysis during 4-6 mo aging."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "Absent methyl ketones from Penicillium roqueforti; mold-free pressed rind."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Moderate Maillard browning from residual protein and low lactose plus caramelized notes on heating."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Buttery diacetyl/acetoin from citrate fermentation by lactic starters plus 38.2% fat."
+  },
+  "cheesy_sweaty": {
+   "score": 6.0,
+   "reason": "Sweaty butyric/hexanoic acids from moderate lipolysis, total FFA ~8.2 g/kg."
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "Creamy mouthfeel limited by 30% moisture firm matrix despite high fat."
+  },
+  "crumbliness": {
+   "score": 5.0,
+   "reason": "Moderate crumbly fracture from low moisture and extensive proteolysis weakening curd."
+  },
+  "firmness": {
+   "score": 8.0,
+   "reason": "Very firm pressed curd at 30% moisture and 6 mo aging."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Light floral 2-phenylethanol/phenylacetaldehyde from phenylalanine catabolism."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Fruity ethyl butanoate/hexanoate esters from FFA esterification with ethanol."
+  },
+  "goaty": {
+   "score": 2.0,
+   "reason": "Low goaty caproic/caprylic sharpness; ewe milk less goaty than goat despite short-chain FFA."
+  },
+  "malty_nutty": {
+   "score": 7.0,
+   "reason": "Nutty-toasty Strecker aldehydes 2-/3-methylbutanal and 2-methylpropanal from leucine/valine."
+  },
+  "melt": {
+   "score": 4.0,
+   "reason": "Moderate-low flow when heated due to low moisture, low pH and aged protein network."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "Trace 1-octen-3-ol from fatty acid oxidation; no bloomy rind."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate free oil release on heating from 38.2% fat in hard matrix."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and no guaiacol formation."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Mild acetic/propanoic acid from heterofermentative metabolism and lipolysis."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata stretching; rennet curd does not form aligned casein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low dimethyl sulfide/disulfide and methional from methionine catabolism."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Low residual lactose/lactate with toffee/caramel lactones giving slight sweetness."
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "Brothy glutamate and savory peptides from 26% protein proteolysis."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/cheeses",
+  "https://www.journalofdairyscience.org/article/S0022-0302(01)70161-0/pdf",
+  "https://digital.csic.es/dspace-oai/request?verb=GetRecord&metadataPrefix=datacite&identifier=oai:digital.csic.es:10261/115964",
+  "https://www.yumpu.com/en/document/view/59581085/biochemistry-of-cheese-ripening-guide/28",
+  "https://www.agroscope.admin.ch/agroscope/it/home/temi/animali-reddito/api/bienenkrankheiten/varroa/varroa-bekaempfung/thymol/_jcr_content/par/columncontrols/items/0/column/externalcontent.bitexternalcontent.exturl.pdf/aHR0cHM6Ly9pcmEuYWdyb3Njb3BlLmNoL2l0LUNIL0FqYXgvRW/luemVscHVibGlrYXRpb24vRG93bmxvYWQ_ZWluemVscHVibGlr/YXRpb25JZD0xODQ3OA==.pdf"
+ ]
+}

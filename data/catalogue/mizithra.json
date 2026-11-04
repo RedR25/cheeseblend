@@ -1,0 +1,148 @@
+{
+ "id": "mizithra",
+ "name": "Mizithra",
+ "milk": "mixed",
+ "treatment": "pasteurized",
+ "style": "fresh",
+ "origin": "Greece",
+ "process": {
+  "aging_months": 0.0,
+  "coagulation": "acid_heat",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 71.0,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10297615/",
+   "quote": "Myzithra | 2 | Mean | 5 | 71 | 14 | 0 | 15 | 1.7 | 82 | 47 | 0 | 28 | 90 | -1.1 | 14 |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 14.0,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10297615/",
+   "quote": "Myzithra | 2 | Mean | 5 | 71 | 14 | 0 | 15 | 1.7 | 82 | 47 | 0 | 28 | 90 | -1.1 | 14 |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 0.9,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10297615/",
+   "quote": "Fresh myzithra partly skimmed | 2 | Mean | 5.8 | 66 | 17 | 0.90 | 11.8 | 1.7 | 80 | 50.1 | 1.3 | 4 x 10 | 89.3 | -1.6 | 1.6 x 10 |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.0,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10297615/",
+   "quote": "Myzithra | 2 | Mean | 5 | 71 | 14 | 0 | 15 | 1.7 | 82 | 47 | 0 | 28 | 90 | -1.1 | 14 |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 0.5,
+   "reason": "Negligible deamination with no ripening and low proteolysis in fresh whey protein."
+  },
+  "animal_barnyard": {
+   "score": 0.5,
+   "reason": "Minimal p-cresol/indole from sheep-goat whey diluted by high-heat treatment."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "Few hydrophobic bitter peptides due to no rennet and no extended proteolysis."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti; no 2-heptanone/2-nonanone methyl ketones formed."
+  },
+  "browning": {
+   "score": 1.0,
+   "reason": "High 71% moisture and no aging limits Maillard despite residual lactose plus lysine."
+  },
+  "buttery": {
+   "score": 2.0,
+   "reason": "Low diacetyl/acetoin from minimal citrate fermentation and low 14% fat."
+  },
+  "cheesy_sweaty": {
+   "score": 1.0,
+   "reason": "Very low butyric/isovaleric acids with no rennet lipolysis and fresh age."
+  },
+  "creaminess": {
+   "score": 7.0,
+   "reason": "High moisture plus denatured whey protein and fat globules give creamy spoonable paste."
+  },
+  "crumbliness": {
+   "score": 4.0,
+   "reason": "Grainy aggregated albumin ricotta-like curd fractures short without elasticity."
+  },
+  "firmness": {
+   "score": 2.0,
+   "reason": "Very high moisture heat-precipitated whey gel is soft and spreadable."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Very low phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism when fresh."
+  },
+  "fruity": {
+   "score": 1.0,
+   "reason": "Virtually no ethyl butanoate/hexanoate esters without aging or esterase activity."
+  },
+  "goaty": {
+   "score": 2.0,
+   "reason": "Low caproic/caprylic/capric acids from sheep-goat whey fat with minimal lipolysis."
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "No aged Strecker aldehydes like 3-methylbutanal or pyrazines with 0 months aging."
+  },
+  "melt": {
+   "score": 1.0,
+   "reason": "Denatured whey proteins lack intact casein network so softens but does not flow."
+  },
+  "mushroom_earthy": {
+   "score": 0.5,
+   "reason": "Trace 1-octen-3-ol from linoleate oxidation suppressed by 85-90C whey heating."
+  },
+  "oil_off": {
+   "score": 0.5,
+   "reason": "Low 14% fat entrapped in whey protein matrix releases almost no free oil on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make; no guaiacol/syringol smoke phenols."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Moderate lactic acid with trace acetic acid from LAB at pH 5.0."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No intact para-casein or pasta-filata step; acid-heat curd cannot stretch."
+  },
+  "sulfur_cooked": {
+   "score": 4.0,
+   "reason": "Beta-lactoglobulin denaturation at 85-90C releases H2S and cooked-milk sulfides."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Residual lactose and whey sweetness enhanced by low 0.9% salt."
+  },
+  "umami": {
+   "score": 1.5,
+   "reason": "Very low free glutamate without proteolysis or aging."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10297615/",
+  "https://clinmedjournals.org/articles/jnmdc/journal-of-nutritional-medicine-and-diet-care-jnmdc-2-017.pdf",
+  "https://fdc.nal.usda.gov/fdc-app.html#/food-details/361973/nutrients"
+ ]
+}

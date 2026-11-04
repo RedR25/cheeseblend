@@ -1,0 +1,147 @@
+{
+ "id": "selles_sur_cher",
+ "name": "Selles-sur-Cher",
+ "milk": "goat",
+ "treatment": "raw",
+ "style": "soft_bloomy",
+ "origin": "France",
+ "process": {
+  "aging_months": 0.75,
+  "coagulation": "mixed",
+  "cooked": false,
+  "mold": "white",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 56.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 23.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 1.6,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 4.55,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Short 3-week ripening with Geotrichum/P.candidum gives limited amino acid deamination to NH3."
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "Goat milk p-cresol, indole and phenols from pasture plus caprine lipolysis give barnyard note."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Low-level hydrophobic peptides from chymosin and starter peptidases in lactic curd."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation so no blue methyl-ketone 2-heptanone/2-nonanone pathway."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Moderate protein and residual lactate/sugars allow Maillard on chèvre-chaud grilling."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Lactococcus lactis biovar diacetylactis citrate metabolism yields diacetyl/acetoin."
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "Lipoprotein lipase plus Geotrichum lipases release C4-C8 free fatty acids butanoic/hexanoic."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "Surface flora proteolysis and pH rise liquefy paste under bloomy ash rind to creamy layer."
+  },
+  "crumbliness": {
+   "score": 6.0,
+   "reason": "Low-pH demineralized acid gel lacks calcium crosslinks and fractures into chalky crumbs."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Lactic acid gel with drained 55-57% moisture retains firm chalky core when ripe."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylalanine catabolism to phenylacetaldehyde/2-phenylethanol by starter and yeasts."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Microbial esterases form low ethyl butanoate/hexanoate from free fatty acids and ethanol."
+  },
+  "goaty": {
+   "score": 7.0,
+   "reason": "Goat-specific branched-chain 4-methyloctanoic and 4-ethyloctanoic acids released by lipolysis."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "Strecker degradation of leucine/isoleucine to 3-methylbutanal gives light nutty note."
+  },
+  "melt": {
+   "score": 3.0,
+   "reason": "Acid-demineralized low-pH curd softens and creams but shows limited viscous flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 5.0,
+   "reason": "Geotrichum candidum and P.candidum produce 1-octen-3-ol and earthy metabolites on ash rind."
+  },
+  "oil_off": {
+   "score": 1.0,
+   "reason": "Moderate fat bound in acid protein matrix releases little free oil on warming."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Vegetable charcoal ash is color coating only with no wood-smoke guaiacol deposition."
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "Predominant L-lactic acid plus trace acetic from heterofermentative flora at pH ~4.5."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No hot-water kneading and acid curd has no intact calcium-paracasein stretch network."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Uncooked lactic make with no high heat gives minimal methionine to methanethiol/DMS."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Most lactose fermented to lactate leaving slight sweet from milk fat lactones and proteins."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Short proteolysis by rennet and surface flora releases modest glutamate peptides."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://hal.science/hal-00929594",
+  "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/goat-cheese"
+ ]
+}

@@ -1,0 +1,191 @@
+{
+ "id": "limburger",
+ "name": "Limburger",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "washed_rind",
+ "origin": "Belgium",
+ "process": {
+  "aging_months": 2,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 48.42,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/food-details/171243/nutrients",
+   "quote": "| Water | 48.42 g | 48.42% |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 27.25,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/food-details/171243/nutrients",
+   "quote": "| Total lipid (fat) | 27.25 g | 27.25% |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.03,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 6.97,
+   "unit": "",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(84)81380-6/pdf",
+   "quote": "The pH of this sample was 6.97,",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 1457000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "|  | Limburger  +++/19.2%/1457 20/15/22 |",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 688000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "Limburger tr/9%/688 20/15/22",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 24000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "Limburger 29.3%/24 15/22",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  },
+  {
+   "value": 210.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(49)92073-1/pdf",
+   "quote": "Brick (0.017), Limburger (0.021), Camembert (0.008), Blue Mold (0.030), Edam (0.043), Port Salut (0.074) and Cottage (0.029).",
+   "confidence": "measured",
+   "name": "diacetyl"
+  },
+  {
+   "value": 2000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.jbc.org/article/S0021-9258(18)87536-6/pdf",
+   "quote": "Highest in good ripe Limburger: 1 part in 52,800 parts cheese = 18.94 mg/kg ≈ 18.9 ppm; lower ripe samples 1 part in 500,000 = 2 mg/kg = 2 ppm; young cheese too low to quantify.",
+   "confidence": "measured",
+   "name": "indole"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 8.0,
+   "reason": "Extensive amino acid deamination by Brevibacterium linens raises pH to 6.97 with free NH3."
+  },
+  "animal_barnyard": {
+   "score": 9.0,
+   "reason": "Tryptophan to indole up to 18.9 mg/kg plus phenol 54.3% of neutrals and p-cresol from tyrosine."
+  },
+  "bitter": {
+   "score": 6.0,
+   "reason": "Rennet and Brevibacterium proteinases accumulate hydrophobic bitter peptides during smear ripening."
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "No Penicillium roqueforti; 2-heptanone 3.8% relative only from minor beta-oxidation, not blue pathway."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "High moisture 48.4% protein matrix with residual reducing sugars undergoes moderate Maillard on heating."
+  },
+  "buttery": {
+   "score": 3.0,
+   "reason": "Very low diacetyl 0.21 mg/kg by citrate fermentation, masked by sulfury acids."
+  },
+  "cheesy_sweaty": {
+   "score": 9.0,
+   "reason": "Total FFA 4187 mg/kg with butanoic 1457 mg/kg and hexanoic 688 mg/kg from lipolysis."
+  },
+  "creaminess": {
+   "score": 8.0,
+   "reason": "High moisture 48.4% plus smear proteolysis and demineralization give pasty creamy body."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Rennet smear-ripened paste is cohesive and pasty, not acid-precipitated crumbly curd."
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "Semi-soft 48.4% moisture rennet curd softened by surface-to-center proteolysis."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Phenylacetaldehyde and 2-phenylethanol from phenylalanine only at trace levels."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Ethyl esters e.g. ethyl octanoate only trace due to low ethanol and esterase activity."
+  },
+  "goaty": {
+   "score": 3.0,
+   "reason": "No goat 4-methyl/4-ethyloctanoic acids; hexanoic 688 mg/kg and octanoic 24 mg/kg give only mild caprine sharpness."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "Leucine/isoleucine to 3-methylbutanal Strecker aldehydes present but overshadowed by sulfur."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "Rennet, pH 6.97 deacidified intact para-casein network flows well on heating."
+  },
+  "mushroom_earthy": {
+   "score": 3.0,
+   "reason": "Some 1-octen-3-ol from linoleic acid oxidation but less than Geotrichum bloomy rinds."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "27.25% fat soft matrix releases moderate free oil, not excessive oiling."
+  },
+  "smoky": {
+   "score": 1.0,
+   "reason": "No smoking; phenol is manure-like not guaiacol wood-smoke phenol."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Acetic and propanoic >1000 mg/kg present but high pH 6.97 from lactate consumption suppresses sour perception."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "Non-pasta-filata rennet curd with no hot-water alignment of casein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 9.0,
+   "reason": "Methionine catabolism by B. linens to methanethiol, dimethyl disulfide 13.2% and trisulfide."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Lactose fully fermented and 2.03% salt suppresses sweetness, no added sugars."
+  },
+  "umami": {
+   "score": 7.0,
+   "reason": "Intense proteolysis releases glutamate and savory peptides during 2-month smear aging."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://fdc.nal.usda.gov/food-details/171243/nutrients",
+  "https://www.journalofdairyscience.org/article/S0022-0302(84)81380-6/pdf",
+  "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+  "https://www.journalofdairyscience.org/article/S0022-0302(49)92073-1/pdf",
+  "https://www.jbc.org/article/S0021-9258(18)87536-6/pdf"
+ ]
+}

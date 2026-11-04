@@ -1,0 +1,187 @@
+{
+ "id": "asiago",
+ "name": "Asiago",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Italy",
+ "process": {
+  "aging_months": 6.0,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 31.17,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)30860-3/fulltext",
+   "quote": "* **moisture: 31.17 ±1.60 g/100 g = 31.17 %**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 28.6,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/food-details/403087/nutrients",
+   "quote": "* **fat (Total lipid): 28.6 g/100 g = 28.6 %**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.52,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)30860-3/fulltext",
+   "quote": "* **salt: 1.52 ±0.11 g/100 g = 1.52 %**",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.52,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6827078/",
+   "quote": "* **pH: Pressato 5.52 / 5.54 ; Allevo_4 5.54 / 5.56 ; Allevo_6 5.61 / 5.64**",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 635200.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.academia.edu/84456938/HS_SPME_GC_MS_technique_for_FFA_and_hexanal_analysis_in_different_cheese_packaging_in_the_course_of_long_term_storage",
+   "quote": "* **butanoic acid: 635.2 mg/kg** – both packagings same at T0",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 25000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.academia.edu/84456938/HS_SPME_GC_MS_technique_for_FFA_and_hexanal_analysis_in_different_cheese_packaging_in_the_course_of_long_term_storage",
+   "quote": "* **3-methylbutanoic acid (as isovaleric acid): 25.0 mg/kg**",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  },
+  {
+   "value": 5000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.academia.edu/84456938/HS_SPME_GC_MS_technique_for_FFA_and_hexanal_analysis_in_different_cheese_packaging_in_the_course_of_long_term_storage",
+   "quote": "* **hexanoic acid: 5.0 mg/kg**",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 90.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.academia.edu/84456938/HS_SPME_GC_MS_technique_for_FFA_and_hexanal_analysis_in_different_cheese_packaging_in_the_course_of_long_term_storage",
+   "quote": "* **octanoic acid: 0.09 mg/kg**",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Low NH3 from limited deamination; no surface flora, moderate proteolysis only."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Very low p-cresol/indole; housed/pasture cow milk without washed-rind flora."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Moderate hydrophobic peptides from chymosin and LAB peptidases during 6-mo proteolysis."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation; no methyl ketone blue pathway."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Moderate Maillard from residual galactose/lactose plus amino acids on heating."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl/acetoin from citrate metabolism by starter Lactococcus/Lactobacillus."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "Butanoic acid 635.2 mg/kg plus 3-methylbutanoic 25 mg/kg from lipolysis and Leu catabolism."
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "Moderate fat 28.6% emulsion and 31% moisture gives smooth but not soft mouthfeel."
+  },
+  "crumbliness": {
+   "score": 4.0,
+   "reason": "Cooked pressed low-moisture matrix with calcium phosphate loss creates short fracture."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Low moisture 31.17% plus cooking 40-45C, pressing and 6-mo drying firms para-casein."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol from Phe transamination by LAB."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Low ethyl esters from ethanol plus free fatty acids; hexanoic only 5.0 mg/kg."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Very low C6-C8 acids: hexanoic 5.0 mg/kg, octanoic 0.09 mg/kg, cow milk low in goaty acids."
+  },
+  "malty_nutty": {
+   "score": 6.0,
+   "reason": "Strecker aldehydes 2/3-methylbutanal and propionibacteria notes from cooked alpine make."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "Rennet curd pH 5.52 with solubilized colloidal calcium flows on heating, not acid-set."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "Trace 1-octen-3-ol from linoleic oxidation; no mushroom mold flora."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate free oil from 28.6-35% fat coalescence on melting in aged matrix."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make; no guaiacol/syringol from wood smoke."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Lactic and acetic acids from starter fermentation, pH 5.52, moderate acid taste."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata hot-water kneading; no aligned para-casein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low H2S/methional from Met catabolism; mild cooked-curd note from 40-45C heating."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Low lactose but glycerol/proline and diacetyl balance give sweet alpine perception."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Glutamate release from 6-mo proteolysis 27-29% protein enhances savory broth."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://fdc.nal.usda.gov/food-details/403087/nutrients",
+  "https://www.journalofdairyscience.org/article/S0022-0302(17)30860-3/fulltext",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6827078/",
+  "https://www.academia.edu/84456938/HS_SPME_GC_MS_technique_for_FFA_and_hexanal_analysis_in_different_cheese_packaging_in_the_course_of_long_term_storage",
+  "https://api.nal.usda.gov/fdc/v1/foods/search?query=asiago&pageSize=25&dataType=SR%20Legacy&requireAllWords=true&api_key=DEMO_KEY",
+  "https://api.nal.usda.gov/fdc/v1/foods/search?query=asiago%20cheese&pageSize=5&api_key=DEMO_KEY",
+  "https://www.research.unipd.it/retrieve/e14fb26f-9a9b-3de1-e053-1705fe0ac030/acs.jafc.7b03629%282%29.pdf",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4283180/",
+  "https://pubblicazioni.unicam.it/handle/11581/415124"
+ ]
+}

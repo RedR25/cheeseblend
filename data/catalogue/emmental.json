@@ -1,0 +1,224 @@
+{
+ "id": "emmental",
+ "name": "Emmental",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "alpine_hard",
+ "origin": "Switzerland",
+ "process": {
+  "aging_months": 6,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 36.71,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(11)00504-2/fulltext",
+   "quote": "| Moisture | 36.71±0.05 | 37.65±0.20 | 36.64±0.15 | 36.10±0.06 |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 31.25,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(11)00504-2/fulltext",
+   "quote": "| Fat | 31.25±0.35 | 29.50±0.00 | 31.00±0.00 | 30.25±0.35 |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 0.8,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(11)00504-2/fulltext",
+   "quote": "| NaCl | 0.8±0.24 | 0.70±0.15 | 0.85±0.15 | 0.92±0.25 |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.68,
+   "unit": "",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(11)00504-2/fulltext",
+   "quote": "| d 90 | 5.68 | 5.66 | 5.74 | 5.74 |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 1500000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.koreascience.or.kr/search.page?keywords=scale-up+fermentation",
+   "quote": "concentration of acetic acid and propionic acid increased up to 1.5 and 6.1 g/kg, respectively and the most dramatic increased occurred when incubated in the hot room ($23^{\\circ}C$).",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 6100000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.koreascience.or.kr/search.page?keywords=scale-up+fermentation",
+   "quote": "concentration of acetic acid and propionic acid increased up to 1.5 and 6.1 g/kg, respectively and the most dramatic increased occurred when incubated in the hot room ($23^{\\circ}C$).",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 2700.0,
+   "unit": "µg/kg",
+   "source_url": "https://hal.science/hal-01532264v1/file/13594_2015_Article_255.pdf",
+   "quote": "| Volatile compounds 3-Methylbutyric acid in mg.100 g−1 0.27±0.3 |",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  },
+  {
+   "value": 112000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.scientific-publications.net/en/article/1001391/1000023-1500298209558524.pdf",
+   "quote": "In Emmental cheeses butanoic acid varies from 112 to 392 mg kg-1",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 107.0,
+   "unit": "µg/kg",
+   "source_url": "https://eurekamag.com/research/014/804/014804489.php",
+   "quote": "concentrations calculated from the mean values for all 6 cheeses and expressed in p.p.m. were: dimethyl sulfide, 0.107; diacetyl, 0.8; acetaldehyde, 1.4;",
+   "confidence": "measured",
+   "name": "dimethyl sulfide"
+  },
+  {
+   "value": 800.0,
+   "unit": "µg/kg",
+   "source_url": "https://eurekamag.com/research/014/804/014804489.php",
+   "quote": "concentrations calculated from the mean values for all 6 cheeses and expressed in p.p.m. were: dimethyl sulfide, 0.107; diacetyl, 0.8; acetaldehyde, 1.4;",
+   "confidence": "measured",
+   "name": "diacetyl"
+  },
+  {
+   "value": 420.0,
+   "unit": "µg/kg",
+   "source_url": "https://eurekamag.com/research/014/804/014804489.php",
+   "quote": "acetone, 1.6; butanone, 0.3; 2-methyl butyraldehyde, 0.42; 2-pentanone, 0.98; 2-heptanone, 0.45; ethanol, 16.3; 2-butanol, 0.3; 1-propanol, 2.9; 1-butanol, 0.7;",
+   "confidence": "measured",
+   "name": "2-methylbutanal"
+  },
+  {
+   "value": 450.0,
+   "unit": "µg/kg",
+   "source_url": "https://eurekamag.com/research/014/804/014804489.php",
+   "quote": "acetone, 1.6; butanone, 0.3; 2-methyl butyraldehyde, 0.42; 2-pentanone, 0.98; 2-heptanone, 0.45; ethanol, 16.3; 2-butanol, 0.3; 1-propanol, 2.9; 1-butanol, 0.7;",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 600.0,
+   "unit": "µg/kg",
+   "source_url": "https://eurekamag.com/research/014/804/014804489.php",
+   "quote": "methyl hexanoate, 1.5 and ethyl butanoate, 0.6.",
+   "confidence": "measured",
+   "name": "ethyl butanoate"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "No surface flora, low urease and deamination; little NH3 vs bloomy/washed cheeses."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Raw cow milk and long rind ripening give faint p-cresol/indole, no manure defect."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Lactobacillus helveticus peptidases clear hydrophobic peptides, low bitterness at pH 5.68."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti, mold none; 2-heptanone 0.45 ppm below blue threshold."
+  },
+  "browning": {
+   "score": 6.0,
+   "reason": "pH 5.68 with residual galactose and free amino acids gives good Maillard browning on heating."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Streptococcus thermophilus citrate metabolism yields diacetyl 0.8 ppm plus acetoin."
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "Lipolysis moderate 2-7 g/kg FFA; butanoic 112-392 mg/kg + 3-methylbutanoic 2.7 mg/kg."
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "31.25% fat and cooked-pressed elastic paste gives smooth mouthfeel, not bloomy cream."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Cooked, pressed, elastic curd at 36.7% moisture with propionic eyes resists fracture."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Low moisture 36.7%, high cook 50-53C and long press create firm elastic alpine body."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol from aromatic amino acid catabolism by lactobacilli."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Propionibacterium esterification yields ethyl butanoate 0.6 ppm, mild pineapple-apple."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk only, no caprine 4-methyloctanoic/4-ethyloctanoic acids; hexanoic low."
+  },
+  "malty_nutty": {
+   "score": 7.0,
+   "reason": "Propionibacterium freudenreichii converts lactate to propionic 1.7-6.1 g/kg plus 2-methylbutanal 0.42 ppm, classic hazelnut."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "pH 5.68, low salt 0.8% and intact para-casein network flow well when heated, not acid-set."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No white mold or 1-octen-3-ol/1-octen-3-one; indoor rind, no earthy defect."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "31.25% fat, cooked curd releases moderate free oil on melting, less than cheddar/grana."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Smoked false, no wood-smoke phenols like guaiacol."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Acetic 1.4-1.5 g/kg plus propionic up to 6.1 g/kg from hot-room 23C propionic fermentation."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "Rennet-cooked, non-pasta-filata curd; stretched false, no aligned curd fibers."
+  },
+  "sulfur_cooked": {
+   "score": 3.0,
+   "reason": "High cook and methionine catabolism give dimethyl sulfide 0.107 ppm, mild cooked-corn."
+  },
+  "sweet": {
+   "score": 5.0,
+   "reason": "Low salt 0.8%, propionate and proline-rich peptides plus low acidity pH 5.68 perceived sweet."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "6-month proteolysis by L. helveticus releases glutamate, moderate savory without crystals."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.journalofdairyscience.org/article/S0022-0302(11)00504-2/fulltext",
+  "https://www.koreascience.or.kr/search.page?keywords=scale-up+fermentation",
+  "https://hal.science/hal-01532264v1/file/13594_2015_Article_255.pdf",
+  "https://www.scientific-publications.net/en/article/1001391/1000023-1500298209558524.pdf",
+  "https://eurekamag.com/research/014/804/014804489.php",
+  "https://www.koreascience.or.kr/search.page?keywords=scale-up+fermentation&pageSize=10&pageNo=6"
+ ]
+}

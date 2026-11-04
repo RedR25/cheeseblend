@@ -1,0 +1,343 @@
+{
+ "id": "gouda",
+ "name": "Gouda (aged)",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Netherlands",
+ "process": {
+  "aging_months": 9.0,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 41.46,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/",
+   "quote": "* **Moisture: 41.46 g / 100 g = 41.46 %** – generic Gouda, USA database, age not specified – https://fdc.nal.usda.gov/",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 27.44,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/",
+   "quote": "* **Fat (total lipid): 27.44 g / 100 g = 27.44 %** – same sample – https://fdc.nal.usda.gov/",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.01,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)31183-9/fulltext",
+   "quote": "> | 235 | 35.5 | 38.1 | 59.1 | 2.01 | 5.71 | 80.8 | 0.95 | 32.1 | The Netherlands | 9 |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.71,
+   "unit": "",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)31183-9/fulltext",
+   "quote": "> | 235 | 35.5 | 38.1 | 59.1 | 2.01 | 5.71 | 80.8 | 0.95 | 32.1 | The Netherlands | 9 |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 86811.0,
+   "unit": "µg/kg",
+   "source_url": "https://pubs.acs.org/jafcau/article/72/19/11072/173586/Formation-of-Key-Aroma-Compounds-During-30-Weeks",
+   "quote": "> | **1** | butanoic acid | 5345 | 13915 | 33365 | 41633 | 57362 | 86811 |",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 14931.0,
+   "unit": "µg/kg",
+   "source_url": "https://pubs.acs.org/jafcau/article/72/19/11072/173586/Formation-of-Key-Aroma-Compounds-During-30-Weeks",
+   "quote": "* **hexanoic acid 14,931 µg/kg DM** : `| hexanoic acid | 5279 | 9782 | 9523 | 9390 | 11943 | 14931 |`",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 51.0,
+   "unit": "µg/kg",
+   "source_url": "https://pubs.acs.org/jafcau/article/72/19/11072/173586/Formation-of-Key-Aroma-Compounds-During-30-Weeks",
+   "quote": "* **ethyl butanoate 51 µg/kg DM** : `| **4** | ethyl butanoate | 16 | 17 | 18 | 21 | 32 | 51 |`",
+   "confidence": "measured",
+   "name": "ethyl butanoate"
+  },
+  {
+   "value": 23.0,
+   "unit": "µg/kg",
+   "source_url": "https://pubs.acs.org/jafcau/article/72/19/11072/173586/Formation-of-Key-Aroma-Compounds-During-30-Weeks",
+   "quote": "* **ethyl hexanoate 23 µg/kg DM** : `| **5** | ethyl hexanoate | 2 | 4 | 5 | 6 | 13 | 23 |`",
+   "confidence": "measured",
+   "name": "ethyl hexanoate"
+  },
+  {
+   "value": 3762.0,
+   "unit": "µg/kg",
+   "source_url": "https://pubs.acs.org/jafcau/article/72/19/11072/173586/Formation-of-Key-Aroma-Compounds-During-30-Weeks",
+   "quote": "* **δ-dodecalactone 3,762 µg/kg DM** : `| **6** | δ-dodecalactone | 2419 | 3096 | 3525 | 3853 | 3641 | 3762 |`",
+   "confidence": "measured",
+   "name": "delta-dodecalactone"
+  },
+  {
+   "value": 2372.0,
+   "unit": "µg/kg",
+   "source_url": "https://pubs.acs.org/jafcau/article/72/19/11072/173586/Formation-of-Key-Aroma-Compounds-During-30-Weeks",
+   "quote": "* **δ-decalactone 2,372 µg/kg DM** : `| **7** | δ-decalactone | 1920 | 2484 | 2656 | 2717 | 2407 | 2372 |`",
+   "confidence": "measured",
+   "name": "delta-decalactone"
+  },
+  {
+   "value": 1856.0,
+   "unit": "µg/kg",
+   "source_url": "https://pubs.acs.org/jafcau/article/72/19/11072/173586/Formation-of-Key-Aroma-Compounds-During-30-Weeks",
+   "quote": "* **butane-2,3-dione (= diacetyl) 1,856 µg/kg DM** : `| **8** | butane-2,3-dione | 2416 | 3668 | 3218 | 2407 | 2231 | 1856 |`",
+   "confidence": "measured",
+   "name": "diacetyl"
+  },
+  {
+   "value": 136.0,
+   "unit": "µg/kg",
+   "source_url": "https://pubs.acs.org/jafcau/article/72/19/11072/173586/Formation-of-Key-Aroma-Compounds-During-30-Weeks",
+   "quote": "* **3-methylbutanal 136 µg/kg DM** : `| **9** | 3-methylbutanal | 215 | 223 | 272 | 260 | 157 | 136 |`",
+   "confidence": "measured",
+   "name": "3-methylbutanal"
+  },
+  {
+   "value": 37548.0,
+   "unit": "µg/kg",
+   "source_url": "https://pubs.acs.org/jafcau/article/72/19/11072/173586/Formation-of-Key-Aroma-Compounds-During-30-Weeks",
+   "quote": "* **3-methylbutanoic acid 37,548 µg/kg DM** : `| **11** | 3-methylbutanoic acid | 622 | 8012 | 27703 | 33055 | 32644 | 37548 |`",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  },
+  {
+   "value": 1236805.0,
+   "unit": "µg/kg",
+   "source_url": "https://pubs.acs.org/jafcau/article/72/19/11072/173586/Formation-of-Key-Aroma-Compounds-During-30-Weeks",
+   "quote": "* **acetic acid 1,236,805 µg/kg DM = 1,236.8 mg/kg DM** : `| **13** | acetic acid | 712539 | 934606 | 1116706 | 1135269 | 1066276 | 1236805 |`",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 318.0,
+   "unit": "µg/kg",
+   "source_url": "https://pubs.acs.org/jafcau/article/72/19/11072/173586/Formation-of-Key-Aroma-Compounds-During-30-Weeks",
+   "quote": "* **2-phenylethanol 318 µg/kg DM** : `| **15** | 2-phenylethanol | 144 | 203 | 244 | 278 | 276 | 318 |`",
+   "confidence": "measured",
+   "name": "2-phenylethanol"
+  },
+  {
+   "value": 476.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)31183-9/fulltext",
+   "quote": "* **dimethyl sulfide 476 µg/kg** : `| Dimethyl sulfide | 476 | 137 | 186 | 52.3 | 45.8 | 63.6 | 80.2 | 341 | 29.5 | 45.5 | 120 | 30.1 | 19.4 |`",
+   "confidence": "measured",
+   "name": "dimethyl sulfide"
+  },
+  {
+   "value": 35.4,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)31183-9/fulltext",
+   "quote": "* **dimethyl disulfide 35.4 µg/kg** : `| Dimethyl disulfide | 35.4 | 50.3 | 27.8 | 23.2 | 23.6 | 23.1 | 24.3 | 51.2 | 23.1 | 31.2 | 41.2 | 42.7 | 5.11 |`",
+   "confidence": "measured",
+   "name": "dimethyl disulfide"
+  },
+  {
+   "value": 26.1,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)31183-9/fulltext",
+   "quote": "* **dimethyl trisulfide 26.1 µg/kg** : `| Dimethyl trisulfide | 26.1 | 24.3 | 24.9 | 24.5 | 22.7 | 22.9 | 22.8 | 25.7 | 23.0 | 28.9 | 27.6 | 23.1 | 0.49 |`",
+   "confidence": "measured",
+   "name": "dimethyl trisulfide"
+  },
+  {
+   "value": 4539.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)31183-9/fulltext",
+   "quote": "* **methional 4,539 µg/kg** : `| Methional | 4,539 | 37.6 | 11.6 | 92.8 | 13.0 | 175 | 30.0 | 44.3 | 11.4 | 56.3 | 126 | 24.9 | 10.8 |`",
+   "confidence": "measured",
+   "name": "methional"
+  },
+  {
+   "value": 10.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)31183-9/fulltext",
+   "quote": "* **2-methylpropanal 10.0 µg/kg** : `| 2-Methylpropanal | 10.0 | 10.3 | 3.91 | 2.47 | 1.52 | 0.44 | 2.06 | 11.5 | 4.52 | 4.77 | 14.2 | 2.62 | 1.91 |`",
+   "confidence": "measured",
+   "name": "2-methylpropanal"
+  },
+  {
+   "value": 141.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)31183-9/fulltext",
+   "quote": "* **2-methylbutanal 141 µg/kg** : `| 2-Methylbutanal | 141 | 0.97 | 17.4 | 1.14 | 0.4 | 12.0 | 0.45 | 4.71 | 0.62 | 32.5 | 31.9 | 1.88 | 5.88 |`",
+   "confidence": "measured",
+   "name": "2-methylbutanal"
+  },
+  {
+   "value": 951000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)31183-9/fulltext",
+   "quote": "* **acetoin 951 mg/kg** : `| Acetoin2 | 951 | 25.9 | 77.1 | 38.2 | 2.52 | 83.1 | 4.08 | 201 | 1.12 | 122 | 94.0 | 0.08 | 16.4 |`",
+   "confidence": "measured",
+   "name": "acetoin"
+  },
+  {
+   "value": 5070.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)31183-9/fulltext",
+   "quote": "* **octanoic acid 5.07 mg/kg** : `| Octanoic acid2 | 5.07 | 3.51 | 6.81 | 3.86 | 4.66 | 13.9 | 13.3 | 1.76 | 2.48 | 3.51 | 1.78 | 1.75 | 24.2 |`",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  },
+  {
+   "value": 355000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)31183-9/pdf",
+   "quote": "* **acetic acid (HPLC) 186 mg/kg, propanoic acid (= propionic acid) 355 mg/kg, butyric acid (HPLC) 61.8 mg/kg** – commercial Gouda, Netherlands, 9 mo – https://www.journalofdairyscience.org/article/S0022-0302(17)31183-9/pdf",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 31910.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(13)00129-X/pdf",
+   "quote": "* **2-heptanone 31.91 mg/kg** : `Control 2.08c,A  4.37c,A  6.74c,A  6.24c,A  19.37b,A  26.02ab,A  31 .91a,A`",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 8920.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(13)00129-X/pdf",
+   "quote": "* **2-nonanone 8.92 mg/kg** : `Control 0.32c  0.75c,A  1 .08c,A  1 .46c,A  6.42b,A  9.58a,A  8.92a,A |`",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  },
+  {
+   "value": 240.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(13)00129-X/pdf",
+   "quote": "* **2-undecanone 0.24 mg/kg** : `Control 0.21ab,A  0.36ab,A  0.37a,A  0.17b,A  0.35ab,A  0.32ab,A  0.24ab,A`",
+   "confidence": "measured",
+   "name": "2-undecanone"
+  },
+  {
+   "value": 590.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(13)00129-X/pdf",
+   "quote": "* **benzeneacetaldehyde (= phenylacetaldehyde) 0.59 mg/kg at 6 mo** : `Control NQ NQ 0.41cd  0.35d  0.54bc  0.63a  0.59ab |`",
+   "confidence": "measured",
+   "name": "phenylacetaldehyde"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "No surface flora and washed-curd low deamination; ammonia not quantified, only low urea breakdown."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "p-cresol and indole not quantified in Gouda, only defect threshold 0.3 ppm; clean Lactococcus fermentation."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Washed curd removes lactose/lactic acid and bitter peptides hydrolyzed by lactococcal peptidases during 9-mo ripening."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti; 1-octen-3-ol ND and 1-octen-3-one not found in control Gouda."
+  },
+  "browning": {
+   "score": 6.0,
+   "reason": "Low moisture 35.5% and proteolysis-derived amino acids plus residual galactose drive Maillard on heating."
+  },
+  "buttery": {
+   "score": 7.0,
+   "reason": "Lactococcus lactis biovar diacetylactis citrate metabolism gives diacetyl 1856 ug/kg DM and acetoin 951 mg/kg."
+  },
+  "cheesy_sweaty": {
+   "score": 6.0,
+   "reason": "Lipolysis and branched-chain FAA catabolism: butanoic acid 86811 ug/kg DM, hexanoic 14931 ug/kg DM, 3-methylbutanoic 37548 ug/kg DM."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "38.1% fat, 59% fat-in-dry-matter and washed-curd calcium-depleted paracasein give smooth mouthfeel despite aging."
+  },
+  "crumbliness": {
+   "score": 6.0,
+   "reason": "Moisture loss to 35.5-28% and 9-36 mo proteolysis plus tyrosine/calcium lactate crystals fracture curd matrix."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Washed pressed curd dried to ~35.5% moisture and aged 9 mo with extensive cross-linked paracasein network."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Phenylalanine catabolism by lactococci yields phenylacetaldehyde 0.59 mg/kg and 2-phenylethanol 318 ug/kg DM."
+  },
+  "fruity": {
+   "score": 5.0,
+   "reason": "Esterification of FFA with ethanol by NSLAB esterases: ethyl butanoate 3969 ug/kg, ethyl hexanoate up to 14.49 mg/kg."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk fat lacks caprine 4-methyloctanoic and 4-ethyloctanoic acids; none quantified in bovine Gouda."
+  },
+  "malty_nutty": {
+   "score": 7.0,
+   "reason": "Leucine/isoleucine/methionine Strecker degradation: 3-methylbutanal 182 ug/kg, 2-methylbutanal 141 ug/kg, methional 4539 ug/kg."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "Washed-curd pH 5.71 solubilizes colloidal calcium phosphate allowing paracasein flow, reduced slightly by age-related proteolysis."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No mold flora; mushroom alcohol 1-octen-3-ol ND in standard control Gouda and no Geotrichum metabolism."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "High 38.1% fat with coalesced fat globules and weakened aged protein matrix releases free oil on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make; guaiacol not quantified and no wood-smoke phenols."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Mesophilic Lactococcus fermentation: acetic acid 1236 mg/kg DM plus HPLC acetic 186 mg/kg and propionic 355 mg/kg, pH 5.71."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Rennet-coagulated washed curd, not pasta-filata; no hot-water kneading to align paracasein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 3.0,
+   "reason": "Methionine catabolism by lactococci/NSLAB: dimethyl sulfide 476 ug/kg, disulfide 35.4 ug/kg, trisulfide 26.1 ug/kg."
+  },
+  "sweet": {
+   "score": 5.0,
+   "reason": "Milkfat delta-lactones delta-decalactone 644 ug/kg and delta-dodecalactone 3762 ug/kg DM plus diacetyl/acetoin sweet notes."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "9-mo rennet plus plasmin and Lactococcus cell-envelope proteolysis releases glutamate and savory peptides."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://fdc.nal.usda.gov/",
+  "https://www.journalofdairyscience.org/article/S0022-0302(17)31183-9/fulltext",
+  "https://pubs.acs.org/jafcau/article/72/19/11072/173586/Formation-of-Key-Aroma-Compounds-During-30-Weeks",
+  "https://www.journalofdairyscience.org/article/S0022-0302(17)31183-9/pdf",
+  "https://www.journalofdairyscience.org/article/S0022-0302(13)00129-X/pdf"
+ ]
+}

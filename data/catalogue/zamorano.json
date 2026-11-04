@@ -1,0 +1,182 @@
+{
+ "id": "zamorano",
+ "name": "Zamorano",
+ "milk": "sheep",
+ "treatment": "raw",
+ "style": "semi_hard",
+ "origin": "Zamora, Spain",
+ "process": {
+  "aging_months": 6.0,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 42.0,
+   "unit": "%",
+   "source_url": "https://faqs.org/rulings/rulings2008NYM81478.html",
+   "quote": "Both versions contain 45% fat in the dry matter and 42% moisture",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 45.0,
+   "unit": "%",
+   "source_url": "https://faqs.org/rulings/rulings2008NYM81478.html",
+   "quote": "Both versions contain 45% fat in the dry matter and 42% moisture",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.2,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.4,
+   "unit": "",
+   "source_url": "https://www.mdpi.com/2624-862X/2/2/21",
+   "quote": "curds are transferred to molds and pressed, finally reaching a pH value of 5.4–5.5",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 1102000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.academia.edu/13286603/seasonal_variation_of_the_free_fatty_acids_contents_of_spanish_ovine_milk_cheeses_protected_by_a_designation_of_origin_a_comparative_study",
+   "quote": "* 4-mo, spring: **1102±246 mg/kg**, raw Zamorano, Zamora",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 110000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.academia.edu/13286603/seasonal_variation_of_the_free_fatty_acids_contents_of_spanish_ovine_milk_cheeses_protected_by_a_designation_of_origin_a_comparative_study",
+   "quote": "* 4-mo spring: **110±34 mg/kg**",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 58000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.academia.edu/13286603/seasonal_variation_of_the_free_fatty_acids_contents_of_spanish_ovine_milk_cheeses_protected_by_a_designation_of_origin_a_comparative_study",
+   "quote": "* 4-mo spring: **58±17 mg/kg**",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 102000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.academia.edu/13286603/seasonal_variation_of_the_free_fatty_acids_contents_of_spanish_ovine_milk_cheeses_protected_by_a_designation_of_origin_a_comparative_study",
+   "quote": "* 4-mo spring: **102±29 mg/kg**",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Modest deamination during 6-mo ripening with dry natural rind venting NH3."
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "Tyr/Trp catabolism to p-cresol/indole plus raw-milk farm microbiota in rind."
+  },
+  "bitter": {
+   "score": 5.0,
+   "reason": "Hydrophobic alpha-s1 casein peptides from chymosin incompletely debittered by starter peptidases."
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "No Penicillium roqueforti; only background 2-heptanone/2-nonanone from lipase beta-oxidation."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Low residual lactose/galactose plus Lys residues give moderate Maillard on heating."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Mesophilic Lactococcus citrate to diacetyl/acetoin plus C4-C12 lactones from ewe milk fat."
+  },
+  "cheesy_sweaty": {
+   "score": 6.0,
+   "reason": "Ovine rennet pregastric lipase liberating butyric 110 mg/kg plus hexanoic/octanoic acids."
+  },
+  "creaminess": {
+   "score": 3.0,
+   "reason": "Low 42% moisture firm matrix limits fat coalescence despite 45% FDM ewes fat."
+  },
+  "crumbliness": {
+   "score": 7.0,
+   "reason": "pH 5.4 calcium solubilization plus prolonged proteolysis giving short friable body."
+  },
+  "firmness": {
+   "score": 8.0,
+   "reason": "42% moisture pressed curd with 6-mo evaporation and crosslinked paracasein network."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Phe catabolism to phenylacetaldehyde/phenylethanol plus pasture terpenes from Churra milk."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "NSLAB esterases esterifying ethanol with butyric/hexanoic to ethyl butanoate/hexanoate."
+  },
+  "goaty": {
+   "score": 5.0,
+   "reason": "Sheep-milk short and branched-chain FFA C6-C10, 4-methyloctanoic via rennet lipolysis."
+  },
+  "malty_nutty": {
+   "score": 7.0,
+   "reason": "Leu/Ile/Val Strecker aldehydes like 3-methylbutanal from 6-mo proteolysis and ripening."
+  },
+  "melt": {
+   "score": 3.0,
+   "reason": "Dehydrated aged paracasein with calcium loss and brine salt limits flow, softens more than flows."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "Limited linoleate oxidation to 1-octen-3-ol in low-moisture pressed interior."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "About 26% fat in tight aged matrix releases moderate free oil on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step; no guaiacol/syringol deposition."
+  },
+  "sour_vinegar": {
+   "score": 5.0,
+   "reason": "High acetic acid 1102 mg/kg at 4-mo plus lactic acid from mesophilic starter at pH 5.4."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Non-pasta-filata rennet gel with no hot-water kneading to align casein."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low Met catabolism to methanethiol/DMS and mild 37C cook, no thermophilic sulfur."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Lactose depleted; faint sweetness from glycerol, Ala/Pro and sheep-fat lactones."
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "Chymosin/plasmin plus Lactococcus peptidases releasing Glu peptides enhanced by 2.2% NaCl."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://faqs.org/rulings/rulings2008NYM81478.html",
+  "https://www.mdpi.com/2624-862X/2/2/21",
+  "https://www.academia.edu/13286603/seasonal_variation_of_the_free_fatty_acids_contents_of_spanish_ovine_milk_cheeses_protected_by_a_designation_of_origin_a_comparative_study",
+  "https://lait.dairy-journal.org/articles/lait/pdf/2005/04/L0437.pdf"
+ ]
+}

@@ -1,0 +1,199 @@
+{
+ "id": "danablu",
+ "name": "Danablu",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "blue",
+ "origin": "Denmark",
+ "process": {
+  "aging_months": 2.25,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "blue",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 43.2,
+   "unit": "%",
+   "source_url": "https://cora.ucc.ie/server/api/core/bitstreams/d3932844-e31c-48c7-bf37-770f2670b2c1/content",
+   "quote": "* moisture % : **43.91±0.89 OOS, 45.24±0.86 2w, 47.62±0.45 4w, 43.2±2.65 7w, 45.13±1.39 9w ; range 43.2-47.6 %**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 29.0,
+   "unit": "%",
+   "source_url": "https://cora.ucc.ie/server/api/core/bitstreams/d3932844-e31c-48c7-bf37-770f2670b2c1/content",
+   "quote": "* fat % : **29.0 to 32.6 %**, %FDM 51.7 to 59.7 % - same sample -",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 3.0,
+   "unit": "%",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "* salt -NaCl- % : **3.0 g/100g**, S/M 7.1 g/100g, ash 4.4 g/100g",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 4.87,
+   "unit": "",
+   "source_url": "https://cora.ucc.ie/server/api/core/bitstreams/d3932844-e31c-48c7-bf37-770f2670b2c1/content",
+   "quote": "* pH : **4.87±0.23 OOS, 5.11±0.34 2w, 5.82±0.41 4w, 5.36±0.27 7w, 5.69±0.25 9w ; increase 4.87 to ~5.7-5.8** - same sample -",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 1073000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "* acetic acid : **1073 µg/g = 1073 mg/kg = 1073 ppm**, Danish Blue Denmark retail Ireland, commercial mature. Source above.",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 5070000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "* butanoic acid -butyric- : **5070 µg/g = 5070 mg/kg**, same sample.",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 2518000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "* hexanoic acid : **2518 µg/g = 2518 mg/kg**, same sample.",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 42200.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(91)78512-3/pdf",
+   "quote": "* 3-methylbutanoic acid : **42.2 ppm**",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  },
+  {
+   "value": 118000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(91)78512-3/pdf",
+   "quote": "* octanoic acid : **118 ppm**",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  },
+  {
+   "value": 300.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(91)78512-3/pdf",
+   "quote": "* 4-methyloctanoic acid : **0.30 ppm = 300 ppb = 300 µg/kg**",
+   "confidence": "measured",
+   "name": "4-methyloctanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 4.0,
+   "reason": "Deamination during proteolysis with pH rise 4.87 to ~5.7 and pH4.6-SN ~48% releases NH3."
+  },
+  "animal_barnyard": {
+   "score": 3.0,
+   "reason": "Low 4-methyloctanoic 0.3 ppm plus trace p-cresol in cow milk; less barnyard than sheep Roquefort."
+  },
+  "bitter": {
+   "score": 6.0,
+   "reason": "Hydrophobic bitter peptides from chymosin and P. roqueforti proteinases accentuated by 3% NaCl S/M 7.1."
+  },
+  "blue_moldy": {
+   "score": 9.0,
+   "reason": "P. roqueforti PR-R beta-oxidation of fatty acids to 2-heptanone/2-nonanone plus secondary alcohols in needled veins."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Maillard between proteolysis-derived amino acids and trace lactose plus fat browning on heating."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl/acetoin from citrate fermentation by mesophilic Lactococcus plus C4 ketones softened by mold."
+  },
+  "cheesy_sweaty": {
+   "score": 8.0,
+   "reason": "Very high butanoic 321-5070 mg/kg plus hexanoic 214-2518 mg/kg plus 3-methylbutanoic from lipase and leucine catabolism."
+  },
+  "creaminess": {
+   "score": 7.0,
+   "reason": "FDM ~52% fat 30% plus lipolysis and mold-softened matrix give creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 5.0,
+   "reason": "Pierced blue veins and dry-salted curd create short friable fracture despite creamy matrix."
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "Moisture ~44% MNFS ~60-67% plus mold proteolysis softens rennet gel to semi-soft cuttable body."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism, suppressed by dominant ketones."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate/hexanoate from esterification of free fatty acids with ethanol by mold esterases."
+  },
+  "goaty": {
+   "score": 4.0,
+   "reason": "Octanoic 118 ppm plus decanoic ~258 ppm waxy-goaty from lipolysis; no 4-ethyloctanoic in cow milk limits intensity."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "Low Strecker 2-/3-methylbutanal from leucine/isoleucine; masked by ketones, no propionibacteria."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "pH 5.3 demineralized para-casein with 30% fat flows readily; not acid-set non-melter."
+  },
+  "mushroom_earthy": {
+   "score": 5.0,
+   "reason": "1-octen-3-ol/1-octen-3-one from linoleic acid oxidation via Penicillium lipoxygenase."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "High free fat and lipolyzed triglycerides coalesce to free oil when heated."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking, no wood phenols/guaiacol; unsmoked pasteurized blue."
+  },
+  "sour_vinegar": {
+   "score": 5.0,
+   "reason": "Acetic 1073 mg/kg from heterofermentation/lactate oxidation plus lactic acid at pH ~5.3."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata stretching; highly proteolyzed rennet curd lacks intact para-kappa-casein network."
+  },
+  "sulfur_cooked": {
+   "score": 3.0,
+   "reason": "Methionine catabolism to dimethyl sulfide/disulfide by starter/mold; pasteurized 74C 15s, curd not cooked."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Residual lactose depleted, salt and acids suppress sweet; little lactone perception."
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "Extensive proteolysis to glutamate/aspartate peptides by rennet and P. roqueforti proteinases."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://cora.ucc.ie/server/api/core/bitstreams/d3932844-e31c-48c7-bf37-770f2670b2c1/content",
+  "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+  "https://www.journalofdairyscience.org/article/S0022-0302(91)78512-3/pdf",
+  "http://ifrj.upm.edu.my/28 (02) 2021/05 - IFRJ19767.R1.pdf",
+  "https://www.aqua-calc.com/calculate/food-calories/substance/cheese-coma-and-blank-blue"
+ ]
+}

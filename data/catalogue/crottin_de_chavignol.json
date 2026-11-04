@@ -1,0 +1,151 @@
+{
+ "id": "crottin_de_chavignol",
+ "name": "Crottin de Chavignol",
+ "milk": "goat",
+ "treatment": "raw",
+ "style": "soft_bloomy",
+ "origin": "France",
+ "process": {
+  "aging_months": 0.5,
+  "coagulation": "mixed",
+  "cooked": false,
+  "mold": "white",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 59.15,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 22.8,
+   "unit": "%",
+   "source_url": "https://www.jstage.jst.go.jp/article/chikusan1924/65/6/65_6_551/_pdf/-char/en",
+   "quote": "The average values for protein, fat, carbohydrate and ash content are 15.23% 22.80%, 0.72% and 2.60%, and percentages of protein (PDB%), fat (FDB %), carbohydrate (CDB%) and ash (ADB%) on a dry basis are calculated as 37.31, 55.85, 1.76 and 6.36, respectively.",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.71,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 4.2,
+   "unit": "",
+   "source_url": "https://www.jstage.jst.go.jp/article/fstr/15/4/15_4_367/_pdf/-char/en",
+   "quote": "On the 3rd week, the pH value of AP group increased from 4.2 to 5.0 and were higher than MAP and VP groups.",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Limited deamination and early proteolysis in young 2-week lactic curd with rind deacidification just beginning."
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "p-cresol and indole from raw goat milk pasture transfer plus surface Geotrichum/coryneform activity."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Some hydrophobic peptides from small rennet addition and starter peptidases, balanced by high acidity."
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "No Penicillium roqueforti; only trace methyl ketones 2-heptanone/2-nonanone from Penicillium candidum rind."
+  },
+  "browning": {
+   "score": 2.0,
+   "reason": "Low pH and low residual sugar limit Maillard reaction; rind only tans on extended drying."
+  },
+  "buttery": {
+   "score": 3.0,
+   "reason": "Modest diacetyl/acetoin from Lactococcus lactis citrate metabolism, masked by acidity and lipolysis."
+  },
+  "cheesy_sweaty": {
+   "score": 6.0,
+   "reason": "Elevated C4-C8 free fatty acids butyric/hexanoic/octanoic from lipase lipolysis of goat fat."
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "Fat-in-dry-matter ~56% softens under bloomy rind via proteolysis but acid core remains chalky."
+  },
+  "crumbliness": {
+   "score": 7.0,
+   "reason": "Low-pH calcium-depleted casein network fractures without elasticity, typical lactic goat paste."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "Acid-drained dense lactic curd at ~59% moisture formed into small 60-90g cylinder."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol from yeast Ehrlich catabolism of phenylalanine."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Yeast and Geotrichum candidum esterification producing ethyl butanoate/hexanoate during ripening."
+  },
+  "goaty": {
+   "score": 8.0,
+   "reason": "Branched-chain 4-methyloctanoic/4-ethyloctanoic acids from goat milk triglycerides released by lipolysis."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "Low Strecker aldehydes 3-methylbutanal from limited proteolysis in short 2-week ripening."
+  },
+  "melt": {
+   "score": 2.0,
+   "reason": "Acid pH ~4.2 solubilizes colloidal calcium phosphate preventing casein flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 4.0,
+   "reason": "1-octen-3-ol and geosmin from Geotrichum candidum and Penicillium candidum surface flora."
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Fat entrapped in acid gel with limited coalescence; little free oil on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and no guaiacol/phenol formation in lactic bloomy make."
+  },
+  "sour_vinegar": {
+   "score": 7.0,
+   "reason": "High L-lactic acid plus acetic acid from prolonged lactic fermentation at pH 4.2-5.0."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata kneading and acid-demineralized curd lacks intact para-casein for fiber formation."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "No cook step and minimal methionine catabolism to methanethiol/dimethyl sulfide by starter."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Most lactose fermented to lactate with ~0.7% residual carbs leaving little sweet lactose."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Modest free glutamate from chymosin and starter peptidase proteolysis in short-aged paste."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://www.jstage.jst.go.jp/article/chikusan1924/65/6/65_6_551/_pdf/-char/en",
+  "https://www.jstage.jst.go.jp/article/fstr/15/4/15_4_367/_pdf/-char/en",
+  "https://fdc.nal.usda.gov/food-search?type=Foundation&query=Crottin",
+  "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52023XC0516(03)",
+  "https://res.cloudinary.com/matcompaniet-as/image/upload/v1626588133/p_12093_documentation_1",
+  "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/goat-cheese"
+ ]
+}

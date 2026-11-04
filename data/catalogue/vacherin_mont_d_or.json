@@ -1,0 +1,150 @@
+{
+ "id": "vacherin_mont_d_or",
+ "name": "Vacherin Mont-d'Or",
+ "milk": "cow",
+ "treatment": "thermized",
+ "style": "washed_rind",
+ "origin": "Jura, Switzerland/France",
+ "process": {
+  "aging_months": 0.7,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 50.0,
+   "unit": "%",
+   "source_url": "https://www.vacherin-montdor.ch/wp-content/uploads/2022/12/vmo_specs_EN.pdf",
+   "quote": "= **50.0 – 57.5 % moisture**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 49.0,
+   "unit": "%",
+   "source_url": "https://www.vacherin-montdor.ch/wp-content/uploads/2022/12/vmo_specs_EN.pdf",
+   "quote": "= **49.0 – 54.9 % fat in dry matter**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.0,
+   "unit": "%",
+   "source_url": "https://www.vacherin-montdor.ch/wp-content/uploads/2022/12/vmo_specs_EN.pdf",
+   "quote": "= **1.0 – 2.0 % NaCl**",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.1,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 5.0,
+   "reason": "Protein deamination by Brevibacterium linens and yeasts during surface deacidification raises NH3."
+  },
+  "animal_barnyard": {
+   "score": 5.0,
+   "reason": "Brevibacterium catabolism of methionine and tryptophan to sulfur compounds, p-cresol and indole."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Moderate accumulation of hydrophobic peptides from rennet and plasmin proteolysis, partly debittered by smear flora."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation so no C7-C11 2-methyl ketone blue pathway."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "High moisture and low reducing sugar limit Maillard but baked whole cheese browns via proteins and residual galactose."
+  },
+  "buttery": {
+   "score": 7.0,
+   "reason": "Lactococcus citrate metabolism to diacetyl/acetoin plus high milkfat lactones in thermized cow milk."
+  },
+  "cheesy_sweaty": {
+   "score": 6.0,
+   "reason": "Moderate lipolysis by rennet paste and yeasts releasing butanoic and hexanoic acids."
+  },
+  "creaminess": {
+   "score": 9.0,
+   "reason": "Very high moisture 55% and fat-in-dry-matter ~50% with extensive proteolysis give spoonable paste."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Uncooked washed curd with proteolyzed, high-moisture matrix fractures by flow not crumbs."
+  },
+  "firmness": {
+   "score": 2.0,
+   "reason": "Short-aged unpressed soft paste bound by spruce hoop retains custard-like weak gel."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Limited phenylalanine catabolism to phenylacetaldehyde and 2-phenylethanol by yeasts."
+  },
+  "fruity": {
+   "score": 5.0,
+   "reason": "Yeast and smear-bacteria esterification of fatty acids with ethanol to ethyl butanoate/hexanoate."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk low in caproic/caprylic/capric acids and no goat-milk branched-chain fatty acids."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "Young age limits leucine/isoleucine Strecker degradation to 2-/3-methylbutanal and benzaldehyde."
+  },
+  "melt": {
+   "score": 9.0,
+   "reason": "Deacidified pH ~6.1, high moisture and demineralized paracasein flow readily on heating."
+  },
+  "mushroom_earthy": {
+   "score": 6.0,
+   "reason": "Geotrichum candidum and smear flora lipoxygenase produce 1-octen-3-ol and earthy pyrazines."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "23% fat uncooked emulsion releases free oil when spoonable paste is warmed."
+  },
+  "smoky": {
+   "score": 2.0,
+   "reason": "No wood smoking; only faint resinous alpha-pinene and terpenes migrated from spruce bark box."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Most lactic acid consumed by yeasts/Geotrichum during deacidification, leaving low acetic acid."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata hot-water kneading and no thermoplastic paracasein alignment."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "No high cook of curd so low hydrogen sulfide/dimethyl sulfide; only light methional from smear."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Lactose depleted but glycerol, sweet amino acids proline/alanine and diacetyl impart milky sweetness."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Short but intense proteolysis by rennet and smear proteases releases glutamate and savory peptides."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.vacherin-montdor.ch/wp-content/uploads/2022/12/vmo_specs_EN.pdf",
+  "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2676340/nutrients",
+  "https://vitahoy.ch/en/ndb/pml/ch-534",
+  "https://ira.agroscope.ch/en-US/Page/Publikation/Index/10615",
+  "https://www.agroscope.admin.ch/agroscope/de/home/publikationen/agroscope-online-magazin-jahresbericht/2016/2016-1/wissenschaft-in-kuerze/lebensmittel/_jcr_content/par/columncontrols/items/0/column/externalcontent_112315166.bitexternalcontent.exturl.pdf/aHR0cHM6Ly9pcmEuYWdyb3Njb3BlLmNoL2VuLVVTL0FqYXgvRW/luemVscHVibGlrYXRpb24vRG93bmxvYWQ_ZWluemVscHVibGlr/YXRpb25JZD01NzczNw==.pdf"
+ ]
+}

@@ -1,0 +1,278 @@
+{
+ "id": "bleu_d_auvergne",
+ "name": "Bleu d'Auvergne",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "blue",
+ "origin": "Auvergne, France",
+ "process": {
+  "aging_months": 1.5,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "blue",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 47.09,
+   "unit": "%",
+   "source_url": "https://ajfs.journals.ekb.eg/jufile?ar_sfile=56757",
+   "quote": "| Moisture | 47.09% ±1.6% | as above |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 28.42,
+   "unit": "%",
+   "source_url": "https://ajfs.journals.ekb.eg/jufile?ar_sfile=56757",
+   "quote": "| Fat | 28.42% ±0.9% | as above, lowest fat of 6 blue cheeses studied |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 3.76,
+   "unit": "%",
+   "source_url": "https://ajfs.journals.ekb.eg/jufile?ar_sfile=56757",
+   "quote": "| Salt NaCl | 3.76% ±0.2% | as above, highest of cheeses studied |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.9,
+   "unit": "",
+   "source_url": "https://ajfs.journals.ekb.eg/jufile?ar_sfile=56757",
+   "quote": "| pH | 5.90, described as pH around 6.0 | as above |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 801000.0,
+   "unit": "µg/kg",
+   "source_url": "https://ajfs.journals.ekb.eg/jufile?ar_sfile=56757",
+   "quote": "| acetic acid C2:0 | 801 µg/g = 801 mg/kg = 801,000 µg/kg | Bleu d'Auvergne, 2-4 mo, France |",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 87745000.0,
+   "unit": "µg/kg",
+   "source_url": "https://ajfs.journals.ekb.eg/jufile?ar_sfile=56757",
+   "quote": "| propanoic acid C3:0 | 87745 µg/g = 87,745 mg/kg as printed, confirmed in text as most predominant free fatty acid in Bleu d’Auvergne being 87745 µg g-1. In contrast propionic acid could not be detected in Gorgonzola or Danish Blue. Value is anomalously high vs all other acids 332-12,204 µg/g; reported as published, possible typographical error, do not recalculate. | same |",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 1565000.0,
+   "unit": "µg/kg",
+   "source_url": "https://ajfs.journals.ekb.eg/jufile?ar_sfile=56757",
+   "quote": "| butanoic acid = butyric acid C4:0 | 1565 µg/g = 1,565 mg/kg | same |",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 10916000.0,
+   "unit": "µg/kg",
+   "source_url": "https://ajfs.journals.ekb.eg/jufile?ar_sfile=56757",
+   "quote": "| hexanoic acid C6:0 | 10916 µg/g = 10,916 mg/kg, text confirms range 332 µg g-1 to 10916 µg g-1 of Bleu d’Auvergne | same |",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 1810.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| 2-heptanone | 1,810 µg/kg | Bleu d'Auvergne ~45 d, market, cow's milk |",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 4570.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| 2-nonanone | 4,570 µg/kg | same |",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  },
+  {
+   "value": 1490.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| 2-undecanone | 1,490 µg/kg | same, concentration was similar to that of 2-heptanone |",
+   "confidence": "measured",
+   "name": "2-undecanone"
+  },
+  {
+   "value": 1400.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| 2-phenylethanol = phenylethanol | 1,400 µg/kg, 10-fold more abundant in Bleu d'Auvergne, real concentration in this cheese was 2 mg/kg – text states 2 [mg/kg] | same |",
+   "confidence": "measured",
+   "name": "2-phenylethanol"
+  },
+  {
+   "value": 62.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| 1-octen-3-ol | 62 µg/kg | same |",
+   "confidence": "measured",
+   "name": "1-octen-3-ol"
+  },
+  {
+   "value": 30.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| ethyl butanoate | 30 µg/kg | same |",
+   "confidence": "measured",
+   "name": "ethyl butanoate"
+  },
+  {
+   "value": 60.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| ethyl hexanoate | 60 µg/kg | same |",
+   "confidence": "measured",
+   "name": "ethyl hexanoate"
+  },
+  {
+   "value": 700.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| delta-dodecalactone = o-dodecalactone | 700 µg/kg | same |",
+   "confidence": "measured",
+   "name": "delta-dodecalactone"
+  },
+  {
+   "value": 160.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| 3-methylbutanal | 160 µg/kg | same |",
+   "confidence": "measured",
+   "name": "3-methylbutanal"
+  },
+  {
+   "value": 60.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| phenylacetaldehyde | 60 µg/kg, already reported in blue cheese | same |",
+   "confidence": "measured",
+   "name": "phenylacetaldehyde"
+  },
+  {
+   "value": 8.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| dimethyl sulfide = CH3SCH3 | 8 µg/kg, table row H 256 C 8 %12 for AUV, detection threshold 0.3 ppb in water and 9 ppb in milk | same ~45 d |",
+   "confidence": "measured",
+   "name": "dimethyl sulfide"
+  },
+  {
+   "value": 24.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| dimethyl disulfide = CH3SSCH3 | 24 µg/kg, table row H 1819 C 24 %25 for AUV, detection threshold 3 ppb in water | same |",
+   "confidence": "measured",
+   "name": "dimethyl disulfide"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.5,
+   "reason": "Moderate deamination with SN 52% but interior blue pH 5.9 keeps NH3 low, no ammonia quantified."
+  },
+  "animal_barnyard": {
+   "score": 1.5,
+   "reason": "p-cresol and indole not detected in vacuum distillate, no fecal phenols from cow feed."
+  },
+  "bitter": {
+   "score": 6.0,
+   "reason": "Extensive proteolysis SN 51.98% yields hydrophobic bitter peptides enhanced by 3.76% NaCl."
+  },
+  "blue_moldy": {
+   "score": 8.5,
+   "reason": "Penicillium roqueforti beta-oxidation gives 2-nonanone 4570 plus 2-heptanone 1810 ug/kg."
+  },
+  "browning": {
+   "score": 2.0,
+   "reason": "Aged 45d-4mo lactose depleted, low residual reducing sugar limits Maillard on heating."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Diacetyl/acetoin not found; buttery from gamma-dodecalactone 1030 plus delta-dodecalactone 700 ug/kg."
+  },
+  "cheesy_sweaty": {
+   "score": 8.0,
+   "reason": "Total FFA 86000 mg/kg with butyric 1565 and hexanoic 10916 mg/kg from lipolysis."
+  },
+  "creaminess": {
+   "score": 7.0,
+   "reason": "Moisture 47.09% plus fat 28.42% FDM 53.7% with proteolyzed smooth paste and lactones."
+  },
+  "crumbliness": {
+   "score": 3.5,
+   "reason": "Moist needled uncooked paste is creamy-cutting, not dry granular fracture."
+  },
+  "firmness": {
+   "score": 3.5,
+   "reason": "High moisture uncooked pressed body softened by blue proteolysis and needling."
+  },
+  "floral_honey": {
+   "score": 4.5,
+   "reason": "Phenylalanine catabolism gives 2-phenylethanol 1400 ug/kg 10-fold vs other blues."
+  },
+  "fruity": {
+   "score": 3.5,
+   "reason": "Low esterification: ethyl butanoate 30 and ethyl hexanoate 60 ug/kg."
+  },
+  "goaty": {
+   "score": 3.5,
+   "reason": "Hexanoic C6 waxy note high but cow milk lacks goaty branched 4-methyloctanoic acids."
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "Leucine Strecker 3-methylbutanal 160 plus phenylacetaldehyde 60 ug/kg."
+  },
+  "melt": {
+   "score": 5.5,
+   "reason": "Rennet gel pH 5.9 with Ca 6.14 g/kg flows moderately, blue veins interrupt fusion."
+  },
+  "mushroom_earthy": {
+   "score": 3.0,
+   "reason": "Linoleate-derived 1-octen-3-ol only 62 ug/kg, low vs bloomy-rind cheeses."
+  },
+  "oil_off": {
+   "score": 3.5,
+   "reason": "28.42% fat semi-soft releases some free oil on heating but not high-fat oiling."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked; guaiacol not found in volatile profile."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Acetic acid 801 mg/kg plus titratable acidity 2.01% lactic at pH 5.9."
+  },
+  "stretch": {
+   "score": 0.5,
+   "reason": "Non-filata rennet curd with no hot-water kneading, no extensible network."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low methionine catabolism: dimethyl sulfide 8 and disulfide 24 ug/kg."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Residual lactose fermented, slight sweet impression only from lactones."
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "High proteolysis SN 51.98% liberates glutamate peptides via rennet and P. roqueforti proteinases."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://ajfs.journals.ekb.eg/jufile?ar_sfile=56757",
+  "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+  "https://hal.univ-smb.fr/VETAGRO-UMRF/hal-03838273v1",
+  "https://doi.org/10.3390/dairy4030027"
+ ]
+}

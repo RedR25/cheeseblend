@@ -1,0 +1,149 @@
+{
+ "id": "ossau_iraty",
+ "name": "Ossau-Iraty",
+ "milk": "sheep",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "France",
+ "process": {
+  "aging_months": 5.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 38.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 38.0,
+   "unit": "%",
+   "source_url": "https://agour.com/",
+   "quote": "| fat % | 38 g / 100 g total fat. Label: `Matières grasses : 38g`. Ingredient: `Lait pasteurisé de brebis. 38% MG/PT` | Commercial Ossau-Iraty, pasteurised ewe milk, French Pyrenees / Basque-Béarn. Producer Agour. Maturation: `4 à 17 mois`. Label value, n, age of lot, analytical method not published | https://agour.com/ |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.7,
+   "unit": "%",
+   "source_url": "https://agour.com/",
+   "quote": "| salt (NaCl) % | 1.7 g salt / 100 g = 1.7% as NaCl. Label: `Sel : 1.7g` as part of `Matières grasses : 38g, dont acides gras saturés : 28g, Glucides : 2g, dont sucres : 0g, Protéines : 25g, Sel : 1.7g` | Same Agour pasteurised Ossau-Iraty above, France, 4-17 months. Label value | https://agour.com/ |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.3,
+   "unit": "",
+   "source_url": "https://tech-sheet-web-production.up.railway.app/",
+   "quote": "| pH | not found as peer-reviewed measured value. Product spec range only: `pH 5,30-6,30` | Commercial Ossau-Iraty spec sheet, France. Range, no age, n, method given | see above |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Low NH3 from amino acid deamination during natural-rind proteolysis, no washed-rind putrescine pathway."
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "p-cresol/indole plus sheep lanolin branched fatty acids transferred from ewe milk and pasture."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Few residual hydrophobic peptides from alpha-s1-casein, mostly cleared by LAB peptidases."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation, no methyl-ketone 2-heptanone/2-nonanone formation."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Moderate Maillard between residual galactose and lysine on heating due to low residual sugar."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Diacetyl and acetoin from citrate metabolism by Lactococcus/Leuconostoc in high-fat ewe milk."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "Butanoic and hexanoic acids from milk lipase plus LAB esterase lipolysis of ewe triglycerides."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "High 38% fat lubricates mouthfeel despite firm pressed paste."
+  },
+  "crumbliness": {
+   "score": 3.0,
+   "reason": "Pressed semi-hard paste deforms before fracturing, not granular like long-aged grana."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Pressed low-moisture rennet gel with calcium-phosphate crosslinked casein after 5 months."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Phenylacetaldehyde and 2-phenylethanol from phenylalanine transamination plus pasture terpenes."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate and ethyl hexanoate from LAB esterase esterification of free fatty acids with ethanol."
+  },
+  "goaty": {
+   "score": 2.0,
+   "reason": "Low caproic/caprylic waxy notes; ewe milk lacks intense goat 4-ethyloctanoic character."
+  },
+  "malty_nutty": {
+   "score": 6.0,
+   "reason": "Strecker aldehydes 2-methylpropanal and 3-methylbutanal from leucine/isoleucine catabolism during ripening."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "pH 5.3 demineralized paracasein network flows on heating while retaining some structure."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "Trace 1-octen-3-ol from linoleic acid oxidation, no surface mold to amplify it."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "Free oil release from coalescing large ewe-milk fat globules on melting."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make with no wood-smoke phenols guaiacol/syringol deposition."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "L-lactic plus trace acetic from lactose fermentation by starter LAB, buffered at pH 5.3."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "Rennet-coagulated non-pasta-filata mesh lacks aligned fibers for stretching."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Minimal methionine-derived sulfides; curd not high-heated so no cooked-milk H2S."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Sweet amino acids proline/alanine plus glycerol and diacetyl balancing acidity in ewe matrix."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Glutamate accumulation from chymosin and LAB peptidase proteolysis over months."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://agour.com/",
+  "https://tech-sheet-web-production.up.railway.app/",
+  "https://imt-mines-ales.hal.science/hal-03414095v1/tei",
+  "https://www.journalofdairyscience.org/article/S0022-0302(02)74290-2/fulltext"
+ ]
+}

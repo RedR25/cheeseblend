@@ -1,0 +1,271 @@
+{
+ "id": "brie",
+ "name": "Brie",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "soft_bloomy",
+ "origin": "France",
+ "process": {
+  "aging_months": 1,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "white",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 47.9,
+   "unit": "%",
+   "source_url": "http://www.scielo.br/j/cr/a/7hxmBmp4FkgMDsGJmr9DHty/?format=pdf&lang=en",
+   "quote": "* **47.9 ±4.6 g/100 g, range 39.6-54.8 g/100 g**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 27.68,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 1.6,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 6.4,
+   "unit": "",
+   "source_url": "http://www.scielo.br/j/cr/a/7hxmBmp4FkgMDsGJmr9DHty/?format=pdf&lang=en",
+   "quote": "* **6.4 ±0.6, range 5.4-7.1**",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 75000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "**75 ppm = 75 mg/kg**",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 53000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "**53 ppm combined propionic + 2-methylpropionic acids**",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 105000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "* **105 ppm** – Kuzdzal-Savoie Brie",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 50000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "**50 ppm**",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  },
+  {
+   "value": 35000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "* **35 ppm** Kuzdzal-Savoie Brie",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 17000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "**17-82 ppm**",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  },
+  {
+   "value": 2510.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(85)81043-2/pdf",
+   "quote": "**2.51-15 ppm** : domestic middle-maturity ~15.00 ppm, French well-matured 2.51 ppm",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 3140.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(85)81043-2/pdf",
+   "quote": "**3.14-8.4 ppm** : domestic 8.40 ppm, French 3.14 ppm",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  },
+  {
+   "value": 395.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(85)81043-2/pdf",
+   "quote": "**0.395-0.883 ppm**",
+   "confidence": "measured",
+   "name": "2-undecanone"
+  },
+  {
+   "value": 123.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(85)81043-2/pdf",
+   "quote": "**0.123-0.410 ppm** : domestic 0.123 ppm, French 0.410 ppm",
+   "confidence": "measured",
+   "name": "1-octen-3-ol"
+  },
+  {
+   "value": 10.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(85)81043-2/pdf",
+   "quote": "**0.010 ppm in French well-matured Brie** in original Table 2; domestic not reported",
+   "confidence": "measured",
+   "name": "2-phenylethanol"
+  },
+  {
+   "value": 12.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(85)81043-2/pdf",
+   "quote": "**0.012 ppm French Brie**",
+   "confidence": "measured",
+   "name": "ethyl butanoate"
+  },
+  {
+   "value": 21.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(85)81043-2/pdf",
+   "quote": "**0.021-3.44 ppm**",
+   "confidence": "measured",
+   "name": "ethyl hexanoate"
+  },
+  {
+   "value": 34.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(85)81043-2/pdf",
+   "quote": "**0.034 ppm very mature French Brie**",
+   "confidence": "measured",
+   "name": "dimethyl disulfide"
+  },
+  {
+   "value": 30.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(85)81043-2/pdf",
+   "quote": "**0.030 ppm estimated in original, listed as NQ in review**",
+   "confidence": "measured",
+   "name": "dimethyl trisulfide"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 5.0,
+   "reason": "Alkaline distillation 110-280 mg/kg ammonia in well-matured French Brie from amino acid deamination by P. camemberti/yeasts."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "p-cresol and indole not detected in Brie; washed-rind Brevibacterium activity absent in white-mold make."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Moderate proteolysis by rennet and P. camemberti aspartyl proteases yields hydrophobic peptides, mostly degraded."
+  },
+  "blue_moldy": {
+   "score": 6.0,
+   "reason": "Methyl ketones 2-heptanone 2.5-15 ppm and 2-nonanone 3.1-8.4 ppm from Penicillium beta-oxidation of free fatty acids."
+  },
+  "browning": {
+   "score": 3.0,
+   "reason": "High moisture ~48% and pH ~6.4 with low residual sugar limit Maillard; only slow rind Maillard/caramelization."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl/acetoin from citrate metabolism by mesophilic Lactococcus plus milk fat lactones; diacetyl not accumulated in Brie."
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "Butanoic 105 ppm, hexanoic 35 ppm, octanoic 17-82 ppm from lipolysis by Penicillium lipases and esterases."
+  },
+  "creaminess": {
+   "score": 8.0,
+   "reason": "High fat 27.7% with rind-to-center proteolysis and pH rise to ~7.0 causing calcium phosphate solubilization and softening."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Deacidified, proteolyzed paste with moisture ~48% flows rather than fractures; calcium-depleted casein network."
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "Soft-bloomy paste ripened 4-5 weeks; intact rind but interior spoonable due to Penicillium proteolysis."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "2-phenylethanol only 0.01 ppm in mature French Brie from phenylalanine catabolism; very low phenylacetaldehyde."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate 0.012 ppm and ethyl hexanoate 0.021-3.44 ppm from esterification of free fatty acids by mold esterases."
+  },
+  "goaty": {
+   "score": 2.0,
+   "reason": "3-methylbutanoic 50 ppm present but goat-specific 4-methyl/4-ethyloctanoic acids not detected in cow-milk Brie."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "3-methylbutanal, 2-methylbutanal and 2-methylpropanal not detected in Brie; low Strecker aldehyde formation."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "Rennet curd, pH ~6.4, moisture ~48% and intact casein that flows on heating; not acid-set non-melter."
+  },
+  "mushroom_earthy": {
+   "score": 7.0,
+   "reason": "1-octen-3-ol 0.123-0.41 ppm from linoleic acid lipoxygenase by P. camemberti gives signature mushroom rind note."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "27.7% fat in softened matrix releases some free oil on heating but emulsion largely held by partially hydrolyzed protein."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Guaiacol not found and no smoking step; no wood-smoke phenols."
+  },
+  "sour_vinegar": {
+   "score": 2.0,
+   "reason": "Acetic 75 ppm low and lactic acid consumed by yeasts/mold with pH rise from 4.6 to 6.4-7.0; little vinegar sourness."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata hot-water kneading; rennet/white-mold curd does not form aligned paracasein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Dimethyl disulfide 0.034 ppm and trisulfide 0.03 ppm only in very mature French Brie from methionine demethiolation."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Lactose exhausted during 10-21 day ripening; faint sweetness from glycerol, free amino acids and low salt masking."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Elevated soluble nitrogen and glutamate from extensive surface proteolysis by P. camemberti and rennet."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "http://www.scielo.br/j/cr/a/7hxmBmp4FkgMDsGJmr9DHty/?format=pdf&lang=en",
+  "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+  "https://www.journalofdairyscience.org/article/S0022-0302(85)81043-2/pdf",
+  "http://:@www.scielo.br/j/cr/a/7hxmBmp4FkgMDsGJmr9DHty/?format=pdf&lang=en",
+  "https://zenodo.org/records/18599360"
+ ]
+}

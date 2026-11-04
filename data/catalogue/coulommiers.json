@@ -1,0 +1,148 @@
+{
+ "id": "coulommiers",
+ "name": "Coulommiers",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "soft_bloomy",
+ "origin": "Île-de-France, France",
+ "process": {
+  "aging_months": 0.7,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "white",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 56.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 23.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 1.6,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.6,
+   "unit": "",
+   "source_url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.681185/full",
+   "quote": "| Coulommiers | 2.0 | 2.0–3.0 | 5.6–6.5 | 7.6–7.8 |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 3.5,
+   "reason": "Surface deamination of amino acids by P. camemberti/Geotrichum releases NH3 raising rind pH to ~7.7."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Trace p-cresol/indole from tyrosine/tryptophan catabolism; clean bloomy make keeps very low."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Rennet hydrophobic peptides largely degraded by P. camemberti aminopeptidases, low residual bitterness."
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "White P. camemberti not P. roqueforti; low methyl ketones 2-heptanone/2-nonanone/2-undecanone."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Free amino acids plus residual galactose/lactate in moist paste drive moderate Maillard on heating."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Citrate fermentation by Lactococcus/Leuconostoc to diacetyl/acetoin plus C4-C12 delta-lactones."
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "P. camemberti and Geotrichum lipolysis/proteolysis releasing butanoic and 3-methylbutanoic acids."
+  },
+  "creaminess": {
+   "score": 8.0,
+   "reason": "23% fat, ~56% moisture plus rind-to-center proteolytic softening gives creamy flowing paste."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Deacidified elastic rennet curd, not dry or granular; bends rather than crumbles."
+  },
+  "firmness": {
+   "score": 2.5,
+   "reason": "High moisture ~56% plus mold proteolysis softening from rind inward gives soft supple body."
+  },
+  "floral_honey": {
+   "score": 2.5,
+   "reason": "Phenylalanine catabolism to phenylacetaldehyde/2-phenylethanol at low level by surface flora."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Esterase formation of ethyl butanoate/hexanoate from fatty acids plus ethanol."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk low in caproic/caprylic/capric and 4-methyloctanoic acids; no goat character."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Low Strecker 2-/3-methylbutanal and 2-methylpropanal from leucine/isoleucine/valine catabolism."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "High-moisture rennet gel with demineralized, proteolyzed casein flows readily on heating."
+  },
+  "mushroom_earthy": {
+   "score": 6.5,
+   "reason": "P. camemberti oxidation of linoleic acid to 1-octen-3-ol/1-octen-3-one, defining bloomy rind."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "Moderate free fat from lipolyzed bloomy paste releases some oil on melting."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking; no guaiacol/phenols formed."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Residual lactic acid from starter with minor acetic/succinic acid; lactate retained in Coulommiers."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata kneading; casein network lacks aligned demineralized stretch."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Limited methionine demethiolation to methanethiol/dimethyl sulfide/disulfide vs washed-rind."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Lactose depleted; slight sweetness from glycerol, alanine/proline and lactones."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "Rennet plus mold proteolysis releasing glutamate-rich peptides and free Glu."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.cheesebar.ca/cheese/le-rustique-coulommiers",
+  "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.681185/full",
+  "https://dairystandard.co.za/0224/wp-content/uploads/2012/07/CXS_274e.pdf"
+ ]
+}

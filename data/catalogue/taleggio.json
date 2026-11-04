@@ -1,0 +1,148 @@
+{
+ "id": "taleggio",
+ "name": "Taleggio",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "washed_rind",
+ "origin": "Italy",
+ "process": {
+  "aging_months": 1.5,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 49.37,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)30170-4/fulltext",
+   "quote": "**49.37 g / 100 g cheese, SD 2.31**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 26.73,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)30170-4/fulltext",
+   "quote": "**26.73 g / 100 g cheese, SD 1.57**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.8,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.2,
+   "unit": "",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/2000/02/L0205.pdf",
+   "quote": "**surface pH increases from 5.2 to 6.5 during ripening**",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 5.0,
+   "reason": "NH3 from amino-acid deamination/decarboxylation by Brevibacterium linens and yeasts raising surface pH to 6.5."
+  },
+  "animal_barnyard": {
+   "score": 6.0,
+   "reason": "p-cresol, isovaleric acid and phenol from Tyr/Leu catabolism by Brevibacterium + Micrococcaceae smear."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Hydrophobic bitter peptides from rennet/chymosin and plasmin proteolysis, incompletely degraded in 35-day age."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation, so no 2-heptanone/2-nonanone blue-ketone pathway."
+  },
+  "browning": {
+   "score": 6.0,
+   "reason": "Moderate Maillard/lactose-protein browning of high-moisture, deacidified paste when baked."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Diacetyl/acetoin from citrate metabolism by Lactococcus lactis biovar diacetylactis starter."
+  },
+  "cheesy_sweaty": {
+   "score": 7.0,
+   "reason": "Butyric/hexanoic free fatty acids from lipolysis by yeasts, Geotrichum and Micrococcaceae lipases."
+  },
+  "creaminess": {
+   "score": 8.0,
+   "reason": "High moisture 49.4% + 26.7% fat with surface proteolysis liquefying paste under rind."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Rennet-gelled, washed, surface-deacidified paste is supple and cohesive, not acid-crumbly."
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "Soft washed-rind body from high moisture and extensive surface proteolysis, sliceable but yielding."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Phenylacetaldehyde/2-phenylethanol from phenylalanine Strecker/Ehrlich by smear yeasts."
+  },
+  "fruity": {
+   "score": 5.0,
+   "reason": "Ethyl butanoate/hexanoate from ethanol + FFA esterification by Debaryomyces hansenii/Geotrichum."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk low in 4-methyloctanoic/4-ethyloctanoic branched acids characteristic of goat."
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "3-methylbutanal/2-methylbutanal from leucine/isoleucine Strecker plus pyrazines from rind washing."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "Deacidified pH 5.8-6.5, high moisture and intact casein network flows readily on heating."
+  },
+  "mushroom_earthy": {
+   "score": 4.0,
+   "reason": "1-octen-3-ol/1-octen-3-one from linoleic acid lipoxygenase by Geotrichum/Mucor surface flora."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Free oil release from 26.7% fat soft matrix on melting, limited by ~19% protein emulsion."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and no guaiacol/phenol from wood smoke."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Residual L-lactic plus acetic acid from Lactobacillus/Streptococcus and surface heterofermenters."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "No pasta-filata hot-water kneading; weak calcium-phosphate depleted network gives only short extensibility."
+  },
+  "sulfur_cooked": {
+   "score": 4.0,
+   "reason": "Methanethiol/dimethyl sulfide-disulfide from methionine gamma-lyase in Brevibacterium linens."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Low residual lactose/galactose plus glycerol and sweet amino acids Pro/Gly/Ala from proteolysis."
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "Free glutamate and 5'-nucleotides from rennet + plasmin proteolysis during smear ripening."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.journalofdairyscience.org/article/S0022-0302(17)30170-4/fulltext",
+  "https://lait.dairy-journal.org/articles/lait/pdf/2000/02/L0205.pdf",
+  "https://www.mdpi.com/1420-3049/19/7/8707pdf?view%3Dinline"
+ ]
+}

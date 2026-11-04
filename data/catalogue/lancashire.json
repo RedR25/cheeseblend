@@ -1,0 +1,153 @@
+{
+ "id": "lancashire",
+ "name": "Lancashire",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "England",
+ "process": {
+  "aging_months": 2.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 41.1,
+   "unit": "%",
+   "source_url": "https://www.caloriecounter.com.au/food/calories-in-cheese-lancashire/",
+   "quote": "There are 41.1g of water by weight in 100 grams of Cheese, Lancashire",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 31.7,
+   "unit": "%",
+   "source_url": "https://www.caloriecounter.com.au/food/calories-in-cheese-lancashire/",
+   "quote": "Cheese, Lancashire has 24.1 grams of protein, and 31.7 grams of fat per 100g.",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.44,
+   "unit": "%",
+   "source_url": "https://www.nutridex.org.uk/foods/34mv9nt/cheese-lancashire",
+   "quote": "Salt, 1.44 g, Sodium, 575 mg, Potassium, 81 mg, Calcium, 572 mg, Magnesium, 22 mg, Phosphorus, 422 mg, Iron, 0.3 mg, Copper, 0.03 mg, Zinc, 3.6 mg, Chloride,",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 4.9,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Young low-proteolysis interior without surface deamination gives minimal NH3."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Pasteurized milk and no smear flora limits p-cresol/indole/skatole."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Few hydrophobic bitter peptides; short age and 1.44% salt suppress bitterness."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti, no C7/C9 methyl ketones from beta-oxidation."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Moderate moisture/protein Maillard with residual lactose browns modestly when grilled."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Lactococcus lactis biovar diacetylactis citrate to diacetyl/acetoin in young curd."
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "Limited lipase release of butanoic/hexanoic acids in 2-month rennet curd."
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "31.7% fat and young hydrated protein matrix gives smooth creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 8.0,
+   "reason": "Low-pH calcium-phosphate loss plus blended 2-3 day curds fracture easily."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Pressed 41.1% moisture semi-hard body demineralized at low pH firms curd."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylalanine to phenylacetaldehyde/2-phenylethanol in short age."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Low esterase formation of ethyl butanoate/hexanoate in young cheese."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk lacks caprine 4-methyloctanoic/4-ethyloctanoic acids."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Low Strecker 2-/3-methylbutanal from limited leucine/isoleucine catabolism."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "Young hydrated rennet gel with intact casein flows moderately on heating."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No Geotrichum/Penicillium 1-octen-3-ol/1-octen-3-one formation."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "Moderate 31.7% fat free-oil release on melting, no exudation when cold."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked, no wood-smoke guaiacol/syringol deposition."
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "Multi-day acidified curd retains lactic acid plus Lactococcus acetate at pH ~4.9."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "Non-pasta-filata crumbly network lacks aligned flowable casein for stretch."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "No curd cooking and low Lactococcus methionine to methional/methanethiol."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose/galactose and glycerol balance lactic sourness."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Early chymosin/plasmin proteolysis releases modest glutamate peptides."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.caloriecounter.com.au/food/calories-in-cheese-lancashire/",
+  "https://www.nutridex.org.uk/foods/34mv9nt/cheese-lancashire",
+  "https://fdc.nal.usda.gov/fdc-app.html#/food-search?query=Lancashire%20cheese",
+  "https://www.gov.uk/government/publications/composition-of-foods-integrated-dataset-cofid",
+  "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52024XC05378",
+  "https://www.actiononsalt.org.uk/media/action-on-salt/news/surveys/2024/Cheese-Report.pdf",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4139634/",
+  "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf"
+ ]
+}

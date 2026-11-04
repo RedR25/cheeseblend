@@ -1,0 +1,148 @@
+{
+ "id": "bitto",
+ "name": "Bitto",
+ "milk": "mixed",
+ "treatment": "raw",
+ "style": "alpine_hard",
+ "origin": "Valtellina, Lombardy, Italy",
+ "process": {
+  "aging_months": 2.5,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 34.8,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 34.3,
+   "unit": "%",
+   "source_url": "https://benthamopen.com/contents/pdf/TOFSJ/TOFSJ-5-10.pdf",
+   "quote": "were 65.2, 22.7, 34.3, and 3.8% respectively.",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.4,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Low NH3 from limited amino acid deamination at 70-85 days ripening."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "Low p-cresol/indole from raw milk and alpine pasture Tyr/Trp catabolism."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Few hydrophobic bitter peptides from rennet/plasmin proteolysis, balanced by salt."
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "Low 2-heptanone/2-nonanone from beta-oxidation, no Penicillium mold."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Limited Maillard due to depleted lactose and low reducing sugars in aged curd."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl/acetoin from citrate fermentation by mesophilic starters/NSLAB."
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "Moderate butanoic/hexanoic acids from lipoprotein lipase and microbial lipolysis."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "52% fat-in-dry-matter and 34.8% moisture give smooth pressed-paste mouthfeel."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Cohesive cooked-pressed casein network at 3 months, not yet crystalline."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Cooked, pressed, 65.2% total solids gives dense elastic alpine paste."
+  },
+  "floral_honey": {
+   "score": 5.0,
+   "reason": "Pasture terpenes plus phenylacetaldehyde/2-phenylethanol from Phe catabolism."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate/hexanoate from ethanol plus free fatty acids via esterases."
+  },
+  "goaty": {
+   "score": 3.0,
+   "reason": "Slight branched-chain C8-C10 acids from up to 10% goat milk in PDO recipe."
+  },
+  "malty_nutty": {
+   "score": 5.0,
+   "reason": "Strecker 2-/3-methylbutanal and cooked-curd notes from Leu/Ile proteolysis."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "pH ~5.4 with intact colloidal calcium allows good flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "Minimal 1-octen-3-ol, no surface mold, only low pasture-derived earthiness."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Free oil release from coalesced milk fat globules on heating at ~53% FDM."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step, no guaiacol; cooked curd gives no smoke character."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Low acetic/propionic acid from heterofermentative NSLAB, pH ~5.4."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "Rennet-coagulated, cooked non-pasta-filata curd lacks aligned stretchable casein."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low H2S/methional from Met catabolism plus mild whey-protein heating."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Sweet Ala/Pro/Gly amino acids and low salt perception, lactose depleted."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "Moderate glutamate from casein proteolysis by chymosin/plasmin/NSLAB."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://benthamopen.com/contents/pdf/TOFSJ/TOFSJ-5-10.pdf",
+  "https://fdc.nal.usda.gov/food-search?type=Foundation&query=Bitto",
+  "https://anycheese.com/types/bitto/"
+ ]
+}

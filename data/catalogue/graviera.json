@@ -1,0 +1,149 @@
+{
+ "id": "graviera",
+ "name": "Graviera",
+ "milk": "mixed",
+ "treatment": "pasteurized",
+ "style": "alpine_hard",
+ "origin": "Greece",
+ "process": {
+  "aging_months": 3,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 36.67,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7435398/",
+   "quote": "| Moisture % | Ioannina 36.67 ±2.17 %, Lesvos 36.27 ±1.10 %, Tinos 36.70 ±1.75 %, Chania 31.59 ±1.28 %, Trikala 35.33 ±2.17 % | same 90-day samples |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 51.42,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7435398/",
+   "quote": "| Fat % | reported as fat dry-weight-basis (dwb) %: Ioannina 51.42 ±1.67 %, Lesvos 51.57 ±3.75 %, Tinos 45.97 ±3.53 %, Chania 46.37 ±1.62 %, Trikala 46.97 ±2.07 % | same 90-day samples |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.8,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9320697/",
+   "quote": "| Salt NaCl % raw 90 d | 1.80 ±0.32 % – listed as `1.80 ±0.32` in NaCl (%) row ; text: `NaCl content was 1.8% for both cheese types` | Raw cow Graviera, 90 d |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.73,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7435398/",
+   "quote": "| pH | Ioannina 5.73 ±0.13, Lesvos 5.62 ±0.05, Tinos 5.67 ±0.04, Chania 5.68 ±0.08, Trikala 5.58 ±0.02 ; range 5.58-5.73 | 90-day ripe Graviera, 5 Greek regions, as above |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "No bloomy/washed rind urease activity; 90-day hard interior has low volatile NH3 from deamination."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "p-cresol/indole not detected; pasteurized milk and clean LAB fermentation limit phenolic defects."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Lactobacillus helveticus peptidases debitter hydrophobic rennet peptides during 3-month ripening."
+  },
+  "blue_moldy": {
+   "score": 2.0,
+   "reason": "Low 2-heptanone/2-nonanone 0.02-0.56 mg/kg from fatty-acid beta-oxidation, no Penicillium roqueforti."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Maillard between residual galactose and amino acids plus fat browning on heating of low-moisture paste."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Low diacetyl 0.007-0.031 mg/kg plus acetoin 0.08-0.40 mg/kg from citrate/pyruvate metabolism by starter LAB."
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "Moderate butanoic 0.3-1.5 mg/kg plus hexanoic/octanoic acids from lipase/esterase lipolysis of milk fat."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "Fat ~31-33% wet, ~48-51% FDM lubricates mouthfeel despite firm cooked pressed matrix."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Elastic cooked propionic-eyed paste retains colloidal calcium phosphate at pH ~5.65, fractures little."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Cooked 50-52C, pressed, brined, moisture ~35% and 90-day aging gives firm elastic Gruyere-type body."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Phenylacetaldehyde/2-phenylethanol not detected; only low benzoic acid 3-34 mg/kg from phenylalanine."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate up to 0.51 mg/kg and ethyl hexanoate up to 0.36 mg/kg from LAB esterase esterification."
+  },
+  "goaty": {
+   "score": 2.0,
+   "reason": "No 4-methyl/4-ethyloctanoic acids detected; only trace 3-methylbutanoic, short-chain acids low."
+  },
+  "malty_nutty": {
+   "score": 6.0,
+   "reason": "Signature sweet-nutty from Strecker 2-/3-methylbutanal plus propionic fermentation by Propionibacterium shermanii."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "pH 5.6-5.7 demineralized para-casein with intact fat emulsion flows smoothly like alpine Gruyere-type."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "1-octen-3-ol/1-octen-3-one not detected; no mold rind lipoxygenase-linoleate pathway."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate free-oil release on heating from ~50% FDM cooked curd, less than long-aged grana."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and guaiacol not detected; cooked curd has no wood-smoke phenols."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "pH ~5.6-5.7 with acetate up to ~1000 mg/kg by NMR from LAB/Propionibacterium, most lactose depleted."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "Rennet-coagulated non-pasta-filata curd with no hot-water kneading, so no aligned fibers for long stretch."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Only trace dimethyl sulfide 0.001-0.006 mg/kg; no methanethiol/DMDS, cooking drives off sulfides."
+  },
+  "sweet": {
+   "score": 6.0,
+   "reason": "Propionibacterium converts lactate to milder propionate plus proline/glycerol at low acidity perceived sweet."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "90-day rennet plus Lb. helveticus proteolysis releases glutamate peptides enhancing savory broth."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7435398/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9320697/",
+  "https://fdc.nal.usda.gov/food-search.html",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10385548/"
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "id": "burrata",
+ "name": "Burrata",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "pasta_filata",
+ "origin": "Italy",
+ "process": {
+  "aging_months": 0,
+  "coagulation": "mixed",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": true
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 70.01,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7699421/",
+   "quote": "| Moisture | **70.01 ± 2.75 %** | **69.39 ± 3.48 %** | **70.48 ± 2.10 %** |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 17.89,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7699421/",
+   "quote": "| Fat | **17.89 ± 2.36 %** | **18.35 ± 2.33 %** | **17.55 ± 2.43 %** |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 0.42,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7699421/",
+   "quote": "| NaCl | **0.42 ± 0.21 %** | **0.45 ± 0.25 %** | **0.39 ± 0.19 %** |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.29,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7699421/",
+   "quote": "| pH | **6.29 ± 0.20** | **6.21 ± 0.27** | **6.35 ± 0.12** |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 0.0,
+   "reason": "No surface flora or prolonged proteolysis/deamination in fresh <12h cheese."
+  },
+  "animal_barnyard": {
+   "score": 0.0,
+   "reason": "Pasteurized cow milk, no p-cresol/indole reported in Burrata volatilome."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "Very low proteolysis and hydrophobic peptides in fresh rennet curd, low salt."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium, 2-heptanone n.d. day-1 and no C7-C11 methyl ketones."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "High lactose/moisture gives moderate Maillard browning on heating despite no aging."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Citrate fermentation by starters yields diacetyl 84.7 ug/100g + acetoin 202.6 ug/100g in cream."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Very limited lipolysis fresh: only 120.5 ug/100g butanoic acid, hexanoic n.d. in control."
+  },
+  "creaminess": {
+   "score": 9.0,
+   "reason": "70% moisture stracciatella + cream filling gives fluid fat-in-water emulsion."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Elastic stretched pouch plus liquid cream, no crumbly demineralized body."
+  },
+  "firmness": {
+   "score": 2.0,
+   "reason": "Very high moisture 70.01% and pH 6.29 with minimal acid firming, thin pouch."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "No phenylacetaldehyde/2-phenylethanol reported; only faint milky lactones."
+  },
+  "fruity": {
+   "score": 1.0,
+   "reason": "Esterase activity minimal fresh; ethyl butanoate/hexanoate not found, only trace ethyl acetate."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk fat without caprine 4-methyloctanoic/4-ethyloctanoic acids."
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "No aged Strecker aldehydes 2-/3-methylbutanal or propanal reported in fresh curd."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "Low-calcium stretched mozzarella shell flows, cream filling liquefies on warming."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "1-octen-3-ol/1-octen-3-one not found, no mold linoleate oxidation."
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Moderate fat 17.9% in stable cream emulsion, little free oil when fresh."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Not smoked, guaiacol not found in volatilome."
+  },
+  "sour_vinegar": {
+   "score": 1.0,
+   "reason": "Acetic acid n.d., pH 6.29 and 0.28% lactic acid, minimal vinegar sharpness."
+  },
+  "stretch": {
+   "score": 6.0,
+   "reason": "Hot-water pasta-filata alignment of paracasein gives extensible outer pouch."
+  },
+  "sulfur_cooked": {
+   "score": 1.5,
+   "reason": "Pasteurized milk plus hot stretch gives only faint whey-protein H2S/dimethyl sulfide."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Residual lactose plus cream and diacetyl sweetness, very low NaCl 0.42% and low acid."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "No aging proteolysis to glutamate; fresh casein intact, low total N."
+  }
+ },
+ "filata": true,
+ "non_melter": false,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7699421/",
+  "https://hrcak.srce.hr/en/clanak/480165",
+  "https://www.aqua-calc.com/calculate/food-calories/substance/burrata-blank-cream-blank-filled-blank-mozzarella-coma-and-blank-upc-column--blank-898544000354"
+ ]
+}

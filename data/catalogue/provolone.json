@@ -1,0 +1,199 @@
+{
+ "id": "provolone",
+ "name": "Provolone",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "pasta_filata",
+ "origin": "Italy",
+ "process": {
+  "aging_months": 4.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": true
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 40.95,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/food-details/168312/nutrients",
+   "quote": "* **40.95 % w/w** – 40.95 g Water /100 g",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 26.62,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/food-details/168312/nutrients",
+   "quote": "* **26.62 % w/w** – 26.62 g total lipid /100 g",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.0,
+   "unit": "%",
+   "source_url": "https://www.ambrosi.it",
+   "quote": "* **Salt 2 g /100 g** – average values for 100 g product",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.03,
+   "unit": "",
+   "source_url": "https://www.mdpi.com/2071-1050/11/9/2520",
+   "quote": "* **ranged from 5.03 to 6.02 in C portions and from 5.23 to 5.77 in S portions in 3-kg and 5-kg cheeses respectively**",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 3.77,
+   "unit": "µg/kg",
+   "source_url": "https://www.mdpi.com/2071-1050/11/9/2520",
+   "quote": "* **3.77 to 61.91 µg/kg**",
+   "confidence": "measured",
+   "name": "acetoin"
+  },
+  {
+   "value": 186.02,
+   "unit": "µg/kg",
+   "source_url": "https://www.mdpi.com/2071-1050/11/9/2520",
+   "quote": "* a) **186.02 to 11,469.36 µg/kg** – organic-acid VOC fraction",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 203.99,
+   "unit": "µg/kg",
+   "source_url": "https://www.mdpi.com/2071-1050/11/9/2520",
+   "quote": "* a) **203.99 to 5022.33 µg/kg**",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 81000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.sciencedirect.com/topics/food-science/pasta-filata-cheese",
+   "quote": "* **81 mg kg-1 cheese**",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  },
+  {
+   "value": 18.25,
+   "unit": "µg/kg",
+   "source_url": "https://www.mdpi.com/2071-1050/11/9/2520",
+   "quote": "* **18.25 to 2503.02 µg/kg**",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 35.24,
+   "unit": "µg/kg",
+   "source_url": "https://www.mdpi.com/2071-1050/11/9/2520",
+   "quote": "* **35.24 to 123.33 µg/kg**, plus butyl butanoate 33.92 to 47.24 µg/kg – esters were less abundant family, two molecules identified",
+   "confidence": "measured",
+   "name": "ethyl hexanoate"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Low ureolysis/proteolysis deamination with no surface flora, only slight NH3 release after 6 mo."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "Lamb rennet paste lipolysis gives faint animal note but no p-cresol/indole accumulation."
+  },
+  "bitter": {
+   "score": 3.5,
+   "reason": "Moderate hydrophobic peptides from chymosin/pepsin in lamb rennet and plasmin proteolysis."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti; 2-heptanone/2-nonanone not detected, no methyl ketone pathway."
+  },
+  "browning": {
+   "score": 7.0,
+   "reason": "Good Maillard: residual galactose + lysine, pH ~5.0-5.5 and 41% moisture allow browning on heating."
+  },
+  "buttery": {
+   "score": 3.0,
+   "reason": "Very low acetoin 3.8-62 ug/kg and no diacetyl due to thermophilic starter and hot-stretch loss."
+  },
+  "cheesy_sweaty": {
+   "score": 7.0,
+   "reason": "High free butanoic 782 mg/kg + hexanoic 308 mg/kg from lamb pregastric lipase lipolysis."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "26.6% fat emulsified in aligned paracasein fibers from pasta-filata stretching gives smooth mouthfeel."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Plasticized stretched curd forms fibrous cohesive matrix, not short acid-crumbly body."
+  },
+  "firmness": {
+   "score": 6.5,
+   "reason": "Semi-hard 41% moisture, brine-salted and 4-mo dried rind, calcium-paracasein network firm."
+  },
+  "floral_honey": {
+   "score": 1.5,
+   "reason": "Phenylacetaldehyde/2-phenylethanol not quantified; only trace yeast phenylalanine catabolism."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Low esters ethyl hexanoate 35-123 ug/kg + butyl butanoate from esterase esterification of FFA."
+  },
+  "goaty": {
+   "score": 2.0,
+   "reason": "Cow milk, no goat 4-methyloctanoic/4-ethyloctanoic acids despite caproic/caprylic lipolysis."
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "Moderate Strecker/proteolysis aldehydes and amino-acid catabolism during 3-6 mo ripening."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "De-mineralized pH ~5.1 stretched paracasein flows readily on heating, not acid-set non-melter."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "1-octen-3-ol/1-octen-3-one not found; no surface mold lipoxygenase pathway."
+  },
+  "oil_off": {
+   "score": 5.5,
+   "reason": "26.6% fat with coalesced pools from hot stretching releases moderate free oil when melted."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Typical unsmoked make; no wood-smoke guaiacol/phenols unless affumicata variant."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Acetic 18-2503 ug/kg + propionic from thermophilic lactobacilli/streptococci fermentation, pH 5.0-5.5."
+  },
+  "stretch": {
+   "score": 9.0,
+   "reason": "Classic pasta-filata: hot-water plasticization aligns casein for strong fibrous stretch."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Hot stretch volatilizes methanethiol/DMS; no cooked-milk H2S from high-heat treatment."
+  },
+  "sweet": {
+   "score": 2.5,
+   "reason": "Lactose depleted by starter; slight sweetness from free amino acids and low salt masking."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Accumulating glutamate from chymosin/plasmin + bacterial peptidase proteolysis with age."
+  }
+ },
+ "filata": true,
+ "non_melter": false,
+ "sources": [
+  "https://fdc.nal.usda.gov/food-details/168312/nutrients",
+  "https://www.ambrosi.it",
+  "https://www.mdpi.com/2071-1050/11/9/2520",
+  "https://www.sciencedirect.com/topics/food-science/pasta-filata-cheese",
+  "https://mdpi-res.com/d_attachment/sustainability/sustainability-11-02520/article_deploy/sustainability-11-02520.pdf"
+ ]
+}

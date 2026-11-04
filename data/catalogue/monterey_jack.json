@@ -1,0 +1,216 @@
+{
+ "id": "monterey_jack",
+ "name": "Monterey Jack",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "California, USA",
+ "process": {
+  "aging_months": 1.0,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 41.01,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/",
+   "quote": "**Water: 41.01 g / 100 g = 41.01 %** – Cheese, monterey, per 100 g",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 30.28,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/",
+   "quote": "**Total lipid (fat): 30.28 g / 100 g = 30.28 %** – Cheese, monterey, per 100 g",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.19,
+   "unit": "%",
+   "source_url": "https://www.sciencedirect.com/science/article/pii/S092144880400125X",
+   "quote": "**Salt: 1.19 %** – same cheese",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.05,
+   "unit": "",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(06)72150-6/fulltext",
+   "quote": "`pH ranged from 5.11 to 5.05 during 30 wk of aging`",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 8810.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(09)70558-2/fulltext",
+   "quote": "**Mean 8.81 ppm** – control + treatments pooled, 0-30 wk",
+   "confidence": "measured",
+   "name": "diacetyl"
+  },
+  {
+   "value": 110.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(09)70558-2/fulltext",
+   "quote": "**Mean 0.11 ppm**",
+   "confidence": "measured",
+   "name": "acetoin"
+  },
+  {
+   "value": 7740.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(09)70558-2/fulltext",
+   "quote": "**Control mean 7.74 ppm**",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 31740.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(09)70558-2/fulltext",
+   "quote": "**Control mean 31.74 ppm**",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 203490.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(09)70558-2/fulltext",
+   "quote": "**Mean 203.49 ppm**",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  },
+  {
+   "value": 1170.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(09)70558-2/fulltext",
+   "quote": "**Mean 1.17 ppm**",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 420.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(09)70558-2/fulltext",
+   "quote": "**Mean 0.42 ppm, values 0 wk 0.51, 6 wk 0.34, 12 wk 0.47, 18 wk 0.59, 24 wk 0.31, 30 wk 0.30 ppm**",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 1730.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(09)70558-2/fulltext",
+   "quote": "**Control mean 1.73 ppm**",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "No ammonia quantified; 1-2 mo age with low amino acid deamination and vacuum aging limits NH3."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "p-Cresol and indole not detected in cheese; clean pasteurized washed-curd make."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Washed-curd removes lactose and limits hydrophobic peptides from chymosin/plasmin despite short age."
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "2-Heptanone 0.42 ppm and 2-nonanone 1.73 ppm from fatty acid beta-oxidation but no Penicillium roqueforti."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Cold-water wash lowers residual lactose/galactose, so Maillard with 24.5% protein is moderate on heating."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Mean diacetyl 8.81 ppm plus acetoin 0.11 ppm from Lactococcus lactis biovar diacetylactis citrate metabolism."
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "Low-moderate lipolysis: total FFA ~736 mg/kg; butanoic 7.74 ppm, hexanoic 31.74 ppm, octanoic 203.49 ppm headspace."
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "30.28% fat and 41.01% moisture with young intact milkfat globules lubricating rennet gel."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Pliable rennet, washed low-acid curd at pH 5.05 deforms rather than fractures."
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "Semi-hard 41% moisture washed curd cooked to 39C; calcium retained at pH 5.05 gives elastic firmness."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Phenylacetaldehyde and 2-phenylethanol not detected in cheese; minimal Phe transamination."
+  },
+  "fruity": {
+   "score": 1.0,
+   "reason": "Ethyl butanoate/hexanoate not detected; low esterase activity and short age limit ethyl esters."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk lacks 4-methyloctanoic/4-ethyloctanoic acids; only straight-chain C6-C10 at low odor activity."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "2-/3-Methylbutanal not detected; limited Leu/Ile Strecker degradation due to wash and 1 mo age."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "pH 5.05 demineralized para-casein with intact network flows freely; classic washed-curd melter."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "1-Octen-3-ol and 1-octen-3-one not detected; no linoleic acid lipoxygenase pathway."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "30.28% fat coalesces on heating to free oil; moderate lipolysis does not yet emulsify fat."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Guaiacol not detected; typical make is unsmoked with no wood-smoke phenols."
+  },
+  "sour_vinegar": {
+   "score": 2.0,
+   "reason": "Acetic acid 1.17 ppm headspace, ~2.0-2.4 mg/g total from starter; wash removes lactose/lactate acidity."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "No pasta-filata hot-water stretching; rennet gel flows isotropically, not aligned fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Methanethiol, DMS, DMDS not detected; pasteurization drives off H2S and Met catabolism is low."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual carbohydrate ~3% plus diacetyl/acetoin sweetness enhanced by low salt 1.19% and wash."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "Short 1 mo age limits Glu release by chymosin, plasmin and Lactococcus peptidases."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://fdc.nal.usda.gov/",
+  "https://www.sciencedirect.com/science/article/pii/S092144880400125X",
+  "https://www.journalofdairyscience.org/article/S0022-0302(06)72150-6/fulltext",
+  "https://www.journalofdairyscience.org/article/S0022-0302(09)70558-2/fulltext",
+  "https://foundryjournal.net/wp-content/uploads/2026/05/9.FJ25C1044.pdf",
+  "https://doczz.net/doc/8273634/diacetyl-in-foods---wiley-online-library"
+ ]
+}

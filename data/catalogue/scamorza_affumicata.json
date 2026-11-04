@@ -1,0 +1,150 @@
+{
+ "id": "scamorza_affumicata",
+ "name": "Smoked Scamorza",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "pasta_filata",
+ "origin": "Italy",
+ "process": {
+  "aging_months": 0.5,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": true,
+  "stretched": true
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 50.9,
+   "unit": "%",
+   "source_url": "https://business.casaradicci.com/wp-content/uploads/2025/04/1145_PFSPU1145-Scamorze-aff.te-gr-270-vasch.-pz-4-Ct-4-Vs-220801-2.pdf",
+   "quote": "* Moisture: 50,90% , unit % , per 100g",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 25.0,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/fdc-app.html#/food-search?query=scamorza",
+   "quote": "* per 100 g as sold: Fat 25 g, Proteins 21.43 g, Salt 1.428 g",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.428,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/fdc-app.html#/food-search?query=scamorza",
+   "quote": "* per 100 g as sold: Fat 25 g, Proteins 21.43 g, Salt 1.428 g",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.5,
+   "unit": "",
+   "source_url": "https://montrone.net/wp-content/uploads/2022/05/Montrone-ENG_Treccione-of-smoked-scamorza.pdf",
+   "quote": "* pH: between 5.5-6.2 , unit pH",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 0.5,
+   "reason": "Minimal deamination of amino acids in unripened pasta-filata curd."
+  },
+  "animal_barnyard": {
+   "score": 0.5,
+   "reason": "No washed-rind Brevibacterium; no p-cresol/indole accumulation."
+  },
+  "bitter": {
+   "score": 1.5,
+   "reason": "Few hydrophobic peptides due to short age and stretched washed curd."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation; no C7-C11 methyl ketones."
+  },
+  "browning": {
+   "score": 7.5,
+   "reason": "Residual lactose plus protein drives Maillard plus caramel smoked rind."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Lactococcus starter diacetyl/acetoin plus milk-fat C4-C12 lactones."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Minimal lipolysis in 2-week age; low butanoic/hexanoic acids."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "25% fat at 50.9% moisture lubricates without crystals."
+  },
+  "crumbliness": {
+   "score": 1.5,
+   "reason": "Aligned stretched casein fibers deform rather than fracture."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Pasta-filata knit at ~51% moisture gives elastic semi-firm body."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol without extended proteolysis."
+  },
+  "fruity": {
+   "score": 1.5,
+   "reason": "Limited esterase activity in young curd; little ethyl butanoate/hexanoate."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk low in 4-methyloctanoic/4-ethyloctanoic goaty acids."
+  },
+  "malty_nutty": {
+   "score": 1.5,
+   "reason": "Very short ripening limits Strecker 2-/3-methylbutanal formation."
+  },
+  "melt": {
+   "score": 8.5,
+   "reason": "De-mineralized pH 5.5 para-casein flows readily when heated."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No surface mold; negligible 1-octen-3-ol/1-octen-3-one."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Free milkfat from 25% fat coalesces on heating with limited emulsification."
+  },
+  "smoky": {
+   "score": 8.0,
+   "reason": "Wood pyrolysis deposits guaiacol/syringol/phenols on rind and paste."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Starter lactic acid to pH 5.5 with trace acetic acid."
+  },
+  "stretch": {
+   "score": 9.0,
+   "reason": "Hot-stretched oriented casein network forms long fibers."
+  },
+  "sulfur_cooked": {
+   "score": 3.0,
+   "reason": "Hot-water stretching denatures whey protein releasing H2S/methional."
+  },
+  "sweet": {
+   "score": 3.5,
+   "reason": "Residual lactose/galactose plus caramelized smoke notes."
+  },
+  "umami": {
+   "score": 2.5,
+   "reason": "Low free glutamate from brief rennet proteolysis."
+  }
+ },
+ "filata": true,
+ "non_melter": false,
+ "sources": [
+  "https://fdc.nal.usda.gov/fdc-app.html#/food-search?query=scamorza",
+  "https://business.casaradicci.com/wp-content/uploads/2025/04/1145_PFSPU1145-Scamorze-aff.te-gr-270-vasch.-pz-4-Ct-4-Vs-220801-2.pdf",
+  "https://montrone.net/wp-content/uploads/2022/05/Montrone-ENG_Treccione-of-smoked-scamorza.pdf",
+  "https://www.journalofdairyscience.org/article/S0022-0302(15)00013-2/pdf",
+  "https://cdn.prod.website-files.com/69f11ae589579309608e4dce/6a3d9dff8789a9f4be149ec1_01023%20-%20Vacuum%20Smoked%20Scamorza%201.25.pdf"
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "id": "arzua_ulloa",
+ "name": "Arzúa-Ulloa",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Spain",
+ "process": {
+  "aging_months": 0.5,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 46.0,
+   "unit": "%",
+   "source_url": "http://www.aesan.gob.es/dam/jcr:a470be56-9718-4373-a821-0bc57c5f02a3/SLICED_FOOD.pdf",
+   "quote": "Arzúa - Ulloa 46 3.2 5.4",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 33.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 3.2,
+   "unit": "%",
+   "source_url": "http://www.aesan.gob.es/dam/jcr:a470be56-9718-4373-a821-0bc57c5f02a3/SLICED_FOOD.pdf",
+   "quote": "Arzúa - Ulloa 46 3.2 5.4",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.4,
+   "unit": "",
+   "source_url": "http://www.aesan.gob.es/dam/jcr:a470be56-9718-4373-a821-0bc57c5f02a3/SLICED_FOOD.pdf",
+   "quote": "Arzúa - Ulloa 46 3.2 5.4",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Very short aging limits amino acid deamination and urease ammonia release."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Pasteurized cow milk and no washed rind limits p-cresol, indole and skatole."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Short ripening limits accumulation of hydrophobic bitter peptides from chymosin."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation so no 2-heptanone/2-nonanone methyl ketones."
+  },
+  "browning": {
+   "score": 3.0,
+   "reason": "High moisture young curd with residual lactose and lysine gives moderate Maillard browning."
+  },
+  "buttery": {
+   "score": 7.0,
+   "reason": "Citrate fermentation by Lactococcus lactis biovar diacetylactis yields diacetyl and acetoin."
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "Mild lipolysis yields 226 mg/100g DM butyric acid plus some C6-C8 free fatty acids."
+  },
+  "creaminess": {
+   "score": 8.0,
+   "reason": "High moisture 46% and ~61% fat-in-dry-matter with uncooked rennet curd gives creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Young elastic rennet gel at pH 5.4 retains calcium phosphate crosslinks, not crumbly."
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "Semi-soft uncooked pressed paste with 46% moisture and 6-30 days aging stays soft."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Low phenylalanine catabolism limits phenylacetaldehyde and 2-phenylethanol."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Only ethyl acetate detected in pasteurized type, little esterase ethyl butanoate/hexanoate."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk fat lacks high 4-methyloctanoic and 4-ethyloctanoic goaty acids."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Short age and low branched-chain Strecker aldehydes 3-methylbutanal/2-methylpropanal."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "pH 5.4 demineralized young casein with intact network flows well on heating."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No Geotrichum/Penicillium camemberti so no 1-octen-3-ol or 1-octen-3-one."
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Young high-moisture emulsion with intact fat globules releases little free oil."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step so no guaiacol or syringol phenols."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "High lactic 14601 mg/100g DM plus acetic 1006 mg/100g DM from heterofermentation."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "Rennet curd not pasta-filata heated-kneaded, so no aligned paracasein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "No high cook, low methionine catabolism limits methanethiol and methional."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Residual lactose/galactose and diacetyl/acetoin impart mild sweet milky note."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Limited proteolysis in 6-day cheese yields low free glutamate from casein."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "http://www.aesan.gob.es/dam/jcr:a470be56-9718-4373-a821-0bc57c5f02a3/SLICED_FOOD.pdf",
+  "https://fdc.nal.usda.gov/fdc-app.html#/food-search?query=Arzua-Ulloa",
+  "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52009XC0610(10)"
+ ]
+}

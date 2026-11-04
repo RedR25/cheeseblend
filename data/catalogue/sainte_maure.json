@@ -1,0 +1,148 @@
+{
+ "id": "sainte_maure",
+ "name": "Sainte-Maure de Touraine",
+ "milk": "goat",
+ "treatment": "raw",
+ "style": "soft_bloomy",
+ "origin": "France",
+ "process": {
+  "aging_months": 0.75,
+  "coagulation": "mixed",
+  "cooked": false,
+  "mold": "white",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 67.3,
+   "unit": "%",
+   "source_url": "https://hal.science/hal-00929594v1/file/hal-00929594.pdf",
+   "quote": "* **2-day cheese: TS 32.7 g/100g = moisture 67.3 %**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 14.7,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 1.5,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 4.3,
+   "unit": "",
+   "source_url": "https://hal.science/hal-00929594v1/file/hal-00929594.pdf",
+   "quote": "* **pH ~4.3 – 2-day cheese, centre and surface**",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "mild surface deamination by Geotrichum with pH rise 4.4 to 5.1 at surface, low urea/amino-acid deamination"
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "3-methylbutanoic 293 ug/kg plus 4-Me/4-Et octanoic goat acids and Geotrichum deacidification"
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "limited hydrophobic peptides from low rennet 520mg chymosin/L and short ripening with starter peptidases"
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "no Penicillium roqueforti, only low 2-heptanone 156 and 2-nonanone 393 ug/kg from lipolysis"
+  },
+  "browning": {
+   "score": 1.0,
+   "reason": "low pH 4.3 and depleted lactose reduces Maillard when heated"
+  },
+  "buttery": {
+   "score": 2.0,
+   "reason": "low acetoin 78-97 ug/kg from mesophilic starter citrate metabolism, no creamery diacetyl"
+  },
+  "cheesy_sweaty": {
+   "score": 6.0,
+   "reason": "hexanoic 23380 plus octanoic 32958 plus butanoic 289 ug/kg from lipolysis at 5-10x threshold at 31d"
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "high moisture 67.3% fresh plus Geotrichum proteolysis creaming under ash rind"
+  },
+  "crumbliness": {
+   "score": 6.0,
+   "reason": "acid gel at pH 4.3 demineralized casein from 24h lactic coagulation gives short fracture"
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "lactic drained log with straw, chalky-firm paste despite high moisture"
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "phenylethanol 1007 ug/kg from phenylalanine catabolism by surface flora"
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "ethyl butanoate 146 plus ethyl hexanoate 258 plus ethyl octanoate 480 ug/kg from esterification"
+  },
+  "goaty": {
+   "score": 8.0,
+   "reason": "goat-specific 4-methyloctanoic 139 plus 4-ethyloctanoic 27 ug/kg plus C6/C8/C10 above threshold"
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "uncooked lactic curd with no propionibacteria or Strecker aldehyde maltol formation"
+  },
+  "melt": {
+   "score": 1.0,
+   "reason": "acid demineralized low-pH curd softens but does not flow on heating"
+  },
+  "mushroom_earthy": {
+   "score": 3.0,
+   "reason": "Geotrichum candidum sprayed surface flora producing C8 and earthy notes"
+  },
+  "oil_off": {
+   "score": 1.0,
+   "reason": "low fat ~45% FDM ~14.7% wet and acid emulsion stable, little free oil"
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "vegetable ash coating only, no smoking and no guaiacol"
+  },
+  "sour_vinegar": {
+   "score": 7.0,
+   "reason": "24h mesophilic lactic fermentation to pH 4.3 with high lactic acid"
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "no pasta-filata stretching, acid curd with no aligned casein network"
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "uncooked curd at 17-20C, no heat-induced H2S and low methionine catabolism"
+  },
+  "sweet": {
+   "score": 1.0,
+   "reason": "lactose depleted by lactic fermentation, sour pH masks sweetness"
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "short >=10d ripening with low proteolysis and low glutamate release"
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://hal.science/hal-00929594v1/file/hal-00929594.pdf",
+  "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/goat-cheese",
+  "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52022XC0429(03)"
+ ]
+}

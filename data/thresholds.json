@@ -1,0 +1,182 @@
+{
+ "diacetyl": {
+  "value": 2.3,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| diacetyl | 2.3-6.5 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "acetoin": {
+  "value": 800,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| acetoin | 800 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "delta-decalactone": {
+  "value": 100,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| delta-decalactone | 100 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "delta-dodecalactone": {
+  "value": 1000,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| delta-dodecalactone | 1000 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "butanoic acid": {
+  "value": 240,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| butanoic acid | 240 as Butyric acid; n-Butanoic acid; 240 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "3-methylbutanoic acid": {
+  "value": 120,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| 3-methylbutanoic acid | 120-700 as Isovaleric acid; 3-Methylbutanoic acid; 120-700 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "hexanoic acid": {
+  "value": 3000,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| hexanoic acid | 3000 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "octanoic acid": {
+  "value": 3000,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| octanoic acid | 3000 as Octanoic acid; Caprylic acid; 3000 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "acetic acid": {
+  "value": 22000,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| acetic acid | 22000 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "propanoic acid": {
+  "value": 20000,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| propanoic acid | 20000 as Propionic acid; Propanoic acid; 20000 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "3-methylbutanal": {
+  "value": 0.2,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| 3-methylbutanal | 0.2-2 as Methylbutyraldehyde 3-Methylbutyraldehyde; Isovaleraldehyde; 0.2-2 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "2-methylbutanal": {
+  "value": 1,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| 2-methylbutanal | 1 as Methylbutyraldehyde; 2-Methylbutyraldehyde; 1 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "2-methylpropanal": {
+  "value": 0.1,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| 2-methylpropanal | 0.1-2.3 as Isobutyraldehyde; 2-Methylpropanal; 0.1-2.3 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "methanethiol": {
+  "value": 0.02,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| methanethiol | 0.02 as Methyl mercaptan; 0.02 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "dimethyl sulfide": {
+  "value": 0.3,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| dimethyl sulfide | 0.3-1.0 as Methyl sulfide; Dimethyl sulfide; Methylthiomethane 0.3-1.0 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "dimethyl disulfide": {
+  "value": 0.16,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| dimethyl disulfide | 0.16-12 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "dimethyl trisulfide": {
+  "value": 0.005,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| dimethyl trisulfide | 0.005-0.01 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "methional": {
+  "value": 0.2,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| methional | 0.2 as Methylthiopropanal; 3-(Methylthio)-propanal; Methional; 0.2 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "2-heptanone": {
+  "value": 140,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| 2-heptanone | 140-3000 as Heptanone; 2-Heptanone; Methyl amyl ketone 140-3000 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "2-nonanone": {
+  "value": 5,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| 2-nonanone | 5-200 as Nonanone; 2-Nonanone; Methyl heptyl ketone 5-200 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "2-undecanone": {
+  "value": 7,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| 2-undecanone | 7 as Undecanone; 2-Undecanone Methyl nonyl ketone; 7 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "ethyl butanoate": {
+  "value": 1,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| ethyl butanoate | 1 as Ethyl butyrate; Ethyl butanoate; 1 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "ethyl hexanoate": {
+  "value": 1,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| ethyl hexanoate | 1 as Ethyl hexanoate Ethyl caproate; 1 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "1-octen-3-ol": {
+  "value": 1,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| 1-octen-3-ol | 1 as Octenol; 1-Octen-3-ol: 1 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "1-octen-3-one": {
+  "value": 0.005,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| 1-octen-3-one | 0.005 as Octenone; 1-Octen-3-One; 0.005 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "phenylacetaldehyde": {
+  "value": 4,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| phenylacetaldehyde | 4 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "2-phenylethanol": {
+  "value": 750,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| 2-phenylethanol | 750-1100 as Phenethyl alcohol; 2-Phenethyl alcohol; 750-1100 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "p-cresol": {
+  "value": 55,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| p-cresol | 55 as Cresol; 4-methylphenol; p-Cresol; 55 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "indole": {
+  "value": 140,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| indole | 140 as Indole; 140 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ },
+ "guaiacol": {
+  "value": 3,
+  "unit": "µg/kg",
+  "source_url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf",
+  "quote": "| guaiacol | 3-21 as Guaiacol; o-Methoxyphenol; o-Hydroxyanisole 3-21 | ppb in water | http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf |"
+ }
+}

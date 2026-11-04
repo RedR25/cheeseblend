@@ -1,0 +1,147 @@
+{
+ "id": "coolea",
+ "name": "Coolea",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Ireland",
+ "process": {
+  "aging_months": 15.0,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 37.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 36.0,
+   "unit": "%",
+   "source_url": "https://sheridanscheesemongers.com/products/coolea-extra-mature",
+   "quote": "| **fat % / fat g/100g** | **not found in peer-reviewed / FoodData Central.** For information only, non-peer-reviewed retail label: **36** under header **Per 100g** in row **Fat \\| 36g** | g / 100 g on label | Coolea Extra Mature, 150g, mature 12-18 months, Co. Cork, Ireland | https://sheridanscheesemongers.com/products/coolea-extra-mature |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.0,
+   "unit": "%",
+   "source_url": "https://sheridanscheesemongers.com/products/coolea-extra-mature",
+   "quote": "| **salt (NaCl) %** | **not found in peer-reviewed / FoodData Central.** For information only, non-peer-reviewed retail label: **Salt \\| 2** under header **Per 100g** and , ingredients include “Cows (**MILK**), salt…” | label lists “2” per 100g, normally g/100g; unit not explicitly printed as “g” | Same sample as above: Coolea Extra Mature, 12-18 months, Co. Cork | Same URL as above |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.3,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Low NH3 from late proteolysis/deamination; dense low-moisture paste limits urease activity."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Pasteurized milk and no smear flora limits p-cresol/indole/skatole formation."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Washed curd removes lactose/acid, limiting hydrophobic bitter peptides despite long proteolysis."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation, no internal mould lipolysis to methyl ketones."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Maillard between residual galactose/free amino acids from 15-mo proteolysis on heating."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl/acetoin from Lactococcus lactis citrate fermentation retained in washed curd."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "Butanoic/hexanoic/octanoic acids from starter lipase/esterase lipolysis during 12-18 mo aging."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "36% fat with calcium-paracasein breakdown and warm mouthfeel from long proteolysis."
+  },
+  "crumbliness": {
+   "score": 5.0,
+   "reason": "Low moisture and calcium lactate/tyrosine crystals fracture curd after extended aging."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Washed-cooked Gouda curd pressed and dried to ~37% moisture, hardened by 15 mo aging."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Phenylacetaldehyde/2-phenylethanol from phenylalanine Strecker/transamination by lactobacilli."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate/hexanoate from esterification of free fatty acids with ethanol during aging."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk fat low in branched 4-methyloctanoic/4-ethyloctanoic goaty acids."
+  },
+  "malty_nutty": {
+   "score": 6.0,
+   "reason": "3-methylbutanal/2-methylbutanal from leucine/isoleucine Strecker plus toffee lactones on aging."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "Rennet-cooked washed curd pH ~5.3 retains intact para-casein that flows on heating."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "No surface mould; very low 1-octen-3-ol/1-octen-3-one from linoleic acid oxidation."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "Free fat release from coalesced fat globules and proteolyzed matrix on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make; no wood-smoke guaiacol/syringol deposition."
+  },
+  "sour_vinegar": {
+   "score": 2.0,
+   "reason": "Curd washing removes lactose and whey, limiting lactic/acetic acid by starter."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "Rennet-cooked non-pasta-filata curd lacks aligned demineralized fibers for stretching."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Light cooking and pasteurization give low methanethiol/DMS from methionine catabolism."
+  },
+  "sweet": {
+   "score": 5.0,
+   "reason": "Toffee/caramel delta-lactones plus sweet amino acids Pro/Gly/Ala from 15-mo proteolysis."
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "Glutamate accumulation from Lactococcus/Lactobacillus peptidase proteolysis during maturation."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://sheridanscheesemongers.com/products/coolea-extra-mature",
+  "https://fdc.nal.usda.gov/"
+ ]
+}

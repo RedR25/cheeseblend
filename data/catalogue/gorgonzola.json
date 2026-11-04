@@ -1,0 +1,201 @@
+{
+ "id": "gorgonzola",
+ "name": "Gorgonzola",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "blue",
+ "origin": "Italy",
+ "process": {
+  "aging_months": 3,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "blue",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 42.2,
+   "unit": "%",
+   "source_url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/gorgonzola-cheese",
+   "quote": "| Gorgonzola | Italy | PDO | Pasteurized cow | 42.2–49.6 | 29.6–31 | 19–22.9 | 1.6–2.9 | >3 | 48,000 |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 29.6,
+   "unit": "%",
+   "source_url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/gorgonzola-cheese",
+   "quote": "| Gorgonzola | Italy | PDO | Pasteurized cow | 42.2–49.6 | 29.6–31 | 19–22.9 | 1.6–2.9 | >3 | 48,000 |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.6,
+   "unit": "%",
+   "source_url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/gorgonzola-cheese",
+   "quote": "| Gorgonzola | Italy | PDO | Pasteurized cow | 42.2–49.6 | 29.6–31 | 19–22.9 | 1.6–2.9 | >3 | 48,000 |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.65,
+   "unit": "",
+   "source_url": "https://www.conjecturas.org/index.php/edicoes/article/download/724/565",
+   "quote": "> The pH of Gorgonzola cheeses varied between 6.65 and 8.12, with sample G",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 3212.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.sciencedirect.com/topics/food-science/cheese-flavor",
+   "quote": "> Gorgonzola cheese was markedly different, containing 2-nonanone (3212), 2-heptanone (2916), 3-methyl-1-butanol (2534), 2-undecanone (1884), 3-methylbutanal (1120)",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  },
+  {
+   "value": 2916.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.sciencedirect.com/topics/food-science/cheese-flavor",
+   "quote": "> Gorgonzola cheese was markedly different, containing 2-nonanone (3212), 2-heptanone (2916), 3-methyl-1-butanol (2534), 2-undecanone (1884), 3-methylbutanal (1120)",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 1884.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.sciencedirect.com/topics/food-science/cheese-flavor",
+   "quote": "> Gorgonzola cheese was markedly different, containing 2-nonanone (3212), 2-heptanone (2916), 3-methyl-1-butanol (2534), 2-undecanone (1884), 3-methylbutanal (1120)",
+   "confidence": "measured",
+   "name": "2-undecanone"
+  },
+  {
+   "value": 1120.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.sciencedirect.com/topics/food-science/cheese-flavor",
+   "quote": "> Gorgonzola cheese was markedly different, containing 2-nonanone (3212), 2-heptanone (2916), 3-methyl-1-butanol (2534), 2-undecanone (1884), 3-methylbutanal (1120)",
+   "confidence": "measured",
+   "name": "3-methylbutanal"
+  },
+  {
+   "value": 643.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.sciencedirect.com/topics/food-science/cheese-flavor",
+   "quote": "> 2-pentanone (955), 2-tridecanone (890), phenyl acetaldehyde (643), 1-octen-3-ol (601), and methyl propanoate (379).",
+   "confidence": "measured",
+   "name": "phenylacetaldehyde"
+  },
+  {
+   "value": 601.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.sciencedirect.com/topics/food-science/cheese-flavor",
+   "quote": "> 2-pentanone (955), 2-tridecanone (890), phenyl acetaldehyde (643), 1-octen-3-ol (601), and methyl propanoate (379).",
+   "confidence": "measured",
+   "name": "1-octen-3-ol"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 4.0,
+   "reason": "Penicillium protease-deaminase proteolysis releases NH3 raising pH to ~6.8"
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "Low p-cresol/indole in pasteurized cow milk clean Penicillium ripening"
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Hydrophobic peptides from rennet plus Penicillium proteinases, milder in dolce type"
+  },
+  "blue_moldy": {
+   "score": 8.0,
+   "reason": "Penicillium beta-oxidation gives 2-heptanone 2916, 2-nonanone 3212, 2-undecanone 1884 ug/kg"
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Maillard of residual lactose with lysine plus fat browning on heating"
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl/acetoin from citrate fermentation by Lactococcus/Streptococcus starters"
+  },
+  "cheesy_sweaty": {
+   "score": 7.0,
+   "reason": "Penicillium roqueforti/glaucum lipases release butyric/hexanoic free fatty acids"
+  },
+  "creaminess": {
+   "score": 7.0,
+   "reason": "29-31% fat plus proteolytic softening gives creamy dolce paste"
+  },
+  "crumbliness": {
+   "score": 3.0,
+   "reason": "High-moisture proteolyzed paste fractures short but not dry-crumbly"
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "42-50% moisture pierced semi-soft paste softened by mold proteolysis"
+  },
+  "floral_honey": {
+   "score": 4.0,
+   "reason": "Phenylacetaldehyde 643 ug/kg from phenylalanine Strecker degradation"
+  },
+  "fruity": {
+   "score": 5.0,
+   "reason": "Methyl/ethyl esters including methyl propanoate plus methyl ketones by esterases"
+  },
+  "goaty": {
+   "score": 4.0,
+   "reason": "C6:0-C8:0 caproic-caprylic acids from milk-fat lipolysis, moderate in cow milk"
+  },
+  "malty_nutty": {
+   "score": 5.0,
+   "reason": "3-methylbutanal 1120 ug/kg and 3-methyl-1-butanol 2534 ug/kg from leucine catabolism"
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "Rennet gel at pH ~6.65 with intact para-casein flows on heating"
+  },
+  "mushroom_earthy": {
+   "score": 6.0,
+   "reason": "1-octen-3-ol 601 ug/kg from linoleic acid oxidation by Penicillium lipoxygenase"
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "High fat with mold-loosened protein network releases free oil on melting"
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and no guaiacol/volatile phenols detected"
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Lactic/acetic acids consumed/neutralized during blue ripening to pH ~6.6-6.8"
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata hot-water kneading so casein not aligned for stringing"
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Only trace methional/sulfides from methionine catabolism reported in Gorgonzola"
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose plus sweet amino acids balanced by salt and ketones"
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "Extensive mold proteolysis to glutamate and savory peptides over >3 mo"
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/gorgonzola-cheese",
+  "https://www.conjecturas.org/index.php/edicoes/article/download/724/565",
+  "https://www.sciencedirect.com/topics/food-science/cheese-flavor",
+  "https://www.journalofdairyscience.org/article/S0022-0302(17)30170-4/fulltext",
+  "https://api.nal.usda.gov/fdc/v1/foods/search?query=gorgonzola&dataType=SR%20Legacy&api_key=DEMO_KEY",
+  "https://api.nal.usda.gov/fdc/v1/foods/search?query=gorgonzola&api_key=DEMO_KEY",
+  "https://api.nal.usda.gov/fdc/v1/foods/search?query=cheese%20blue&dataType=SR%20Legacy&api_key=DEMO_KEY"
+ ]
+}

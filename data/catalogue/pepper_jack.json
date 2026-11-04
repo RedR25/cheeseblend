@@ -1,0 +1,149 @@
+{
+ "id": "pepper_jack",
+ "name": "Pepper Jack",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "California, USA",
+ "process": {
+  "aging_months": 1.6,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 40.0,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)01060-2/fulltext",
+   "quote": "| moisture | 40 % mean ± 0.88% SD, n=5 formulations x 2 replications | 50-d old full-fat pasteurized-milk Monterey Jack + hatch / red-green jalapeno / orange habanero, Twin Falls, ID, USA. Source: https://www.journalofdairyscience.org/article/S0022-0302(21)01060-2/fulltext |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 51.0,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)01060-2/fulltext",
+   "quote": "| fat | 51 % fat in dry matter mean ± 0.58% SD | same sample as above. Source: https://www.journalofdairyscience.org/article/S0022-0302(21)01060-2/fulltext |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.8,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)01060-2/fulltext",
+   "quote": "| salt (NaCl) | 1.8 % ± 0.18% SD | same sample as above. Source: https://www.journalofdairyscience.org/article/S0022-0302(21)01060-2/fulltext |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.3,
+   "unit": "",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)01060-2/fulltext",
+   "quote": "| pH | 5.3 ± 0.05 SD | same sample as above. Source: https://www.journalofdairyscience.org/article/S0022-0302(21)01060-2/fulltext |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 0.5,
+   "reason": "Very young low proteolysis with minimal amino acid deamination to NH3."
+  },
+  "animal_barnyard": {
+   "score": 0.0,
+   "reason": "Pasteurized milk and lactic starter with no Enterobacteriaceae/Brevibacterium p-cresol/indole."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Short age and washed curd limit hydrophobic peptide accumulation from rennet/culture proteolysis."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation so no 2-heptanone/2-nonanone methyl ketone pathway."
+  },
+  "browning": {
+   "score": 6.0,
+   "reason": "Good melt with residual lactose/galactose and lysine drives Maillard on heating."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Lactococcus lactis biovar diacetylactis citrate metabolism to diacetyl/acetoin in young washed curd."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Limited lipolysis to butanoic/hexanoic acids in 50-d pasteurized milk with low lipase activity."
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "40% moisture and ~30.6% fat with washed low-acid casein matrix gives smooth creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "High moisture elastic rennet gel with intact calcium-paracasein, not dried or long-aged."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Semi-hard washed-curd at 40% moisture and pH 5.3 gives medium-firm elastic body."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Low phenylalanine catabolism to phenylacetaldehyde/2-phenylethanol in short-aged Jack."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Early esterification to ethyl butanoate/hexanoate plus C6 aldehydes from added jalapeno/habanero peppers."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk only with no caprine 4-methyloctanoic/4-ethyloctanoic branched-chain fatty acids."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Minimal Strecker 2-/3-methylbutanal and pyrazines due to short age and no thermophilic Alpine cook."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "pH 5.3 intact hydrated paracasein with washed-curd low calcium gives excellent flow without stretching."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No mold surface flora so no linoleic acid oxidation to 1-octen-3-ol/1-octen-3-one."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "~30% fat in young porous network releases moderate free oil on melting."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make with fresh jalapeno/habanero peppers, no wood-smoke guaiacol/syringol."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Lactococcus-derived lactic acid at pH 5.3 plus minor acetic acid from peppers/starter."
+  },
+  "stretch": {
+   "score": 3.0,
+   "reason": "Non-pasta-filata rennet curd with no hot-water kneading, flows rather than strings."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Mild pasteurization/warm cook H2S and low methionine to methanethiol/methional in young cheese."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose/lactate and diacetyl milky sweetness balanced by 1.8% salt."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "Limited chymosin/plasmin proteolysis to glutamate peptides at 50 days age."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.journalofdairyscience.org/article/S0022-0302(21)01060-2/fulltext",
+  "https://doczz.net/doc/7741867/growth-of-listeria-monocytogenes--salmonella-spp.--escher...",
+  "https://www.aqua-calc.com/calculate/food-calories/substance/pepperjack-blank-monterey-blank-jack-blank-cheese-blank-with-blank-jalapeno-blank-peppers-coma-and-blank-upc-column--blank-074175464271",
+  "https://ams-prod.azureedge.us/sites/default/files/media/Natural_Pepper_Jack_Cheese_CRD_October_2025.pdf"
+ ]
+}

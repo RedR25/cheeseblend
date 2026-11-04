@@ -1,0 +1,150 @@
+{
+ "id": "saint_paulin",
+ "name": "Saint-Paulin",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "washed_rind",
+ "origin": "France",
+ "process": {
+  "aging_months": 1.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 53.3,
+   "unit": "%",
+   "source_url": "https://tools.myfooddata.com/nutrition-facts/399353/wt1/",
+   "quote": "> This food consists of 53.3% water, 23.3% protein,",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 16.4,
+   "unit": "%",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/2001/06/saboya.pdf",
+   "quote": "> total solids, 16.4% (±0.1) fat, 1.5% (±0.04)",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.5,
+   "unit": "%",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/2001/06/saboya.pdf",
+   "quote": "> total solids, 16.4% (±0.1) fat, 1.5% (±0.04)",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.23,
+   "unit": "",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/2001/06/saboya.pdf",
+   "quote": "> pH 5.23 (±0.02), 40.4% (±0.1)",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Short 4-week aging with low amino acid deamination and lightly washed rind."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Light brine wash limits Brevibacterium linens p-cresol and indole formation."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Curd washing removes lactose and limits hydrophobic bitter peptides from chymosin."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti, negligible 2-heptanone and 2-nonanone from beta-oxidation."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Trace residual lactose/galactose with whey protein undergoes Maillard on heating."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Lactococcus lactis citrate metabolism to diacetyl and acetoin in young curd."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Limited lipolysis to butanoic and hexanoic acids in 4-week ripening."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "High moisture with pasteurized cow fat and smooth demineralized protein matrix."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Elastic washed-curd paracasein network at pH 5.23 fractures little."
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "Washed pressed curd at ~53% moisture gives supple sliceable semi-soft body."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Trace phenylacetaldehyde and 2-phenylethanol from phenylalanine catabolism."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Trace ethyl butanoate from esterase esterification of free fatty acids with ethanol."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk lacks caprine C6-C10 branched acids 4-methyloctanoic and 4-ethyloctanoic."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Low Strecker 3-methylbutanal from leucine catabolism in short-aged curd."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "Washed-curd low colloidal calcium phosphate at pH 5.23 allows good flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "Very low 1-octen-3-ol from linoleate oxidation, no bloomy mold growth."
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Moderate fat emulsified in intact protein matrix releases little free oil on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step, no guaiacol or syringol from wood smoke."
+  },
+  "sour_vinegar": {
+   "score": 2.0,
+   "reason": "Curd washing removes lactose, low lactic and acetic acid at pH 5.23."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "Non-pasta-filata, no hot-water alignment of paracasein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Minimal methionine catabolism to methanethiol and dimethyl disulfide."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Lactose depleted but sweet amino acids proline/glycine plus diacetyl perception."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Early rennet and lactococcal proteolysis releases glutamate peptides."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://lait.dairy-journal.org/articles/lait/pdf/2001/06/saboya.pdf",
+  "https://tools.myfooddata.com/nutrition-facts/399353/wt1/",
+  "https://www.infona.pl/resource/bwmeta1.element.elsevier-4d9e0f40-2827-397d-bb87-e32e1f3c7d06",
+  "https://tools.myfooddata.com/nutrition-comparison/399353/wt1/1",
+  "https://fdc.nal.usda.gov/fdc-app.html#/food-search?query=Saint%20Paulin"
+ ]
+}

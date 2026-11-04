@@ -1,0 +1,175 @@
+{
+ "id": "ragusano",
+ "name": "Ragusano",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "pasta_filata",
+ "origin": "Sicily, Italy",
+ "process": {
+  "aging_months": 6,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": true
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 45.35,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(00)74896-X/pdf",
+   "quote": "The freshly formed blocks ... contained about 45.35% moisture, 25.3% protein, and 25.4% fat, with a pH of 5.25.",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 25.4,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(00)74896-X/pdf",
+   "quote": "The freshly formed blocks ... contained about 45.35% moisture, 25.3% protein, and 25.4% fat, with a pH of 5.25.",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 4.4,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(00)74896-X/pdf",
+   "quote": "After 12 mo ... contained about 33.6% moisture, 29.2% protein, 30.0% fat, and 4.4% salt with a pH of 5.54",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.25,
+   "unit": "",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(00)74896-X/pdf",
+   "quote": "The freshly formed blocks ... contained about 45.35% moisture, 25.3% protein, and 25.4% fat, with a pH of 5.25.",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 682000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(00)74896-X/pdf",
+   "quote": "C4 68.2 20.4 21.8 109.3 32.3 17.0",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 218000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(00)74896-X/pdf",
+   "quote": "C6 21.8 1.4 7.0 43.7 6.3 6.8",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 71000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(00)74896-X/pdf",
+   "quote": "C8 7.1 0.3 2.3 16.1 2.5 2.5",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 3.0,
+   "reason": "0.55-0.62 mg/g ammonia from amino-acid deamination/deamidation during 3-7 mo aging, low vs surface-ripened cheese."
+  },
+  "animal_barnyard": {
+   "score": 3.0,
+   "reason": "p-cresol/indole from tyrosine/tryptophan catabolism plus raw-milk native-pasture microflora."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Hydrophobic peptides from alpha-s1 casein by rennet/plasmin plus high salt 3.7% enhancing bitterness."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation, mold=none, no blue ketone pathway."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Maillard between residual galactose and lysine at low moisture under high heat, typical pasta-filata pizza browning."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Diacetyl/acetoin from citrate fermentation by Streptococcus thermophilus/Lactobacillus in high-fat matrix."
+  },
+  "cheesy_sweaty": {
+   "score": 7.0,
+   "reason": "High butanoic 68-246 mg/100g and hexanoic 22-57 mg/100g from kid/lamb rennet-paste pregastric lipase lipolysis."
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "28-30% fat, 45% fat-in-dry-matter gives mouth-coating but dense stretched paracasein network limits cream."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Hot-water plasticized fibrous oriented protein fractures short only when well-aged, not crumbly."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Moisture ~36% plus dense stretched paste and 6-mo drying with pH 5.3 calcium-phosphate crosslinking."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Phenylacetaldehyde from phenylalanine Strecker degradation detected by GC-olfactometry, low concentration."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butyrate/hexanoate from esterification of free fatty acids with ethanol by nonstarter LAB esterases."
+  },
+  "goaty": {
+   "score": 3.0,
+   "reason": "C6/C8 medium-chain fatty acids give goaty-soapy notes though cow milk, released by rennet lipase."
+  },
+  "malty_nutty": {
+   "score": 5.0,
+   "reason": "Strecker aldehydes 2-/3-methylbutanal from leucine/isoleucine catabolism plus proteolysis during 4-7 mo aging."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "pH 5.3 demineralized paracasein flows on heating, moderate vs fresh mozzarella due to aged crosslinking."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "1-octen-3-one from linoleic acid oxidation via lipoxygenase, GC-olfactometry mushroom note only."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Coalesced fat pools from stretching plus lipolysis release free oil on heating at 30% fat."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked cheese, smoked=false, no guaiacol/phenol wood-smoke compounds."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Lactic acid pH 5.2-5.4 plus acetic acid dirty-sock note from thermophilic starter fermentation."
+  },
+  "stretch": {
+   "score": 6.0,
+   "reason": "Hot-water kneading aligns paracasein fibers retaining stringing/curd-pull when melted, defining filata."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Trace methional/dimethyl disulfide-tetrasulfide from methionine catabolism; hot stretching drives off H2S."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Low residual lactose/galactose, slight glycerol and amino-acid sweetness masked by acid and 3.7% salt."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "~20 mg/g free amino acids including glutamate from rennet/plasmin/LAB peptidase proteolysis."
+  }
+ },
+ "filata": true,
+ "non_melter": false,
+ "sources": [
+  "https://www.journalofdairyscience.org/article/S0022-0302(00)74896-X/pdf",
+  "https://www.journalofdairyscience.org/article/S0022-0302(98)75900-4/pdf",
+  "https://www.iris.unict.it/bitstream/20.500.11769/51842/1/Carpino_2004_Composition%20and%20Aroma%20Compounds%20of%20Ragusano%20Cheese.pdf",
+  "https://www.journalofdairyscience.org/article/S0022-0302(04)73449-9/fulltext",
+  "https://www.mdpi.com/2304-8158/13/20/3320"
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "id": "ricotta_salata",
+ "name": "Ricotta salata",
+ "milk": "sheep",
+ "treatment": "pasteurized",
+ "style": "brined",
+ "origin": "Italy",
+ "process": {
+  "aging_months": 1.0,
+  "coagulation": "acid_heat",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 50.0,
+   "unit": "%",
+   "source_url": "https://www.sciencedirect.com/science/article/pii/S095671351500123X",
+   "quote": "pH of 6.1-6.9, aW of 0.940-0.970, moisture of 50-60%\n(<50% if intended for grating), fat of 28-33% and\nprotein of 14-23%",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 28.0,
+   "unit": "%",
+   "source_url": "https://www.sciencedirect.com/science/article/pii/S095671351500123X",
+   "quote": "pH of 6.1-6.9, aW of 0.940-0.970, moisture of 50-60%\n(<50% if intended for grating), fat of 28-33% and\nprotein of 14-23%",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 3.0,
+   "unit": "%",
+   "source_url": "https://iris.uniss.it/handle/11388/250102",
+   "quote": "traditionally, ricotta salata is a cylindrical shaped wheel...\naverage weight of approximately 3 kg, pH of 6.1 to 6.9,\naW of 0.940 to 0.970, fat of 28% to 33%, protein of 14% to 23%,\nand NaCl of 3% to 4%",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.1,
+   "unit": "",
+   "source_url": "https://www.sciencedirect.com/science/article/pii/S095671351500123X",
+   "quote": "pH of 6.1-6.9, aW of 0.940-0.970, moisture of 50-60%\n(<50% if intended for grating), fat of 28-33% and\nprotein of 14-23%",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Limited proteolysis and deamination in heat-denatured whey matrix during short 30-day maturation."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "Low p-cresol/indole from Tyr/Trp catabolism by residual flora in sheep whey."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Modest hydrophobic whey peptides with salt masking and minimal casein proteolysis."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation, piercing, or methyl-ketone formation."
+  },
+  "browning": {
+   "score": 2.0,
+   "reason": "Moderate residual lactose with already-denatured whey protein gives limited Maillard on heating."
+  },
+  "buttery": {
+   "score": 2.0,
+   "reason": "High 85-90C whey heating kills citrate-positive LAB, limiting diacetyl/acetoin synthesis."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Heat inactivation of native lipase and short age limits butyric/hexanoic acid lipolysis."
+  },
+  "creaminess": {
+   "score": 2.0,
+   "reason": "Particulate denatured lactalbumin network with 28% fat gives grainy, non-creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 7.0,
+   "reason": "Heat-acid precipitated whey proteins lack fused rennet-casein network and fracture easily."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Dry-salted, pressed and 10-day dried whey-protein matrix at 50% moisture firms body."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Minimal Phe catabolism to phenylacetaldehyde/phenylethanol due to heat and short age."
+  },
+  "fruity": {
+   "score": 1.0,
+   "reason": "Low free fatty acids and heat-inactivated esterases limit ethyl butanoate/hexanoate formation."
+  },
+  "goaty": {
+   "score": 2.0,
+   "reason": "Low lipolysis of caproic/caprylic acids and no goaty branched-chain 4-methyloctanoic acids."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Limited Strecker degradation to 2/3-methylbutanal from Leu/Ile due to low proteolysis."
+  },
+  "melt": {
+   "score": 1.0,
+   "reason": "Heat-crosslinked beta-lactoglobulin/alpha-lactalbumin network cannot flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "No surface mold and minimal linoleate oxidation to 1-octen-3-ol/1-octen-3-one."
+  },
+  "oil_off": {
+   "score": 1.0,
+   "reason": "Low total fat and strong whey-protein emulsification limits free oil release on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No cold-smoking step, so no guaiacol/syringol deposition from wood smoke."
+  },
+  "sour_vinegar": {
+   "score": 2.0,
+   "reason": "Vinegar/citric acid for coagulation buffered to pH 6.1-6.9 with low lactic/acetic acid."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No intact rennet-casein network at pH 6.1 to align and stretch in hot water."
+  },
+  "sulfur_cooked": {
+   "score": 4.0,
+   "reason": "90C whey heating denatures beta-lactoglobulin releasing H2S, methional and dimethyl sulfide."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual whey lactose/lactulose at high pH with low acidity gives mild milky sweetness."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Modest Glu/Asp release from whey proteolysis potentiated by 3% NaCl."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://www.sciencedirect.com/science/article/pii/S095671351500123X",
+  "https://iris.uniss.it/handle/11388/250102",
+  "https://www.journalofdairyscience.org/article/S0022-0302(18)30130-9/pdf",
+  "https://mro.massey.ac.nz/server/api/core/bitstreams/f655b5bc-e8fd-49f9-8231-8975eee61d60/content",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6603433/",
+  "https://www.nutritionvalue.org/Bel_gioioso%2C_ricotta_salata_italian_feta_cheese_by_belgioioso_cheese%2C_inc._2055023_nutritional_value.html?size=100%20g",
+  "https://www.nutritionvalue.org/Bel_gioioso%2C_ricotta_salata_italian_feta_cheese_by_belgioioso_cheese%2C_inc._2055023_nutritional_value.html?size=28%20g"
+ ]
+}

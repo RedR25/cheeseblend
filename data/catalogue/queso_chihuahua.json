@@ -1,0 +1,149 @@
+{
+ "id": "queso_chihuahua",
+ "name": "Queso Chihuahua",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "semi_hard",
+ "origin": "Chihuahua, Mexico",
+ "process": {
+  "aging_months": 0.5,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 38.7,
+   "unit": "%",
+   "source_url": "https://journalofdairyscience.org",
+   "quote": "- moisture **38.7 ± 1.7 %**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 32.4,
+   "unit": "%",
+   "source_url": "https://journalofdairyscience.org",
+   "quote": "- fat **32.4 ± 2.5 %**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.2,
+   "unit": "%",
+   "source_url": "https://journalofdairyscience.org",
+   "quote": "- salt **1.2 ± 0.3 % NaCl**",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.21,
+   "unit": "",
+   "source_url": "https://journalofdairyscience.org",
+   "quote": "- pH **5.21 to 5.31**",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Short 2-week age, minimal amino acid deamination, negligible NH3 accumulation."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Clean make, very low p-cresol/indole/skatole, only faint raw-milk farm note."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Limited accumulation of hydrophobic bitter peptides in young rennet curd."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No P. roqueforti, no C7/C9 methyl ketones 2-heptanone/2-nonanone."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Maillard of residual lactose/galactose with lysine gives quesadilla browning."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Lactococcus lactis citrate metabolism to diacetyl/acetoin in young high-fat curd."
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "Limited lipase lipolysis, low free butyric/caproic acids at short age."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "32.4% fat coats palate, young hydrated casein gives smooth mouthfeel."
+  },
+  "crumbliness": {
+   "score": 3.0,
+   "reason": "Young elastic rennet gel, not crystalline long-aged, fractures little."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "Pressed 38.7% moisture semi-hard curd with pH 5.21 calcium-crosslinked casein."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Trace phenylalanine catabolism to phenylethanol/phenylacetaldehyde."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Minimal esterase activity, trace ethyl butanoate/hexanoate only."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk fat, no elevated capric/caprylic or branched goaty acids."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "Early proteolysis and low Strecker 2-/3-methylbutanal from leucine/isoleucine."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "pH 5.21 demineralized casein plus 38.7% moisture allows excellent flow."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No bloomy/geotrichum rind, no 1-octen-3-ol/1-octen-3-one formation."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate fat coalescence on heating from 32.4% fat, less than aged cheddar."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step, no guaiacol/syringol phenols."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Starter lactic acid to pH 5.21 with trace acetic acid."
+  },
+  "stretch": {
+   "score": 3.0,
+   "reason": "Non-pasta-filata, no hot-water kneading, flows rather than fibrous pull."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Light curd scald, minimal whey protein denaturation, trace H2S/methional."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual galactose plus milkfat lactones delta-decalactone/dodecalactone."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Early rennet/plasmin proteolysis releases glutamate, low aged depth."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://journalofdairyscience.org",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4571261/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4190222/",
+  "https://hal.science/hal-01234876v1"
+ ]
+}

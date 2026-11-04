@@ -1,0 +1,148 @@
+{
+ "id": "danbo",
+ "name": "Danbo",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Denmark",
+ "process": {
+  "aging_months": 1.5,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 32.0,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3621994/",
+   "quote": "| Moisture | **32 ± 0.49 g/100 g = 32%** core | Dairy B, Danbo-type, pasteurised milk, farmhouse, Denmark, 6 weeks ripened, core sample | https://pmc.ncbi.nlm.nih.gov/articles/PMC3621994/ Table 1 |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 28.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 1.08,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3621994/",
+   "quote": "| Salt NaCl | **1.08 ± 0.0 g/100 g = 1.08%** core | Dairy B, 6 weeks, Denmark, core | https://pmc.ncbi.nlm.nih.gov/articles/PMC3621994/ Table 1 |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.74,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3621994/",
+   "quote": "| pH | **5.74 ± 0.098** core, dimensionless | Dairy B, 6 weeks, Denmark, core | https://pmc.ncbi.nlm.nih.gov/articles/PMC3621994/ Table 1 |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 3.0,
+   "reason": "Surface lactate assimilation and amino-acid deamination by smear flora raises surface pH to ~6.6 while core stays ~5.7."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "Very low p-cresol/indole from Corynebacterium/Brevibacterium tyrosine/tryptophan catabolism on smear."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Low hydrophobic peptides from chymosin alpha-s1 casein cleavage, mostly hydrolyzed by Lactococcus peptidases."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti, no C7-C11 methyl ketones 2-heptanone/2-nonanone at blue-cheese levels."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Maillard between residual galactose and lysine plus fat-mediated dehydration on heating."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Diacetyl/acetoin from citrate metabolism by Lactococcus lactis biovar diacetylactis in young washed curd."
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "Moderate lipolysis by starter esterases releasing butanoic/hexanoic acids, medium FFA level vs blue."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "28% fat globules lubricate palate and 6-week proteolysis softens paste to creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Washed low-acid curd retains colloidal calcium, cohesive-elastic rather than acid-crumbly."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "Semi-hard washed curd at 32% core moisture with calcium-phosphate crosslinked para-casein gives firm-elastic body."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "2-phenylethanol/phenylacetaldehyde from phenylalanine catabolism, reported marker of Danbo powder."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Ethyl butanoate/hexanoate and methyl butanoate from starter esterase esterification of FFA with ethanol."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk only, no caprine C8-C10 branched acids 4-methyloctanoic/4-ethyloctanoic."
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "Leucine Strecker aldehyde 3-methylbutanal and related maltol/pyrazine from light proteolysis and smear."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "pH ~5.74 and intact para-casein network allows calcium solubilization and flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "Trace 1-octen-3-ol from surface Debaryomyces/Brevibacterium lipoxygenase activity on smear."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate free-fat release on melt from coalesced fat globules in 6-week aged matrix."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked, no wood phenols/guaiacol."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Lactic acid from mesophilic starter plus trace acetic acid; core pH 5.74 gives mild tang."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "No hot-water kneading/acid demineralization, casein does not align into pasta-filata fibers."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low methionine catabolism to methanethiol/dimethyl disulfide/trisulfide; light cook limits H2S."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual galactose/glycerol and sweet amino acids proline/alanine after lactose depletion."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "Glutamate release by chymosin and Lactococcus peptidases during 6-week proteolysis."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC3621994/",
+  "https://fdc.nal.usda.gov/food-search.html?q=Danbo&type=Foundation&sortBy=dataType.keyword&sortOrder=asc",
+  "https://onlinelibrary.wiley.com/doi/pdf/10.1155/2020/8869010"
+ ]
+}

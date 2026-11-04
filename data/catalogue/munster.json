@@ -1,0 +1,255 @@
+{
+ "id": "munster",
+ "name": "Munster (Alsace)",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "washed_rind",
+ "origin": "Alsace, France",
+ "process": {
+  "aging_months": 1,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 41.77,
+   "unit": "%",
+   "source_url": "https://www.aqua-calc.com/calculate/food-calories/substance/cheese-coma-and-blank-muenster",
+   "quote": "| Water | g | 41.77 |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 30.04,
+   "unit": "%",
+   "source_url": "https://www.aqua-calc.com/calculate/food-calories/substance/cheese-coma-and-blank-muenster",
+   "quote": "| Total lipid (fat) | g | 30.04 |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.79,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(16)00126-0/fulltext",
+   "quote": "i.e. **1.79 % and 1.29 % NaCl**, Unit: g/kg = 0.1 %",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.5,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [
+  {
+   "value": 474000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "butanoic acid rancid ... Camembert 35-206 ... Munster 474-2360 12",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 497000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "3-methylbutanoic acid rotten fruit ... Camembert 8-214 ... Munster 497-1980 12",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  },
+  {
+   "value": 63000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "hexanoic acid pungent ... Camembert 23-143 ... Munster 63-335 12",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 1248000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "acetic acid vinegar ... Camembert 13-66 ... Munster 1248-1921 12",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 43.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(16)00126-0/fulltext",
+   "quote": "| 3-Methyl butanal | 43* | 27 | 95* | 30 |",
+   "confidence": "measured",
+   "name": "3-methylbutanal"
+  },
+  {
+   "value": 3.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(16)00126-0/fulltext",
+   "quote": "| 2-Methyl butanal | 3* | 2 | 25* | 6 |",
+   "confidence": "measured",
+   "name": "2-methylbutanal"
+  },
+  {
+   "value": 4.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(16)00126-0/fulltext",
+   "quote": "| 2-Methyl propanal | 4* | 1 | 22* | 8 |",
+   "confidence": "measured",
+   "name": "2-methylpropanal"
+  },
+  {
+   "value": 62.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(16)00126-0/fulltext",
+   "quote": "| Methanethiol | 62* | 18 | 159* | 63 |",
+   "confidence": "measured",
+   "name": "methanethiol"
+  },
+  {
+   "value": 43.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(16)00126-0/fulltext",
+   "quote": "| Thiobis-methane | 43 | 20 | 120 | 114 |",
+   "confidence": "measured",
+   "name": "dimethyl sulfide"
+  },
+  {
+   "value": 1262.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(16)00126-0/fulltext",
+   "quote": "| Dimethyl disulfide | 1,262* | 406 | 3,235* | 1,269 |",
+   "confidence": "measured",
+   "name": "dimethyl disulfide"
+  },
+  {
+   "value": 39.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(16)00126-0/fulltext",
+   "quote": "| Dimethyl trisulfide | 39 | 21 | 140 | 97 |",
+   "confidence": "measured",
+   "name": "dimethyl trisulfide"
+  },
+  {
+   "value": 32.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(16)00126-0/fulltext",
+   "quote": "| 2-Heptanone | 32* | 7 | 49* | 12 |",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 244.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(16)00126-0/fulltext",
+   "quote": "| Hexanoic acid ethyl ester | 0 | 0 | 244 | 311 |",
+   "confidence": "measured",
+   "name": "ethyl hexanoate"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 7.0,
+   "reason": "Extensive deamination by yeasts and Brevibacterium linens deacidifies surface pH 5 to 7-8.35 releasing NH3."
+  },
+  "animal_barnyard": {
+   "score": 8.0,
+   "reason": "Red-smear coryneforms produce isovaleric acids plus p-cresol/indole-type barnyard notes."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Hydrophobic rennet peptides present but trimmed by smear peptidases and masked by 1.79% NaCl."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti; 2-heptanone only 32-49 ug/kg, no blue methyl-ketone pathway."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Free amino acids plus residual galactose drive Maillard on heating, aided by orange smear pigments."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Moderate diacetyl/acetoin from citrate fermentation by mesophilic starters, partly masked by smear sulfur acids."
+  },
+  "cheesy_sweaty": {
+   "score": 9.0,
+   "reason": "Extremely high butanoic acid 474-2360 ppm plus 3-methylbutanoic 497-1980 ppm and hexanoic from lipolysis."
+  },
+  "creaminess": {
+   "score": 7.0,
+   "reason": "30% fat in demineralized proteolyzed uncooked paste gives smooth creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Deacidified Ca-solubilized cohesive washed-rind paste, not acid-crumbly."
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "High moisture ~41.8% uncooked rennet gel with soft surface-ripened paste gives low resistance."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Phenylacetaldehyde/2-phenylethanol only qualitative in smear cheeses, no absolute accumulation for Munster."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Low esterification; ethyl hexanoate 0 control to 244 ug/kg, fruity subordinate to acids and sulfur."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "4-methyl/4-ethyloctanoic not detected in cow-milk Munster; only faint caprine sharpness."
+  },
+  "malty_nutty": {
+   "score": 5.0,
+   "reason": "Leu/Ile/Val Strecker aldehydes 3-methylbutanal 43-95, 2-methylbutanal, 2-methylpropanal by smear coryneforms."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "Deacidified pH ~6.5 solubilized Ca-phosphate uncooked curd flows readily on heating."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "1-octen-3-ol/one not quantified for Munster; Geotrichum mushroom faint versus smear sulfur."
+  },
+  "oil_off": {
+   "score": 6.0,
+   "reason": "30% fat with extensive lipolysis coalesces to free oil when melted."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and guaiacol not found; no pyrolysis phenols."
+  },
+  "sour_vinegar": {
+   "score": 7.0,
+   "reason": "Very high acetic acid 1248-1921 ppm from heterofermentative metabolism persists despite deacidification."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata stretching; rennet gel with no aligned paracasein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 7.0,
+   "reason": "L-methionine gamma-lyase in B. linens yields methanethiol 62-159, DMDS 1262-3235, DMS and DMTS."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Lactose exhausted by 27d; faint sweet from glycerol/amino acids overwhelmed by salt and acid."
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "Rennet plus smear proteolysis liberates Glu and kokumi peptides in 3-4 week paste."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.aqua-calc.com/calculate/food-calories/substance/cheese-coma-and-blank-muenster",
+  "https://www.journalofdairyscience.org/article/S0022-0302(16)00126-0/fulltext",
+  "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+  "https://www.ams.usda.gov/sites/default/files/media/slicedshreddedmunster.pdf",
+  "https://www.journalofdairyscience.org/article/S0022-0302(24)00567-8/fulltext"
+ ]
+}

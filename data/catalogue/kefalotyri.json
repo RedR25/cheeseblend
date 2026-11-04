@@ -1,0 +1,150 @@
+{
+ "id": "kefalotyri",
+ "name": "Kefalotyri",
+ "milk": "sheep",
+ "treatment": "pasteurized",
+ "style": "hard_grana",
+ "origin": "Greece",
+ "process": {
+  "aging_months": 3,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 36.8,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10297615/",
+   "quote": "| Kefalotyri | 17 | Mean | 5.3 | 36.8 | 31.1 | 3.1 | 24.8 | 5.7 |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 31.1,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10297615/",
+   "quote": "| Kefalotyri | 17 | Mean | 5.3 | 36.8 | 31.1 | 3.1 | 24.8 | 5.7 |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 3.1,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10297615/",
+   "quote": "| Kefalotyri | 17 | Mean | 5.3 | 36.8 | 31.1 | 3.1 | 24.8 | 5.7 |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.3,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10297615/",
+   "quote": "| Kefalotyri | 17 | Mean | 5.3 | 36.8 | 31.1 | 3.1 | 24.8 | 5.7 |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Limited amino-acid deamination at 90 days and pH 5.3; no ammonia accumulation reported."
+  },
+  "animal_barnyard": {
+   "score": 3.0,
+   "reason": "p-Cresol/indole not detected; mild barnyard from sheep-milk FFAs and Lactiplantibacillus/Leuconostoc metabolism."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Hydrophobic peptides from chymosin/plasmin proteolysis, partly masked by high salt-in-moisture ~8.4%."
+  },
+  "blue_moldy": {
+   "score": 2.0,
+   "reason": "Low 2-heptanone 0.12 ppm and 2-nonanone 0.05 ppm from fatty-acid beta-oxidation without Penicillium."
+  },
+  "browning": {
+   "score": 6.0,
+   "reason": "Maillard of residual galactose with lysine plus low moisture/high protein gives deep browning for saganaki frying."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Low diacetyl 0.039 ppm from citrate metabolism by Strep. thermophilus/Lactococcus limited by cooking and aging."
+  },
+  "cheesy_sweaty": {
+   "score": 7.0,
+   "reason": "Most abundant VOC butyric acid 0.92-1.55 ppm from sheep-milk triglyceride lipolysis by native lipase/rennet."
+  },
+  "creaminess": {
+   "score": 3.0,
+   "reason": "Fat 31.1% FDM ~49-53% but low moisture and firm protein network limit creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 6.0,
+   "reason": "Low moisture, pH 5.3 demineralized paracasein and granular cooked curd fracture easily."
+  },
+  "firmness": {
+   "score": 8.0,
+   "reason": "Moisture 36.8% below 38% hard-cheese limit, cooked/pressed curd and 3-month drying give hard grating body."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Phenylacetaldehyde/2-phenylethanol not detected; minimal phenylalanine catabolism in 3-month rennet cheese."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butyrate 0.11-0.17 ppm, ethyl hexanoate 0.07 ppm and methyl butyrate 0.4-0.76 ppm from LAB esterase esterification."
+  },
+  "goaty": {
+   "score": 6.0,
+   "reason": "Caproic 0.15-0.21 ppm plus C4-C6 FFAs from sheep-milk fat lipolysis give sharp sheep/goaty note."
+  },
+  "malty_nutty": {
+   "score": 5.0,
+   "reason": "Leucine catabolism to 3-methylbutanal 0.006 ppm and 3-methylbutanoic 0.168 ppm plus Strecker aldehydes in 90-day ripening."
+  },
+  "melt": {
+   "score": 3.0,
+   "reason": "Rennet-cooked, pH 5.3, 3.1% salt and low moisture restrict casein flow; softens more than flows."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "1-octen-3-ol/1-octen-3-one not detected; no mold surface flora."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "Free oil from 31% fat coalescence on heating; lipolysis releases liquid short-chain FFAs."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make, guaiacol not detected."
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "pH 5.3 with lactic ~19-24 mg/g and acetic 1-5 mg/g from thermophilic starter fermentation."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Non-pasta-filata rennet gel without hot-water stretching; no aligned micelle fibers."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Only trace dimethyl disulfide 0.004 ppm; thermization and cooked curd give mild cooked-milk sulfides."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Lactose depleted by starter; trace sweetness from propionic 2.6-4.8 mg/g and dairy fat."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "90-day proteolysis releases glutamate from 24.8% protein; enhanced by 3.1% salt."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10297615/",
+  "https://mdpi-res.com/d_attachment/fermentation/fermentation-11-00673/article_deploy/fermentation-11-00673.pdf",
+  "https://fdc.nal.usda.gov/food-search?type=Foundation&query=kefalotyri",
+  "https://www.aqua-calc.com/calculate/food-calories/substance/kefalotyri-blank-cheese-coma-and-blank-upc-column--blank-075013222350",
+  "https://www.mdpi.com/2311-5637/11/12/673"
+ ]
+}

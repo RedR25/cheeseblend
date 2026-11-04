@@ -1,0 +1,219 @@
+{
+ "id": "bleu_des_causses",
+ "name": "Bleu des Causses",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "blue",
+ "origin": "France - Causses, Aveyron, Gorges du Tarn",
+ "process": {
+  "aging_months": 4.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "blue",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 45.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 24.8,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 2.8,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 6.2,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [
+  {
+   "value": 70.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| **dimethyl sulfide (CH3SCH3)** | **70 µg/kg = 70 ppb, apparent/headspace calibrated, CAU 100-d Valmont**. Row triplets (H,C,%): PF 1267 7 20, PO 970 7 42, PG 2218 11 30, **CAU 58345 70 14**, AUV 256 8 12. Text confirms: supposed that dimethyl sulfide was present in Bleu des Causses at greater than threshold level (70 ppb), and contributed to overall aroma. Detection threshold 0.3 ppb in water and 9 ppb in milk |  |",
+   "confidence": "measured",
+   "name": "dimethyl sulfide"
+  },
+  {
+   "value": 90.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| **dimethyl disulfide (CH3SSCH3)** | **90 µg/kg = 90 ppb, CAU 100-d Valmont**. Row: PF 155 tr 20, PO 7702 29 27, PG 8004 29 9, **CAU 75985 90 25**, AUV 1819 24 25 |  |",
+   "confidence": "measured",
+   "name": "dimethyl disulfide"
+  },
+  {
+   "value": 2855.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| **2-heptanone** | **2855 µg/kg apparent, SD 8%, CAU 100-d Valmont**. Row: PF 3955 6, PO 4320 32, PG 13090 18, **CAU 2855 8**, AUV 1810 2. Paper notes 2-heptanone and 2-nonanone most abundant ketones except for Bleu des Causses, in which 2-pentanone was predominant |  |",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 1600.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| **2-nonanone** | **1600 µg/kg apparent, SD 6%, CAU 100-d Valmont**. Row: 3915 10, 7235 10, 10040 11, **1600 6**, 4570 18 |  |",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  },
+  {
+   "value": 455.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| **2-undecanone** | **455 µg/kg apparent, SD 14%, CAU 100-d Valmont**. Row: 515 5, 990 2, 1090 9, **455 14**, 1490 10 |  |",
+   "confidence": "measured",
+   "name": "2-undecanone"
+  },
+  {
+   "value": 55.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| **ethyl butanoate** | **55 µg/kg apparent, SD 14%, CAU 100-d Valmont**. Row: 50 8, 15 22, 60 8, **55 14**, 30 14 |  |",
+   "confidence": "measured",
+   "name": "ethyl butanoate"
+  },
+  {
+   "value": 70.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| **ethyl hexanoate** | **70 µg/kg apparent, SD 9%, CAU 100-d Valmont**. Row: 75 13, 70 10, 75 12, **70 9**, 60 9 |  |",
+   "confidence": "measured",
+   "name": "ethyl hexanoate"
+  },
+  {
+   "value": 10.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| **1-octen-3-ol** | **~10 µg/kg apparent, CV ~62%, CAU 100-d Valmont**. Row `1-octen 3-01 20 12 35 6 20 6 10 62 20 4` interpreted as PF 20, PO 35, PG 20, **CAU 10**, AUV 20. High uncertainty due to table OCR; treat as order-of-magnitude only. |  |",
+   "confidence": "measured",
+   "name": "1-octen-3-ol"
+  },
+  {
+   "value": 130.0,
+   "unit": "µg/kg",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf",
+   "quote": "| **2-phenylethanol (phenylethanol)** | **130 µg/kg apparent, SD 5%, CAU 100-d Valmont**. Row: PF 140 21, PO 145 7, PG -, **CAU 130 5**, AUV 1400 5. Paper states phenylethanol was found in all cheeses except Roquefort PG, and was 10-fold more abundant in Bleu d'Auvergne (real conc. 2 mg/kg in that cheese) |  |",
+   "confidence": "measured",
+   "name": "2-phenylethanol"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 5.0,
+   "reason": "Deamination of amino acids during 100-d Penicillium roqueforti proteolysis in cave-aged paste."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "p-Cresol not listed, indole not detected, 4-ethyl phenol only trace in CAU."
+  },
+  "bitter": {
+   "score": 5.0,
+   "reason": "Accumulation of hydrophobic peptides from chymosin plus P. roqueforti aspartyl proteinases."
+  },
+  "blue_moldy": {
+   "score": 9.0,
+   "reason": "P. roqueforti fatty-acid beta-oxidation to 2-pentanone 3440, 2-heptanone 2855, 2-nonanone 1600 ug/kg."
+  },
+  "browning": {
+   "score": 3.0,
+   "reason": "High-moisture rennet curd with depleted lactose limits Maillard during heating."
+  },
+  "buttery": {
+   "score": 3.0,
+   "reason": "Diacetyl not reported and acetoin not detected in CAU; methyl ketones dominate over citrate-diacetyl pathway."
+  },
+  "cheesy_sweaty": {
+   "score": 8.0,
+   "reason": "Highest titratable FFA 17.45 meq/100g fat from P. roqueforti lipase releasing butanoic-hexanoic acids."
+  },
+  "creaminess": {
+   "score": 7.0,
+   "reason": "45% FDM plus extensive proteolysis-lipolysis softening unpressed paste to creamy matrix."
+  },
+  "crumbliness": {
+   "score": 6.0,
+   "reason": "Unpressed pierced rennet curd with blue fissures fractures under proteolyzed network."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Uncooked unpressed blue at ~45% moisture and minimum 53% dry matter gives sliceable semi-soft body."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Limited Ehrlich pathway: phenylethanol only 130 ug/kg and phenylacetaldehyde not detected."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Low yeast esterification: ethyl butanoate 55 and ethyl hexanoate 70 ug/kg apparent."
+  },
+  "goaty": {
+   "score": 4.0,
+   "reason": "Cow milk without caprine branched acids; moderate C6-C8 from lipolysis only."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "No aldehydes found in Bleu des Causses; 3-methylbutanal and phenylacetaldehyde not detected."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "Rennet curd pH ~6.2 with solubilized colloidal calcium allows moderate flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 5.0,
+   "reason": "Linoleic acid oxidation to 1-octen-3-ol ~10 ug/kg plus P. roqueforti mycelium."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "High free fatty acids and free fat from lipolysis release oil on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked cave-aged cheese with no guaiacol reported."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Lactic acid neutralized by ammonia and low acetic/propanoic acid in aged blue."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Rennet-set, non-kneaded curd without pasta-filata thermomechanical alignment."
+  },
+  "sulfur_cooked": {
+   "score": 7.0,
+   "reason": "Methionine catabolism to dimethyl sulfide 70 ppb and dimethyl disulfide 90 ppb, highest of tested blues."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Lactose depleted by starter fermentation with no residual sugars."
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "Extended proteolysis liberating glutamate and savory peptides."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://lait.dairy-journal.org/articles/lait/pdf/1990/02/lait_70_1990_2_8.pdf"
+ ]
+}

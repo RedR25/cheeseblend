@@ -1,0 +1,151 @@
+{
+ "id": "jarlsberg",
+ "name": "Jarlsberg",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Norway",
+ "process": {
+  "aging_months": 3.0,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 46.0,
+   "unit": "%",
+   "source_url": "http://www.faqs.org/rulings/rulings1993NY847749.html",
+   "quote": "| **Moisture** | **46 %** | JARLSBERG LITE, low-sodium Swiss / Emmenthal type, Norway. 2x 11-lb rindless blocks submitted Nov 1989 to US Customs, analysed by Customs Laboratory New York. Stated composition `having a moisture content of about 46 percent and a fat content of about 15 to 16 percent.` Laboratory found `46 percent moisture, 17.4 percent fat (32.2 percent fat in the dry matter), 32.8 percent protein, and 0.9 percent salt, with a pH of 5.3.` | http://www.faqs.org/rulings/rulings1993NY847749.html |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 17.4,
+   "unit": "%",
+   "source_url": "http://www.faqs.org/rulings/rulings1993NY847749.html",
+   "quote": "| **Fat** | **17.4 % (w/w), 32.2 % fat-in-dry-matter** | Same JARLSBERG LITE sample as above. | http://www.faqs.org/rulings/rulings1993NY847749.html |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.1,
+   "unit": "%",
+   "source_url": "https://scandicandyshop.com/ko/products/jarlsberg-rindless-700g-tine",
+   "quote": "| **Salt** | **1.1 g / 100 g** | Same TINE Jarlsberg Original as above: `Salt: 1.1 g` | https://scandicandyshop.com/ko/products/jarlsberg-rindless-700g-tine |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.3,
+   "unit": "",
+   "source_url": "http://www.faqs.org/rulings/rulings1993NY847749.html",
+   "quote": "| **pH** | **5.3** | Same JARLSBERG LITE Customs sample as above. | http://www.faqs.org/rulings/rulings1993NY847749.html |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Low deamination and urease activity in young rindless block with limited surface flora."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Pasteurized cow milk and clean Swiss make give very low p-cresol, indole and skatole."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Low hydrophobic peptides due to moderate rennet proteolysis and debittering peptidases from Propionibacterium."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation so no C7-C11 methyl ketones."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Residual galactose/lactose plus amino acids give moderate Maillard when heated."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl and acetoin from citrate metabolism by Lactococcus plus milkfat lactones."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Limited lipolysis in pasteurized rennet curd gives low butanoic and hexanoic acids."
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "Reduced fat in Lite type and 46% moisture give smooth but less rich fat-coated mouthfeel."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Cooked pressed elastic curd with CO2 eyes fractures cohesively rather than crumbling."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Cooked, pressed Swiss-type curd at pH 5.3 with 46% moisture gives elastic semi-firm body."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylacetaldehyde and 2-phenylethanol from phenylalanine catabolism by starters."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl propanoate and ethyl acetate from esterification of propionic and acetic acids by Propionibacterium freudenreichii."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk only with no caprine 4-methyloctanoic and 4-ethyloctanoic acids."
+  },
+  "malty_nutty": {
+   "score": 6.5,
+   "reason": "2-methylbutanal and 3-methylbutanal from leucine/isoleucine catabolism plus propionic acid, signature Swiss nutty note."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "pH 5.3 demineralized para-casein with intact network flows well without pasta-filata alignment."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "Rindless block without Geotrichum/Brevibacterium gives almost no 1-octen-3-ol or geosmin."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "Lower 17.4% fat limits free oil release on heating versus full-fat Emmental-type."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Not smoked so no guaiacol, syringol or cresol from wood pyrolysis."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Acetic acid from propionic fermentation and heterofermentative lactate metabolism at pH 5.3."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "Rennet-coagulated non-pasta-filata curd lacks aligned casein fibers for stretching."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Light cooked curd expels whey with only low H2S and methanethiol from methionine."
+  },
+  "sweet": {
+   "score": 5.0,
+   "reason": "Calcium propionate, proline and glycerol from propionic fermentation mask acidity with sweet impression."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "Moderate glutamate release from rennet and starter proteolysis during 3-month aging."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "http://www.faqs.org/rulings/rulings1993NY847749.html",
+  "https://scandicandyshop.com/ko/products/jarlsberg-rindless-700g-tine",
+  "https://fdokumen.com/documents/jarlsberg-cheese-cheeseforumorg.html",
+  "https://www.aqua-calc.com/calculate/food-calories/substance/mild-coma-and-blank-mellow-coma-and-blank-nutty-blank-semi-blank-soft-blank-part-skim-blank-cheese-coma-and-blank-mild-coma-and-blank-mellow-coma-and-blank-nutty-coma-and-blank-upc-column--blank-075501960375",
+  "https://eurekamag.com/research/014/037/014037762.php",
+  "https://stud.epsilon.slu.se/17186/1/carlsson-s-210830.pdf"
+ ]
+}

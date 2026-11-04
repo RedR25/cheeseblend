@@ -1,0 +1,151 @@
+{
+ "id": "appenzeller",
+ "name": "Appenzeller",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "washed_rind",
+ "origin": "Switzerland",
+ "process": {
+  "aging_months": 5.0,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 36.5,
+   "unit": "%",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf",
+   "quote": "Appenzeller 36.50 26.57 33.50 1.32 3.36 731.00 54.89 52.76 3.62 6.03",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 33.5,
+   "unit": "%",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf",
+   "quote": "Appenzeller 36.50 26.57 33.50 1.32 3.36 731.00 54.89 52.76 3.62 6.03",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.32,
+   "unit": "%",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf",
+   "quote": "Appenzeller 36.50 26.57 33.50 1.32 3.36 731.00 54.89 52.76 3.62 6.03",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.03,
+   "unit": "",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf",
+   "quote": "Appenzeller 36.50 26.57 33.50 1.32 3.36 731.00 54.89 52.76 3.62 6.03",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 4.0,
+   "reason": "NH3 from amino-acid deamination by surface Brevibacterium/coryneforms in herbal-brine smear, moderate in whole cheese."
+  },
+  "animal_barnyard": {
+   "score": 6.0,
+   "reason": "p-cresol, indole and 3-methylbutanoic acid from tyrosine/tryptophan/leucine catabolism by smear flora."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Hydrophobic peptides from chymosin/plasmin proteolysis largely hydrolyzed by Lactobacillus peptidases."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti, no blue-mold methyl-ketone and 1-octen-3-ol dominated pathway."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Maillard between free amino acids and residual galactose/lactate on heating of aged cooked curd."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Diacetyl from citrate metabolism by Lactococcus diacetylactis largely reduced to acetoin/butanediol during aging."
+  },
+  "cheesy_sweaty": {
+   "score": 6.0,
+   "reason": "C4-C6 free fatty acids plus 3-methylbutanoic acid from lipolysis and leucine transamination by smear bacteria."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "33.5% fat, ~53% FDM with proteolyzed para-casein gives smooth but firm, not spreadable mouthfeel."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Cooked pressed elastic para-casein network with smear surface proteolysis, sliceable not crumbly."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Cooked pressed curd at 36.5% moisture with calcium-phosphate crosslinks gives firm elastic paste."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "2-phenylethanol and phenylacetaldehyde from phenylalanine catabolism by yeasts and lactobacilli."
+  },
+  "fruity": {
+   "score": 5.0,
+   "reason": "Ethyl butanoate/hexanoate from ethanol plus free fatty-acid esterification by yeasts/smear bacteria."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk low in caproic/caprylic acids, no goat-specific 4-methyloctanoic/4-ethyloctanoic acids."
+  },
+  "malty_nutty": {
+   "score": 6.0,
+   "reason": "2-/3-methylbutanal and 2-methylpropanal from Strecker and Val/Leu/Ile catabolism in cooked aged curd."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "pH 6.03 with solubilized colloidal calcium and 1.3-1.6% salt allows good flow and fusion on heating."
+  },
+  "mushroom_earthy": {
+   "score": 3.0,
+   "reason": "1-octen-3-ol/1-octen-3-one from linoleic-acid oxidation, limited versus bloomy-rind cheeses."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "Free-fat release on melting from 33.5% fat aged network with partial fat coalescence."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step, no guaiacol/syringol from wood pyrolysis."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Acetic acid ~42 mmol/kg from heterofermentative LAB/smear metabolism buffered by proteolysis high pH."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "No pasta-filata hot-water stretching, only limited extensibility of cooked rennet gel."
+  },
+  "sulfur_cooked": {
+   "score": 6.0,
+   "reason": "Methanethiol/dimethyl disulfide from methionine gamma-lyase of Brevibacterium linens in herbal brine."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Low residual lactose plus sweet amino acids proline/glycine and propionic acid ~24 mmol/kg sweet note."
+  },
+  "umami": {
+   "score": 7.0,
+   "reason": "Glutamate accumulation from rennet/plasmin plus Lactobacillus peptidase proteolysis over ~150 d."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf",
+  "http://page-one.springer.com/pdf/preview/10.1007/978-1-4615-2648-3_3",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4682511/",
+  "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171314/nutrients",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5018514/",
+  "https://www.agroscope.admin.ch/agroscope/de/home/publikationen/agroscope-online-magazin-jahresbericht/2016/2016-1/wissenschaft-in-kuerze/lebensmittel/_jcr_content/par/columncontrols/items/0/column/externalcontent_112315166.bitexternalcontent.exturl.pdf/aHR0cHM6Ly9pcmEuYWdyb3Njb3BlLmNoL2VuLVVTL0FqYXgvRW/luemVscHVibGlrYXRpb24vRG93bmxvYWQ_ZWluemVscHVibGlr/YXRpb25JZD01NzczNw==.pdf"
+ ]
+}

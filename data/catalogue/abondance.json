@@ -1,0 +1,190 @@
+{
+ "id": "abondance",
+ "name": "Abondance",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "semi_hard",
+ "origin": "Haute-Savoie, France",
+ "process": {
+  "aging_months": 4,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 36.4,
+   "unit": "%",
+   "source_url": "https://hal.archives-ouvertes.fr/hal-00895569/document",
+   "quote": "| **moisture %** | **36.4 ± 1.9 %** calculated as 100 – dry matter (636±19 g/kg). Sample: farmhouse Abondance, raw cow, Alpes du Nord, 120 d, n=10. https://hal.archives-ouvertes.fr/hal-00895569/document |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 33.4,
+   "unit": "%",
+   "source_url": "https://hal.archives-ouvertes.fr/hal-00895569/document",
+   "quote": "| **fat %** | **33.4 ± 2.1 % (334±21 g/kg)**. Same 120 d sample. https://hal.archives-ouvertes.fr/hal-00895569/document |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.54,
+   "unit": "%",
+   "source_url": "https://hal.archives-ouvertes.fr/hal-00895569/document",
+   "quote": "| **salt (NaCl) %** | **1.54 ± 0.39 % (15.4±3.9 g/kg)**. Same 120 d sample. https://hal.archives-ouvertes.fr/hal-00895569/document |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.51,
+   "unit": "",
+   "source_url": "https://hal.science/hal-00895349/document",
+   "quote": "* range across all individual pasture cheeses: **5.51 (MY1 mountain) to 5.94 (VZ3 valley) pH units**",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 81000.0,
+   "unit": "µg/kg",
+   "source_url": "https://doczz.net/doc/8728672/relationships-between-flavour-and-chemical-composition-of",
+   "quote": "| **butanoic acid** | **found: 8.1–14.1 mg/100g = 81–141 mg/kg**. 24-week half-cooked pressed Abondance, Haute-Savoie. https://doczz.net/doc/8728672/relationships-between-flavour-and-chemical-composition-of Definition C4 = butyric acid |",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 12000.0,
+   "unit": "µg/kg",
+   "source_url": "https://doczz.net/doc/8728672/relationships-between-flavour-and-chemical-composition-of",
+   "quote": "| **3-methylbutanoic acid** | **found as iC5 isovaleric acid: 1.2–8.6 mg/100g = 12–86 mg/kg**. Same sample. https://doczz.net/doc/8728672/relationships-between-flavour-and-chemical-composition-of Definition iC5 = isovaleric acid |",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  },
+  {
+   "value": 21000.0,
+   "unit": "µg/kg",
+   "source_url": "https://doczz.net/doc/8728672/relationships-between-flavour-and-chemical-composition-of",
+   "quote": "| **hexanoic acid** | **found as C6 caproic acid: 2.1–4.0 mg/100g = 21–40 mg/kg**. Same sample. https://doczz.net/doc/8728672/relationships-between-flavour-and-chemical-composition-of |",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 550000.0,
+   "unit": "µg/kg",
+   "source_url": "https://doczz.net/doc/8728672/relationships-between-flavour-and-chemical-composition-of",
+   "quote": "| **acetic acid** | **found: 55–130 mg/100g = 550–1300 mg/kg**. Same 24-week Abondance. https://doczz.net/doc/8728672/relationships-between-flavour-and-chemical-composition-of |",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 20000.0,
+   "unit": "µg/kg",
+   "source_url": "https://doczz.net/doc/8728672/relationships-between-flavour-and-chemical-composition-of",
+   "quote": "| **propanoic acid** | **found as C3 propionic acid: 2–175 mg/100g = 20–1750 mg/kg**. Same sample. https://doczz.net/doc/8728672/relationships-between-flavour-and-chemical-composition-of Definition C3 = propionic acid |",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Moderate deamination of amino acids during 120-180d ripening, not long-aged grana level."
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "Isovaleric acid 12-86 mg/kg + p-cresol/indole from pasture and Brevibacterium rind smear; described as animal."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Moderate accumulation of hydrophobic peptides from rennet/plasmin proteolysis, balanced by salt."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation and no methyl ketone blue pathway."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "pH ~5.7 with residual amino acids and galactose gives moderate Maillard when heated."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Diacetyl/acetoin from citrate metabolism by mesophilic starters in raw milk."
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "Butanoic acid 81-141 mg/kg + hexanoic 21-40 mg/kg from lipolysis by milk lipase and starters."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "Fat 33.4%, FDM ~52% with semi-cooked pressed paste gives smooth mouthfeel."
+  },
+  "crumbliness": {
+   "score": 3.0,
+   "reason": "Pressed semi-cooked curd at pH ~5.7 retains calcium phosphate, cohesive not crumbly."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "Moisture 36.4% and 4-month ripened pressed body gives firm sliceable alpine texture."
+  },
+  "floral_honey": {
+   "score": 4.0,
+   "reason": "Pasture-derived terpenes plus phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism."
+  },
+  "fruity": {
+   "score": 5.0,
+   "reason": "Ethyl butanoate/hexanoate from esterification of free fatty acids with ethanol; noted fruity in mountain cheeses."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk lacks 4-methyloctanoic/4-ethyloctanoic goaty acids; low caprylic signal."
+  },
+  "malty_nutty": {
+   "score": 6.0,
+   "reason": "Hazelnut/boiled-milk note from Strecker 2-/3-methylbutanal and 2,3-butanedione plus propionic 20-1750 mg/kg."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "pH 5.5-5.9 with intact para-casein and 36% moisture flows well for raclette-type use."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "Low 1-octen-3-ol/1-octen-3-one from rind fungi; natural brushed rind only."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "33.4% fat releases moderate free oil on heating, not high-fat soft cheese oiling."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and no guaiacol/phenol wood-smoke compounds."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Acetic acid 550-1300 mg/kg from heterofermentative metabolism and pH ~5.7 gives mild tang."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "Rennet-coagulated non-pasta-filata curd lacks pH 5.2 demineralized stretchable casein."
+  },
+  "sulfur_cooked": {
+   "score": 3.0,
+   "reason": "Methanethiol/dimethyl disulfide-trisulfide from methionine catabolism plus cooked-curd H2S; boiled-milk note."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Residual galactose, proline and diacetyl/acetoin mask acidity with milky sweetness."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Glutamate release from 24-week proteolysis enhances savory broth background."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://hal.archives-ouvertes.fr/hal-00895569/document",
+  "https://hal.science/hal-00895349/document",
+  "https://doczz.net/doc/8728672/relationships-between-flavour-and-chemical-composition-of",
+  "https://lait.dairy-journal.org/articles/lait/abs/2001/06/bugaud/bugaud.html"
+ ]
+}

@@ -1,0 +1,147 @@
+{
+ "id": "comte",
+ "name": "Comté",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "alpine_hard",
+ "origin": "France",
+ "process": {
+  "aging_months": 12,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 37.5,
+   "unit": "%",
+   "source_url": "https://eurekamag.com/research/001/676/001676976.php",
+   "quote": "**DM 62.5% = moisture 37.5%** – Sample: Same Comté, 20 h, France, as above. Unit for moisture: % m/m. Source URL: https://eurekamag.com/research/001/676/001676976.php",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 35.71,
+   "unit": "%",
+   "source_url": "https://www.aqua-calc.com/calculate/food-calories/substance/comte-blank-cheese-coma-and-blank-upc-column--blank-857631001209",
+   "quote": "**Total lipid (fat) 35.71 g / 100 g = 35.71%** – Sample: Same branded COMTE CHEESE UPC 857631001209 described above; commercial Comté, age not stated. Value per 100 g: Total lipid 35.71 g, Protein 25 g for context. Source URL: https://www.aqua-calc.com/calculate/food-calories/substance/comte-blank-cheese-coma-and-blank-upc-column--blank-857631001209",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 0.69,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.35,
+   "unit": "",
+   "source_url": "https://eurekamag.com/research/001/676/001676976.php",
+   "quote": "mean values at 20 h and at the end of the ripening period resp. were: 5.35 and 5.85 for pH; 62.5 and 66.0% for DM; 1.54 and 1.46% in DM for calcium; and 0.11 and 1.04% in DM for NaCl.",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "limited amino acid deamination during 12-mo ripening, far below washed-rind levels"
+  },
+  "animal_barnyard": {
+   "score": 3.0,
+   "reason": "p-cresol/indole from Tyr/Trp catabolism by raw-milk microbiota plus pasture feed"
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "hydrophobic peptides largely hydrolysed by Lb. helveticus peptidases, well balanced"
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "no Penicillium; low heptan-2-one ~5 mg/kg from fatty acid beta-oxidation only"
+  },
+  "browning": {
+   "score": 6.0,
+   "reason": "Maillard between free amino acids from proteolysis and residual galactose on heating"
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "diacetyl ~3 mg/kg from citrate metabolism by Streptococcus thermophilus/Lactococcus"
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "butyric acid ~400 mg/kg from milk-fat lipolysis by microbial esterases"
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "high fat ~35% gives mouth-coating but firm low-moisture matrix limits creaminess"
+  },
+  "crumbliness": {
+   "score": 4.0,
+   "reason": "moderate proteolysis plus tyrosine crystals cause shortness without grana friability"
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "cooked-pressed low-moisture ~34% calcium-phosphate crosslinked network hardened over 12 mo"
+  },
+  "floral_honey": {
+   "score": 4.0,
+   "reason": "phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism by lactobacilli"
+  },
+  "fruity": {
+   "score": 6.0,
+   "reason": "ethyl hexanoate ~5 mg/kg from ethanol plus hexanoic acid esterification by lactic flora"
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "cow milk lacks goaty branched C8-C10 acids; only trace hexanoic/octanoic acid"
+  },
+  "malty_nutty": {
+   "score": 7.0,
+   "reason": "Strecker aldehydes 2-methylpropanal/2- and 3-methylbutanal from Val/Leu/Ile via Lb. helveticus"
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "pH ~5.8 with intact para-casein and moderate salt allows flow and fusion on heating"
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "trace 1-octen-3-ol from linoleic acid oxidation, mainly rind-associated"
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "free-fat coalescence on melting from large fat pools in aged cooked curd"
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "never smoked; no guaiacol/syringol from smoke"
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "low acetic acid at pH ~5.85; propionic ~1000 mg/kg present as milder propionate"
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "rennet-coagulated non-pasta-filata; no aligned micelle fibers so minimal extensibility"
+  },
+  "sulfur_cooked": {
+   "score": 3.0,
+   "reason": "cooked curd ~53-55C plus Met catabolism to methional/sulfides by lactobacilli, mild"
+  },
+  "sweet": {
+   "score": 6.0,
+   "reason": "lactose depleted but sweet from Pro/Ala/Gly, calcium lactate, low salt and low acidity"
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "high free glutamate from extensive rennet plus Lb. helveticus proteolysis/peptidolysis"
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://eurekamag.com/research/001/676/001676976.php",
+  "https://www.aqua-calc.com/calculate/food-calories/substance/comte-blank-cheese-coma-and-blank-upc-column--blank-857631001209"
+ ]
+}

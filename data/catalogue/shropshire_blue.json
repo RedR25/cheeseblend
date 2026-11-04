@@ -1,0 +1,180 @@
+{
+ "id": "shropshire_blue",
+ "name": "Shropshire Blue",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "blue",
+ "origin": "England",
+ "process": {
+  "aging_months": 3.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "blue",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 38.3,
+   "unit": "%",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "Blue Shropshire 6.8 38.3 1.8 35.3 24.4 2.2 239 57.1 4.7 59.1 50.1",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 35.3,
+   "unit": "%",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "Blue Shropshire 6.8 38.3 1.8 35.3 24.4 2.2 239 57.1 4.7 59.1 50.1",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.8,
+   "unit": "%",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "Blue Shropshire 6.8 38.3 1.8 35.3 24.4 2.2 239 57.1 4.7 59.1 50.1",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.8,
+   "unit": "",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "Blue Shropshire 6.8 38.3 1.8 35.3 24.4 2.2 239 57.1 4.7 59.1 50.1",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 1837000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "Blue Shropshire 1837 62 12218 7919",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 62000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "Blue Shropshire 1837 62 12218 7919",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 12218000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "Blue Shropshire 1837 62 12218 7919",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 7919000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "Blue Shropshire 1837 62 12218 7919",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 4.5,
+   "reason": "NH3 from amino-acid deamination by Penicillium roqueforti contributes to deacidification to pH 6.8."
+  },
+  "animal_barnyard": {
+   "score": 2.5,
+   "reason": "Trace p-cresol and indole from tyrosine/tryptophan catabolism by milk microbiota, low intensity."
+  },
+  "bitter": {
+   "score": 5.0,
+   "reason": "Hydrophobic peptides from chymosin plus P. roqueforti proteases, partly masked by 1.8% salt."
+  },
+  "blue_moldy": {
+   "score": 8.5,
+   "reason": "Abundant 2-heptanone and 2-nonanone from P. roqueforti beta-oxidation and decarboxylation of fatty acids."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Maillard between proteolysis-derived amino acids and residual galactose on heating."
+  },
+  "buttery": {
+   "score": 7.0,
+   "reason": "Diacetyl and acetoin from Lactococcus lactis biovar diacetylactis citrate fermentation in high-fat curd."
+  },
+  "cheesy_sweaty": {
+   "score": 8.5,
+   "reason": "Very high butyric acid 12218 mg/kg and hexanoic acid 7919 mg/kg from P. roqueforti lipase lipolysis."
+  },
+  "creaminess": {
+   "score": 7.5,
+   "reason": "35.3% fat, ~57% FDM plus blue proteolysis softening casein to rich creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 6.0,
+   "reason": "Rennet-set, uncooked pierced curd fractures along blue fissures and air channels."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Moisture 38.3% pierced blue body is firm yet yielding, softer than Stilton."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Low phenylacetaldehyde and 2-phenylethanol from phenylalanine catabolism, masked by ketones."
+  },
+  "fruity": {
+   "score": 5.0,
+   "reason": "Ethyl butyrate and ethyl hexanoate from esterification of free fatty acids with ethanol by mold esterases."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk lacks 4-methyloctanoic and 4-ethyloctanoic acids; hexanoic alone not goaty."
+  },
+  "malty_nutty": {
+   "score": 3.5,
+   "reason": "Modest 2-/3-methylbutanal and methylbutanol from leucine/isoleucine Strecker degradation during ripening."
+  },
+  "melt": {
+   "score": 6.5,
+   "reason": "Rennet curd at pH 6.8 with intact para-casein flows with fat release when heated."
+  },
+  "mushroom_earthy": {
+   "score": 5.5,
+   "reason": "1-octen-3-ol and 1-octen-3-one from linoleic acid oxidation by Penicillium mycelium."
+  },
+  "oil_off": {
+   "score": 5.5,
+   "reason": "High free fat from lipolyzed cream-enriched curd releases oil on melting."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking and no guaiacol formation during indoor ripening."
+  },
+  "sour_vinegar": {
+   "score": 4.5,
+   "reason": "Acetic acid 1837 mg/kg from lactate/citrate metabolism, buffered by lactate consumption and ammonia."
+  },
+  "stretch": {
+   "score": 0.5,
+   "reason": "No pasta-filata stretching; rennet blue curd shows short crumbly pull only."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Limited methionine to methanethiol and dimethyl sulfide by lactococci and P. roqueforti, no cooking."
+  },
+  "sweet": {
+   "score": 3.5,
+   "reason": "Lactose depleted, slight sweetness from glycerol, free amino acids and annatto-associated perception."
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "Glutamate release from rennet and P. roqueforti aspartyl proteases during 3-month proteolysis."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+  "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf"
+ ]
+}

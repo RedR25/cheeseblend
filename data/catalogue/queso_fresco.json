@@ -1,0 +1,173 @@
+{
+ "id": "queso_fresco",
+ "name": "Queso fresco",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "fresh",
+ "origin": "Mexico",
+ "process": {
+  "aging_months": 0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 51.42,
+   "unit": "%",
+   "source_url": "https://www.aqua-calc.com/calculate/food-calories/substance/cheese-coma-and-blank-fresh-coma-and-blank-queso-blank-fresco-blank--op-crumbled-cp-",
+   "quote": "**Moisture:** `51.42 g /100 g = 51.42 %` – listed as `Water g 51.42` per 100 g",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 23.82,
+   "unit": "%",
+   "source_url": "https://www.aqua-calc.com/calculate/food-calories/substance/cheese-coma-and-blank-fresh-coma-and-blank-queso-blank-fresco-blank--op-crumbled-cp-",
+   "quote": "**Fat:** `23.82 g /100 g = 23.82 %` – listed as `Total lipid (fat) g 23.82` per 100 g",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.0,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)30374-0/pdf",
+   "quote": "Queso Fresco generally characterized as `fresh, high-moisture cheese with relatively neutral pH (>6.0) and a NaCl content of 1 to 3%`.",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.3,
+   "unit": "",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)30374-0/pdf",
+   "quote": "**pH:** `pH 6.30 ±0.01 throughout the study`, `pH >6.0` expected for cheese `made from pasteurized milk and without added LAB starter cultures`",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 4000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)30374-0/pdf",
+   "quote": "Van Hekken starter-free QF, 4°C storage: `Octanoic acid 4.0 1 14 12 Goat, musty, rancid` mg/kg lowest wk1 to highest wk12.",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  },
+  {
+   "value": 100.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)30374-0/pdf",
+   "quote": "Van Hekken starter-free QF: `2-Heptanone 0.1 1 42 12 Green, fruity, blue cheese` mg/kg.",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 100.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(17)30374-0/pdf",
+   "quote": "Van Hekken: `2-Nonanone 0.1 1 62 12 Fruity, hot milk, musty` mg/kg.",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 0.5,
+   "reason": "No proteolysis-driven NH3 accumulation in unaged days-old curd with pH 6.3."
+  },
+  "animal_barnyard": {
+   "score": 0.5,
+   "reason": "p-cresol/indole/skatole not detected in clean pasteurized curd with no rind flora."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "Minimal hydrophobic peptides from chymosin-only coagulation without starter proteolysis."
+  },
+  "blue_moldy": {
+   "score": 0.5,
+   "reason": "Trace 2-heptanone/2-nonanone ~0.1 mg/kg in fresh vs 42-62 mg/kg after 12 wk, no Penicillium."
+  },
+  "browning": {
+   "score": 1.0,
+   "reason": "High moisture and low free amino acids limit Maillard; only slight color on frying."
+  },
+  "buttery": {
+   "score": 2.0,
+   "reason": "Trace diacetyl 0.94 ug/g and acetoin 1.22 ug/g only in raw-milk versions, ND in starter-free pasteurized."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Low C4-C8 free fatty acids butanoic ~1.9 ug/g hexanoic ~4.5 ug/g from minimal lipolysis."
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "20-24% fat in 51-56% moisture gives moist mouthfeel but fragile curd, not creamy."
+  },
+  "crumbliness": {
+   "score": 7.0,
+   "reason": "Starter-free high-pH high-calcium fresh rennet gel fractures into characteristic friable crumble."
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "High-moisture fresh rennet gel with intact but fragile casein network, soft to cut."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Trace phenylethyl alcohol ~0.10 ug/g from phenylalanine catabolism, very low."
+  },
+  "fruity": {
+   "score": 1.0,
+   "reason": "Trace ethyl butanoate ~0.81 ug/g in raw versions ND pasteurized from esterase esterification."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Low octanoic ~3-4 mg/kg and decanoic acids from milkfat lipolysis, far below goat cheese."
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "Trace 3-methylbutanal ~0.31 ug/g from leucine Strecker degradation with no aging."
+  },
+  "melt": {
+   "score": 2.0,
+   "reason": "Intact colloidal calcium phosphate and no proteolysis prevent flow; softens but holds shape."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "1-octen-3-ol/1-octen-3-one not detected, no mold lipoxygenase pathway."
+  },
+  "oil_off": {
+   "score": 1.0,
+   "reason": "Homogenized milk fat trapped in fresh protein matrix, minimal free oiling-off on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step, no guaiacol/syringol phenols."
+  },
+  "sour_vinegar": {
+   "score": 1.0,
+   "reason": "Very low acetic acid ~0.72 ug/g and pH 6.3 with 3.1% residual lactose, no starter acidification."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata hot-water kneading, no aligned casein fibers for stringing."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Low heat load pasteurized 63C and 32C set with no sulfur volatiles detected."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose ~3.1% at pH 6.3 retains milky lactose sweetness."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "Low free glutamate/peptides from chymosin-only fresh curd with days of age."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://www.aqua-calc.com/calculate/food-calories/substance/cheese-coma-and-blank-fresh-coma-and-blank-queso-blank-fresco-blank--op-crumbled-cp-",
+  "https://www.journalofdairyscience.org/article/S0022-0302(17)30374-0/pdf",
+  "https://pubmed.ncbi.nlm.nih.gov/31733845/"
+ ]
+}

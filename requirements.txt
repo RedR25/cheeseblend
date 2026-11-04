@@ -1,0 +1,7 @@
+numpy==1.26.4
+scipy==1.14.1
+pydantic==2.10.6
+openai==2.31.0
+python-dotenv==1.2.2
+streamlit==1.39.0
+plotly==7.1.0

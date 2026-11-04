@@ -1,0 +1,149 @@
+{
+ "id": "handkase",
+ "name": "Handkäse",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "washed_rind",
+ "origin": "Germany",
+ "process": {
+  "aging_months": 0.5,
+  "coagulation": "acid",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 55.2,
+   "unit": "%",
+   "source_url": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:C:2009:320:0047:0050:EN:PDF",
+   "quote": "* **Water 55.2-68.6 %**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 0.13,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6096667/",
+   "quote": "* **Fat 0.13 ± 0.07 %**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.5,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 7.66,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6096667/",
+   "quote": "* **pH 7.66 ± 0.04**",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 9.0,
+   "reason": "Extensive amino-acid deamination to ammonium nitrogen (~0.26% AN) drives pH to 7.66 with free NH3 pungency."
+  },
+  "animal_barnyard": {
+   "score": 8.0,
+   "reason": "Red-smear Brevibacterium linens/coryneforms plus p-cresol from tyrosine breakdown give stable-animal note."
+  },
+  "bitter": {
+   "score": 6.0,
+   "reason": "Accumulation of hydrophobic bitter peptides from plasmin and LAB proteinases unmasked by near-zero fat."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti, so no C7-C11 methyl ketones 2-heptanone/2-nonanone blue aroma."
+  },
+  "browning": {
+   "score": 2.0,
+   "reason": "Very low fat and <1% residual sugar limit Maillard despite high lysine protein when heated."
+  },
+  "buttery": {
+   "score": 1.0,
+   "reason": "Skim acid curd ~0.1% fat gives almost no milkfat lactones and little diacetyl/acetoin creaminess."
+  },
+  "cheesy_sweaty": {
+   "score": 9.0,
+   "reason": "Leucine/isoleucine catabolism by smear flora yields 3-methylbutanoic/2-methylbutanoic sweaty acids."
+  },
+  "creaminess": {
+   "score": 1.0,
+   "reason": "0.13% fat provides no fat-globule lubrication; dense acid casein gel feels dry-waxy."
+  },
+  "crumbliness": {
+   "score": 3.0,
+   "reason": "Young acid curd is short but outside-in smear proteolysis makes ripe paste plastic-translucent, not crumbly."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Acid quark pressed to 32-45% dry matter with dense low-fat casein network gives firm rubbery bite."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Phenylalanine catabolism to phenylacetaldehyde and 2-phenylethanol gives faint rose-honey."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Yeast esterases form low levels of ethyl esters from ethanol and acids despite fat limitation."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow skim milk contains no goat-specific caproic/caprylic and 4-methyloctanoic acids."
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "Strecker 3-methylbutanal from leucine gives malty note; no cooked nutty pyrazines."
+  },
+  "melt": {
+   "score": 2.0,
+   "reason": "Acid-precipitated demineralized low-fat casein softens but does not flow when heated."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "Minimal 1-octen-3-ol earthiness; no white-mold mushroom flora."
+  },
+  "oil_off": {
+   "score": 0.0,
+   "reason": "Essentially fat-free, so no free-oil exudation on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Never smoked; no guaiacol/syringol phenols."
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "Lactic acid from LAB acid coagulation plus acetic acid from yeasts, partly deacidified by smear to pH 7.6."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata hot-water kneading; acid curd lacks aligned calcium-paracasein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 8.0,
+   "reason": "Brevibacterium linens methionine gamma-lyase produces methanethiol, dimethyl disulfide/trisulfide."
+  },
+  "sweet": {
+   "score": 1.0,
+   "reason": "Residual carbohydrate <1% fully fermented; sour-bitter-ammonia suppresses sweetness."
+  },
+  "umami": {
+   "score": 8.0,
+   "reason": "Deep proteolysis releases glutamate/aspartate with NaCl synergy in fat-free protein matrix."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:C:2009:320:0047:0050:EN:PDF",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6096667/",
+  "https://edoc.rki.de/bitstream/handle/176904/1225/29xcgZ4PFHEU.pdf?sequence=1&isAllowed=y",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12057542/"
+ ]
+}

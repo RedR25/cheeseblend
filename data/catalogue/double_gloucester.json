@@ -1,0 +1,149 @@
+{
+ "id": "double_gloucester",
+ "name": "Double Gloucester",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "cheddar",
+ "origin": "England",
+ "process": {
+  "aging_months": 4.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 37.9,
+   "unit": "%",
+   "source_url": "https://www.caloriecounter.com.au/food/calories-in-cheese-double-gloucester/",
+   "quote": "Each 100g of Cheese, Double Gloucester contains 413 calories, 37.9g of water, 0.1g of carbs, 24.4g of protein, and 35g of fat.",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 35.0,
+   "unit": "%",
+   "source_url": "https://www.nutridex.org.uk/foods/314fses/cheese-double-gloucester",
+   "quote": "Energy (kcal), 413 kcal, Energy (kJ), 1711 kJ, Protein, 24.4 g, Fat, 35 g, Saturated fatty acids, 21.93 g, Monounsaturated fatty acids, 10.19 g, Polyunsaturated",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.68,
+   "unit": "%",
+   "source_url": "https://www.nutridex.org.uk/foods/314fses/cheese-double-gloucester",
+   "quote": "Salt, 1.68 g, Sodium, 673 mg, Potassium, 79 mg, Calcium, 660 mg, Magnesium, 23 mg, Phosphorus, 460 mg, Iron, 0.4 mg, Copper, 0.03 mg, Zinc, 1.8 mg, Chloride,",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.2,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Low amino acid deamination during short indoor aging, no surface flora urease activity."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Pasteurized cow milk and Lactococcus starter gives very low p-cresol and indole."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Moderate rennet and starter proteolysis yields few hydrophobic bitter peptides, mostly degraded."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti, so no 2-heptanone/2-nonanone blue methyl ketone pathway."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Maillard between residual galactose/peptides and casein on heating gives moderate browning."
+  },
+  "buttery": {
+   "score": 7.0,
+   "reason": "Lactococcus lactis biovar diacetylactis citrate fermentation yields high diacetyl and acetoin."
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "Mild lipolysis by milk lipase and starter esterases releases some butanoic and hexanoic acid."
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "High fat 35% and 37.9% moisture with pressed smooth curd gives creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 3.0,
+   "reason": "Cheddared pressed calcium-paracasein network is smooth-firm, fractures little when young."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Low moisture 37.9%, rennet gel plus cheddaring/pressing gives firm dense body."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylalanine catabolism to phenylacetaldehyde and 2-phenylethanol by starter."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Limited esterase activity forms low ethyl butanoate and ethyl hexanoate during 4-month aging."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk fat lacks high 4-methyloctanoic and 4-ethyloctanoic branched-chain acids."
+  },
+  "malty_nutty": {
+   "score": 5.0,
+   "reason": "Strecker degradation of leucine/isoleucine to 3-methylbutanal and 2-methylbutanal during aging."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "Rennet curd at pH 5.2 with intact casein and 35% fat flows well on heating."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "No Geotrichum/mold lipoxygenase, so very low 1-octen-3-ol and 1-octen-3-one."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "35% milkfat coalesces and oils off moderately when melted due to contracted protein matrix."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Typically unsmoked, no wood-smoke phenols like guaiacol."
+  },
+  "sour_vinegar": {
+   "score": 2.0,
+   "reason": "Most lactose fermented to lactic acid then buffered, low acetic acid retention."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "Non-pasta-filata cheddared curd lacks aligned demineralized paracasein for stretching."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Low methionine catabolism to methanethiol and dimethyl sulfide without high heat."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Residual lactose depletion plus delta-decalactone/dodecalactone and diacetyl gives mild sweet."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "4-month starter peptidase proteolysis releases moderate glutamate and savory peptides."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.caloriecounter.com.au/food/calories-in-cheese-double-gloucester/",
+  "https://www.nutridex.org.uk/foods/314fses/cheese-double-gloucester",
+  "https://fdc.nal.usda.gov/fdc-app.html#/food-details/94308/nutrients",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4139634/"
+ ]
+}

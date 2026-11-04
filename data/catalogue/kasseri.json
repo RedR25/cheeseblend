@@ -1,0 +1,149 @@
+{
+ "id": "kasseri",
+ "name": "Kasseri",
+ "milk": "mixed",
+ "treatment": "pasteurized",
+ "style": "pasta_filata",
+ "origin": "Greece",
+ "process": {
+  "aging_months": 3,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": true
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 42.2,
+   "unit": "%",
+   "source_url": "https://wiki.phantis.com/index.php/Kasseri",
+   "quote": "* **moisture 42.2 %** — mean composition, Greek Kasseri, age unspecified, origin above",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 25.2,
+   "unit": "%",
+   "source_url": "https://wiki.phantis.com/index.php/Kasseri",
+   "quote": "* **fat 25.2 %** — same sample",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 3.1,
+   "unit": "%",
+   "source_url": "https://wiki.phantis.com/index.php/Kasseri",
+   "quote": "* **salt 3.1 % as NaCl** — same sample",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.7,
+   "unit": "",
+   "source_url": "https://wiki.phantis.com/index.php/Kasseri",
+   "quote": "* **pH 5.7** — dimensionless, same sample",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Minimal amino-acid deamination with no surface flora and brine-salted rind."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "Trace p-cresol/indole from tyrosine/tryptophan catabolism and sheep-milk branched fatty acids."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Low hydrophobic bitter peptides due to moderate proteolysis and thermophilic starter peptidases."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation; 2-heptanone/2-nonanone below detection."
+  },
+  "browning": {
+   "score": 6.0,
+   "reason": "Maillard between residual galactose and lysine during high-heat saganaki frying."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl/acetoin from citrate fermentation by starters plus C4-C12 lactones from sheep milk fat."
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "Butyric/caproic acids from rennet and milk lipase lipolysis of ewe/goat triglycerides."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "Fat 25% / FDM ~44-48% lubricates mouthfeel despite fibrous stretched protein matrix."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Plasticized stretched curd fractures fibrously rather than short crumbly fracture."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "Moisture ~42% and aligned pasta-filata casein fibers plus brine salting firm the paste."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol from phenylalanine Strecker by lactobacilli."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Ethyl butanoate/hexanoate from esterification of free fatty acids by starter esterases."
+  },
+  "goaty": {
+   "score": 4.0,
+   "reason": "Caprylic/capric and branched 4-methyloctanoic acids characteristic of ewe/goat milk fat."
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "Strecker 2-/3-methylbutanal from leucine/isoleucine catabolism during 3-month ripening."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "pH 5.3-5.7 demineralized para-casein and oriented fibers flow readily on heating."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "Trace 1-octen-3-ol from linoleic acid oxidation, suppressed by pasta-filata heating."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "Free-oil release from coalesced sheep-milk fat when stretched network contracts on melt."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make; no wood-smoke phenols like guaiacol."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "L-lactic acid by Streptococcus thermophilus/Lactobacillus plus trace acetic acid."
+  },
+  "stretch": {
+   "score": 8.0,
+   "reason": "Hot-water kneading aligns para-casein into long fibers that re-extend when reheated."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low H2S/methanethiol from pasteurization and hot-water stretching with volatile loss."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual galactose and glycerol plus fat masking of acidity by salt."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "Glutamate and savory peptides from chymosin/plasmin proteolysis plus salt enhancement."
+  }
+ },
+ "filata": true,
+ "non_melter": false,
+ "sources": [
+  "https://wiki.phantis.com/index.php/Kasseri",
+  "https://zenodo.org/records/5067152/files/WJARR-2021-0252.pdf?download=1",
+  "https://www.aqua-calc.com/calculate/food-calories/substance/kasseri-blank-mild-blank-sheep-blank-and-blank-goat-quote-s-blank-milk-blank-cheese-coma-and-blank-kasseri-coma-and-blank-mild-coma-and-blank-upc-column--blank-665291003019",
+  "https://www.nutritionvalue.org/Kasseri_mild_sheep_%26_goat%27s_milk_cheese%2C_kasseri%2C_mild_by_United_Natural_Foods%2C_Inc._710260_nutritional_value.html?size=100+g"
+ ]
+}

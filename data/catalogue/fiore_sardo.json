@@ -1,0 +1,150 @@
+{
+ "id": "fiore_sardo",
+ "name": "Fiore Sardo",
+ "milk": "sheep",
+ "treatment": "raw",
+ "style": "hard_grana",
+ "origin": "Italy - Sardinia",
+ "process": {
+  "aging_months": 8,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": true,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 28.7,
+   "unit": "%",
+   "source_url": "https://www.pagepressjournals.org/ijfs/article/download/8457/8635/45804",
+   "quote": "**Humidity (moisture) – 28.70 g/100g, SD 3.79, Min 17.41, Max 36.20**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 35.65,
+   "unit": "%",
+   "source_url": "https://www.pagepressjournals.org/ijfs/article/download/8457/8635/45804",
+   "quote": "**Fat – 35.65 g/100g, SD 3.12, Min 29.19, Max 45.35**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 3.29,
+   "unit": "%",
+   "source_url": "https://www.pagepressjournals.org/ijfs/article/download/8457/8635/45804",
+   "quote": "**Salt (NaCl) – 3.29 g/100g, SD 0.94, Min 1.75, Max 5.05**",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.14,
+   "unit": "",
+   "source_url": "https://www.pagepressjournals.org/ijfs/article/download/8457/8635/45804",
+   "quote": "**pH – mean 5.14, SD 0.18, Min 4.81, Max 5.52**",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Ammonia from amino acid deamination by NSLAB during long ripening, limited by low aw 28.7% moisture and 3.29% salt."
+  },
+  "animal_barnyard": {
+   "score": 5.0,
+   "reason": "p-Cresol/indole from pasture and branched-chain fatty acids from lamb/kid rennet paste lipase."
+  },
+  "bitter": {
+   "score": 5.0,
+   "reason": "Bitter hydrophobic peptides from chymosin on ovine alpha-s1 casein plus high NaCl accentuating bitterness."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation; 2-heptanone/2-nonanone blue-ketone pathway absent."
+  },
+  "browning": {
+   "score": 3.0,
+   "reason": "Very low residual lactose limits Maillard; some color from free amino groups and fat oxidation on heating."
+  },
+  "buttery": {
+   "score": 3.0,
+   "reason": "Diacetyl from lactococcal citrate metabolism largely reduced to acetoin/2,3-butanediol over 6-12 mo aging."
+  },
+  "cheesy_sweaty": {
+   "score": 8.0,
+   "reason": "Very high butanoic/hexanoic acids 10-45 mmol/kg from pregastric lipase in lamb rennet paste lipolysis."
+  },
+  "creaminess": {
+   "score": 2.0,
+   "reason": "Low 28.7% moisture and 29% protein dense matrix with crystallized fat limits oral lubrication."
+  },
+  "crumbliness": {
+   "score": 7.0,
+   "reason": "Low moisture plus extensive proteolysis and calcium-phosphate solubilization fractures para-casein matrix."
+  },
+  "firmness": {
+   "score": 8.0,
+   "reason": "Low moisture 28.7%, cooked/pressed curd and 6-12 mo drying hardens Ca-linked protein network."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol from phenylalanine Strecker degradation by NSLAB."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate/hexanoate from NSLAB esterases esterifying free fatty acids with ethanol (~14% of volatiles)."
+  },
+  "goaty": {
+   "score": 5.0,
+   "reason": "Caprylic/capric acids from ovine milk lipolysis; lower 4-methyloctanoic goaty note than goat milk."
+  },
+  "malty_nutty": {
+   "score": 5.0,
+   "reason": "Strecker aldehydes 2-/3-methylbutanal from Leu/Ile catabolism during extended proteolysis give nutty note."
+  },
+  "melt": {
+   "score": 3.0,
+   "reason": "Aged pH 5.14 demineralized and proteolyzed network softens but flows poorly with fat separation."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "Minimal 1-octen-3-ol/1-octen-3-one without Penicillium/Geotrichum surface mold linoleic oxidation."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "High 35.65% fat, 50% fat-in-dry-matter with coalesced globules and free fatty acids leaks oil on heating."
+  },
+  "smoky": {
+   "score": 4.0,
+   "reason": "Traditional light shrub-wood smoking deposits guaiacol/syringol phenols per PDO practice."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Lactic acid from raw-milk LAB plus minor acetic acid from heterofermentative lactobacilli at pH 5.14."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata kneading and highly proteolyzed low-pH casein cannot form aligned stretchable fibers."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low methanethiol/dimethyl sulfide from methionine catabolism; mild cook gives little H2S."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Lactose depleted; slight sweetness only from free Pro/Ala and glycerol, masked by 3.29% salt."
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "High free glutamate and savory peptides from chymosin/plasmin and Lactobacillus proteolysis of 29% protein."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.pagepressjournals.org/ijfs/article/download/8457/8635/45804",
+  "https://www.journalofdairyscience.org/article/S0022-0302(19)30361-3/fulltext",
+  "https://Journals.Plos.org/plosone/article?id=10.1371/journal.pone.0153213",
+  "https://ri.conicet.gov.ar/bitstream/handle/11336/101223/CONICET_Digital_Nro.ccaa924a-34c6-4cc4-be89-45d6f8e7a98d_A.pdf?sequence=2&isAllowed=y",
+  "https://www.academia.edu/3596586/Relationship_between_the_enzymatic_composition_of_lamb_rennet_paste_and_proteolytic_lipolytic_pattern_and_texture_of_PDO_Fiore_Sardo_ovine_cheese"
+ ]
+}

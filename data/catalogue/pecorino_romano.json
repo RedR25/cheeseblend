@@ -1,0 +1,151 @@
+{
+ "id": "pecorino_romano",
+ "name": "Pecorino Romano",
+ "milk": "sheep",
+ "treatment": "raw",
+ "style": "hard_grana",
+ "origin": "Italy",
+ "process": {
+  "aging_months": 8.0,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 31.86,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10386313/",
+   "quote": "| moisture | January: **31.86 ± 1.43 w/w %**<br>April: **31.51 ± 0.97 w/w %**<br>June: **31.57 ± 1.05 w/w %** | same as above |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 49.54,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10386313/",
+   "quote": "| fat / dry matter | January: **49.54 ± 1.31 w/w %**<br>April: **47.60 ± 1.40 w/w %**<br>June: **50.58 ± 1.28 w/w %** | same as above |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 4.48,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10386313/",
+   "quote": "| NaCl | January: **4.48 ± 0.88 w/w %**<br>April: **4.59 ± 0.83 w/w %**<br>June: **5.02 ± 0.98 w/w %** | same as above |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.07,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10386313/",
+   "quote": "| pH | January: **5.07 ± 0.12**<br>April: **5.10 ± 0.12**<br>June: **5.01 ± 0.14** | 8-mo PDO Pecorino Romano, Sardinia, Jan / Apr / Jun makes, n=45, mean±SD |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Low ammonia from amino acid deamination during 8-mo ripening, no surface flora to generate high NH3."
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "p-Cresol from tyrosine degradation by lactobacilli plus sheep milk phenols gives barnyard note."
+  },
+  "bitter": {
+   "score": 6.0,
+   "reason": "Hydrophobic peptides from rennet/plasmin proteolysis plus high NaCl and free fatty acids."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation, so no 2-heptanone/2-nonanone blue pathway."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Low residual lactose limits Maillard but lysine-rich peptides allow moderate browning on heating."
+  },
+  "buttery": {
+   "score": 2.0,
+   "reason": "Diacetyl/acetoin from citrate fermentation largely reduced to butanediol during long aging."
+  },
+  "cheesy_sweaty": {
+   "score": 8.0,
+   "reason": "Intense butanoic and 3-methylbutanoic acids from lamb rennet-paste pregastric lipase lipolysis."
+  },
+  "creaminess": {
+   "score": 2.0,
+   "reason": "Low moisture 31.9% and firm calcium para-casein with tyrosine crystals prevent creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 7.0,
+   "reason": "Demineralized, highly proteolyzed and heavily salted 8-mo paste fractures rather than slices."
+  },
+  "firmness": {
+   "score": 8.0,
+   "reason": "Low moisture, high salt 4.5% and cooked pressed curd create dense hard-grana body."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism by NSLAB."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Limited ethyl butanoate/hexanoate esterification by LAB esterases in low-water, high-salt matrix."
+  },
+  "goaty": {
+   "score": 7.0,
+   "reason": "Sheep milk branched-chain 4-methyloctanoic/4-ethyloctanoic plus caproic/caprylic acids from lipolysis."
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "Strecker 2-/3-methylbutanal from leucine/isoleucine catabolism gives light nutty note in aged paste."
+  },
+  "melt": {
+   "score": 2.0,
+   "reason": "Low moisture, pH 5.07 and 4.5% NaCl restrict casein flow; softens and oils off instead of flowing."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "No Penicillium/brevibacteria to make 1-octen-3-ol/1-octen-3-one; only trace lipid oxidation."
+  },
+  "oil_off": {
+   "score": 6.0,
+   "reason": "Coalesced sheep milk fat globules and extensive lipolysis release free oil on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Not smoked, no wood-smoke guaiacol/phenols deposited on rind."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Lactic acid from scotta-innesto thermophilic LAB to pH 5.07 plus trace acetic acid."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Non-pasta-filata rennet gel with no hot-water kneading to align para-casein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Cooked curd 45-48C drives some H2S/methanethiol from methionine but long aging dissipates it."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Lactose depleted by fermentation; slight sweetness only from free amino acids and NaCl masking."
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "High free glutamate from 8-mo proteolysis potentiated by very high NaCl."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10386313/",
+  "https://mdpi-res.com/d_attachment/sustainability/sustainability-13-08214/article_deploy/sustainability-13-08214.pdf",
+  "https://www.mdpi.com/2071-1050/13/15/8214",
+  "https://www.nutritionvalue.org/Cheese%2C_romano_nutritional_value.html?size=100%20g",
+  "https://www.iris.unina.it/bitstream/11588/1055617/1/Balivo%20et%20al.%2c%202026%20%28International%20Dairy%20Journal%29.pdf",
+  "https://www.journalofdairyscience.org/article/S0022-0302(84)81394-6/pdf"
+ ]
+}

@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  /* The cheese board. Tidy cartoon: personality from illustration, colour and type; few boxes, few borders.
+     Layout: ask -> Muse's picks -> [cheeses | board | how it tastes] -> smells strip. */
+  :root {
+    --cheese: oklch(0.88 0.17 92);
+    --cheese-hi: oklch(0.93 0.12 95);
+    --cheese-lo: oklch(0.96 0.07 95);
+    --orange: oklch(0.74 0.17 55);
+    --paper: oklch(0.99 0.02 95);
+    --surface: oklch(0.995 0.008 95);
+    --wood: oklch(0.82 0.09 75);
+    --wood-dark: oklch(0.70 0.11 70);
+    --ink: oklch(0.24 0.035 60);
+    --ink-2: oklch(0.24 0.035 60 / 0.7);
+    --line: oklch(0.24 0.035 60 / 0.16);
+    --more: oklch(0.95 0.06 140);
+    --less: oklch(0.94 0.05 40);
+    --gain: oklch(0.48 0.12 145);
+    --error: oklch(0.5 0.17 28);
+    --display: 'Young Serif', Georgia, serif;
+    --body: 'Atkinson Hyperlegible', 'Segoe UI', system-ui, sans-serif;
+    --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: transparent; color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.4; }
+  body { padding: 2px 8px 8px 2px; }
+  button, input { font: inherit; color: inherit; }
+  button { cursor: pointer; }
+  :focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; border-radius: 10px; }
+  h2, h3 { font-family: var(--display); font-weight: 400; margin: 0; letter-spacing: -0.01em; }
+  h2 { font-size: 1.6rem; }
+  h3 { font-size: 1.2rem; }
+  .hint { color: var(--ink-2); font-size: 0.88rem; margin: 0; }
+  .eyebrow { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-2); margin: 0; }
+  .icon { width: 20px; height: 20px; flex: none; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .icon.lg { width: 26px; height: 26px; }
+
+  /* One button vocabulary everywhere. */
+  .btn {
+    display: inline-flex; align-items: center; gap: 0.45rem; border: 2.5px solid var(--ink); border-radius: 999px;
+    background: var(--surface); padding: 0.45rem 1rem; font-weight: 700; box-shadow: 3px 3px 0 var(--ink);
+    transition: transform 0.15s var(--ease), box-shadow 0.15s var(--ease), background 0.15s;
+  }
+  .btn:hover { background: var(--cheese-hi); transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--ink); }
+  .btn:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--ink); }
+  .btn.on { background: var(--cheese); }
+  .btn.primary { background: var(--orange); }
+  .btn.special { background: linear-gradient(160deg, var(--cheese-hi), var(--cheese)); }
+  .btn.special.on, .btn.special:hover { background: var(--cheese); }
+  .photo { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; border: 2.5px solid var(--ink); flex: none; background: var(--cheese-lo); }
+  .photo.sm { width: 30px; height: 30px; }
+  .photo-ring { padding: 2px; border-radius: 50%; flex: none; display: grid; }
+  .btn:disabled { opacity: 0.45; cursor: not-allowed; transform: none; box-shadow: 3px 3px 0 var(--ink); }
+  .link { background: none; border: 0; padding: 0.2rem 0.1rem; font-weight: 700; font-size: 0.88rem; color: var(--ink-2); text-decoration: underline; text-underline-offset: 3px; }
+  .link:hover { color: var(--ink); }
+
+  /* ---------- 1. ask ---------- */
+  .ask-area { display: grid; gap: 0.8rem; }
+  .ask-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
+  .left { font-size: 0.85rem; color: var(--ink-2); }
+  .ask-row { display: flex; flex-wrap: wrap; gap: 0.7rem; align-items: center; }
+  .dishes { display: flex; flex-wrap: wrap; gap: 0.55rem; }
+  .ask { display: flex; gap: 0.55rem; flex: 1 1 380px; min-width: 280px; margin: 0; }
+  .ask input {
+    flex: 1; min-width: 0; border: 2.5px solid var(--ink); border-radius: 999px; padding: 0.5rem 1rem;
+    background: var(--surface); outline: none; transition: box-shadow 0.15s;
+  }
+  .ask input:focus-visible { box-shadow: 0 0 0 4px var(--cheese-hi); outline: none; }
+  .status { display: none; align-items: center; gap: 0.8rem; font-weight: 700; }
+  .status.show { display: flex; }
+  .shimmer {  /* loading state: a striped bar sliding, not a spinner */
+    width: 140px; height: 12px; border-radius: 999px; border: 2px solid var(--ink); flex: none;
+    background: repeating-linear-gradient(-45deg, var(--cheese) 0 10px, var(--cheese-hi) 10px 20px); background-size: 28px 28px;
+    animation: slide 0.8s linear infinite;
+  }
+  @keyframes slide { to { background-position: 28px 0; } }
+  .error { color: var(--error); font-weight: 700; }
+  .error:empty { display: none; }
+
+  /* ---------- 2. Muse's picks ---------- */
+  .picks-area { display: none; margin-top: 1.4rem; padding-top: 1.2rem; border-top: 2px dashed var(--line); }
+  .picks-area.show { display: grid; gap: 0.75rem; }
+  .picks-head { display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap; }
+  .request { font-family: var(--display); font-size: 1.1rem; margin: 0; flex: 1 1 300px; }
+  .picks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.7rem; }
+  .pick {
+    display: flex; align-items: center; gap: 0.75rem; text-align: left; padding: 0.55rem 0.8rem 0.55rem 0.55rem;
+    border: 2.5px solid var(--line); border-radius: 18px; background: var(--surface); transition: border-color 0.15s, background 0.15s;
+  }
+  .pick:hover { border-color: var(--ink); }
+  .pick.active { border-color: var(--ink); background: var(--cheese-lo); box-shadow: 3px 3px 0 var(--ink); }
+  .pick-rank { font-family: var(--display); font-size: 1.15rem; width: 1.6rem; text-align: center; flex: none; }
+  .pick-names { display: block; font-weight: 700; line-height: 1.2; }
+  .pick-meta { display: block; font-size: 0.85rem; color: var(--ink-2); margin-top: 0.15rem; }
+  .pick-meta b { color: var(--ink); }
+  details.why summary { cursor: pointer; font-weight: 700; font-size: 0.92rem; }
+  details.why p { white-space: pre-line; max-width: 75ch; margin: 0.5rem 0 0; color: var(--ink); }
+
+  /* ---------- 3. stage: cheeses | board | how it tastes ---------- */
+  .stage {
+    display: grid; grid-template-columns: minmax(230px, 280px) minmax(320px, 1fr) minmax(340px, 1.15fr);
+    gap: 1.8rem; margin-top: 1.6rem; align-items: start;
+  }
+  .panel { background: var(--paper); border: 2.5px solid var(--ink); border-radius: 22px; box-shadow: 5px 5px 0 var(--ink); }
+
+  .shelf { padding: 0.9rem 0.9rem 0.7rem; display: grid; gap: 0.6rem; }
+  .shelf-head { display: flex; align-items: baseline; justify-content: space-between; }
+  .count { font-size: 0.85rem; color: var(--ink-2); }
+  .search { display: flex; align-items: center; gap: 0.4rem; border: 2px solid var(--ink); border-radius: 999px; padding: 0.3rem 0.75rem; background: var(--surface); }
+  .search input { border: 0; outline: none; background: none; flex: 1; min-width: 0; }
+  .search:focus-within { box-shadow: 0 0 0 4px var(--cheese-hi); }
+  .filters { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+  .chip { border: 1.5px solid var(--line); border-radius: 999px; background: none; padding: 0.1rem 0.55rem; font-size: 0.8rem; font-weight: 700; color: var(--ink-2); }
+  .chip:hover { border-color: var(--ink); color: var(--ink); }
+  .chip.on { background: var(--cheese); border-color: var(--ink); color: var(--ink); }
+  .cheese-list { list-style: none; margin: 0 -0.3rem; padding: 0; max-height: 560px; overflow-y: auto; }
+  .cheese {
+    display: flex; align-items: center; gap: 0.6rem; padding: 0.35rem 0.4rem; border-radius: 12px; cursor: grab;
+    user-select: none; touch-action: none; transition: background 0.12s;
+  }
+  .cheese:hover { background: var(--cheese-lo); }
+  .cheese.used { opacity: 0.4; }
+  .cheese .name { font-weight: 700; font-size: 0.92rem; line-height: 1.15; }
+  .cheese .meta { font-size: 0.78rem; color: var(--ink-2); }
+  .swatch { width: 30px; height: 22px; flex: none; }
+  .ghost { position: fixed; pointer-events: none; z-index: 10; background: var(--paper); border: 2.5px solid var(--ink); box-shadow: 4px 4px 0 var(--ink); transform: rotate(-4deg); }
+
+  .board { position: relative; display: grid; gap: 0.9rem; }
+  .board-head { display: flex; align-items: baseline; justify-content: space-between; }
+  .plate {
+    justify-self: center; width: min(100%, 380px); aspect-ratio: 1; border-radius: 50%; display: grid; place-items: center;
+    background: radial-gradient(circle at 35% 30%, oklch(0.88 0.07 78), var(--wood) 55%, var(--wood-dark));
+    border: 3px solid var(--ink); box-shadow: 5px 7px 0 var(--ink); transition: transform 0.2s var(--ease);
+  }
+  .plate.hot { transform: scale(1.03); outline: 4px dashed var(--orange); outline-offset: 6px; }
+  .plate.shake { animation: shake 0.3s; }
+  @keyframes shake { 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
+  .plate .empty { text-align: center; padding: 0 18%; font-family: var(--display); font-size: 1.1rem; }
+  .plate .empty span { display: block; font-family: var(--body); font-size: 0.88rem; color: var(--ink-2); margin-top: 0.3rem; }
+  .rows { display: grid; gap: 0.5rem; }
+  .row { display: grid; grid-template-columns: 34px minmax(90px, 1fr) minmax(110px, 1.4fr) 40px 28px; align-items: center; gap: 0.6rem; }
+  .dot { width: 14px; height: 14px; border-radius: 50%; border: 2px solid var(--ink); }
+  .row-name { font-weight: 700; font-size: 0.92rem; line-height: 1.15; }
+  .row-pct { font-family: var(--display); text-align: right; }
+  .x { display: grid; place-items: center; width: 28px; height: 28px; padding: 0; border: 0; border-radius: 50%; background: none; color: var(--ink-2); }
+  .x:hover { background: var(--less); color: var(--ink); }
+  .x .icon { width: 16px; height: 16px; }
+  input[type=range] { -webkit-appearance: none; appearance: none; width: 100%; height: 10px; border-radius: 999px; background: var(--cheese-lo); border: 2px solid var(--ink); }
+  input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 22px; height: 22px; border-radius: 50%; background: var(--cheese); border: 2.5px solid var(--ink); cursor: grab; }
+  input[type=range]::-moz-range-thumb { width: 18px; height: 18px; border-radius: 50%; background: var(--cheese); border: 2.5px solid var(--ink); cursor: grab; }
+  .toast {
+    position: absolute; left: 50%; top: 2.6rem; transform: translate(-50%, -6px); background: var(--ink); color: var(--paper);
+    padding: 0.45rem 1rem; border-radius: 999px; font-weight: 700; font-size: 0.9rem; opacity: 0; pointer-events: none;
+    white-space: nowrap; transition: opacity 0.18s, transform 0.18s var(--ease); z-index: 20;
+  }
+  .toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+  .readout { display: grid; gap: 1.3rem; }
+  .verdict { display: grid; gap: 0.8rem; padding: 1rem 1.1rem; border-radius: 20px; background: var(--cheese-lo); }
+  .gauge-row { display: flex; align-items: center; gap: 0.9rem; }
+  .verdict-word { font-family: var(--display); font-size: 1.45rem; line-height: 1.1; }
+  .verdict-for { font-size: 0.85rem; color: var(--ink-2); margin-top: 0.25rem; }
+  .sub { font-weight: 700; font-size: 0.88rem; margin: 0 0 0.35rem; }
+  .gaps { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+  .gap { border-radius: 999px; padding: 0.15rem 0.65rem; font-size: 0.88rem; font-weight: 700; }
+  .gap.more { background: var(--more); } .gap.less { background: var(--less); }
+  .gap span { font-weight: 400; color: var(--ink-2); margin-left: 0.25rem; }
+  .fixes { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.3rem; }
+  .fix { display: flex; align-items: center; gap: 0.6rem; padding: 0.3rem 0.35rem 0.3rem 0.5rem; border-radius: 12px; background: var(--surface); }
+  .fix .name { font-weight: 700; font-size: 0.92rem; }
+  .fix .gain { color: var(--gain); font-weight: 700; font-size: 0.85rem; }
+  .add {
+    margin-left: auto; display: inline-flex; align-items: center; gap: 0.25rem; border: 2px solid var(--ink); border-radius: 999px;
+    background: var(--cheese); padding: 0.1rem 0.55rem 0.1rem 0.4rem; font-size: 0.82rem; font-weight: 700; transition: background 0.15s;
+  }
+  .add:hover { background: var(--orange); }
+  .add .icon { width: 14px; height: 14px; stroke-width: 2.6; }
+  .confidence { font-size: 0.82rem; color: var(--ink-2); margin: 0; }
+  .flavors { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .flavor { font-weight: 700; border-radius: 999px; padding: 0.2rem 0.7rem; background: var(--surface); }
+
+  .taste-head { display: flex; align-items: baseline; justify-content: space-between; gap: 0.6rem; margin-bottom: 0.6rem; }
+  .group { margin-bottom: 0.9rem; }
+  .group-title { display: flex; align-items: center; gap: 0.4rem; font-weight: 700; font-size: 0.82rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2); margin: 0 0 0.35rem; }
+  .group-title .icon { width: 17px; height: 17px; }
+  .bar { display: grid; grid-template-columns: 128px 1fr 30px; align-items: center; gap: 0.6rem; margin-bottom: 0.32rem; }
+  .bar-label { font-size: 0.92rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .bar-val { font-family: var(--display); font-size: 0.9rem; text-align: right; }
+  .track { position: relative; height: 12px; border-radius: 999px; background: var(--cheese-lo); }
+  .fill { position: absolute; inset: 0 auto 0 0; border-radius: 999px; transition: width 0.25s var(--ease); }
+  .target { position: absolute; top: -5px; width: 3px; height: 22px; background: var(--ink); border-radius: 2px; transform: translateX(-1.5px); }
+  details.more-bars summary { cursor: pointer; font-weight: 700; font-size: 0.88rem; color: var(--ink-2); }
+
+  /* ---------- 4. smells strip ---------- */
+  .extras { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 2.4rem; margin-top: 2rem; padding-top: 1.4rem; border-top: 2px dashed var(--line); }
+  .extras h3 { display: flex; align-items: center; gap: 0.45rem; margin-bottom: 0.7rem; }
+  .like, .mols { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.15rem; }
+  .like { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 1rem; }
+  .like li { display: flex; align-items: center; gap: 0.55rem; padding: 0.35rem 0.4rem; border-radius: 12px; }
+  .like li:hover { background: var(--cheese-lo); }
+  .like .name { font-weight: 700; font-size: 0.92rem; line-height: 1.15; }
+  .like .meta { font-size: 0.78rem; color: var(--ink-2); }
+  .mols { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 1.6rem; row-gap: 0.55rem; }
+  .mol { display: grid; grid-template-columns: 12px 1fr; column-gap: 0.55rem; align-items: start; }
+  .mol-dot { width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--ink); margin-top: 0.28rem; }
+  .mol-name { font-weight: 700; font-size: 0.92rem; }
+  .mol-smell { font-size: 0.85rem; color: var(--ink-2); }
+  .meter { grid-column: 2; height: 5px; border-radius: 999px; background: var(--cheese-lo); margin-top: 0.3rem; overflow: hidden; }
+  .meter i { display: block; height: 100%; }
+  .placeholder { color: var(--ink-2); }
+
+  @media (max-width: 1180px) {
+    .stage { grid-template-columns: minmax(300px, 1fr) minmax(340px, 1.1fr); }
+    .shelf { grid-column: 1 / -1; }
+    .cheese-list { max-height: 240px; display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); }
+    .picks { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 760px) {
+    .stage, .extras { grid-template-columns: 1fr; }
+    .like, .mols { grid-template-columns: 1fr; }
+    .bar { grid-template-columns: 104px 1fr 28px; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+</head>
+<body>
+<!-- Icon set: one ink-line style, 24px grid. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-fondue" viewBox="0 0 24 24"><path d="M4 11h16v2a7 7 0 0 1-7 7h-2a7 7 0 0 1-7-7z"/><path d="M2.5 11h19"/><path d="M15.5 2.5 12 11"/><circle cx="9" cy="8" r="1"/><circle cx="7" cy="5" r="0.8"/></symbol>
+  <symbol id="i-pizza" viewBox="0 0 24 24"><path d="M12 21 3.5 5.5c5-2.6 12-2.6 17 0z"/><path d="M5 8.3c4.4-1.9 9.6-1.9 14 0"/><circle cx="10" cy="11.5" r="1.1"/><circle cx="14.2" cy="12.5" r="1.1"/><circle cx="12" cy="16" r="1"/></symbol>
+  <symbol id="i-sandwich" viewBox="0 0 24 24"><path d="M4 10a4 4 0 0 1 4-5h8a4 4 0 0 1 4 5z"/><path d="M4 14h16v3a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M3.5 12h17"/><path d="M8 12v2.6M13.5 12v3.4"/></symbol>
+  <symbol id="i-dice" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4"/><circle cx="9" cy="9" r="1.1"/><circle cx="15" cy="15" r="1.1"/><circle cx="15" cy="9" r="1.1"/><circle cx="9" cy="15" r="1.1"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></symbol>
+  <symbol id="i-cook" viewBox="0 0 24 24"><path d="M3 12.5h13v1a5.5 5.5 0 0 1-5.5 5.5h-2A5.5 5.5 0 0 1 3 13.5z"/><path d="M16 13.5h5"/><path d="M7.5 9c0-1.6 1.6-1.6 1.6-3.2M11.5 9c0-1.6 1.6-1.6 1.6-3.2"/></symbol>
+  <symbol id="i-taste" viewBox="0 0 24 24"><path d="M4 9.5c2.5 2 13.5 2 16 0"/><path d="M6.5 10.8v2.7a5.5 5.5 0 0 0 11 0v-2.7"/><path d="M12 11.5v3.5"/></symbol>
+  <symbol id="i-texture" viewBox="0 0 24 24"><path d="M4 17 15.5 5.5a2.5 2.5 0 0 1 3.5 3.5L7.5 20.5H4z"/><path d="m13 8 3 3"/></symbol>
+  <symbol id="i-aroma" viewBox="0 0 24 24"><path d="M7 20c-2-2.7 2-4.6 0-7.3S9 8 7 5.3"/><path d="M12 20c-2-2.7 2-4.6 0-7.3S14 8 12 5.3"/><path d="M17 20c-2-2.7 2-4.6 0-7.3S19 8 17 5.3"/></symbol>
+  <symbol id="i-molecule" viewBox="0 0 24 24"><path d="M12 3.5 19.5 8v8L12 20.5 4.5 16V8z"/><circle cx="12" cy="12" r="2"/></symbol>
+  <symbol id="i-crown" viewBox="0 0 24 24"><path d="M3.5 8.5 8 12l4-6.5 4 6.5 4.5-3.5L19 18H5z"/><path d="M5 20.5h14"/><circle cx="12" cy="14.5" r="1"/></symbol>
+</svg>
+
+<div id="app">
+  <section class="ask-area" aria-label="Choose a dish or describe a craving">
+    <div class="ask-head"><h2>What are you making?</h2><span class="left" id="left"></span></div>
+    <div class="ask-row">
+      <div class="dishes" id="presets"></div>
+      <form class="ask" id="ask-form">
+        <input id="craving" placeholder="Or describe it: gooey, nutty, a little smoky…" maxlength="200" aria-label="Describe your craving">
+        <button class="btn primary" id="go" type="submit">Ask Muse <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+      </form>
+    </div>
+    <div class="status" id="busy" role="status"><span class="shimmer"></span>Muse is reading your craving and testing blends. About a minute.</div>
+    <div class="error" id="error" role="alert"></div>
+  </section>
+
+  <section class="picks-area" id="suggest" aria-label="Muse's picks">
+    <div class="picks-head"><p class="eyebrow" id="by">Muse's picks for</p><p class="request" id="request"></p><button class="link" id="clear-target">Clear craving</button></div>
+    <div class="picks" id="picks"></div>
+    <details class="why" id="why"><summary id="why-title">Why the top pick works</summary><p id="explain"></p></details>
+  </section>
+
+  <div class="stage">
+    <aside class="panel shelf" aria-label="Cheeses">
+      <div class="shelf-head"><h3>Cheeses</h3><span class="count" id="count"></span></div>
+      <label class="search"><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg><input id="search" placeholder="Search cheeses" aria-label="Search cheeses by name, origin or flavour"></label>
+      <div class="filters" id="filters"></div>
+      <ul class="cheese-list" id="tokens"></ul>
+      <p class="hint">Drag a cheese onto the board, or tap it.</p>
+    </aside>
+
+    <section class="board" aria-label="Your board">
+      <div class="board-head"><h3>Your board</h3><button class="link" id="clear">Clear board</button></div>
+      <div class="plate" id="plate"></div>
+      <div class="rows" id="rows"></div>
+      <div class="toast" id="toast" role="status"></div>
+    </section>
+
+    <section class="readout" aria-label="How it tastes">
+      <div class="verdict" id="verdict"></div>
+      <div>
+        <div class="taste-head"><h3>How it tastes</h3><span class="hint" id="tick-hint"></span></div>
+        <div id="taste"></div>
+      </div>
+    </section>
+  </div>
+
+  <div class="extras">
+    <section><h3><svg class="icon lg" aria-hidden="true"><use href="#i-aroma"/></svg>Smells like</h3><ul class="like" id="like"></ul></section>
+    <section><h3><svg class="icon lg" aria-hidden="true"><use href="#i-molecule"/></svg>What you'll smell first</h3><ul class="mols" id="mols"></ul></section>
+  </div>
+</div>
+
+<script>
+// ---------- Streamlit component protocol (no build step) ----------
+function send(type, data) { window.parent.postMessage(Object.assign({ isStreamlitMessage: true, type }, data || {}), "*"); }
+const setValue = value => send("streamlit:setComponentValue", { value, dataType: "json" });
+// Measure the content, not the document: the document is at least as tall as the iframe, so reporting it grows the
+// frame forever, and every frame resize makes Streamlit re-send render.
+let lastHeight = 0;
+function setHeight() {
+  const h = Math.ceil(document.getElementById("app").getBoundingClientRect().height) + 16;
+  if (Math.abs(h - lastHeight) > 1) { lastHeight = h; send("streamlit:setFrameHeight", { height: h }); }
+}
+
+const MAX = 6;
+const $ = id => document.getElementById(id);
+let A = null;                 // latest args from Python
+let board = [];               // [[id, weight 1..100]]
+let nonce = 0, lastLoad = null, busy = false, pending = false, filter = "all", query = "", timer = null;
+
+// ---------- drawing helpers ----------
+function esc(s) { return String(s).replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch])); }
+const icon = (id, cls = "icon") => `<svg class="${cls}" aria-hidden="true"><use href="#i-${id}"/></svg>`;
+function wheelSVG(parts, size, labels) {
+  // parts: [{share, color}] -> cartoon cheese wheel, lead wedge pulled out, holes in each wedge.
+  const r = size / 2 - 6, c = size / 2, total = parts.reduce((s, p) => s + p.share, 0) || 1, stroke = size > 150 ? 3.5 : 2;
+  let a = -Math.PI / 2, out = "";
+  parts.forEach((p, i) => {
+    const sweep = 2 * Math.PI * p.share / total, mid = a + sweep / 2, pull = i === 0 && parts.length > 1 ? r * 0.07 : 0;
+    const dx = Math.cos(mid) * pull, dy = Math.sin(mid) * pull;
+    const x1 = c + r * Math.cos(a), y1 = c + r * Math.sin(a), x2 = c + r * Math.cos(a + sweep), y2 = c + r * Math.sin(a + sweep);
+    const d = parts.length === 1 ? `M ${c - r} ${c} a ${r} ${r} 0 1 0 ${2 * r} 0 a ${r} ${r} 0 1 0 ${-2 * r} 0`
+      : `M ${c} ${c} L ${x1} ${y1} A ${r} ${r} 0 ${sweep > Math.PI ? 1 : 0} 1 ${x2} ${y2} Z`;
+    let holes = "";
+    if (size > 70) [[0.55, 0, 0.07], [0.8, 0.25, 0.045], [0.33, -0.3, 0.035]].forEach(([rr, off, hr], h) => {
+      if (sweep < 0.35 && h > 0) return;
+      const ang = mid + off * sweep, hx = c + dx + Math.cos(ang) * r * rr, hy = c + dy + Math.sin(ang) * r * rr;
+      holes += `<circle cx="${hx - 1.2}" cy="${hy - 1.2}" r="${r * hr + 1.2}" fill="#D98500" opacity="0.5"/><circle cx="${hx}" cy="${hy}" r="${r * hr}" fill="#F5A815" opacity="0.7"/>`;
+    });
+    const lx = c + dx + Math.cos(mid) * r * 0.66, ly = c + dy + Math.sin(mid) * r * 0.66;
+    const label = labels && p.share / total >= 0.08
+      ? `<text x="${lx}" y="${ly + 6}" text-anchor="middle" font-family="Young Serif, serif" font-size="${size / 15}" fill="#2B1A0E" stroke="#FFFBEA" stroke-width="4" paint-order="stroke">${Math.round(100 * p.share / total)}%</text>` : "";
+    out += `<g transform="translate(${dx} ${dy})"><path d="${d}" fill="${p.color}" stroke="#2B1A0E" stroke-width="${stroke}" stroke-linejoin="round"/></g>${holes}${label}`;
+    a += sweep;
+  });
+  return `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" aria-hidden="true">${out}</svg>`;
+}
+function swatch(color) {  // a tiny wedge in the cheese's paste colour
+  return `<svg class="swatch" viewBox="0 0 30 22" aria-hidden="true"><path d="M2 9 23 2l5 7z" fill="#FFE27A" stroke="#2B1A0E" stroke-width="2" stroke-linejoin="round"/><path d="M2 9h26v11H2z" fill="${color}" stroke="#2B1A0E" stroke-width="2" stroke-linejoin="round"/><circle cx="9" cy="14.5" r="2.4" fill="#D98500" opacity="0.55"/><circle cx="19" cy="16" r="1.7" fill="#D98500" opacity="0.55"/></svg>`;
+}
+function pic(id, cls = "") {  // the real photo (Wikimedia Commons, credit on hover), else the drawn wedge
+  const im = (A.images || {})[id], c = cheese(id);
+  return im ? `<img class="photo ${cls}" src="${esc(im.thumb)}" loading="lazy" alt="${esc(c.name)}" title="Photo: ${esc(im.artist)}, ${esc(im.license)}, via Wikimedia Commons">`
+    : swatch(A.paste[c.style] || "#FFD23F");
+}
+const cheese = id => A.cheeses.find(c => c.id === id) || { id, name: id, style: "" };
+const color = id => A.paste[cheese(id).style] || "#FFD23F";
+const styleName = s => A.style_names[s] || s;
+function toast(msg) { const t = $("toast"); t.textContent = msg; t.classList.add("show"); clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove("show"), 1600); }
+
+// ---------- state changes ----------
+function push(action, extra) {
+  if (busy && action !== "craving") { pending = true; return; }  // a new script run would cancel the Muse call
+  nonce += 1; setValue(Object.assign({ action, board, nonce }, extra || {}));
+}
+function boardChanged() { drawBoard(); drawPicksActive(); clearTimeout(timer); timer = setTimeout(() => push("board"), 250); }
+function addCheese(id, quarter) {
+  if (board.some(([i]) => i === id)) { toast("Already on the board"); return; }
+  if (board.length >= MAX) {
+    $("plate").classList.add("shake"); setTimeout(() => $("plate").classList.remove("shake"), 350);
+    toast("The board holds 6 cheeses"); return;
+  }
+  // Suggested additions go in at the 25% share they were scored at; shelf picks start at weight 50.
+  const total = board.reduce((s, [, w]) => s + w, 0);
+  board.push([id, quarter && total ? Math.max(1, Math.round(total / 3)) : 50]);
+  boardChanged(); drawShelf(); toast(`Added ${cheese(id).name}`);
+}
+function loadShares(shares) { board = Object.entries(shares).map(([id, s]) => [id, Math.max(1, Math.round(s * 100))]); boardChanged(); drawShelf(); }
+function sameAsBoard(shares) {
+  const t = board.reduce((s, [, w]) => s + w, 0) || 1, ids = Object.keys(shares);
+  return ids.length === board.length && board.every(([id, w]) => shares[id] != null && Math.abs(w / t - shares[id]) < 0.02);
+}
+
+// ---------- render ----------
+function drawPresets() {
+  $("presets").innerHTML = A.presets.map(p => `<button class="btn ${A.suggest && A.suggest.request === p.request ? "on" : ""}" data-p="${esc(p.name)}">${icon(p.icon)}${esc(p.label)}</button>`).join("")
+    + `<button class="btn" id="surprise">${icon("dice")}Surprise me</button>`
+    + `<button class="btn special ${A.suggest && A.suggest.request === "The ultimate cheese" ? "on" : ""}" id="ultimate" title="The engine searches every blend for the theoretical best cheese">${icon("crown")}Make the ultimate cheese</button>`;
+  $("presets").querySelectorAll("[data-p]").forEach(b => b.onclick = () => push("preset", { preset: b.dataset.p }));
+  $("ultimate").onclick = () => push("ultimate");
+  $("surprise").onclick = () => {
+    const pool = A.cheeses.slice().sort(() => Math.random() - 0.5).slice(0, 2 + Math.floor(Math.random() * 2));
+    board = pool.map(c => [c.id, 30 + Math.floor(Math.random() * 60)]); boardChanged(); drawShelf(); toast("A surprise board");
+  };
+  $("left").textContent = A.live_left > 0 ? `${A.live_left} Muse ${A.live_left === 1 ? "ask" : "asks"} left` : "Muse asks used up. The dishes still work.";
+  $("go").disabled = busy || A.live_left <= 0;
+}
+function drawSuggest() {
+  const s = A.suggest;
+  $("suggest").classList.toggle("show", !!s);
+  if (!s) return;
+  $("request").textContent = `“${s.request}”`;
+  $("by").textContent = s.by || "Muse's picks for";
+  $("why-title").textContent = s.why || "Why the top pick works";
+  $("picks").innerHTML = s.blends.map((b, k) => {
+    const parts = Object.entries(b.shares).map(([id, sh]) => ({ share: sh, color: color(id) }));
+    const mix = Object.values(b.shares).map(x => Math.round(x * 100) + "%").join(" / ");
+    return `<button class="pick" data-k="${k}"><span class="pick-rank">${k + 1}</span>${wheelSVG(parts, 54)}
+      <span><span class="pick-names">${b.names.map(esc).join(", ")}</span><span class="pick-meta"><b>${Math.round(b.match * 100)}% match</b> · ${mix}</span></span></button>`;
+  }).join("");
+  $("picks").querySelectorAll(".pick").forEach(el => el.onclick = () => { loadShares(s.blends[+el.dataset.k].shares); toast("On the board"); });
+  $("explain").textContent = s.explanation || "";
+  $("why").style.display = s.explanation ? "" : "none";
+  drawPicksActive();
+}
+function drawPicksActive() {
+  if (!A || !A.suggest) return;
+  $("picks").querySelectorAll(".pick").forEach(el => {
+    const on = sameAsBoard(A.suggest.blends[+el.dataset.k].shares);
+    el.classList.toggle("active", on); el.setAttribute("aria-pressed", on);
+  });
+}
+function drawShelf() {
+  $("filters").innerHTML = ["all", ...Object.keys(A.style_names)].map(s => `<button class="chip ${s === filter ? "on" : ""}" data-s="${s}">${s === "all" ? "All" : esc(A.style_names[s])}</button>`).join("");
+  $("filters").querySelectorAll(".chip").forEach(b => b.onclick = () => { filter = b.dataset.s; drawShelf(); });
+  const q = query.trim().toLowerCase(), used = new Set(board.map(([i]) => i));
+  const list = A.cheeses.filter(c => (filter === "all" || c.style === filter) && (!q || (c.name + " " + c.origin + " " + c.notes).toLowerCase().includes(q)));
+  $("count").textContent = list.length === A.cheeses.length ? `${A.cheeses.length}` : `${list.length} of ${A.cheeses.length}`;
+  $("tokens").innerHTML = list.map(c => `<li class="cheese ${used.has(c.id) ? "used" : ""}" data-id="${c.id}" tabindex="0" role="button" aria-label="Add ${esc(c.name)}" title="${esc(c.milk)} milk · ${esc(c.origin)}">
+      ${pic(c.id)}<span><span class="name">${esc(c.name)}</span><br><span class="meta">${esc(c.notes)}</span></span></li>`).join("")
+    || `<li class="placeholder">No cheese matches “${esc(query)}”.</li>`;
+  $("tokens").querySelectorAll(".cheese").forEach(enableDrag);
+}
+function plateSize() { return Math.min($("plate").clientWidth || 360, 380) * 0.88; }
+function drawPlate() {
+  $("plate").innerHTML = board.length
+    ? wheelSVG(board.map(([id, w]) => ({ share: w, color: color(id) })), plateSize(), true)
+    : `<div class="empty">Drop cheeses here<span>or pick a dish above and Muse fills the board.</span></div>`;
+}
+function drawBoard() {
+  drawPlate();
+  const total = board.reduce((s, [, w]) => s + w, 0);
+  $("rows").innerHTML = board.map(([id, w], i) => `<div class="row"><span class="photo-ring" style="background:${color(id)}">${pic(id, "sm")}</span>
+    <span class="row-name">${esc(cheese(id).name)}</span>
+    <input type="range" min="1" max="100" value="${w}" data-i="${i}" aria-label="Share of ${esc(cheese(id).name)}">
+    <span class="row-pct">${Math.round(100 * w / total)}%</span>
+    <button class="x" data-i="${i}" aria-label="Remove ${esc(cheese(id).name)}">${icon("x")}</button></div>`).join("");
+  $("rows").querySelectorAll("input").forEach(el => el.oninput = () => {  // live: redraw wheel and % without rebuilding sliders
+    board[+el.dataset.i][1] = +el.value;
+    const t = board.reduce((s, [, w]) => s + w, 0);
+    drawPlate();
+    $("rows").querySelectorAll(".row-pct").forEach((p, j) => p.textContent = Math.round(100 * board[j][1] / t) + "%");
+    drawPicksActive(); clearTimeout(timer); timer = setTimeout(() => push("board"), 250);
+  });
+  $("rows").querySelectorAll(".x").forEach(el => el.onclick = () => { board.splice(+el.dataset.i, 1); boardChanged(); drawShelf(); });
+  setHeight();
+}
+
+const GROUPS = [["cook", "Cooking", ["melt", "stretch", "browning", "oil_off"]], ["taste", "Taste", ["salt", "sour", "umami", "sweet", "bitter"]],
+                ["texture", "Texture", ["creaminess", "firmness", "crumbliness"]], ["aroma", "Aroma", null]];
+const verdictWord = m => m >= 0.8 ? "Great match" : m >= 0.6 ? "Pretty close" : m >= 0.4 ? "Getting there" : "Not there yet";
+function gauge(m) {  // a cheese ring that fills with the match
+  const r = 38, C = 2 * Math.PI * r, pct = Math.round(m * 100);
+  return `<svg width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="${pct}% match">
+    <circle cx="48" cy="48" r="${r}" fill="#FFFBEA" stroke="#2B1A0E" stroke-width="2.5"/>
+    <circle cx="48" cy="48" r="${r}" fill="none" stroke="#FF8A1F" stroke-width="11" stroke-linecap="round" stroke-dasharray="${C * m} ${C}" transform="rotate(-90 48 48)"/>
+    <circle cx="48" cy="48" r="${r - 7}" fill="#FFD23F" stroke="#2B1A0E" stroke-width="2.5"/>
+    <circle cx="38" cy="60" r="3.5" fill="#D98500" opacity="0.45"/><circle cx="60" cy="38" r="2.6" fill="#D98500" opacity="0.45"/>
+    <text x="48" y="55" text-anchor="middle" font-family="Young Serif, serif" font-size="20" fill="#2B1A0E">${pct}%</text></svg>`;
+}
+function barRow(d, v, target) {
+  const [label, col] = A.dims[d], t = target[d];
+  return `<div class="bar"><span class="bar-label">${esc(label)}</span><div class="track"><div class="fill" style="width:${Math.min(v, 10) * 10}%; background:${col}"></div>
+    ${t ? `<div class="target" style="left:${t.value * 10}%" title="Your craving wants ${t.value}"></div>` : ""}</div><span class="bar-val">${v.toFixed(1)}</span></div>`;
+}
+function drawResults() {
+  const r = A.result, dims = A.dims;
+  if (!r || !board.length) {
+    $("verdict").innerHTML = `<p class="placeholder">Put some cheese on the board and its taste shows up here.</p>`;
+    $("taste").innerHTML = ""; $("like").innerHTML = `<li class="placeholder">Nothing on the board yet.</li>`; $("mols").innerHTML = ""; $("tick-hint").textContent = ""; setHeight(); return;
+  }
+  const target = (A.suggest && A.suggest.target) || {};
+  const conf = `<p class="confidence">${Math.round(r.confidence * 100)}% of these numbers are measured. The rest are Muse estimates.</p>`;
+  if (r.match != null) {
+    const gaps = (r.gaps || []).map(g => `<span class="gap ${g.have < g.want ? "more" : "less"}">${g.have < g.want ? "More" : "Less"} ${esc(dims[g.dim][0].toLowerCase())}<span>${g.have} → ${g.want}</span></span>`).join("");
+    const fixes = (r.fixes || []).map(c => `<li class="fix">${pic(c.id, "sm")}<span><span class="name">${esc(c.name)}</span> <span class="gain">+${Math.round(c.gain * 100)}%</span></span>
+      <button class="add" data-id="${c.id}" aria-label="Add ${esc(c.name)}">${icon("plus")}Add</button></li>`).join("");
+    $("verdict").innerHTML = `<div class="gauge-row">${gauge(r.match)}<div><div class="verdict-word">${verdictWord(r.match)}</div><div class="verdict-for">Match for your craving</div></div></div>
+      ${gaps ? `<div><p class="sub">To get closer</p><div class="gaps">${gaps}</div></div>` : ""}
+      ${fixes ? `<div><p class="sub">Try adding</p><ul class="fixes">${fixes}</ul></div>` : ""}${conf}`;
+  } else {
+    const top = Object.keys(r.profile).filter(d => dims[d]).sort((a, b) => r.profile[b] - r.profile[a]).slice(0, 4);
+    $("verdict").innerHTML = `<div><p class="sub">Your blend leads with</p><div class="flavors">${top.map(d => `<span class="flavor">${esc(dims[d][0])}</span>`).join("")}</div></div>
+      <p class="hint">Pick a dish or ask Muse to see how close it gets.</p>${conf}`;
+  }
+  $("tick-hint").textContent = Object.keys(target).length ? "Predicted, 0 to 10. Ticks show your target." : "Predicted, 0 to 10.";
+  const notable = d => dims[d] && (target[d] || r.profile[d] >= 2.5), rest = [];
+  const html = GROUPS.map(([ic, title, keys]) => {
+    const all = (keys || A.aroma.slice().sort((a, b) => r.profile[b] - r.profile[a])).filter(d => dims[d]);
+    const shown = all.filter(notable).slice(0, 5);
+    rest.push(...all.filter(d => !shown.includes(d)));
+    return shown.length ? `<div class="group"><p class="group-title">${icon(ic)}${title}</p>${shown.map(d => barRow(d, r.profile[d], target)).join("")}</div>` : "";
+  }).join("");
+  $("taste").innerHTML = html + (rest.length ? `<details class="more-bars"><summary>Show ${rest.length} more</summary><div class="group" style="margin-top:0.6rem">${rest.map(d => barRow(d, r.profile[d], target)).join("")}</div></details>` : "");
+  $("like").innerHTML = r.like.map(c => `<li>${pic(c.id)}<span><span class="name">${esc(c.name)}</span><br><span class="meta">${esc(styleName(c.style))}</span></span>
+    <button class="add" data-id="${c.id}" aria-label="Add ${esc(c.name)}">${icon("plus")}Add</button></li>`).join("");
+  const maxV = Math.max(...r.compounds.map(m => m.value), 1e-9);
+  $("mols").innerHTML = r.compounds.map(m => `<li class="mol"><span class="mol-dot" style="background:${A.family_colors[m.family]}"></span>
+    <span><span class="mol-name">${esc(m.name)}</span> <span class="mol-smell">${esc((m.smells.length ? m.smells.slice(0, 4) : ["no odor label"]).join(", "))}</span></span>
+    <span class="meter"><i style="width:${100 * m.value / maxV}%; background:${A.family_colors[m.family]}"></i></span></li>`).join("");
+  document.querySelectorAll(".readout .add, .extras .add").forEach(b => b.onclick = () => addCheese(b.dataset.id, true));
+  setHeight();
+}
+
+// ---------- drag and drop (pointer events: mouse and touch; tap or Enter also adds) ----------
+function overPlate(e) { const b = $("plate").getBoundingClientRect(); return e.clientX > b.left && e.clientX < b.right && e.clientY > b.top && e.clientY < b.bottom; }
+function enableDrag(el) {
+  el.onkeydown = k => { if (k.key === "Enter" || k.key === " ") { k.preventDefault(); addCheese(el.dataset.id); } };
+  el.onpointerdown = e => {
+    const start = { x: e.clientX, y: e.clientY }; let ghost = null;
+    try { el.setPointerCapture(e.pointerId); } catch (_) { /* synthetic pointers can't be captured */ }
+    el.onpointermove = m => {
+      if (!ghost && Math.hypot(m.clientX - start.x, m.clientY - start.y) > 6) {
+        ghost = el.cloneNode(true); ghost.classList.add("ghost"); ghost.style.width = el.offsetWidth + "px"; document.body.appendChild(ghost);
+      }
+      if (ghost) {
+        ghost.style.left = m.clientX - 20 + "px"; ghost.style.top = m.clientY - 20 + "px";
+        $("plate").classList.toggle("hot", overPlate(m));
+      }
+    };
+    el.onpointerup = u => {
+      el.onpointermove = el.onpointerup = null;
+      $("plate").classList.remove("hot");
+      if (!ghost) return addCheese(el.dataset.id);  // a tap
+      ghost.remove();
+      if (overPlate(u)) addCheese(el.dataset.id);
+    };
+  };
+}
+
+// ---------- wiring ----------
+$("search").oninput = e => { query = e.target.value; drawShelf(); };
+$("clear").onclick = () => { board = []; boardChanged(); drawShelf(); };
+$("clear-target").onclick = () => push("clear_target");
+$("ask-form").onsubmit = e => {
+  e.preventDefault();
+  const text = $("craving").value.trim();
+  if (!text || busy || A.live_left <= 0) return;
+  busy = true; $("busy").classList.add("show"); $("go").disabled = true; $("error").textContent = ""; setHeight();
+  push("craving", { craving: text });
+};
+
+let lastArgs = "";
+window.addEventListener("message", e => {
+  if (!e.data || e.data.type !== "streamlit:render") return;
+  const key = JSON.stringify(e.data.args);
+  if (key === lastArgs) return;  // Streamlit re-sends identical args (e.g. after a resize): nothing to redraw
+  lastArgs = key;
+  A = e.data.args;
+  let loaded = false;
+  if (A.load && A.load.id !== lastLoad) { lastLoad = A.load.id; board = A.load.board; loaded = true; }  // Python put a pick on the board
+  else if (lastLoad === null && !board.length && A.board && A.board.length) board = A.board;  // iframe remounted: restore
+  if (busy && A.done_nonce >= nonce) {
+    busy = false; $("busy").classList.remove("show");
+    if (pending && !loaded) setTimeout(() => push("board"), 0);  // a fresh pick wins over edits made while waiting
+    pending = false;
+  }
+  $("error").textContent = A.error || "";
+  drawPresets(); drawSuggest(); drawShelf(); drawBoard(); drawResults();
+});
+new ResizeObserver(setHeight).observe(document.getElementById("app"));
+window.addEventListener("resize", () => { if (A) drawPlate(); });
+send("streamlit:componentReady", { apiVersion: 1 });
+</script>
+</body>
+</html>

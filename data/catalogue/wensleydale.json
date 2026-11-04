@@ -1,0 +1,148 @@
+{
+ "id": "wensleydale",
+ "name": "Wensleydale",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Wensleydale, North Yorkshire, England, UK",
+ "process": {
+  "aging_months": 3.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 42.36,
+   "unit": "%",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf",
+   "quote": "| **moisture %** | **42.36** | **g / 100 g = %** | Wensleydale, high-acid crumbly type, UK, delicatessen purchase, age n.s., Lawlor et al. 2001 Table VIII. URL above. |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 33.39,
+   "unit": "%",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf",
+   "quote": "| **fat %** | **33.39** | **g / 100 g = %** | Same sample as above. |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.12,
+   "unit": "%",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf",
+   "quote": "| **salt (NaCl) %** | **1.12** | **g / 100 g = %** | Same sample as above. S/M 2.63. |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 4.73,
+   "unit": "",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf",
+   "quote": "| **pH** | **4.73** | **pH units** | Same sample as above. |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Minimal NH3 from amino acid deamination; young low proteolysis and acidic pH retains NH4+."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Trace p-cresol/indole from tyrosine/tryptophan catabolism; pasteurized milk limits farm notes."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Low hydrophobic bitter peptides from alpha-s1 casein; short age limits accumulation."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti; 2-heptanone low and 2-nonanone absent, no blue ketone pathway."
+  },
+  "browning": {
+   "score": 2.0,
+   "reason": "Maillard limited by low residual lactose/galactose and high 42% moisture on heating."
+  },
+  "buttery": {
+   "score": 3.0,
+   "reason": "Modest diacetyl/acetoin from Lactococcus lactis biovar diacetylactis citrate metabolism."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Low butanoic/hexanoic acids from limited starter esterase lipolysis in young curd."
+  },
+  "creaminess": {
+   "score": 3.0,
+   "reason": "33% fat lubricates but acidic demineralized matrix fractures rather than creams."
+  },
+  "crumbliness": {
+   "score": 8.0,
+   "reason": "Low pH 4.73 calcium solubilization plus milled-salted curd gives short friable fracture."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "Pressed 42% moisture demineralized casein network gives firm but not hard body."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Trace phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism, masked by acidity."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Trace ethyl butyrate from starter esterase esterification; ethyl hexanoate essentially absent."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "No caprine branched C8-C10 acids; cow milk only so 4-methyloctanoic absent."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Low Strecker 3-methylbutanal/2-methylbutanal from leucine/isoleucine due to short ripening."
+  },
+  "melt": {
+   "score": 3.0,
+   "reason": "Rennet gel but pH 4.73 calcium-depleted para-casein flows poorly to grainy softening."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "Trace 1-octen-3-ol from linoleic acid oxidation; no surface mold to amplify."
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Moderate free oil on heating; young intact protein network entraps most fat."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make, no guaiacol/syringol from wood smoke."
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "High L-lactic plus acetic acid from mesophilic starter post-acidification to pH 4.73."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata stretching; acidic non-aligned casein cannot form fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Minimal H2S/methanethiol from methionine catabolism; curd not high-cooked."
+  },
+  "sweet": {
+   "score": 1.0,
+   "reason": "Lactose fermented to lactate; little residual sugar sweetness remains."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "Low free glutamate from limited chymosin and starter peptidase proteolysis at 2-3 mo."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf",
+  "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:C:2013:231:0020:0024:EN:PDF",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5656932/"
+ ]
+}

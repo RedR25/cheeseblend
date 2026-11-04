@@ -1,0 +1,147 @@
+{
+ "id": "harzer",
+ "name": "Harzer",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "washed_rind",
+ "origin": "Germany",
+ "process": {
+  "aging_months": 0.25,
+  "coagulation": "acid",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 61.31,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6096667/",
+   "quote": "| **Moisture (water)** | **61.31 ± 1.73 mean ± SD, n=3 Harzer-type cheeses** | % (g / 100 g) | Ripened acid-curd cheese with smear bacteria, Harzer-type, purchased at Cracow market, Poland. Age not stated. | https://pmc.ncbi.nlm.nih.gov/articles/PMC6096667/ |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 0.13,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6096667/",
+   "quote": "| **Fat** | **0.13 ± 0.07 mean ± SD, n=3 Harzer-type cheeses** | % (g / 100 g) by Van Gulik | Same sample as above. | https://pmc.ncbi.nlm.nih.gov/articles/PMC6096667/ |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 3.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 7.66,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6096667/",
+   "quote": "| **pH** | **7.66 ± 0.04 mean ± SD, n=3 Harzer-type cheeses** | pH units (conductometric) | Same sample as above. | https://pmc.ncbi.nlm.nih.gov/articles/PMC6096667/ |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 8.0,
+   "reason": "Extensive deamination by Brevibacterium linens/yeasts raises pH to 7.66 with highest ammonium nitrogen."
+  },
+  "animal_barnyard": {
+   "score": 6.0,
+   "reason": "Smear proteolysis forms p-cresol, indole and phenols from tyrosine/tryptophan."
+  },
+  "bitter": {
+   "score": 6.0,
+   "reason": "Intense proteolysis of skim acid curd accumulates hydrophobic bitter peptides."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti, no blue methyl-ketone pathway."
+  },
+  "browning": {
+   "score": 2.0,
+   "reason": "Very low lactose/fat limits Maillard despite high protein and alkaline pH."
+  },
+  "buttery": {
+   "score": 1.0,
+   "reason": "Skim milk 0.13% fat removes milkfat lactones and diacetyl precursors."
+  },
+  "cheesy_sweaty": {
+   "score": 8.0,
+   "reason": "B. linens and staphylococci lipolysis/branched-chain amino acid catabolism yields butanoic and 3-methylbutanoic acids."
+  },
+  "creaminess": {
+   "score": 1.0,
+   "reason": "Virtually fat-free acid gel gives no milkfat lubrication."
+  },
+  "crumbliness": {
+   "score": 4.0,
+   "reason": "Deacidified quark core remains short and chalky before smear softening."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Low-fat dense acid casein forms firm rubbery translucent loaf."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Yeast Ehrlich pathway makes low 2-phenylethanol/phenylacetaldehyde."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Yeasts produce ethyl esters and alcohols giving fruity-alcoholic base aroma."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow skim milk lacks goat 4-methyloctanoic/4-ethyloctanoic acids."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "Strecker leucine/isoleucine aldehydes from smear proteolysis give faint malty note."
+  },
+  "melt": {
+   "score": 1.0,
+   "reason": "Acid-set skim casein with <0.2% fat softens but does not flow."
+  },
+  "mushroom_earthy": {
+   "score": 3.0,
+   "reason": "Smear surface and yeast lipoxygenase form limited 1-octen-3-ol."
+  },
+  "oil_off": {
+   "score": 0.0,
+   "reason": "Essentially no milkfat to exude as free oil on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Not smoked, no guaiacol/phenol deposition."
+  },
+  "sour_vinegar": {
+   "score": 5.0,
+   "reason": "Lactic/acetic from sour-milk quark persists though yeasts/smear partially consume lactate."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata kneading and calcium-depleted acid curd cannot stretch."
+  },
+  "sulfur_cooked": {
+   "score": 7.0,
+   "reason": "B. linens methionine catabolism yields methanethiol, dimethyl sulfide/disulfide intense sulphurous aroma."
+  },
+  "sweet": {
+   "score": 1.0,
+   "reason": "Lactose fully fermented and no added sugar."
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "High proteolysis releases glutamate and biogenic amines from 30% protein."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6096667/",
+  "https://www.journals.uchicago.edu/doi/10.1086/714961"
+ ]
+}

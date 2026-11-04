@@ -1,0 +1,184 @@
+{
+ "id": "port_salut",
+ "name": "Port Salut",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "washed_rind",
+ "origin": "France",
+ "process": {
+  "aging_months": 1.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 45.45,
+   "unit": "%",
+   "source_url": "https://www.recipetips.com/usda/food-nutrition/t--01034/cheese-port-de-salut.asp",
+   "quote": "Water | 45.45 g, Protein 23.78 g, Total lipid (fat) 28.2 g, Source U.S. Department of Agriculture, Agricultural Research Service data",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 28.2,
+   "unit": "%",
+   "source_url": "https://www.recipetips.com/usda/food-nutrition/t--01034/cheese-port-de-salut.asp",
+   "quote": "28.2 g / 100 g = 28.2 % total lipid",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.0,
+   "unit": "%",
+   "source_url": "https://noalsa.com/wp-content/uploads/2021/03/Ficha-tecnica-Por-Salut-Noalsa-en.pdf",
+   "quote": "1.0 % - 1.5 % Sodium Chloride",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.1,
+   "unit": "",
+   "source_url": "https://noalsa.com/wp-content/uploads/2021/03/Ficha-tecnica-Por-Salut-Noalsa-en.pdf",
+   "quote": "5.10 - 5.50",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 740.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(49)92073-1/pdf",
+   "quote": "diacetyl – 0.074 mg / 100 g = 0.74 mg/kg = 740 µg/kg",
+   "confidence": "measured",
+   "name": "diacetyl"
+  },
+  {
+   "value": 41000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(84)81380-6/pdf",
+   "quote": "butanoic acid – 41 mg/kg",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 4000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(84)81380-6/pdf",
+   "quote": "hexanoic acid – 4 mg/kg",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 8000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(84)81380-6/pdf",
+   "quote": "octanoic acid – 8 mg/kg",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Short 3-4 week ripening gives limited deamination of amino acids to NH3."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "Light Brevibacterium linens smear produces trace p-cresol and isovaleric notes without strong barnyard."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Mesophilic starter with low hydrophobic peptide accumulation and washed curd limits bitterness."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation and no blue methyl ketone formation."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Moisture ~45% with residual lactose and 23% protein gives moderate Maillard browning on heating."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl 740 ug/kg from citrate metabolism by Lactococcus lactis biovar diacetylactis in high-fat paste."
+  },
+  "cheesy_sweaty": {
+   "score": 2.5,
+   "reason": "Low total FFA ~700 mg/kg with butanoic acid 41 mg/kg from limited lipolysis gives mild sweatiness."
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "Semi-soft moisture 45.45% and 28.2% fat with smeared rind proteolysis gives creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Pressed, washed, elastic rennet curd with pH 5.1 deforms rather than fractures."
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "Pressed semi-soft paste, 45% moisture and 1 month aging gives sliceable supple firmness."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Very low phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism in short ripening."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Trace ethyl esters from esterification of low FFA with ethanol from starter fermentation."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk with hexanoic 4 mg/kg and octanoic 8 mg/kg gives almost no caprine C6-C8 sharpness."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Minimal Strecker 2/3-methylbutanal from leucine/isoleucine due to short aging and mild starter proteolysis."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "pH 5.1-5.5 rennet gel with intact casein network and ~45% moisture flows well on heating."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "Thin washed rind with limited 1-octen-3-ol from linoleic acid oxidation gives faint mushroom."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "28.2% fat emulsion in moist paste releases only moderate free oil on melting."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and no guaiacol from wood smoke."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Lactic acid from mesophilic Lactococcus fermentation to pH 5.1 with almost no acetic acid."
+  },
+  "stretch": {
+   "score": 3.0,
+   "reason": "Non-pasta-filata rennet curd, no hot stretching, so only slight casein extensibility when melted."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Pasteurized milk H2S/dimethyl sulfide largely expelled and no sulfur amino acid catabolism."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose/galactose and diacetyl/acetoin impart mild sweet milky note at pH 5.1."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Modest glutamate release from rennet plus starter proteolysis during 4-week ripening."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.recipetips.com/usda/food-nutrition/t--01034/cheese-port-de-salut.asp",
+  "https://noalsa.com/wp-content/uploads/2021/03/Ficha-tecnica-Por-Salut-Noalsa-en.pdf",
+  "https://www.journalofdairyscience.org/article/S0022-0302(49)92073-1/pdf",
+  "https://www.journalofdairyscience.org/article/S0022-0302(84)81380-6/pdf",
+  "https://www.dairy-journal.org/articles/dst/pdf/2010/04/dst0948.pdf",
+  "https://www.yumpu.com/en/document/view/59581085/biochemistry-of-cheese-ripening-guide/32"
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "id": "paneer",
+ "name": "Paneer",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "fresh",
+ "origin": "India",
+ "process": {
+  "aging_months": 0,
+  "coagulation": "acid_heat",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 50.78,
+   "unit": "%",
+   "source_url": "https://journaljabb.com/index.php/JABB/article/view/1674",
+   "quote": "fresh cow milk paneer P0 chemical constituents were 50.78 g of moisture, 0.22% of acidity, 5.3 of pH, 20.39 g of protein, 22.8 g of fat",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 22.8,
+   "unit": "%",
+   "source_url": "https://journaljabb.com/index.php/JABB/article/view/1674",
+   "quote": "fresh cow milk paneer P0 chemical constituents were 50.78 g of moisture, 0.22% of acidity, 5.3 of pH, 20.39 g of protein, 22.8 g of fat",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 0.1,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.3,
+   "unit": "",
+   "source_url": "https://journaljabb.com/index.php/JABB/article/view/1674",
+   "quote": "50.78 g of moisture, 0.22% of acidity, 5.3 of pH",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 0.0,
+   "reason": "No proteolysis or deamination in fresh unripened curd, so no free NH3 accumulates."
+  },
+  "animal_barnyard": {
+   "score": 0.0,
+   "reason": "Clean pasteurized cow milk with no washed-rind bacteria, so no p-cresol/indole barnyard notes."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "No rennet or ripening proteolysis, so no accumulation of hydrophobic bitter peptides."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation or blue ripening, so no methyl ketone mold pathway."
+  },
+  "browning": {
+   "score": 6.0,
+   "reason": "Residual lactose 2-2.7% plus milk proteins give active Maillard browning when fried."
+  },
+  "buttery": {
+   "score": 3.0,
+   "reason": "No starter citrate fermentation or ripening, so minimal diacetyl/acetoin from milk fat."
+  },
+  "cheesy_sweaty": {
+   "score": 1.0,
+   "reason": "No lipase ripening or lipolysis, so very low free butanoic/hexanoic sweaty acids."
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "High moisture ~51% and ~23% fat give soft mouthfeel but heat-denatured proteins limit creaminess."
+  },
+  "crumbliness": {
+   "score": 5.0,
+   "reason": "Acid-heat precipitation at pH 5.3 near casein isoelectric point gives short crumbly fracture with no ripening."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "Heat-denatured whey-casein complex pressed after 85-90C coagulation forms dense firm non-elastic body."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "No phenylalanine catabolism by yeasts/molds, so minimal phenylacetaldehyde/phenylethanol."
+  },
+  "fruity": {
+   "score": 1.0,
+   "reason": "No esterase activity or aging for ethyl ester synthesis, so almost no ethyl butanoate/hexanoate."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk lacks high 4-methyloctanoic/4-ethyloctanoic goat acids, so no goaty note."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "High-heat milk treatment promotes mild Strecker aldehydes and lactones perceived as sweet-nutty."
+  },
+  "melt": {
+   "score": 1.0,
+   "reason": "Acid-heat whey-casein complex and low pH prevent casein flow, so it holds shape when heated."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No Penicillium/Galactomyces metabolism, so no 1-octen-3-ol earthy pathway."
+  },
+  "oil_off": {
+   "score": 1.0,
+   "reason": "Denatured protein matrix entraps fat and does not flow, so almost no free oil release on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Plain paneer is not smoked, so no guaiacol/syringol deposition from wood smoke."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Direct organic acid coagulation with lime/citric acid plus pH 5.3 gives mild acidic-vinegar tang."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata stretching or aligned micellar network, acid curd fractures instead of stretching."
+  },
+  "sulfur_cooked": {
+   "score": 4.0,
+   "reason": "Milk heated to 85-90C denatures beta-lactoglobulin releasing H2S and cooked-milk sulfhydryls."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Entrapped residual lactose 2-2.7% with no fermentation gives characteristic sweetish whey note."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "No prolonged proteolysis to release glutamate peptides, so very low umami brothiness."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://journaljabb.com/index.php/JABB/article/view/1674",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4008736/",
+  "https://meal-plan.app/en/foods/dairy-and-egg-products/cheese-paneer/",
+  "https://www.nutritionvalue.org/Cheese%2C_paneer_14110050_nutritional_value.html?size=246%20g"
+ ]
+}

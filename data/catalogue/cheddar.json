@@ -1,0 +1,311 @@
+{
+ "id": "cheddar",
+ "name": "Cheddar (aged)",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "cheddar",
+ "origin": "England, UK",
+ "process": {
+  "aging_months": 12.0,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 36.6,
+   "unit": "%",
+   "source_url": "https://aqua-calc.com",
+   "quote": "See how many nutrients in 100 g of Cheese, cheddar – Water g 36.6, Total lipid g 34, Sodium mg 654",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 34.0,
+   "unit": "%",
+   "source_url": "https://aqua-calc.com",
+   "quote": "See how many nutrients in 100 g of Cheese, cheddar – Water g 36.6, Total lipid g 34, Sodium mg 654",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.6,
+   "unit": "%",
+   "source_url": "https://sciencedirect.com",
+   "quote": "Commercially produced Cheddar should have a moisture content of 36%–38%, a fat in dry matter content of 52%–54%, a salt content of 1.6%–1.8%, and a pH of 4.95–5.25",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 4.95,
+   "unit": "",
+   "source_url": "https://sciencedirect.com",
+   "quote": "Commercially produced Cheddar should have a moisture content of 36%–38%, a fat in dry matter content of 52%–54%, a salt content of 1.6%–1.8%, and a pH of 4.95–5.25",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 4900.0,
+   "unit": "µg/kg",
+   "source_url": "https://journals.sbmu.ac.ir/afb/article/download/13532/Online/",
+   "quote": "Maximum concentration of 2,3-butanedione (common name diacetyl, C4H6O2) was quantified as 4.90 mg kg-1",
+   "confidence": "measured",
+   "name": "diacetyl"
+  },
+  {
+   "value": 91000.0,
+   "unit": "µg/kg",
+   "source_url": "https://journals.sbmu.ac.ir/afb/article/download/13532/Online/",
+   "quote": "Maximum quantified concentration of 3-hydroxybutanone (common name acetoin, C4H8O2) was 91.00 mg kg-1",
+   "confidence": "measured",
+   "name": "acetoin"
+  },
+  {
+   "value": 25.19,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)00484-7/fulltext",
+   "quote": "| δ-Decanolactone | 25.19 | 15.13 | 18.35 | 19.10 | 14.55 | – Nos.1-5; No.1 mature Netherlands 25.19 µg/kg",
+   "confidence": "measured",
+   "name": "delta-decalactone"
+  },
+  {
+   "value": 52.35,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)00484-7/fulltext",
+   "quote": "| δ-Dodecalactone | 52.35 | 38.44 | 30.41 | 59.05 | 47.43 | – No.1 mature Netherlands 52.35 µg/kg",
+   "confidence": "measured",
+   "name": "delta-dodecalactone"
+  },
+  {
+   "value": 22842.27,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)00484-7/fulltext",
+   "quote": "| Butanoic acid | 22,842.27 | 11,017.07 | 7,520.33 | 23,208.42 | 7,789.01 | – No.1 mature Netherlands 22,842.27 µg/kg = 22.84 mg/kg; No.4 mature Ireland 23,208.42 µg/kg",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 125.9,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)00484-7/fulltext",
+   "quote": "| Isovaleric acid | 125.90 |  | 148.84 | 188.62 | 139.13 | – No.1 mature Netherlands 125.90 µg/kg, No.4 mature Ireland 188.62 µg/kg",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  },
+  {
+   "value": 3429.84,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)00484-7/fulltext",
+   "quote": "| Hexanoic acid | 3,429.84 | 2,113.46 | 1,742.56 | 4,207.21 | 1,744.98 | – No.1 mature Netherlands 3,429.84 µg/kg, No.4 mature Ireland 4,207.21 µg/kg",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 774.5,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)00484-7/fulltext",
+   "quote": "| Octanoic acid | 774.5 | 514.04 | 412.00 | 680.14 | 503.03 | – No.1 mature Netherlands 774.5 µg/kg",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  },
+  {
+   "value": 15105.62,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)00484-7/fulltext",
+   "quote": "| Acetic acid | 15,105.62 | 34,931.39 | 34,457.01 | 14,079.46 | 32,732.03 | – No.1 mature Netherlands 15,105.62 µg/kg, No.2 mild Netherlands 34,931.39 µg/kg",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 21.53,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)00484-7/fulltext",
+   "quote": "| Dimethyl trisulfide | 21.53 | 12.29 | 16.11 | 20.90 | 16.75 | – No.1 mature Netherlands 21.53 µg/kg",
+   "confidence": "measured",
+   "name": "dimethyl trisulfide"
+  },
+  {
+   "value": 814.26,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)00484-7/fulltext",
+   "quote": "| Methional | 814.26 | 365.25 | 528.14 | 593.61 | 299.18 | – No.1 mature Netherlands 814.26 µg/kg",
+   "confidence": "measured",
+   "name": "methional"
+  },
+  {
+   "value": 8.64,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)00484-7/fulltext",
+   "quote": "| 2-Heptanone | 8.64 | 8.41 | 9.07 | 12.80 | 15.56 | – No.1 mature Netherlands 8.64 µg/kg",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 2.93,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)00484-7/fulltext",
+   "quote": "| 2-Nonanone | 2.93 | 17.34 | 12.05 | 7.92 | 16.05 | – No.1 mature Netherlands 2.93 µg/kg",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  },
+  {
+   "value": 138.17,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)00484-7/fulltext",
+   "quote": "| 2-Undecanone | 138.17 | 136.66 | 138.52 | 139.25 | 136.94 | – Nos.1-5 ~137-139 µg/kg; No.1 mature Netherlands 138.17 µg/kg",
+   "confidence": "measured",
+   "name": "2-undecanone"
+  },
+  {
+   "value": 940.0,
+   "unit": "µg/kg",
+   "source_url": "https://journals.sbmu.ac.ir/afb/article/download/13532/Online/",
+   "quote": "Ethyl butanoate (common name ethyl butyrate, C6H12O2) was quantified in maximum concentration of in the ripened reduced fat cheeses contains 0.94 mg kg-1 single culture of St. thermophilus",
+   "confidence": "measured",
+   "name": "ethyl butanoate"
+  },
+  {
+   "value": 24.1,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)00484-7/fulltext",
+   "quote": "| Ethyl caproate | 24.10 | 10.27 | 7.33 | 25.70 | 13.98 | – No.1 mature Netherlands 24.10 µg/kg",
+   "confidence": "measured",
+   "name": "ethyl hexanoate"
+  },
+  {
+   "value": 52.42,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)00484-7/fulltext",
+   "quote": "| 1-Octen-3-ol |  |  |  |  |  | – not detected Nos.1-5; | 1-Octen-3-ol | 52.42 |  |  |  |  | – No.6 mature UK 52.42 µg/kg, others ND",
+   "confidence": "measured",
+   "name": "1-octen-3-ol"
+  },
+  {
+   "value": 5.28,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)00484-7/fulltext",
+   "quote": "| 1-Octen-3-one | 5.28 | 10.62 | 12.07 | 6.02 | 16.14 | – No.1 mature Netherlands 5.28 µg/kg",
+   "confidence": "measured",
+   "name": "1-octen-3-one"
+  },
+  {
+   "value": 96.12,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)00484-7/fulltext",
+   "quote": "| Phenylacetaldehyde | 96.12 |  |  | 112.32 | 108.13 | – No.1 mature Netherlands 96.12 µg/kg",
+   "confidence": "measured",
+   "name": "phenylacetaldehyde"
+  },
+  {
+   "value": 57.66,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(21)00484-7/fulltext",
+   "quote": "| Phenylethyl alcohol | 57.66 | 57.48 | 63.27 | 58.80 | 57.79 | – No.1 mature Netherlands 57.66 µg/kg",
+   "confidence": "measured",
+   "name": "2-phenylethanol"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Limited amino acid deamination in low-moisture rennet curd with no surface flora."
+  },
+  "animal_barnyard": {
+   "score": 3.0,
+   "reason": "Tyrosine/tryptophan catabolism to p-cresol ~200 ppb and skatole 1-5 ug/kg in farmhouse aged types."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Hydrophobic chymosin/plasmin peptides from beta-casein, mostly trimmed by lactobacilli peptidases by 12 mo."
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "No Penicillium; methyl ketones minimal 2-heptanone 8.6 ug/kg, 2-nonanone 2.9 ug/kg."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Residual galactose/lactose plus lysine Maillard on heating pressed cheddared curd."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Lactococcus lactis citrate metabolism to diacetyl 4.9 mg/kg and acetoin 1-3 mg/kg."
+  },
+  "cheesy_sweaty": {
+   "score": 7.0,
+   "reason": "Lipolysis and lactobacilli esterases: butanoic 22842 ug/kg, hexanoic 3430 ug/kg, isovaleric 126 ug/kg."
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "34% fat in firm low-moisture matrix limits oral coating despite fat coalescence."
+  },
+  "crumbliness": {
+   "score": 6.0,
+   "reason": "Low MNFS, 12-mo proteolysis and calcium lactate crystals cause fracture."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Cooked, cheddared and pressed curd at 36.6% moisture with calcium-phosphate crosslinks."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Phenylalanine catabolism to phenylacetaldehyde 96 ug/kg and phenylethanol 58 ug/kg."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethanol-acid esterification to ethyl butanoate 940 ug/kg, ethyl hexanoate 24 ug/kg plus delta-lactones."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk without branched 4-methyl/4-ethyloctanoic acids; only straight C6-C8 faint sharpness."
+  },
+  "malty_nutty": {
+   "score": 6.0,
+   "reason": "Strecker leucine/isoleucine/phenylalanine to methylbutanals, phenylacetaldehyde and methional 814 ug/kg."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "Rennet pH ~5.0 para-casein network flows on heating with moderate fat coalescence."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "Linoleate oxidation minimal: 1-octen-3-ol ND-52 ug/kg, 1-octen-3-one 5.3 ug/kg."
+  },
+  "oil_off": {
+   "score": 6.0,
+   "reason": "34% fat coalesced pools and lipolyzed free fatty acids release free oil on melting."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No wood smoking; guaiacol/syringol phenols absent in unsmoked Cheddar."
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "Lactococcus fermentation acetic acid 15106 ug/kg and cheddaring acidification to pH ~4.95-5.2."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata hot-water kneading; cheddaring only mats curd without aligned fibers."
+  },
+  "sulfur_cooked": {
+   "score": 6.0,
+   "reason": "Methionine catabolism by lactobacilli to MeSH/DMS and DMTS 21.5 ug/kg plus methional 814 ug/kg."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Lactose depleted at cheddaring; faint sweet from glycerol and delta-decalactone 25 ug/kg."
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "12-mo chymosin/plasmin plus Lactococcus peptidase proteolysis to glutamate and savory peptides."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://aqua-calc.com",
+  "https://sciencedirect.com",
+  "https://journals.sbmu.ac.ir/afb/article/download/13532/Online/",
+  "https://www.journalofdairyscience.org/article/S0022-0302(21)00484-7/fulltext",
+  "https://c.coek.info/pdf-development-of-volatile-sulfur-compounds-in-heat-shocked-and-pasteurized-milk-ch.html"
+ ]
+}

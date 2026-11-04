@@ -1,0 +1,149 @@
+{
+ "id": "monte_veronese",
+ "name": "Monte Veronese",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "semi_hard",
+ "origin": "Verona, Veneto, Italy",
+ "process": {
+  "aging_months": 1.0,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 38.6,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9778634/",
+   "quote": "* moisture: **38.6 ± 2.3 % by mass**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 29.7,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9778634/",
+   "quote": "* fat: **29.7 ± 1.4 % by mass**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.6,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.78,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9778634/",
+   "quote": "* pH: **5.78 ± 0.16**",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Very low deamination after 1 mo; no surface flora to release NH3."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Raw mountain milk p-cresol and stable notes kept low by short aging."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "Limited proteolysis to hydrophobic peptides; starter peptidases clear bitterness."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti and no methyl ketone pathway."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Lactose plus lysine Maillard at pH 5.78 gives moderate browning on heating."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl and acetoin from Lactococcus citrate fermentation in young moist curd."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Short ripening limits lipase release of butyric and hexanoic acids."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "Full-fat 29.7% fat and 38.6% moisture lubricate; milkfat coats palate."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Young rennet gel with hydrated para-casein fractures little; not crumbly."
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "Semi-cooked pressed curd at 38.6% moisture gives elastic semi-hard body."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Pasture terpenes and phenylethanol retained from raw milk, low concentration."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Little esterase time to form ethyl butanoate and ethyl hexanoate."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk low in caproic-caprylic acids and 4-ethyloctanoic acid."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "Early Strecker 2-methylpropanal and 3-methylbutanal; no extensive aged nuttiness."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "pH 5.78 calcium-phosphate crosslinked casein still flows when heated."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No bloomy or washed rind; no 1-octen-3-ol from mold lipoxygenase."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "29.7% milkfat coalesces moderately on melting without heavy oiling."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked; no guaiacol or phenols from smoke exposure."
+  },
+  "sour_vinegar": {
+   "score": 2.0,
+   "reason": "Lactic acid from mesophilic starters buffered to pH 5.78, mild acidity."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "Rennet-coagulated non-pasta-filata; no hot-water kneaded aligned fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Semi-cooking denatures whey protein slightly; minimal H2S and methional."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Residual lactose and diacetyl plus low acid and bitter, milky-sweet impression."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "Short proteolysis yields little free glutamate; no MSG-like depth."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9778634/",
+  "https://fdc.nal.usda.gov/food-search?type=Foundation&query=Monte%20Veronese",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11675318/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12294292/"
+ ]
+}

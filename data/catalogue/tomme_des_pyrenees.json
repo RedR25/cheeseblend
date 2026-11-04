@@ -1,0 +1,147 @@
+{
+ "id": "tomme_des_pyrenees",
+ "name": "Tomme des Pyrénées",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "France",
+ "process": {
+  "aging_months": 1.5,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 44.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 27.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 1.7,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.4,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Low deamination of amino acids by starter/non-starter LAB in short 21-45 day age."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Very low p-cresol/indole from cow milk and no washed rind coryneforms."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Limited accumulation of hydrophobic peptides from rennet/chymosin proteolysis."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation and no methyl ketone pathway."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Moderate Maillard between residual galactose and lysine on heating semi-aged curd."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Moderate diacetyl/acetoin from Lactococcus lactis citrate metabolism in young pasteurized curd."
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "Low lipolysis to butanoic/hexanoic acids due to pasteurization and short aging."
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "Smooth fat-in-moisture emulsion at ~27% fat and 44% moisture, uncooked pressed texture."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Supple pressed paste with intact para-casein network, not dry or granular."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "Semi-hard pressed body with minimum 53% dry matter, sliceable but elastic."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Trace 2-phenylethanol from phenylalanine catabolism by starter LAB."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Low ethyl butanoate/hexanoate esterification by LAB esterases in short ripening."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk low in branched C8-C10 acids; no caprine 4-methyloctanoic acid character."
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "Mild Strecker aldehydes 2/3-methylbutanal from leucine/isoleucine catabolism during ripening."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "Good flow from rennet gel pH ~5.4 with calcium-solubilized casein that softens on heating."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "Trace 1-octen-3-ol from thin natural rind flora linoleic acid oxidation."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "Moderate free oil release from ~50% fat-in-dry-matter on melting."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No wood smoking and no guaiacol formation; black coating is wax/plastic, not smoke."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Mild lactic acid tang to pH <=5.3 at draining, very low acetic acid."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata hot-water kneading and no aligned para-casein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Minimal methanethiol/dimethyl sulfide from methionine catabolism; pasteurized mild culture."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Faint residual lactose/galactose and proline/glycine sweetness in young paste."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Moderate glutamate release by lactococcal peptidases without long proteolysis."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://eur-lex.europa.eu/legal-content/GA/TXT/?uri=CELEX:52019XC1223(06)",
+  "https://www.journalofdairyscience.org/article/S0022-0302(91)78512-3/pdf"
+ ]
+}

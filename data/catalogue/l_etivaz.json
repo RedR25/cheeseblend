@@ -1,0 +1,151 @@
+{
+ "id": "l_etivaz",
+ "name": "L'Etivaz",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "alpine_hard",
+ "origin": "Switzerland",
+ "process": {
+  "aging_months": 36.0,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 23.72,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(08)71434-6/fulltext",
+   "quote": "**Water – Mean 237.2 g/kg = 23.72 g/100g = 23.72%**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 38.38,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(08)71434-6/fulltext",
+   "quote": "**Fat – Mean 383.8 g/kg = 38.38 g/100g = 38.38%**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.45,
+   "unit": "%",
+   "source_url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/9e57529f-65d6-4a58-9aff-0a544a706f85/content",
+   "quote": "**Salt content – 1.45 g of salt per 100 g of cheese = 1.45%**",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.5,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 3.0,
+   "reason": "Ammonia from amino acid deamination by raw-milk nonstarter lactobacilli during 34-48 mo proteolysis."
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "p-cresol and indole from Tyr/Trp catabolism by wild raw-milk flora and alpine pasture feed."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Hydrophobic peptides from rennet and plasmin proteolysis, mostly trimmed by lactobacilli peptidases."
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "No Penicillium roqueforti; trace methyl ketones 2-heptanone/2-nonanone from FFA beta-oxidation only."
+  },
+  "browning": {
+   "score": 6.5,
+   "reason": "Maillard between residual galactose and high free amino acids during heating of low-moisture aged curd."
+  },
+  "buttery": {
+   "score": 3.5,
+   "reason": "Diacetyl/acetoin from citrate fermentation by starter, faded with age, plus C4-C12 lactones from milk fat."
+  },
+  "cheesy_sweaty": {
+   "score": 6.0,
+   "reason": "Butanoic, hexanoic and isovaleric acids from lipoprotein lipase and raw-milk esterase lipolysis."
+  },
+  "creaminess": {
+   "score": 2.0,
+   "reason": "Very low moisture 23.7% and firm cooked-pressed matrix limits fat-coated creamy mouthfeel despite 50% FDM."
+  },
+  "crumbliness": {
+   "score": 7.5,
+   "reason": "Low MFFB and tyrosine/calcium lactate crystals from extensive proteolysis and moisture loss fracture the paste."
+  },
+  "firmness": {
+   "score": 9.2,
+   "reason": "Cooked, pressed, extra-hard texture with 23.7% moisture and high calcium-bound paracasein crosslinking."
+  },
+  "floral_honey": {
+   "score": 4.5,
+   "reason": "Phenylacetaldehyde/2-phenylethanol from Phe Strecker degradation plus pasture-derived terpenes."
+  },
+  "fruity": {
+   "score": 5.5,
+   "reason": "Ethyl butanoate/hexanoate from esterification of free fatty acids with ethanol by nonstarter flora."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk only; slight caprylic/capric sharpness from lipolysis, no goat-specific branched-chain acids."
+  },
+  "malty_nutty": {
+   "score": 8.5,
+   "reason": "2-/3-methylbutanal and pyrazines from Leu/Ile Strecker reaction plus propionibacteria during long alpine ripening."
+  },
+  "melt": {
+   "score": 5.5,
+   "reason": "Rennet-cooked paracasein still flows on heating but reduced by very low moisture and high proteolysis."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "Trace 1-octen-3-ol from linoleic acid lipoxygenase, minimal in cooked interior with no surface mold."
+  },
+  "oil_off": {
+   "score": 6.0,
+   "reason": "Free oil release from coalesced fat globules in high-fat 38.4% low-moisture matrix on heating."
+  },
+  "smoky": {
+   "score": 1.0,
+   "reason": "Not smoked; only faint guaiacol possible from traditional spruce-wood copper-vat heating, not absorbed."
+  },
+  "sour_vinegar": {
+   "score": 3.5,
+   "reason": "Lactic plus acetic/propanoic acids from Streptococcus thermophilus and propionic fermentation."
+  },
+  "stretch": {
+   "score": 0.5,
+   "reason": "No pasta-filata acid-stretching; rennet-cooked curd melts to flow, not to aligned fibrous stretch."
+  },
+  "sulfur_cooked": {
+   "score": 3.5,
+   "reason": "Methanethiol/H2S from Met/Cys catabolism by lactobacilli plus initial cooked-curd whey protein denaturation."
+  },
+  "sweet": {
+   "score": 3.5,
+   "reason": "Sweet amino acids proline/glycine and glycerol from lipolysis, no residual lactose after long aging."
+  },
+  "umami": {
+   "score": 7.5,
+   "reason": "High free glutamate from extensive chymosin/plasmin and peptidase proteolysis over 34+ months."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.journalofdairyscience.org/article/S0022-0302(08)71434-6/fulltext",
+  "https://www.research-collection.ethz.ch/server/api/core/bitstreams/9e57529f-65d6-4a58-9aff-0a544a706f85/content",
+  "https://vitahoy.ch/en/ndb/pml/ch-5472",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11951147/",
+  "https://www.agroscope.admin.ch/agroscope/de/home/publikationen/agroscope-online-magazin-jahresbericht/2016/2016-1/wissenschaft-in-kuerze/lebensmittel/_jcr_content/par/columncontrols/items/0/column/externalcontent_112315166.bitexternalcontent.exturl.pdf/aHR0cHM6Ly9pcmEuYWdyb3Njb3BlLmNoL2VuLVVTL0FqYXgvRW/luemVscHVibGlrYXRpb24vRG93bmxvYWQ_ZWluemVscHVibGlr/YXRpb25JZD01NzczNw==.pdf",
+  "https://ira.agroscope.ch/de-ch/Cms/Einzelpublikation/Download?einzelpublikationId=68446"
+ ]
+}

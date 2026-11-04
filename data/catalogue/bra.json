@@ -1,0 +1,148 @@
+{
+ "id": "bra",
+ "name": "Bra",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Cuneo, Piedmont, Italy",
+ "process": {
+  "aging_months": 3.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 40.5,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 25.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 2.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.3,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Limited urea/amino-acid deamination by NSLAB in 3-mo brine-salted cheese; ammonia not reported."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "Low Tyr/Trp degradation to p-cresol/indole not reported in pasteurized cow curd without washed rind."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Chymosin/plasmin hydrophobic peptides partly debittered by Lactobacillus peptidases during maturation."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation; 2-heptanone/2-nonanone not reported, no blue beta-oxidation pathway."
+  },
+  "browning": {
+   "score": 3.0,
+   "reason": "Low residual lactose/galactose limits Maillard reaction with lysine residues on heating."
+  },
+  "buttery": {
+   "score": 7.0,
+   "reason": "Citrate metabolism by Lactococcus diacetylactis to diacetyl 512-765 mg/kg measured with low reduction to acetoin 6-9 mg/kg."
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "Moderate lipolysis by milk lipase and LAB esterases releasing butanoic acid 142-215 mg/kg measured."
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "Moderate fat ~25% wet, ~41-44% dm lubricates but pressed low-moisture matrix limits cream flow."
+  },
+  "crumbliness": {
+   "score": 3.0,
+   "reason": "Short-moderate proteolysis without grana crystallization retains cohesive elastic body."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "Pressed uncooked paracasein network at ~40.5% moisture with progressive moisture loss over 1.5-6 mo."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylalanine catabolism by NSLAB to phenylacetaldehyde/2-phenylethanol not reported."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Limited LAB esterase esterification to ethyl butanoate/hexanoate not reported in 2-3 mo uncooked cheese."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Predominantly cow milk with max 10% goat/sheep allowed and no caprine branched-chain acids reported."
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "NSLAB Strecker/aminotransferase catabolism of Leu/Ile/Val plus high propanoic acid 435-1757 mg/kg background."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "pH ~5.3 demineralized Ca-paracasein with ~25% fat allows viscous flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "No Geotrichum/Penicillium camemberti; 1-octen-3-ol/one from linoleic acid oxidation not reported."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate coalesced milk-fat pools exude free oil on heating, restrained by intact protein network."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make; smoke phenol guaiacol not reported, no wood-smoke exposure."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Heterofermentative LAB/NSLAB produce acetic acid 361-835 mg/kg measured in brine-salted uncooked curd."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata hot-water kneading; Ca-crosslinked uncooked curd does not align into fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Uncooked curd without high heat; no methanethiol/DMS reported, minimal Met demethiolation."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Lactose depleted; residual sweetness from propanoate, glycerol and sweet amino acids Pro/Gly/Ala."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Rennet/plasmin plus Lactobacillus peptidases release Glu/Asp during 2-6 mo proteolysis."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://natura.provincia.cuneo.it/prodotti-tipici/formaggi/bra-dop/?lang=en",
+  "http://www.giuseppezeppa.com/files/274.pdf",
+  "https://fiordimaso.jp/product/bra-duro/"
+ ]
+}

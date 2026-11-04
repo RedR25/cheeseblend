@@ -1,0 +1,150 @@
+{
+ "id": "brillat_savarin",
+ "name": "Brillat-Savarin",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "soft_bloomy",
+ "origin": "France",
+ "process": {
+  "aging_months": 0.3,
+  "coagulation": "mixed",
+  "cooked": false,
+  "mold": "white",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 49.3,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 39.3,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 1.1,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.8,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Short 5-8 day PGI minimum limits casein deamination and yeast urease NH3 accumulation."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Pasteurized milk and no Brevibacterium linens washed rind limits p-cresol, indole and skatole."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Very short proteolysis limits hydrophobic bitter peptides and high fat masks bitterness."
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "White Penicillium camemberti plus Geotrichum only, no Penicillium roqueforti C7-C11 methyl ketones."
+  },
+  "browning": {
+   "score": 2.0,
+   "reason": "High 49% moisture and short age leave limited Maillard reactants despite residual lactose."
+  },
+  "buttery": {
+   "score": 8.0,
+   "reason": "Diacetyl and acetoin from Lactococcus diacetylactis citrate metabolism amplified by 39% milkfat cream."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Limited lipase release of free butyric C4 and hexanoic C6 acids due to young age and pasteurization."
+  },
+  "creaminess": {
+   "score": 9.0,
+   "reason": "Triple-cream >=72% fat-in-dry-matter emulsion and high moisture create spoonable mouth-coating fat phase."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Unpressed lactic curd in continuous high-fat phase prevents calcium-crosslinked fracture."
+  },
+  "firmness": {
+   "score": 2.0,
+   "reason": "High moisture lactic weak gel deacidified by surface flora gives soft, almost spoonable paste."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Trace 2-phenylethanol and phenylacetaldehyde from phenylalanine catabolism by starter yeasts."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Low ethyl butanoate and ethyl hexanoate esterification by Geotrichum candidum and yeasts on young rind."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk plus cow cream only, no goat-milk caproic, caprylic or 4-ethyloctanoic acids."
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "Minimal Strecker 2-methylbutanal and 3-methylbutanal due to no propionibacteria and 1-week ripening."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "High fat and demineralized lactic curd flows readily on heating despite intact young acid core."
+  },
+  "mushroom_earthy": {
+   "score": 5.0,
+   "reason": "1-octen-3-ol and 1-octen-3-one from Penicillium camemberti lipoxygenase on linoleic acid in bloomy rind."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "Excess added cream free milkfat coalesces and leaks oil when heated."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make, no wood-smoke guaiacol or syringol phenols."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Lactic acid from mesophilic lactic curd fermentation, partly neutralized by Penicillium deacidification."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata hot-water kneading, no aligned demineralized casein network for fibrous stretch."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Uncooked curd and low methionine catabolism limits methanethiol, DMS and methional."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Residual lactose and sweet perception of milkfat and delta-lactones balances lactic acidity."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "Low free glutamate from limited rennet and plasmin proteolysis in 8-day lactic triple-cream."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://tools.myfooddata.com/nutrition-comparison/453828/wt1/1",
+  "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:C:2016:330:FULL&from=FR",
+  "https://tools.myfooddata.com/nutrition-facts/453828/wt1/",
+  "https://www.aqua-calc.com/calculate/food-calories/substance/brillat-blank-savarin-blank-affine-coma-and-blank-upc-column--blank-3263091000343",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9028068/"
+ ]
+}

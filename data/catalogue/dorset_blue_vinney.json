@@ -1,0 +1,146 @@
+{
+ "id": "dorset_blue_vinney",
+ "name": "Dorset Blue Vinney",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "blue",
+ "origin": "Dorset, England, UK",
+ "process": {
+  "aging_months": 4.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "blue",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 40.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 29.83,
+   "unit": "%",
+   "source_url": "https://britishfinefoods.com/product/dorset-blue-vinny-approx-200g/",
+   "quote": "`Fat 29.83g` per 100g, `of which saturates 20.93g`",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.81,
+   "unit": "%",
+   "source_url": "https://britishfinefoods.com/product/dorset-blue-vinny-approx-200g/",
+   "quote": "`Protein 24.50g`, `Salt 1.81g`",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.0,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 4.0,
+   "reason": "Deamination of amino acids by Penicillium roqueforti during 3-5 mo maturation releases NH3."
+  },
+  "animal_barnyard": {
+   "score": 3.0,
+   "reason": "Trace p-cresol and indole from tyrosine/tryptophan catabolism and traditional farm flora."
+  },
+  "bitter": {
+   "score": 6.0,
+   "reason": "Hydrophobic peptides from chymosin plus P. roqueforti proteinases concentrated in high-protein skim curd."
+  },
+  "blue_moldy": {
+   "score": 7.0,
+   "reason": "P. roqueforti beta-oxidation of fatty acids to 2-heptanone, 2-nonanone and 2-undecanone gives peppery blue."
+  },
+  "browning": {
+   "score": 3.0,
+   "reason": "Maillard between residual galactose and lysine limited by low lactose and drained acidic curd."
+  },
+  "buttery": {
+   "score": 3.0,
+   "reason": "Skimmed milk limits milkfat; Lactococcus citrate metabolism gives modest diacetyl/acetoin and lactones."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "P. roqueforti lipase plus milk lipase release butanoic and hexanoic acids causing sweaty-cheesy pungency."
+  },
+  "creaminess": {
+   "score": 3.0,
+   "reason": "Low fat globules and reduced delta-decalactone/dodecalactone limit creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 8.0,
+   "reason": "Low fat, low moisture and acidic loss of colloidal calcium phosphate fractures casein network."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Skim milk low fat-in-dry-matter plus drier pressing and long maturation firms casein matrix."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Limited phenylalanine catabolism to phenylacetaldehyde and 2-phenylethanol in drier skim matrix."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Ethyl butanoate and ethyl hexanoate from free fatty acids plus starter ethanol esterification."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk lacks caprine branched C8-C10 acids 4-methyloctanoic/4-ethyloctanoic; no goat character."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "Leucine/isoleucine Strecker aldehydes 3-methylbutanal and 2-methylbutanal from mold proteolysis give light nuttiness."
+  },
+  "melt": {
+   "score": 4.0,
+   "reason": "Reduced fat and dense casein with moderate salt limit fat coalescence and flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 5.0,
+   "reason": "Mold lipoxygenase oxidation of linoleic acid to 1-octen-3-ol and 1-octen-3-one."
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Low total fat from hand-skimmed milk reduces free oil release; fat trapped in protein matrix."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking; no guaiacol/syringol phenols formed."
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "Mesophilic starter lactic acid plus acetic acid from lactate metabolism by Penicillium."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata heating/kneading; rennet gel does not form aligned stretchable fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Uncooked curd from pasteurized milk; minimal methionine-derived H2S, DMS and methional."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Lactose largely fermented; slight sweetness only from proline and free amino acids."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Glutamate/aspartate accumulation from rennet plus P. roqueforti proteolysis."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://britishfinefoods.com/product/dorset-blue-vinny-approx-200g/"
+ ]
+}

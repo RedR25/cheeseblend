@@ -1,0 +1,148 @@
+{
+ "id": "durrus",
+ "name": "Durrus",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "washed_rind",
+ "origin": "Ireland",
+ "process": {
+  "aging_months": 2.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 46.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 31.2,
+   "unit": "%",
+   "source_url": "https://www.henderson-foodservice.com/productpdf/download/file/id/2742/name/Durrus_Whole_Cheese_BD_%28Approx_1.2kg%29.pdf/",
+   "quote": "Fat per 100g (g) 31.2",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.81,
+   "unit": "%",
+   "source_url": "https://www.henderson-foodservice.com/productpdf/download/file/id/2742/name/Durrus_Whole_Cheese_BD_%28Approx_1.2kg%29.pdf/",
+   "quote": "Salt per 100g (g) 1.81",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.0,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 3.0,
+   "reason": "Surface deamination of amino acids by Brevibacterium / smear flora raises surface NH3, milder than Limburger."
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "Brevibacterium linens / aurantiacum catabolism of aromatic amino acids to p-cresol, indole and phenols in smear."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Moderate hydrophobic peptides from rennet and mesophilic starter proteolysis, mostly trimmed by smear peptidases."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation and no methyl-ketone blue pathway in washed-rind make."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Residual lactose/galactose plus free amino acids support moderate Maillard on heating in semi-soft paste."
+  },
+  "buttery": {
+   "score": 7.0,
+   "reason": "Diacetyl/acetoin from citrate-positive mesophilic lactococci plus lactones from milk fat lipolysis."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "Butanoic and 3-methylbutanoic acids from lipolysis and leucine catabolism by starter and smear bacteria."
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "High moisture ~46% and fat 31.2% with smear proteolysis softening paste to pliable creamy texture."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Rennet-gelled, washed, smear-ripened paste demineralizes and proteolyzes to pliable not crumbly body."
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "Semisoft washed-rind with 43-49% moisture, light pressing gives sliceable but yielding paste."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism by lactococci and smear yeasts."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate/hexanoate from esterification of free fatty acids with ethanol by smear yeasts and bacteria."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk low in 4-methyloctanoic/4-ethyloctanoic acids, no goat-milk branched-chain fatty acid signature."
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "3-methylbutanal from leucine Strecker degradation and early Maillard, plus proteolysis-derived pyrazines."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "Rennet-coagulated pH ~6.0 intact calcium-paracasein network flows well on heating, not acid-set."
+  },
+  "mushroom_earthy": {
+   "score": 4.0,
+   "reason": "1-octen-3-ol and geosmin-type notes from smear yeasts and surface microflora, described as hay/wet soil."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate free oil release from 31.2% fat semi-soft matrix on melting, less than hard grana."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and no guaiacol/phenol wood-smoke deposition in traditional Durrus make."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Lactic acid from mesophilic starter plus low acetic acid from heterofermentative and smear metabolism."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "No pasta-filata hot-water stretching or acid-calcium phosphate rearrangement for fiber formation."
+  },
+  "sulfur_cooked": {
+   "score": 4.0,
+   "reason": "Methanethiol and dimethyl sulfides from methionine gamma-lyase activity of Brevibacterium in smear."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Most lactose fermented, slight sweetness from residual lactose, glycerol and masking by fat."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Free glutamate accumulation from rennet/chymosin and starter/smear proteolysis during 6-8 week ripening."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.henderson-foodservice.com/productpdf/download/file/id/2742/name/Durrus_Whole_Cheese_BD_%28Approx_1.2kg%29.pdf/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC1287636/",
+  "https://sheridanscheesemongers.com/products/durrus-og"
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "id": "nabulsi",
+ "name": "Nabulsi",
+ "milk": "mixed",
+ "treatment": "pasteurized",
+ "style": "brined",
+ "origin": "Palestine",
+ "process": {
+  "aging_months": 2,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 43.35,
+   "unit": "%",
+   "source_url": "https://foodandnutritionjournal.org/volume11number1/quality-of-white-brined-nabulsi-cheese-made-with-different-proportions-of-sheeps-and-cows-milk/",
+   "quote": "The type or the combination of milk used does not affect the chemical composition of Nabulsi cheese, which was 43.35% ± 1.50 for moisture, 20.24% ± 0.59 for protein, 24.70% ± 1.53 for fat, 11.52% ± 0.60 for ash, 9.96% ± 0.44 for salt, and pH 6.43 ± 0.16.",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 24.7,
+   "unit": "%",
+   "source_url": "https://foodandnutritionjournal.org/volume11number1/quality-of-white-brined-nabulsi-cheese-made-with-different-proportions-of-sheeps-and-cows-milk/",
+   "quote": "The type or the combination of milk used does not affect the chemical composition of Nabulsi cheese, which was 43.35% ± 1.50 for moisture, 20.24% ± 0.59 for protein, 24.70% ± 1.53 for fat, 11.52% ± 0.60 for ash, 9.96% ± 0.44 for salt, and pH 6.43 ± 0.16.",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 9.96,
+   "unit": "%",
+   "source_url": "https://foodandnutritionjournal.org/volume11number1/quality-of-white-brined-nabulsi-cheese-made-with-different-proportions-of-sheeps-and-cows-milk/",
+   "quote": "The type or the combination of milk used does not affect the chemical composition of Nabulsi cheese, which was 43.35% ± 1.50 for moisture, 20.24% ± 0.59 for protein, 24.70% ± 1.53 for fat, 11.52% ± 0.60 for ash, 9.96% ± 0.44 for salt, and pH 6.43 ± 0.16.",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.43,
+   "unit": "",
+   "source_url": "https://foodandnutritionjournal.org/volume11number1/quality-of-white-brined-nabulsi-cheese-made-with-different-proportions-of-sheeps-and-cows-milk/",
+   "quote": "The type or the combination of milk used does not affect the chemical composition of Nabulsi cheese, which was 43.35% ± 1.50 for moisture, 20.24% ± 0.59 for protein, 24.70% ± 1.53 for fat, 11.52% ± 0.60 for ash, 9.96% ± 0.44 for salt, and pH 6.43 ± 0.16.",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Very limited deamination and proteolysis under 19-20% brine and 10% salt in cheese inhibits ammonia release."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "Trace sheep-milk p-cresol/indole present but boiling and high-salt brine limit barnyard development."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Rennet-derived hydrophobic peptides present but low proteolysis at young age and 10% salt masks bitterness."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti added and no piercing; methyl ketones 2-heptanone/2-nonanone absent."
+  },
+  "browning": {
+   "score": 3.0,
+   "reason": "Low residual lactose after whey loss and boiling limits Maillard; slight browning only on frying."
+  },
+  "buttery": {
+   "score": 2.0,
+   "reason": "Made without starter culture so no citrate fermentation to diacetyl/acetoin; boiling strips residual diketones."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Pasteurized milk plus 10% salt suppresses lipase activity and butyric/hexanoic free fatty acid release."
+  },
+  "creaminess": {
+   "score": 3.0,
+   "reason": "24.7% fat but boiled high-salt protein matrix with low proteolysis limits fat-coated creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 3.0,
+   "reason": "Pressed boiled curd at pH 6.43 retains colloidal calcium cohesion, slices rather than crumbles like feta."
+  },
+  "firmness": {
+   "score": 8.0,
+   "reason": "43.35% moisture with pressing, boiling and 10% salt calcium-paracasein crosslinking gives dense semi-hard body."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Minimal phenylalanine catabolism without starter; phenylacetaldehyde/2-phenylethanol near absent."
+  },
+  "fruity": {
+   "score": 1.0,
+   "reason": "High salt with no esterifying LAB/yeast suppresses ethyl butanoate/hexanoate synthesis."
+  },
+  "goaty": {
+   "score": 3.0,
+   "reason": "Mixed sheep/cow milk caprylic/capric acids give mild sheepy note without intense goat 4-ethyloctanoic character."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Minimal proteolysis and Strecker degradation under high salt and no starter limits 3-methylbutanal formation."
+  },
+  "melt": {
+   "score": 2.0,
+   "reason": "Boiled whey-protein coating plus 10% NaCl dehydration of paracasein prevents flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "No bloomy or washed rind flora; 1-octen-3-ol/1-octen-3-one from linoleate oxidation absent."
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Firm boiled protein network entraps 24.7% fat, minimal free oil release despite heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Not smoked; volatile phenols like guaiacol absent."
+  },
+  "sour_vinegar": {
+   "score": 2.0,
+   "reason": "No starter acidification, cheese pH 6.43; acetic acid only minor from residual lactose fermentation."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "Rennet high-pH curd not acidified to pH 5.2-5.4 and not pasta-filata stretched; boiled network resists extension."
+  },
+  "sulfur_cooked": {
+   "score": 4.0,
+   "reason": "Boiling curd in salted whey denatures beta-lactoglobulin releasing H2S, methional and dimethyl sulfide."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Most lactose lost in whey and boiling; residual lactose sweetness suppressed by 9.96% salt."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Low glutamate release from rennet-only limited proteolysis under high salt; NaCl enhances savoriness slightly."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://foodandnutritionjournal.org/volume11number1/quality-of-white-brined-nabulsi-cheese-made-with-different-proportions-of-sheeps-and-cows-milk/"
+ ]
+}

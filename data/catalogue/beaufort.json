@@ -1,0 +1,157 @@
+{
+ "id": "beaufort",
+ "name": "Beaufort",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "alpine_hard",
+ "origin": "France",
+ "process": {
+  "aging_months": 9.0,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 37.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 32.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 1.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.7,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [
+  {
+   "value": 305000.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC544257/",
+   "quote": "| butanoic acid | **30.5 mg/100g** | 305 mg/kg = 305 ppm = 305,000 µg/kg | Commercial Beaufort, sample no. 32 : `Beaufort <30 − 30.5 C. beijerinckii 1/1` — commercial source, suspected late-blowing set; age not stated, origin France commercial | https://pmc.ncbi.nlm.nih.gov/articles/PMC544257/ |",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Low ureolysis/deamination in low-moisture cooked curd; no surface flora to release NH3."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "Raw cow alpine milk p-cresol/indole from pasture, restrained by cooked-pressed make."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Long proteolysis balanced by Lactobacillus peptidases; low hydrophobic bitter peptides."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation and no blue veining; methyl ketones at background."
+  },
+  "browning": {
+   "score": 7.0,
+   "reason": "Low moisture plus proteolysis-derived free amino acids drive Maillard on heating."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Diacetyl/acetoin from citrate metabolism plus lactones from cow milk fat lipolysis."
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "Moderate 305 mg/kg butanoic acid from lipolysis/clostridial control; not pungent vs hard grating types."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "32% fat and 48% FDM with smooth cooked-pressed paste gives creamy mouthfeel despite firm body."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Elastic cooked-pressed protein network deforms rather than fractures; not short/acid curd."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Cooked to ~53-54C, pressed, moisture ~37% and 9-mo aging gives dense firm alpine body."
+  },
+  "floral_honey": {
+   "score": 4.0,
+   "reason": "Alpine pasture terpenes plus phenylacetaldehyde/phenylalanine catabolism in raw milk."
+  },
+  "fruity": {
+   "score": 5.0,
+   "reason": "Ethyl butanoate/hexanoate esterification by lactic acid bacteria during long ripening."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk only; very low 4-methyloctanoic/4-ethyloctanoic branched-chain acids."
+  },
+  "malty_nutty": {
+   "score": 7.0,
+   "reason": "Signature hazelnut from Strecker 2-/3-methylbutanal and propionibacteria-light nutty notes."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "Matured pH 5.7 calcium-solubilized para-casein flows well; classic fondue melter."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "No bloomy or washed rind flora; 1-octen-3-ol at background only."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "High FDM fat coalesces on heating but emulsified by intact protein; moderate free oil."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make; no phenols from smoke exposure."
+  },
+  "sour_vinegar": {
+   "score": 2.0,
+   "reason": "Very low propionic 0.05-0.2 g/kg and low acetic; thermophilic starter deacidified."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "Non-pasta-filata rennet gel; melts to flow without mozzarella-like fibrous stretch."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Cooked curd drives some whey protein H2S/methional, but long aging dissipates sulfur."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "No residual lactose but sweet impression from glycerol, amino acids and diacetyl/lactones."
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "Extended proteolysis releases glutamate; high free amino acids without excessive salt."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC544257/",
+  "https://lait.dairy-journal.org/index.php?option=com_article&access=standard&Itemid=129&url=/articles/lait/pdf/2004/02/L03994.pdf",
+  "https://www.entremont.co.uk/our-cheeses/portions/our-cheeses/portions/beaufort-pdo"
+ ]
+}

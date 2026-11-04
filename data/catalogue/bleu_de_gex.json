@@ -1,0 +1,149 @@
+{
+ "id": "bleu_de_gex",
+ "name": "Bleu de Gex",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "blue",
+ "origin": "Jura, France",
+ "process": {
+  "aging_months": 2.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "blue",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 42.0,
+   "unit": "%",
+   "source_url": "https://europages.co.uk",
+   "quote": "CHEMICAL, Fat, Minimum 45%, Maximum 48%, Moisture, Minimum 42%, Maximum 45%, Average Salt 0.7-1.2%",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 45.0,
+   "unit": "%",
+   "source_url": "https://europages.co.uk",
+   "quote": "CHEMICAL, Fat, Minimum 45%, Maximum 48%, Moisture, Minimum 42%, Maximum 45%, Average Salt 0.7-1.2%",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.0,
+   "unit": "%",
+   "source_url": "https://fromageries-vagne.com/en/fromages/bleu-de-gex-vagne/",
+   "quote": "Salt content around 1%.",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.1,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 3.0,
+   "reason": "NH3 from amino acid deamination by Penicillium and surface flora during 2-mo ripening."
+  },
+  "animal_barnyard": {
+   "score": 3.0,
+   "reason": "p-cresol/indole from raw Montbeliarde milk pasture plus natural rind Brevibacterium."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Hydrophobic peptides from chymosin and Penicillium glaucum/roqueforti proteases."
+  },
+  "blue_moldy": {
+   "score": 6.0,
+   "reason": "Methyl ketones 2-heptanone/2-nonanone from fatty acid beta-oxidation by Penicillium."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Maillard between free amino acids from proteolysis and residual galactose on heating."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl/acetoin from citrate fermentation by Lactococcus lactis biovar diacetylactis."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "Butanoic/hexanoic acids from Penicillium lipase lipolysis of milk triglycerides."
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "30% fat plus Penicillium proteolysis softening pressed paste to creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 4.0,
+   "reason": "Pressed uncooked curd with blue fissures gives some fracture but not dry-grana crumble."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Pressed uncooked texture at ~43% moisture and 2-mo age gives sliceable semi-firm body."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism, low in mild cow blue."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate/hexanoate from esterification of free fatty acids by Penicillium esterases."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk low in caproic/caprylic/capric acids, no goat-milk branched-chain acids."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "2-/3-methylbutanal from leucine/isoleucine catabolism plus Strecker aldehydes on aging."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "Rennet gel pH ~6.1 with solubilized colloidal calcium allows good flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 5.0,
+   "reason": "1-octen-3-ol/1-octen-3-one from linoleic acid oxidation by Penicillium lipoxygenase."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Free oil release from lipolyzed fat globules and coalesced fat on melting."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step, no guaiacol/syringol deposition."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Lactic acid from mesophilic starter plus low acetic acid from heterofermentation."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata stretching, proteolyzed rennet network does not form aligned fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Minimal H2S/methional from methionine, uncooked curd and mild Penicillium sulfur metabolism."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Residual lactose/galactose and sweet amino acids proline/alanine, mostly fermented."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Glutamate accumulation from rennet and Penicillium proteolysis of casein."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://fromageries-vagne.com/en/fromages/bleu-de-gex-vagne/",
+  "https://europages.co.uk",
+  "https://fdc.nal.usda.gov/food-search?type=Foundation&query=bleu%20de%20gex",
+  "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:C:2014:005:0006:0014:EN:PDF"
+ ]
+}

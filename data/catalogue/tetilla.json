@@ -1,0 +1,149 @@
+{
+ "id": "tetilla",
+ "name": "Tetilla",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Galicia, Spain",
+ "process": {
+  "aging_months": 0.5,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 44.1,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(83)82116-X/pdf",
+   "quote": "**44.1 g/100 g cheese, SD 2.9** – Table 1 row: Tetilla 44.1 2.9 31.9 2.2 20.8 1.3 ... 374 22 , Table 1 is means and standard deviations of eight samples",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 31.9,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(83)82116-X/pdf",
+   "quote": "**31.9 g/100 g cheese, SD 2.2** – same row",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.74,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(83)82116-X/pdf",
+   "quote": "**1.74 g/100 g cheese, SD 0.67** – Table 3: Tetilla 1.74 .67 , means of eight pooled samples / means SD of eight samples",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.71,
+   "unit": "",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(83)82116-X/pdf",
+   "quote": "**5.71, SD 0.19** – Table 4: Tetilla .97 .01 5.71 .19 , means SD of eight samples",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 0.5,
+   "reason": "Very young low proteolysis with no surface flora, minimal NH3 from amino acid deamination."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Pasteurized cow milk with no Propionibacterium or fecal phenols; clean dairy farm note only."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Low accumulation of hydrophobic bitter peptides from rennet/chymosin in 8-15 day age."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti, no Roquefort-blue methyl ketone 2-heptanone/2-nonanone dominance."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Young high-moisture rennet cheese with residual lactose/lysine undergoes mild Maillard when heated."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Lactococcus lactis citrate metabolism yields high diacetyl-acetoin in young pasteurized curd."
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "Moderate-low lipolysis total FFA ~5.8 g/kg gives mild butanoic/hexanoic sweaty note via native lipase."
+  },
+  "creaminess": {
+   "score": 7.0,
+   "reason": "High fat-in-dry-matter ~57% and moisture 44% with uncooked pressed paste gives smooth creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Supple elastic rennet gel pH 5.0-5.7, low calcium loss, fractures little unlike aged alpine."
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "Soft semi-hard body from high moisture fat-free basis 66-72%, short press, no cooking."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Low phenylalanine Strecker phenylacetaldehyde/2-phenylethanol due to short ripening."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Low ethyl butanoate/ethyl hexanoate from esterification of free fatty acids by lactococcal esterases."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk lacks goat-specific branched 4-methyloctanoic/4-ethyloctanoic acids."
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "No cooked curd Strecker 3-methylbutanal/2-methylbutanal nor propionibacterial nutty notes."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "Intact rennet casein at pH ~5.3-5.7 with high moisture flows readily on heating."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No mold-derived 1-octen-3-ol/1-octen-3-one from Penicillium linoleic acid oxidation."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "High fat 31.9% with young weak fat-protein network releases moderate free oil on melting."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and no guaiacol/phenol deposition."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Mesophilic starter lactic and trace acetic acid retained in high-moisture young acid curd."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "Not pasta-filata hot-stretched; rennet gel gives only short extensibility, no fibrous stretch."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Minimal methionine catabolism to methanethiol/DMDS and light pasteurization cooked note only."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Residual lactose and milkfat lactones plus low salt 1.74% perceived as milky sweet."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Short proteolysis yields low free glutamate from Lactococcus cell-envelope proteinases."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.journalofdairyscience.org/article/S0022-0302(83)82116-X/pdf",
+  "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf",
+  "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52021XC0311(03)",
+  "https://digital.csic.es/dspace-oai/request?verb=GetRecord&metadataPrefix=datacite&identifier=oai:digital.csic.es:10261/115964"
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "id": "butterkase",
+ "name": "Butterkäse",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Germany",
+ "process": {
+  "aging_months": 1.0,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 41.0,
+   "unit": "%",
+   "source_url": "https://www.knowde.com/stores/emmi-roth/products/emmi-roth-butterkase",
+   "quote": "- **Moisture %:** 41 - 45 %",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 32.14,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/522677/nutrients",
+   "quote": "- 32.14 g / 100 g = 32.14%",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.7,
+   "unit": "%",
+   "source_url": "https://www.knowde.com/stores/emmi-roth/products/emmi-roth-butterkase",
+   "quote": "- **Salt Content:** 1.7 - 2.5 %",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.0,
+   "unit": "",
+   "source_url": "https://www.knowde.com/stores/emmi-roth/products/emmi-roth-butterkase",
+   "quote": "- **pH:** 5.0 -5.4",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 0.5,
+   "reason": "21-30 day age with low deamination by Lactococcus starter gives minimal NH3."
+  },
+  "animal_barnyard": {
+   "score": 0.5,
+   "reason": "Pasteurized cow milk and no surface smear limits p-cresol, indole and skatole."
+  },
+  "bitter": {
+   "score": 1.5,
+   "reason": "Washed-curd removes lactose and bitter hydrophobic peptides; short rennet proteolysis."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation so no 2-heptanone/2-nonanone blue ketones."
+  },
+  "browning": {
+   "score": 6.0,
+   "reason": "Residual lactose plus whey protein and lysine gives moderate Maillard on heating."
+  },
+  "buttery": {
+   "score": 7.0,
+   "reason": "Lactococcus citrate fermentation to diacetyl/acetoin retained in high-fat washed curd."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Short age and low lipase activity gives very low butanoic/hexanoic free fatty acids."
+  },
+  "creaminess": {
+   "score": 7.5,
+   "reason": "45-52% moisture, ~32% fat and young intact fat globules give smooth creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Cohesive washed rennet gel at pH 5.0-5.4 deforms rather than fractures."
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "Semi-soft 41-45% moisture and 1-month proteolysis gives sliceable soft body."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Minimal phenylalanine catabolism to phenylacetaldehyde/2-phenylethanol in young curd."
+  },
+  "fruity": {
+   "score": 1.5,
+   "reason": "Very low esterase activity in 30 days limits ethyl butanoate/hexanoate formation."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk fat lacks high 4-methyloctanoic/4-ethyloctanoic goat acids."
+  },
+  "malty_nutty": {
+   "score": 2.5,
+   "reason": "Trace Strecker 2-/3-methylbutanal from leucine/isoleucine gives hint of nuttiness."
+  },
+  "melt": {
+   "score": 8.5,
+   "reason": "pH ~5.2 calcium-paracasein network with high moisture/fat flows readily on heating."
+  },
+  "mushroom_earthy": {
+   "score": 0.5,
+   "reason": "No Geotrichum/mold surface so almost no 1-octen-3-ol/1-octen-3-one."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "High 29-33% fat with young emulsion releases moderate free oil when melted."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Not smoked with no wood pyrolysis guaiacol/syringol."
+  },
+  "sour_vinegar": {
+   "score": 2.5,
+   "reason": "Curd washing removes lactose/whey so Lactococcus makes only mild lactic/acetic acid."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "Not pasta-filata; melted paracasein flows rather than forming aligned strings."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Mild pasteurization and no high cook limits H2S/methional/dimethyl sulfide."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Low salt, low acid, residual lactose and diacetyl perceived as milky-sweet."
+  },
+  "umami": {
+   "score": 2.5,
+   "reason": "Short 3-4 week proteolysis yields low free glutamate and savory peptides."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://fdc.nal.usda.gov/fdc-app.html#/food-details/522677/nutrients",
+  "https://www.knowde.com/stores/emmi-roth/products/emmi-roth-butterkase",
+  "https://whatcheese.com/cheese-types/semi-soft-cheese/butterkase/",
+  "https://pagosacheesemongers.com/cheeses/melting/",
+  "https://api.nal.usda.gov/fdc/v1/food/522677?api_key=DEMO_KEY",
+  "https://www.legislation.gov.uk/cy/eur/2007/445/annexes/adopted?timeline=false&view=extent"
+ ]
+}

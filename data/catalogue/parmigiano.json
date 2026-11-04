@@ -1,0 +1,277 @@
+{
+ "id": "parmigiano",
+ "name": "Parmigiano Reggiano",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "hard_grana",
+ "origin": "Italy",
+ "process": {
+  "aging_months": 24,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 29.2,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext",
+   "quote": "| moisture | 29.2 % `w/w` | 24 mo, Consorzio certified, Italy, mfr May 1996 | https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 30.6,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext",
+   "quote": "| fat | 30.6 % `w/w` | same as above | https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.6,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.55,
+   "unit": "",
+   "source_url": "https://eurekamag.com/research/002/776/002776718.php",
+   "quote": "| pH | 5.55 centre, 5.52 outer | same as above | https://eurekamag.com/research/002/776/002776718.php |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 26.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext",
+   "quote": "| diacetyl | 0.026 | mg/kg = 26 µg/kg | 24 mo, Consorzio certified, Italy, mfr May 1996 | https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext |",
+   "confidence": "measured",
+   "name": "diacetyl"
+  },
+  {
+   "value": 680.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext",
+   "quote": "| 3-methylbutanal | 0.68 | mg/kg | same | same as above |",
+   "confidence": "measured",
+   "name": "3-methylbutanal"
+  },
+  {
+   "value": 490.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext",
+   "quote": "| 2-methylbutanal | 0.49 | mg/kg | same | same as above |",
+   "confidence": "measured",
+   "name": "2-methylbutanal"
+  },
+  {
+   "value": 520.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext",
+   "quote": "| 2-methylpropanal | 0.52 | mg/kg | same | same as above |",
+   "confidence": "measured",
+   "name": "2-methylpropanal"
+  },
+  {
+   "value": 30.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext",
+   "quote": "| dimethyl trisulfide | 0.03 | mg/kg = 30 µg/kg | same | same as above |",
+   "confidence": "measured",
+   "name": "dimethyl trisulfide"
+  },
+  {
+   "value": 100.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext",
+   "quote": "| methional | 0.10 | mg/kg = 100 µg/kg | same | same as above |",
+   "confidence": "measured",
+   "name": "methional"
+  },
+  {
+   "value": 380.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext",
+   "quote": "| phenylacetaldehyde | 0.38 | mg/kg | same | same as above |",
+   "confidence": "measured",
+   "name": "phenylacetaldehyde"
+  },
+  {
+   "value": 1140.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext",
+   "quote": "| ethyl butanoate | 1.14 | mg/kg | same | same as above |",
+   "confidence": "measured",
+   "name": "ethyl butanoate"
+  },
+  {
+   "value": 2580.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext",
+   "quote": "| ethyl hexanoate | 2.58 | mg/kg | same | same as above |",
+   "confidence": "measured",
+   "name": "ethyl hexanoate"
+  },
+  {
+   "value": 1840.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext",
+   "quote": "| 2-heptanone | 1.84 | mg/kg | same | same as above |",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 3670.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext",
+   "quote": "| 2-nonanone | 3.67 | mg/kg | same | same as above |",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  },
+  {
+   "value": 1424000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext",
+   "quote": "| acetic acid | 1424 | mg/kg (=1,424,000 µg/kg) | same | same as above |",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 482000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext",
+   "quote": "| butanoic acid | 482 | mg/kg (=482,000 µg/kg) | same | same as above |",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 260000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext",
+   "quote": "| hexanoic acid | 260 | mg/kg (=260,000 µg/kg) | same | same as above |",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 147000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext",
+   "quote": "| octanoic acid | 147 | mg/kg (=147,000 µg/kg) | same | same as above |",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  },
+  {
+   "value": 7900.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.mdpi.com/2076-2615/11/3/879",
+   "quote": "| propanoic acid – Mammi et al. | 0.79–0.94 | mg/100g = 7.9–9.4 mg/kg | 18 mo Parmigiano Reggiano, Italy | https://www.mdpi.com/2076-2615/11/3/879 |",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 3.0,
+   "reason": "24 mo deamination raises ammonia-N but low moisture and pH 5.55 retain NH4+, little free NH3."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "No washed-rind coryneforms; p-cresol/indole only trace FD from raw-milk pasture feed."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Hydrophobic alpha-s1 casein peptides accumulate but trimmed by NSLAB carboxypeptidases over 24 mo."
+  },
+  "blue_moldy": {
+   "score": 3.0,
+   "reason": "2-heptanone 1840 ug/kg and 2-nonanone 3670 ug/kg from fatty-acid beta-oxidation, no Penicillium added."
+  },
+  "browning": {
+   "score": 7.0,
+   "reason": "High protein 32.5% plus free amino acids and residual galactose drive Maillard when grated and heated."
+  },
+  "buttery": {
+   "score": 1.0,
+   "reason": "Diacetyl only 26 ug/kg; citrate depleted early by thermophilic starters and diacetyl reduced to acetoin."
+  },
+  "cheesy_sweaty": {
+   "score": 7.0,
+   "reason": "Butanoic acid 482 mg/kg and hexanoic acid 260 mg/kg from lipolysis and amino-acid catabolism."
+  },
+  "creaminess": {
+   "score": 2.0,
+   "reason": "29.2% moisture with 32.5% protein and tyrosine crystals prevents creamy mouth-coating despite 30.6% fat."
+  },
+  "crumbliness": {
+   "score": 8.0,
+   "reason": "Low moisture plus 24 mo proteolysis and tyrosine/calcium-lactate crystals give short fracture."
+  },
+  "firmness": {
+   "score": 9.0,
+   "reason": "Cooked to ~55C, pressed, brined 20-24d and dried 24 mo to 29.2% moisture with crosslinked paracasein."
+  },
+  "floral_honey": {
+   "score": 4.0,
+   "reason": "Phenylacetaldehyde 380 ug/kg from phenylalanine Strecker degradation by lactobacilli."
+  },
+  "fruity": {
+   "score": 6.0,
+   "reason": "Ethyl hexanoate 2580 ug/kg, ethyl butanoate 1140 ug/kg and ethyl octanoate 1620 ug/kg via esterase esterification."
+  },
+  "goaty": {
+   "score": 2.0,
+   "reason": "Cow milk low in caprine branched acids; octanoic 147 mg/kg gives only mild waxy sharpness."
+  },
+  "malty_nutty": {
+   "score": 8.0,
+   "reason": "3-methylbutanal 680 ug/kg, 2-methylpropanal 520 ug/kg and 2-methylbutanal 490 ug/kg from Leu/Val/Ile Strecker."
+  },
+  "melt": {
+   "score": 2.0,
+   "reason": "pH 5.55 and 24 mo proteolysis with 29.2% moisture and 1.6% salt; softens and oils but does not flow."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "1-octen-3-ol/1-octen-3-one not detected; no surface mold lipoxygenase activity."
+  },
+  "oil_off": {
+   "score": 6.0,
+   "reason": "30.6% fat coalesced into free-fat pools during cooking and long aging releases oil on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking process; guaiacol only trace feed-derived phenol, mold none."
+  },
+  "sour_vinegar": {
+   "score": 5.0,
+   "reason": "Acetic acid 1424 mg/kg from thermophilic lactobacilli fermentation and 24 mo ripening."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Rennet-coagulated cooked curd, not pasta-filata; no hot-water kneaded demineralized casein alignment."
+  },
+  "sulfur_cooked": {
+   "score": 4.0,
+   "reason": "Methional 100 ug/kg and dimethyl trisulfide 30 ug/kg from methionine catabolism; cooked volatiles largely lost."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Lactose fully fermented; slight sweet impression from Pro/Gly/Ala and fruity esters only."
+  },
+  "umami": {
+   "score": 9.0,
+   "reason": "Extensive 24 mo proteolysis liberates glutamate with 1.6% NaCl synergizing savory brothy granary note."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.journalofdairyscience.org/article/S0022-0302(03)73658-3/fulltext",
+  "https://eurekamag.com/research/002/776/002776718.php",
+  "https://www.mdpi.com/2076-2615/11/3/879"
+ ]
+}

@@ -1,0 +1,335 @@
+{
+ "id": "camembert",
+ "name": "Camembert",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "soft_bloomy",
+ "origin": "Normandy, France",
+ "process": {
+  "aging_months": 1,
+  "coagulation": "mixed",
+  "cooked": false,
+  "mold": "white",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 51.8,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/food-details/172178/nutrients",
+   "quote": "- **Water: 51.8 g / 100 g = 51.8%**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 24.26,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/food-details/172178/nutrients",
+   "quote": "- **Total lipid (fat): 24.26 g / 100 g = 24.26%**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.5,
+   "unit": "%",
+   "source_url": "https://applbiolchem.springeropen.com/articles/10.1186/s13765-020-00539-5",
+   "quote": "- **Salt level of Camembert cheese is 2.5%**",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 4.93,
+   "unit": "",
+   "source_url": "https://applbiolchem.springeropen.com/counter/pdf/10.1186/s13765-020-00539-5.pdf",
+   "quote": "- **Initial pH 0-week: 4.93, 4.92, 4.95, 4.97 for 4 salt types, decreased slightly to 4.85, 4.75, 4.74, 4.75 during 1st week**",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 23.68,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9180517/",
+   "quote": "- **acetic acid, W d24 max 43.15±5.51 ng/g, W d40 23.68±3.22 ng/g = 23.68 µg/kg = 0.02368 mg/kg**",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 16.59,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9180517/",
+   "quote": "- **propanoic acid [propionic acid], W d40 16.59±2.29 ng/g = 16.59 µg/kg**",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 8.68,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9180517/",
+   "quote": "- **butanoic acid [Butyric acid], W d40 8.68±0.20 ng/g, W d32 22.90±2.53 ng/g**",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 58.76,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9180517/",
+   "quote": "- **hexanoic acid, W d40 58.76±11.86 ng/g = 58.76 µg/kg**",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 56.86,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9180517/",
+   "quote": "- **octanoic acid, W d40 56.86±3.48 ng/g, W d16 max 91.57±4.33 ng/g**",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  },
+  {
+   "value": 81.33,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9180517/",
+   "quote": "- **2-nonanone [2-Nonanone], W d40 81.33±9.44 ng/g = 81.33 µg/kg**",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  },
+  {
+   "value": 28.63,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9180517/",
+   "quote": "- **2-undecanone [2-Undecanone], W d40 28.63±2.05 ng/g**",
+   "confidence": "measured",
+   "name": "2-undecanone"
+  },
+  {
+   "value": 6.82,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9180517/",
+   "quote": "- **ethyl butanoate [Ethyl butyrate], W d40 6.82±0.94 ng/g**",
+   "confidence": "measured",
+   "name": "ethyl butanoate"
+  },
+  {
+   "value": 0.98,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9180517/",
+   "quote": "- **ethyl hexanoate [Ethyl hexanoate], W d40 0.98±0.47 ng/g, W d24 max 2.67±0.67 ng/g**",
+   "confidence": "measured",
+   "name": "ethyl hexanoate"
+  },
+  {
+   "value": 20.62,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9180517/",
+   "quote": "- **1-octen-3-ol, W d40 20.62±0.87 ng/g, W d32 max 25.67±1.56 ng/g**",
+   "confidence": "measured",
+   "name": "1-octen-3-ol"
+  },
+  {
+   "value": 1.08,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9180517/",
+   "quote": "- **2-phenylethanol [Phenylethyl Alcohol], W d8 max 7.96±0.87 ng/g, W d40 1.08±0.01 ng/g**",
+   "confidence": "measured",
+   "name": "2-phenylethanol"
+  },
+  {
+   "value": 1.87,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9180517/",
+   "quote": "- **delta-decalactone [delta-Decanolide], W d40 1.87±0.23 ng/g**",
+   "confidence": "measured",
+   "name": "delta-decalactone"
+  },
+  {
+   "value": 1.18,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9180517/",
+   "quote": "- **delta-dodecalactone [delta-Dodecalactone], W d40 1.18±0.03 ng/g, W d24 max 2.44±0.18 ng/g**",
+   "confidence": "measured",
+   "name": "delta-dodecalactone"
+  },
+  {
+   "value": 8000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "- **3-methylbutanoic acid, Camembert 8-214 / 100 / 3.4-4.5 ppm**",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  },
+  {
+   "value": 74.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "- **diacetyl [butane-2,3-dione], Camembert 1-5% / tr / 0.074-0.11 ppm = 74-110 µg/kg**",
+   "confidence": "measured",
+   "name": "diacetyl"
+  },
+  {
+   "value": 5580.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "- **2-heptanone [heptan-2-one], Camembert +-+++ / 1-5% / 5.58 ppm; Brie 2.51-15 ppm; 7-17.4 µg/g FM**",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 2.2,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "- **1-octen-3-one [octen-3-one], Camembert 0.0022 ppm = 2.2 µg/kg**",
+   "confidence": "measured",
+   "name": "1-octen-3-one"
+  },
+  {
+   "value": 260.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "- **methanethiol, Camembert 0.542 / 0.26-0.275 ppm = 260-542 µg/kg**, `production reaches 0.542 ppm after 3 weeks ripening`",
+   "confidence": "measured",
+   "name": "methanethiol"
+  },
+  {
+   "value": 250.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "- **dimethyl sulfide, Camembert 0.25-0.41 ppm**",
+   "confidence": "measured",
+   "name": "dimethyl sulfide"
+  },
+  {
+   "value": 11.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "- **dimethyl disulfide, Camembert 0.011 / +-++++ / NQ ppm**",
+   "confidence": "measured",
+   "name": "dimethyl disulfide"
+  },
+  {
+   "value": 10.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "- **dimethyl trisulfide, Camembert 0.01 / tr-+ ppm**",
+   "confidence": "measured",
+   "name": "dimethyl trisulfide"
+  },
+  {
+   "value": 27.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "- **methional, Camembert 0.027-0.125 ppm = 27-125 µg/kg**",
+   "confidence": "measured",
+   "name": "methional"
+  },
+  {
+   "value": 94.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf",
+   "quote": "- **3-methylbutanal, Camembert +-++ / 0.094-0.142 ppm = 94-142 µg/kg** (in addition to Leclercq 13.8 mg/kg peak, method-dependent)",
+   "confidence": "measured",
+   "name": "3-methylbutanal"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 6.0,
+   "reason": "970-2000 mg/kg ammonia from lactate consumption and amino-acid deamination by Penicillium camemberti raising pH to ~7"
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "p-cresol and indole only tr from tyrosine/tryptophan catabolism, no washed-rind Brevibacterium dominance"
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "hydrophobic bitter peptides from rennet plus Penicillium aspartyl/metalloprotease proteolysis"
+  },
+  "blue_moldy": {
+   "score": 2.0,
+   "reason": "methyl ketones 2-heptanone ~5.58 ppm and 2-nonanone from beta-oxidation by P. camemberti but no Penicillium roqueforti"
+  },
+  "browning": {
+   "score": 3.0,
+   "reason": "moderate free amino acids and residual galactose for Maillard but 51.8% moisture limits browning"
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "diacetyl 74-110 ug/kg from citrate fermentation by Lactococcus lactis biovar diacetylactis and Leuconostoc"
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "butanoic 35-206 ppm plus hexanoic 23-143 ppm plus octanoic from Penicillium lipase lipolysis"
+  },
+  "creaminess": {
+   "score": 8.0,
+   "reason": "24.26% fat plus 51.8% moisture plus surface deacidification and proteolysis giving spoonable paste"
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "high-moisture mixed rennet-lactic gel with extensive proteolysis is cohesive not crumbly"
+  },
+  "firmness": {
+   "score": 2.0,
+   "reason": "51.8% moisture and mold proteolysis soften paste from firm curd to soft bloomy"
+  },
+  "floral_honey": {
+   "score": 4.0,
+   "reason": "2-phenylethanol ~1 mg/kg from phenylalanine Ehrlich pathway, phenylacetaldehyde NQ"
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "ethyl butanoate ~6.8 ng/g and ethyl hexanoate from esterification of acids with yeast/Geotrichum ethanol"
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "4-methyloctanoic and 4-ethyloctanoic acids not detected in cow-milk Camembert"
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "3-methylbutanal 94-142 ug/kg and 3-methylbutanoic 8-214 ppm from leucine Strecker/Ehrlich catabolism"
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "deacidified calcium-depleted para-casein with high moisture flows readily on heating"
+  },
+  "mushroom_earthy": {
+   "score": 8.0,
+   "reason": "1-octen-3-ol 75-130 ug/kg plus 1-octen-3-one 2.2 ug/kg from linoleic acid oxidation by P. camemberti"
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "24.26% fat emulsion partly destabilized by lipolysis and proteolysis releases some free oil on heating"
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "guaiacol not listed/detected and cheese is unsmoked"
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "acetic 13-66 ppm plus lactic acid from mesophilic starters mostly consumed by surface mold deacidification"
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "no pasta-filata hot-water kneading and proteolyzed casein network cannot align"
+  },
+  "sulfur_cooked": {
+   "score": 4.0,
+   "reason": "methanethiol 260-542 ug/kg plus dimethyl sulfide 0.25-0.41 ppm plus methional from methionine catabolism"
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "lactose depleted by starters, slight sweetness from glycerol and delta-decalactone ~0.9-1.1 ppm"
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "glutamate and savory peptides from extensive surface proteolysis by P. camemberti and Geotrichum"
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://fdc.nal.usda.gov/food-details/172178/nutrients",
+  "https://applbiolchem.springeropen.com/articles/10.1186/s13765-020-00539-5",
+  "https://applbiolchem.springeropen.com/counter/pdf/10.1186/s13765-020-00539-5.pdf",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9180517/",
+  "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf"
+ ]
+}

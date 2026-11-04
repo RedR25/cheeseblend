@@ -1,0 +1,147 @@
+{
+ "id": "delice_de_bourgogne",
+ "name": "Délice de Bourgogne",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "soft_bloomy",
+ "origin": "Burgundy, France",
+ "process": {
+  "aging_months": 0.5,
+  "coagulation": "mixed",
+  "cooked": false,
+  "mold": "white",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 78.0,
+   "unit": "%",
+   "source_url": "https://tech-sheet-web-production.up.railway.app/12246.pdf",
+   "quote": "| **moisture %** | **not found** in peer-reviewed / USDA. Manufacturer prints as specification: **78%** alongside **Dry extract 52%** — as printed sum >100%, internally inconsistent, do not recalculate | % | Sample: DELICE DE BOURGOGNE KG 991, soft ripened cheese enriched with cream, pasteurized whole cow's milk origin France, 2000 g unit, FR 89 373 001 CE. Age: unspecified, best-before 50 days; pH stated “at packing”. No peer-reviewed sample age available. | https://tech-sheet-web-production.up.railway.app/12246.pdf |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 40.0,
+   "unit": "%",
+   "source_url": "https://tech-sheet-web-production.up.railway.app/12246.pdf",
+   "quote": "| **fat %** | **not found** in peer-reviewed / USDA. Manufacturer specification: **40,00%** ; nutrition **40 (28.8 saturates) per 100g** | % = g/100g | Same sample as above: KG 991, France, pasteurized cow's milk + cream. Age: at packing / unspecified. Also specifies “Fat in dry matter (minimum) 75%” | https://tech-sheet-web-production.up.railway.app/12246.pdf |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.0,
+   "unit": "%",
+   "source_url": "https://tech-sheet-web-production.up.railway.app/12246.pdf",
+   "quote": "| **salt (NaCl) %** | **not found** in peer-reviewed / USDA as NaCl by analysis. Manufacturer: **Salt 2,00 per 100g nutrition = 2.00%** ; ingredient input **Salt 2,000%** | % = g NaCl /100g (nutrition label “Salt”) | Same KG 991 sample, France. Age unspecified. Retail label equivalents e.g. “Salt, 2g” are label values, not sample analysis, and are not counted as absolute measured values. | https://tech-sheet-web-production.up.railway.app/12246.pdf |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.8,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.5,
+   "reason": "Low proteolysis deamination by P.candidum/Geotrichum; rises only if overripe, young triple-cream is mild."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "No washed-rind Brevibacterium activity; pasteurized cow milk with white mold only."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Few hydrophobic bitter peptides from rennet proteolysis, masked by 40% fat and 2% salt."
+  },
+  "blue_moldy": {
+   "score": 0.5,
+   "reason": "No Penicillium roqueforti; white P.camemberti makes little 2-heptanone/2-nonanone."
+  },
+  "browning": {
+   "score": 2.0,
+   "reason": "High fat/low reducing sugar young bloomy rind, limited Maillard when heated."
+  },
+  "buttery": {
+   "score": 8.5,
+   "reason": "Diacetyl/acetoin from citrate fermentation by Lc.lactis biovar diacetylactis plus delta-lactones from added cream."
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "Mild lipolysis releasing butanoic/hexanoic acids; short-aged bloomy, not long lipase-ripened."
+  },
+  "creaminess": {
+   "score": 9.5,
+   "reason": "75% FDM triple-cream, 48% moisture, deacidified lactic curd gives spoonable high-fat matrix."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "High fat-in-dry-matter deacidified lactic curd deforms not fractures."
+  },
+  "firmness": {
+   "score": 2.5,
+   "reason": "Soft bloomy paste with thin rind; dense but yielding, not elastic or hard."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Trace 2-phenylethanol/phenylacetaldehyde from phenylalanine catabolism by Geotrichum."
+  },
+  "fruity": {
+   "score": 3.5,
+   "reason": "Ethyl butanoate/hexanoate esterification of free fatty acids by Geotrichum candidum esterases."
+  },
+  "goaty": {
+   "score": 0.5,
+   "reason": "Cow milk lacks 4-methyloctanoic/4-ethyloctanoic goaty acids characteristic of goat milk."
+  },
+  "malty_nutty": {
+   "score": 1.5,
+   "reason": "Very low 2-/3-methylbutanal from leucine/isoleucine; no cooked curd pyrazines or aged proteolysis."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "High fat 40%, deacidified pH ~5.8 and hydrated casein allow smooth flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 6.5,
+   "reason": "1-octen-3-ol/1-octen-3-one from linoleic acid lipoxygenase by Penicillium camemberti rind."
+  },
+  "oil_off": {
+   "score": 6.0,
+   "reason": "Free fat release from 75% FDM cream-enriched matrix when warmed."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Not smoked; no guaiacol/syringol phenols from wood smoke."
+  },
+  "sour_vinegar": {
+   "score": 4.5,
+   "reason": "Lactic acid from mesophilic starter lactic fermentation, pH 4.5 at packing, plus trace acetic."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "Lactic/mixed curd, not pasta-filata; no aligned para-casein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Pasteurization H2S/dimethyl sulfide driven off; no heated whey protein sulfur retention."
+  },
+  "sweet": {
+   "score": 3.5,
+   "reason": "Residual lactose fermented but glycerol, diacetyl and high fat give sweet-creamy perception."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "Moderate glutamate from early white-mold proteolysis of casein."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://tech-sheet-web-production.up.railway.app/12246.pdf",
+  "https://fdc.nal.usda.gov/food-search?type=Foundation&query=Delice%20de%20Bourgogne"
+ ]
+}

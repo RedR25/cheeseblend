@@ -1,0 +1,147 @@
+{
+ "id": "vasterbotten",
+ "name": "Västerbottensost",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "hard_grana",
+ "origin": "Sweden",
+ "process": {
+  "aging_months": 14,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 36.1,
+   "unit": "%",
+   "source_url": "https://www.academia.edu/98620013/Ripening_of_extra_hard_cheese_made_with_mesophilic_DL_starter",
+   "quote": "| **Mean** | **36.1** | **34.7** | **33.2** | **32.8** | **32.0** |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 51.9,
+   "unit": "%",
+   "source_url": "https://www.academia.edu/98620013/Ripening_of_extra_hard_cheese_made_with_mesophilic_DL_starter",
+   "quote": "The average of the fat in dry matter (FDM) of the cheeses was 51.9% with a standard deviation of 0.7%.",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.2,
+   "unit": "%",
+   "source_url": "https://www.academia.edu/98620013/Ripening_of_extra_hard_cheese_made_with_mesophilic_DL_starter",
+   "quote": "brine salted to a content of around 1.2% in the cheese",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.32,
+   "unit": "",
+   "source_url": "https://www.academia.edu/98620013/Ripening_of_extra_hard_cheese_made_with_mesophilic_DL_starter",
+   "quote": "| Mean | 5.32 | 5.36 | 5.41 | 5.51 | 5.63 |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Limited amino-acid deamination in waxed low-moisture interior without surface flora; pH rise only to ~5.6."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "Low p-cresol/indole from Tyr/Trp catabolism in pasteurized milk without smear flora."
+  },
+  "bitter": {
+   "score": 7.0,
+   "reason": "Hydrophobic alpha-s1-casein peptides from mesophilic Lactococcus proteinases with low 1.2% salt masking."
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "No Penicillium roqueforti; only low background 2-heptanone/2-nonanone from lipolysis."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Low residual lactose but high free amino acids from 14-mo proteolysis drive moderate Maillard on heating."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Diacetyl/acetoin from citrate metabolism by Leuconostoc in DL-starter, partly volatilized by long >40C cooking."
+  },
+  "cheesy_sweaty": {
+   "score": 6.0,
+   "reason": "Butyric/hexanoic acids from milk lipase and NSLAB lipolysis accumulating over long ripening."
+  },
+  "creaminess": {
+   "score": 2.0,
+   "reason": "Extra-hard 32% moisture matrix with crystalline texture gives little melt-in-mouth fat creaminess."
+  },
+  "crumbliness": {
+   "score": 7.0,
+   "reason": "Long proteolysis plus tyrosine/calcium-lactate crystals fracture low-moisture cooked curd."
+  },
+  "firmness": {
+   "score": 9.0,
+   "reason": "Hours cooking above 40C with extensive syneresis and pressing to 32% moisture in 18-kg cylinders."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism by lactococci during extended aging."
+  },
+  "fruity": {
+   "score": 6.0,
+   "reason": "Ethyl butanoate/hexanoate from esterification of fatty acids by lactococcal/NSLAB esterases, key flavour."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk only, no goat branched C8-C10 4-methyl/4-ethyloctanoic acids; only low lipolysis background."
+  },
+  "malty_nutty": {
+   "score": 8.0,
+   "reason": "Strecker 2-/3-methylbutanal from Leu/Ile/Val catabolism plus long-cook Maillard pyrazines."
+  },
+  "melt": {
+   "score": 3.0,
+   "reason": "Aged pH-5.6 low-moisture rennet network softens and oils but shows poor flow."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "No mold-derived 1-octen-3-ol pathway; waxed interior allows only trace lipid oxidation."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "33% fat in contracted cooked curd releases free oil on heating, moderated by aged emulsifying peptides."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step; no guaiacol/syringol phenols."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Acetic acid from heterofermentative Leuconostoc citrate metabolism, buffered at pH ~5.6."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata hot-water kneading; aged calcium-crosslinked curd cannot align."
+  },
+  "sulfur_cooked": {
+   "score": 5.0,
+   "reason": "DMS/DMDS/DMTS from Lactococcus methionine demethiolation plus long hot-cook sulfhydryl note."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Lactose depleted; mild sweetness from free Pro/Ala and glycerol balanced by bitter/salt."
+  },
+  "umami": {
+   "score": 8.0,
+   "reason": "Very high free glutamate from 14-mo chymosin/plasmin plus Lactococcus peptidase proteolysis."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.academia.edu/98620013/Ripening_of_extra_hard_cheese_made_with_mesophilic_DL_starter",
+  "https://www.norrmejerier.se:443/produkter/vasterbottensost-in-english/vasterbottensost/182?language=en"
+ ]
+}

@@ -1,0 +1,278 @@
+{
+ "id": "montasio",
+ "name": "Montasio",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "alpine_hard",
+ "origin": "Friuli-Venezia Giulia and Veneto, Italy",
+ "process": {
+  "aging_months": 6,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 30.73,
+   "unit": "%",
+   "source_url": "https://doi.org/10.3168/jds.2017-13001",
+   "quote": "| Moisture | 30.73 ± 1.71 | g/100g = % | n=7 Montasio, commercial, 1-40 mo | https://doi.org/10.3168/jds.2017-13001 |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 35.3,
+   "unit": "%",
+   "source_url": "https://doi.org/10.3168/jds.2017-13001",
+   "quote": "| Fat | 35.30 ± 1.11 | g/100g = % | n=7 Montasio, commercial, 1-40 mo | same |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.6,
+   "unit": "%",
+   "source_url": "https://doi.org/10.3168/jds.2017-13001",
+   "quote": "| Salt | 1.60 ± 0.11 | g/100g = % | n=7 Montasio, commercial, 1-40 mo | same |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.32,
+   "unit": "",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(14)00670-5/pdf",
+   "quote": "| pH Rich | 5.32 | - | 60-d |  |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 34.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(14)00670-5/pdf",
+   "quote": "| diacetyl (2,3-butanedione) | 34.0 / 49.0 / 51.4 / 31.6 µg/kg | 5.67 / 19.65 / 12.75 / 12.58 mg/kg | 60-d: raw Simmental milk, Malga Montasio, 12 makings, 60-d ripened; 12-mo: same design, 12-mo ripened |",
+   "confidence": "measured",
+   "name": "diacetyl"
+  },
+  {
+   "value": 48.9,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(14)00670-5/pdf",
+   "quote": "| acetoin (3-hydroxy-2-butanone) | 48.9 / 27.6 / 32.3 / 44.2 µg/kg | 26.34 / 45.58 / 36.37 / 35.55 mg/kg | same as above |",
+   "confidence": "measured",
+   "name": "acetoin"
+  },
+  {
+   "value": 23.4,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(14)00670-5/pdf",
+   "quote": "| 2-heptanone (heptan-2-one) | 23.4 / 59.4 / 45.9 / 36.9 µg/kg | 169.72 / 270.08 / 228.02 / 211.78 mg/kg | same |",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 12.9,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(14)00670-5/pdf",
+   "quote": "| 2-nonanone (nonan-2-one) | 12.9 / 24.4 / 19.6 / 17.7 µg/kg | 26.22 / 36.72 / 26.81 / 36.14 mg/kg | same |",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  },
+  {
+   "value": 6.7,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(14)00670-5/pdf",
+   "quote": "| 2-undecanone (undecan-2-one) | 6.7 / 21.0 / 15.9 / 11.8 µg/kg | 2.72 / 8.77 / 5.07 / 6.41 mg/kg | same |",
+   "confidence": "measured",
+   "name": "2-undecanone"
+  },
+  {
+   "value": 546.9,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(14)00670-5/pdf",
+   "quote": "| ethyl butanoate = Ethyl butyrate | 546.9 / 659.1 / 610.3 / 595.4 µg/kg | 1117.51 / 421.13 / 747.25 / 791.39 mg/kg |",
+   "confidence": "measured",
+   "name": "ethyl butanoate"
+  },
+  {
+   "value": 196.7,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(14)00670-5/pdf",
+   "quote": "| ethyl hexanoate | 196.7 / 223.9 / 222.4 / 198.2 µg/kg | 498.70 / 214.43 / 353.23 / 359.90 mg/kg |",
+   "confidence": "measured",
+   "name": "ethyl hexanoate"
+  },
+  {
+   "value": 70073.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(14)00670-5/pdf",
+   "quote": "| acetic acid | 70073 / 81896 / 71182 / 80787 µg/kg | 161.79 / 414.40 / 244.44 / 331.75 mg/kg |",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 44334.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(14)00670-5/pdf",
+   "quote": "| butanoic acid = Butyric acid | 44334 / 37807 / 38206 / 43935 µg/kg | 341.33 / 488.97 / 379.12 / 451.18 mg/kg |",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 29686.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(14)00670-5/pdf",
+   "quote": "| hexanoic acid | 29686 / 25889 / 27480 / 28095 µg/kg | 257.20 / 387.53 / 304.22 / 340.51 mg/kg |",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 11931.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(14)00670-5/pdf",
+   "quote": "| octanoic acid | 11931 / 10647 / 11275 / 11303 µg/kg | 53.00 / 88.74 / 62.31 / 79.43 mg/kg |",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  },
+  {
+   "value": 34.5,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(14)00670-5/pdf",
+   "quote": "| 3-methylbutanal | 34.5 / 11.4 / 21.8 / 24.1 µg/kg | 35.06 / 12.39 / 32.03 / 15.41 mg/kg |",
+   "confidence": "measured",
+   "name": "3-methylbutanal"
+  },
+  {
+   "value": 16.8,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(14)00670-5/pdf",
+   "quote": "| 2-methylbutanal | 16.8 / 7.8 / 13.1 / 11.5 µg/kg | 6.28 / 6.92 / 7.96 / 5.23 mg/kg |",
+   "confidence": "measured",
+   "name": "2-methylbutanal"
+  },
+  {
+   "value": 5.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(14)00670-5/pdf",
+   "quote": "| methanethiol | 5.0 / 5.2 / 4.6 / 5.6 µg/kg | 1.79 / 3.38 / 2.16 / 3.01 mg/kg (reported as Methanthiol) |",
+   "confidence": "measured",
+   "name": "methanethiol"
+  },
+  {
+   "value": 10.5,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(14)00670-5/pdf",
+   "quote": "| dimethyl sulfide | 10.5 / 11.8 / 11.4 / 10.9 µg/kg | 9.60 / 13.27 / 9.97 / 12.89 mg/kg |",
+   "confidence": "measured",
+   "name": "dimethyl sulfide"
+  },
+  {
+   "value": 5.7,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(14)00670-5/pdf",
+   "quote": "| p-cresol = 4-Methyl-phenol | 5.7 / 7.4 / 6.5 / 6.6 µg/kg | 1.57 / 2.85 / 1.55 / 2.86 mg/kg |",
+   "confidence": "measured",
+   "name": "p-cresol"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Limited amino acid deamination at 2-6 mo ripening, low volatile ammonia vs long-aged grana."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "Trace p-cresol ~5-7 ug/kg from tyrosine degradation and pasture phenols, not stable-like."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Some hydrophobic peptides from chymosin/plasmin proteolysis, partly masked by 1.6% salt."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium spp.; low 2-heptanone/2-nonanone only from fatty acid beta-oxidation."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Proteolysis-derived free amino groups plus residual galactose drive Maillard browning on heating."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Moderate diacetyl 34-49 ug/kg plus acetoin from Lactococcus citrate metabolism in fatty matrix."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "High butyric ~44k ug/kg plus hexanoic ~29k ug/kg from lipase lipolysis gives sweaty-cheesy."
+  },
+  "creaminess": {
+   "score": 3.0,
+   "reason": "35.3% fat gives lubrication but low 30.7% moisture and firm Ca-paracasein limits creamy flow."
+  },
+  "crumbliness": {
+   "score": 4.0,
+   "reason": "Intermediate proteolysis and moisture loss create short fracture but not dry grana crumble."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Low moisture 30.7% with semi-cooked pressed curd and dense Ca-paracasein network gives firm body."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Trace benzaldehyde/phenyl derivatives and fruity esters; low phenylalanine catabolism."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "High ethyl butanoate ~547 ug/kg plus ethyl hexanoate from NSLAB esterification of acids with ethanol."
+  },
+  "goaty": {
+   "score": 2.0,
+   "reason": "Moderate C6/C8 acids present but no goat-milk branched 4-methyl/4-ethyl octanoic acids."
+  },
+  "malty_nutty": {
+   "score": 6.0,
+   "reason": "Leu/Ile Strecker aldehydes 3-methylbutanal/2-methylbutanal drive malty-nutty aged alpine note."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "pH 5.32 with partly demineralized paracasein allows good softening and flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "1-octen-3-ol/1-octen-3-one not detected; no bloomy rind, minimal fungal pathways."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate free-fat coalescence on heating from 35.3% fat cooked curd with limited oiling."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked natural rind; no guaiacol or smoke phenols detected."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Abundant acetic acid ~70k ug/kg plus lactic acid at pH 5.32 from starter fermentation."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "Non-pasta-filata rennet gel with no hot-water kneading, so minimal oriented stretch."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Trace methanethiol/dimethyl sulfide from methionine catabolism; semi-cooked curd adds slight cooked note."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Lactose depleted but glycerol, D-amino acids and fruity esters give slight sweet perception."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Moderate proteolysis releases glutamate/aspartate plus savory peptides during ripening."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://doi.org/10.3168/jds.2017-13001",
+  "https://www.journalofdairyscience.org/article/S0022-0302(14)00670-5/pdf",
+  "https://fdc.nal.usda.gov/fdc-app.html#/food-search?query=Montasio",
+  "https://www.research.unipd.it/retrieve/e14fb26f-9a8b-3de1-e053-1705fe0ac030/PIIS0022030217308603_cassandro_4.pdf"
+ ]
+}

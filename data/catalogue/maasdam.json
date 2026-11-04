@@ -1,0 +1,173 @@
+{
+ "id": "maasdam",
+ "name": "Maasdam",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Netherlands",
+ "process": {
+  "aging_months": 2,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 42.2,
+   "unit": "%",
+   "source_url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/emmental-cheese",
+   "quote": "- **Moisture 422 g/kg = 42.2 %**, SD 3 g/kg",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 27.4,
+   "unit": "%",
+   "source_url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/emmental-cheese",
+   "quote": "- **Fat 274 g/kg = 27.4 %**, SD 1 g/kg",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.36,
+   "unit": "%",
+   "source_url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/emmental-cheese",
+   "quote": "- **Salt (NaCl) 13.6 g/kg = 1.36 %**, SD 0.6 g/kg",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.57,
+   "unit": "",
+   "source_url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/emmental-cheese",
+   "quote": "- **pH 5.57**, SD 0.02, unit dimensionless",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 2057.01,
+   "unit": "µg/kg",
+   "source_url": "https://doi.org/10.1007/s00217-020-03426-x",
+   "quote": "- **Diacetyl = 2,3-butanedione: 2057.01 ±36.85 µg/kg**",
+   "confidence": "measured",
+   "name": "diacetyl"
+  },
+  {
+   "value": 1981.87,
+   "unit": "µg/kg",
+   "source_url": "https://doi.org/10.1007/s00217-020-03426-x",
+   "quote": "- **Butanoic acid = butyric acid: 1981.87 ±32.82 µg/kg**",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 50000.0,
+   "unit": "µg/kg",
+   "source_url": "https://doi.org/10.3168/jds.2017-14180",
+   "quote": "detected in all experimental cheeses at high levels (Figure 3A), particularly during warm room ripening, with a mean level of ~50 mg/kg of cheese at 11 d (start of warm ripening) and ~4,000 mg/kg of cheese at 41 d (end of warm room ripening).",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Short 4-8 week ripening with limited amino acid deamination gives low NH3."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Washed pasteurized curd with no Brevibacterium, no p-cresol/indole formation."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Washed curd removes lactose and hydrophobic rennet peptides; Propionibacterium peptidases debitter."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation; methyl ketones 2-heptanone/2-nonanone at background."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Curd washing removes residual lactose/galactose limiting Maillard to moderate whey-protein browning."
+  },
+  "buttery": {
+   "score": 7.5,
+   "reason": "High diacetyl 2057 ug/kg from citrate metabolism by Lc. lactis biovar diacetylactis/Leuconostoc."
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "Low butanoic acid ~2 mg/kg and <200 mg/kg over 6 mo from limited lipolysis."
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "27.4% fat ~48% FDM in 42.2% moisture washed-curd matrix gives smooth lubrication."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Elastic cohesive Swiss-type paste with gas eyes, not dry crystalline fracture."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "42.2% moisture semi-hard propionic eye body is elastic-firm, not hard-grana."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism in young interior."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate/hexanoate from heterofermentative ethanol plus fatty acids via esterases."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "100% cow milk fat, no goat-specific caproic/caprylic/capric branched acids."
+  },
+  "malty_nutty": {
+   "score": 6.0,
+   "reason": "Propionibacterium freudenreichii propionate ~4000 mg/kg plus Strecker aldehydes and proline give Swiss-nutty note."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "pH 5.57 calcium-para-casein with 42% moisture and 27% fat gives excellent flow."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "No surface mold; linoleate-derived 1-octen-3-ol/1-octen-3-one near detection limit."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate free-oil release from 48% FDM on heating with stable young emulsion."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make; no wood-smoke guaiacol/syringol."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "High propionic/acetic from warm-room propionic fermentation buffered at pH 5.57, washed curd low lactic acid."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "Rennet-coagulated non-pasta-filata gel with no hot-water casein fiber alignment."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Low-heat cooked washed curd, minimal methionine catabolism to methanethiol/DMS."
+  },
+  "sweet": {
+   "score": 6.0,
+   "reason": "High pH 5.57-6.13, low salt 1.36% plus propionate and diacetyl impart sweet perception."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "Moderate rennet/plasmin and starter proteolysis in 2-mo cheese yields glutamate peptides."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/emmental-cheese",
+  "https://doi.org/10.1007/s00217-020-03426-x",
+  "https://doi.org/10.3168/jds.2017-14180"
+ ]
+}

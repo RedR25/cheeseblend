@@ -1,0 +1,152 @@
+{
+ "id": "herve",
+ "name": "Herve",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "washed_rind",
+ "origin": "Pays de Herve, Belgium",
+ "process": {
+  "aging_months": 1.5,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 50.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 26.0,
+   "unit": "%",
+   "source_url": "https://www.terredefromages.be/en/range/lexquis-herve-affine-a-la-biere/",
+   "quote": "| fat % – commercial nutrition | 26 lipids, including 17 saturated fatty acids | g / 100 g | L'Exquis Herve affiné à la bière 200g – PDO Herve cheese, pasteurized cow's milk, Origin Belgium from Pays de Herve collection area. Age / ripening time not stated on page. Per 100g: Lipids 26. | https://www.terredefromages.be/en/range/lexquis-herve-affine-a-la-biere/ |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.5,
+   "unit": "%",
+   "source_url": "https://www.terredefromages.be/en/range/lexquis-herve-affine-a-la-biere/",
+   "quote": "| salt (NaCl) % – commercial nutrition | 2.5 | g / 100 g as salt | Same sample as above: pasteurized cow's milk, Belgium Pays de Herve. Per 100g Salt 2.5. This is label salt (NaCl equivalent), not a laboratory NaCl titration, and age not stated. | https://www.terredefromages.be/en/range/lexquis-herve-affine-a-la-biere/ |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.8,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 8.0,
+   "reason": "Ammonia from amino acid deamination by surface Brevibacterium/Corynebacterium raising rind pH."
+  },
+  "animal_barnyard": {
+   "score": 9.0,
+   "reason": "p-cresol/indole/isovaleric from smear coryneforms and extensive protein/lipid breakdown."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Hydrophobic peptides from proteolysis, partly degraded by smear peptidases limiting bitterness."
+  },
+  "blue_moldy": {
+   "score": 2.0,
+   "reason": "Trace heptan-2-one/nonan-2-one from fatty acid beta-oxidation, no Penicillium roqueforti inoculation."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Reducing sugars depleted but free amino acids allow moderate Maillard on heating."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Diacetyl/acetoin from citrate fermentation by Lc. diacetylactis/Leuconostoc, partly masked by smear sulfur."
+  },
+  "cheesy_sweaty": {
+   "score": 9.0,
+   "reason": "High butyric and 3-methylbutanoic acids from lipolysis and Brevibacterium leucine catabolism."
+  },
+  "creaminess": {
+   "score": 7.0,
+   "reason": "26% fat at ~45% FDM and proteolysed protein matrix giving smooth creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Deacidified elastic paste with no dry granular structure; deforms rather than fractures."
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "High-moisture rennet gel with smear-softened paste; supple and spoonable when ripe."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low 2-phenylethanol/phenylacetaldehyde from phenylalanine catabolism by surface yeasts."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate/hexanoate from yeast/Brevibacterium esterification of free fatty acids with ethanol."
+  },
+  "goaty": {
+   "score": 2.0,
+   "reason": "Low-medium C6-C8 free fatty acids from cow-milk lipolysis, no goat-milk fatty acid excess."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "Low Strecker 2-/3-methylbutanal from leucine/isoleucine catabolism during proteolysis."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "De-mineralized high-pH proteolysed casein network flows readily on heating like Limburger."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "Trace 1-octen-3-ol from linoleic acid oxidation, suppressed by dominant smear volatiles."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "Moderate free fat release on melting from soft high-moisture 26% fat matrix."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and no guaiacol formation in washed-rind make."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Lactic/acetic acids largely deacidified by Debaryomyces/Brevibacterium surface metabolism."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata acid-stretching; rennet curd has no aligned casein for stringing."
+  },
+  "sulfur_cooked": {
+   "score": 8.0,
+   "reason": "Methanethiol/DMDS/DMTS from Brevibacterium linens methionine demethiolation in smear."
+  },
+  "sweet": {
+   "score": 1.0,
+   "reason": "Residual lactose fully fermented; salt and acids suppress sweetness perception."
+  },
+  "umami": {
+   "score": 7.0,
+   "reason": "High glutamate and small peptides from rennet plus smear proteolysis during 6-8 week ripening."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.terredefromages.be/en/range/lexquis-herve-affine-a-la-biere/",
+  "https://www.journalofdairyscience.org/article/S0022-0302(14)00511-6/fulltext",
+  "https://anycheese.com/types/fromage-de-herve/",
+  "https://fdc.nal.usda.gov/food-search?type=Foundation&query=Herve",
+  "https://matheo.uliege.be/handle/2268.2/23191",
+  "https://www.journalofdairyscience.org/article/S0022-0302(84)81380-6/pdf",
+  "http://higiene.unex.es/bibliogr/Proteoli/volques3.pdf"
+ ]
+}

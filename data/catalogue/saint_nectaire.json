@@ -1,0 +1,150 @@
+{
+ "id": "saint_nectaire",
+ "name": "Saint-Nectaire",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "semi_hard",
+ "origin": "Auvergne, France",
+ "process": {
+  "aging_months": 1,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 46.5,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 27.78,
+   "unit": "%",
+   "source_url": "https://www.ajbasweb.com/old/ajbas/2012/October/477-482.pdf",
+   "quote": "  * traditional, 30-d, Auvergne: **27.78 (±2.05) %, g/100g cheese**, source above",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 0.97,
+   "unit": "%",
+   "source_url": "https://www.ajbasweb.com/old/ajbas/2012/October/477-482.pdf",
+   "quote": "  * traditional, 30-d, Auvergne: **0.97 (±0.02) %, g/100g**, source above",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.66,
+   "unit": "",
+   "source_url": "https://www.ajbasweb.com/old/ajbas/2012/October/477-482.pdf",
+   "quote": "  * traditional, 30-d, Auvergne: **5.66 (±0.12), pH unit**, source above",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Limited amino acid deamination at 1 mo with soluble protein ~1.9 g/100g, low NH3 accumulation."
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "Pasture-derived p-cresol/indole plus Brevibacterium/rind flora metabolism in farmhouse raw-milk cellar ripening."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Hydrophobic peptides from chymosin/plasmin alpha-s1 casein proteolysis, balanced by high moisture."
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "No Penicillium roqueforti added; only trace 2-heptanone/2-nonanone from natural rind flora."
+  },
+  "browning": {
+   "score": 3.0,
+   "reason": "Maillard between residual lactose/galactose and lysine on heating in 1-mo high-moisture paste."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl/acetoin from Lactococcus lactis biovar diacetylactis citrate metabolism in uncooked curd."
+  },
+  "cheesy_sweaty": {
+   "score": 6.0,
+   "reason": "Butanoic and 3-methylbutanoic acids from lipolysis and leucine catabolism; GC-O vomit-cheesy-feet peaks."
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "27.78% fat, ~52% FDM with 46.5% moisture and 1-mo proteolysis giving coating mouthfeel."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "High-moisture pressed uncooked paste is supple-pliable with minimal fracture."
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "Pressed uncooked paste at 46.5% moisture gives supple semi-hard body, not hard."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Phenylethyl alcohol from phenylalanine catabolism identified as rose-floral GC-O peak."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Ethyl butanoate/ethyl hexanoate from microbial esterase esterification of FFA with ethanol."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk lacks goaty 4-methyl/4-ethyloctanoic acids; only trace short-chain FFA."
+  },
+  "malty_nutty": {
+   "score": 5.0,
+   "reason": "3-methylbutanal and 2-methylpropanal Strecker aldehydes from Leu/Val giving chocolate-nutty notes."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "pH 5.66 rennet gel with intact para-casein flows on heating, good for pressed uncooked cheese."
+  },
+  "mushroom_earthy": {
+   "score": 6.0,
+   "reason": "1-octen-3-ol and 2-nonanone from rind Mucor/Geotrichum linoleic acid lipoxygenase oxidation; cellar signature."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "Moderate free oil release from uncooked fat globules on heating, not excessive."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step; no guaiacol/volatile phenols expected."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Lactic plus acetic acids from mesophilic starter; acetic identified as vinegar GC-O peak at pH 5.66."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata hot-water kneading; rennet curd shows flow without stringing."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low methional/methanethiol from Met catabolism; uncooked curd with no cooked-milk sulfides."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose/galactose plus proline and buttery diacetyl masking acidity."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "Moderate glutamate from chymosin/plasmin proteolysis and water-soluble N accumulation."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.ajbasweb.com/old/ajbas/2012/October/477-482.pdf",
+  "https://fdc.nal.usda.gov/food-search?type=Foundation&query=Saint-Nectaire",
+  "https://www.ajbasweb.com/old/ajbas/2012/October/477-482.pdf?utm_source=chatgpt.com",
+  "https://www.dairy-journal.org/articles/dst/pdf/2008/04/dst88s4509.pdf",
+  "https://www.journalofdairyscience.org/action/showPdf?pii=S0022-0302%2809%2970620-4"
+ ]
+}

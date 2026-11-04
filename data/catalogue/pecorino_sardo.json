@@ -1,0 +1,148 @@
+{
+ "id": "pecorino_sardo",
+ "name": "Pecorino Sardo",
+ "milk": "sheep",
+ "treatment": "thermized",
+ "style": "semi_hard",
+ "origin": "Sardinia, Italy",
+ "process": {
+  "aging_months": 1.5,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 38.5,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC92830/",
+   "quote": "* moisture **38.5%**, unit: %",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 27.5,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(06)72458-4/pdf",
+   "quote": "* fat for 9 cheeses including Sardo: **27.5 to 29.7% (wt/wt)**, protein **26.4 to 27.7% (wt/wt)**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.5,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(06)72458-4/pdf",
+   "quote": "* NaCl content rather uniform in all cheeses and ranged from **1.5 to 2.3% (wt/wt)**.",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.3,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC92830/",
+   "quote": "* pH **5.3**, unit: pH",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Low protein deamination in 45-day thermized curd; starter deaminases produce little NH3."
+  },
+  "animal_barnyard": {
+   "score": 3.0,
+   "reason": "Sheep pasture-derived p-cresol and indole plus stable phenols give mild barnyard."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Calf rennet hydrophobic peptides partly hydrolyzed by Lactococcus lactis peptidases."
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "No Penicillium roqueforti; only trace 2-heptanone/2-nonanone from milk lipase."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Residual lactose/galactose plus lysine drive Maillard on heating."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Starter citrate metabolism to diacetyl/acetoin plus milkfat C4 short-chain acids."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "Sheep-milk lipolysis releases butanoic/hexanoic/octanoic acids causing sweaty-cheesy note."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "~44% fat-in-dry-matter and 38.5% moisture give smooth creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Young cooked-pressed matrix at pH 5.3 is elastic-sliceable, not fractured-crumbly."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "Cooked 43-45C pressed curd at 38.5% moisture forms firm semi-hard body."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Phenylalanine catabolism to phenylacetaldehyde and 2-phenylethanol gives light floral."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Lactic cocci esterases esterify fatty acids to ethyl butanoate/hexanoate."
+  },
+  "goaty": {
+   "score": 5.0,
+   "reason": "Ewe branched-chain 4-methyloctanoic/4-ethyloctanoic acids give characteristic sheep-goaty note."
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "Early Strecker 2-/3-methylbutanal and 2-methylpropanal from leucine/isoleucine/valine."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "pH 5.3 rennet casein with intact network flows moderately without pasta-filata alignment."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "Trace 1-octen-3-ol from linoleate oxidation; no bloomy mold contributes earthiness."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate free fat from 27.5% fat pools as oil when heated."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and no guaiacol/phenol formation in typical dolce make."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Streptococcus thermophilus/Lactococcus lactic and acetic acids at pH 5.3-4.8."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No hot-water stretching; rennet-cooked casein has no aligned filata fibers."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Mild 43-45C cook and low Lactococcus methionine-lyase limit H2S/methanethiol."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Residual lactose/lactate plus sweet amino acids proline/alanine in ewe milk."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "Rennet/plasmin proteolysis releases glutamate/aspartate in 45-day ripening."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC92830/",
+  "https://www.journalofdairyscience.org/article/S0022-0302(06)72458-4/pdf",
+  "https://www.mdpi.com/2304-8158/12/20/3797"
+ ]
+}

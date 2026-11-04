@@ -1,0 +1,22 @@
+[
+ {"name": "pizza", "split": "train", "cheeses": {"mozzarella": 0.75, "provolone": 0.25},
+  "description": "A topping baked on bread dough: very stretchy and stringy when pulled, mild, milky and a little tangy, browns in spots, melts evenly."},
+ {"name": "mac_and_cheese", "split": "train", "cheeses": {"cheddar": 0.6, "gruyere": 0.4},
+  "description": "A smooth, creamy melted sauce baked over pasta: sharp and savory with a nutty depth, melts without stringing, golden crust."},
+ {"name": "cacio_e_pepe", "split": "train", "cheeses": {"pecorino_romano": 0.8, "parmigiano": 0.2},
+  "description": "Finely grated and melted into a glossy pasta sauce: very salty, sharp, tangy and intensely savory, no stretch."},
+ {"name": "fondue_moitie_moitie", "split": "test", "cheeses": {"gruyere": 0.5, "vacherin_fribourgeois": 0.5},
+  "description": "An Alpine melted-cheese dip: smooth, creamy, gently stretchy, nutty and fruity, slightly funky."},
+ {"name": "quattro_formaggi", "split": "test", "cheeses": {"mozzarella": 0.4, "gorgonzola": 0.2, "fontina": 0.2, "parmigiano": 0.2},
+  "description": "A baked topping of several cheeses: a stretchy milky base, pockets of sharp blue funk, a buttery nutty melt and a salty savory finish."},
+
+ {"name": "fondue_neuchateloise", "cheeses": {"gruyere": 0.5, "emmental": 0.5}},
+ {"name": "fondue_savoyarde", "cheeses": {"comte": 0.34, "emmental": 0.33, "beaufort": 0.33}},
+ {"name": "lasagne", "cheeses": {"mozzarella": 0.5, "ricotta": 0.3, "parmigiano": 0.2}},
+ {"name": "calzone", "cheeses": {"mozzarella": 0.6, "ricotta": 0.4}},
+ {"name": "eggplant_parmigiana", "cheeses": {"mozzarella": 0.6, "parmigiano": 0.4}},
+ {"name": "french_onion_soup", "cheeses": {"gruyere": 0.7, "comte": 0.3}},
+ {"name": "quesadilla", "cheeses": {"monterey_jack": 0.6, "cheddar": 0.4}},
+ {"name": "spanakopita", "cheeses": {"feta": 0.7, "ricotta": 0.3}},
+ {"name": "pasta_al_forno", "cheeses": {"mozzarella": 0.5, "provolone": 0.3, "pecorino_romano": 0.2}}
+]

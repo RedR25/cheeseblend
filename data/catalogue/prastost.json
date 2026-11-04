@@ -1,0 +1,148 @@
+{
+ "id": "prastost",
+ "name": "Prästost",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Sweden",
+ "process": {
+  "aging_months": 12.0,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 40.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 35.0,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12411249/",
+   "quote": "The corresponding composition of both Präst varieties was 22% protein and 35% fat, of which 22% comprised saturated fat.",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.2,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12411249/",
+   "quote": "All cheese types contained 1.2% salt and no carbohydrates.",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.3,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Low ammonia from deamination of amino acids by NSLAB during 12-18 mo ripening, no surface flora."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Very low p-cresol/indole from Tyr/Trp catabolism; pasteurized cow milk, no washed rind."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Moderate hydrophobic peptides from chymosin/plasmin proteolysis, mostly degraded by Lactobacillus peptidases."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation, no methyl ketones from blue mold lipolysis."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Good Maillard browning from free amino acids and residual galactose in cooked low-moisture curd on heating."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl/acetoin from citrate metabolism by Lactococcus/Leuconostoc starter in washed-cooked curd."
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "Moderate butanoic/hexanoic acids from milk lipase and starter esterase lipolysis during long ripening."
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "35% fat, 45-50% FDM gives smooth mouthfeel but firm aged matrix limits creaminess."
+  },
+  "crumbliness": {
+   "score": 4.0,
+   "reason": "Calcium phosphate solubilization and proteolysis plus tyrosine crystals at 12 mo create moderate fracture."
+  },
+  "firmness": {
+   "score": 6.0,
+   "reason": "Cooked, pressed semi-hard paste at ~40% moisture aged 12 mo gives firm elastic body."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol from phenylalanine Strecker degradation by NSLAB."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate/hexanoate from esterification of free fatty acids with ethanol from heterofermentative NSLAB."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk lacks caprine 4-methyloctanoic/4-ethyloctanoic acids; no goat-milk lipase signature."
+  },
+  "malty_nutty": {
+   "score": 7.0,
+   "reason": "High 2-/3-methylbutanal and 2-methylpropanal from Leu/Ile/Val Strecker degradation, signature nutty Präst note."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "Rennet-coagulated, pH ~5.3 calcium-paracasein network flows on heating, not acid-set."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "Trace 1-octen-3-ol from linoleic acid oxidation; no mushroom rind flora."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "Moderate free oil from 35% fat coalesced fat globules in aged protein matrix on melting."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No wood smoking step, no guaiacol/syringol phenols applied."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Lactic and low acetic acid from starter/NSLAB fermentation; lactose depleted, pH stabilized."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata hot-water stretching; cooked rennet curd shows only slight plastic flow."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low H2S/methional from Met catabolism and whey protein denaturation in ~42C cooked curd."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Sweet proline/glycerol and dihydroxyacetone notes plus low acid masking, no residual lactose."
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "High free glutamate from extensive chymosin/plasmin plus Lactobacillus paracasei proteolysis over 12 mo."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12411249/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6262004/",
+  "https://stud.epsilon.slu.se/17186/1/carlsson-s-210830.pdf"
+ ]
+}

@@ -1,0 +1,256 @@
+{
+ "id": "gruyere",
+ "name": "Gruyère AOP",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "alpine_hard",
+ "origin": "Switzerland",
+ "process": {
+  "aging_months": 8,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 33.19,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/",
+   "quote": "* **Water: 33.19 g / 100 g = 33.19 %**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 32.34,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/",
+   "quote": "* **Total lipid (fat): 32.34 g / 100 g = 32.34 %**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.5,
+   "unit": "%",
+   "source_url": "https://f-ideas.co.uk/",
+   "quote": "* **Salt: 1.50 %**",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.4,
+   "unit": "",
+   "source_url": "https://f-ideas.co.uk/",
+   "quote": "* **pH: mean 5.5, range 5.4-5.8**",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 255.0,
+   "unit": "µg/kg",
+   "source_url": "https://ira.agroscope.ch/en-US/Page/Einzelpublikation/Download?einzelpublikationId=18480",
+   "quote": "* **2-Methylbutanal (1) 897 255 10 90 26**",
+   "confidence": "measured",
+   "name": "2-methylbutanal"
+  },
+  {
+   "value": 219.0,
+   "unit": "µg/kg",
+   "source_url": "https://ira.agroscope.ch/en-US/Page/Einzelpublikation/Download?einzelpublikationId=18480",
+   "quote": "* **3-Methylbutanal (2) 343 219 13 26 17**",
+   "confidence": "measured",
+   "name": "3-methylbutanal"
+  },
+  {
+   "value": 99.0,
+   "unit": "µg/kg",
+   "source_url": "https://ira.agroscope.ch/en-US/Page/Einzelpublikation/Download?einzelpublikationId=18480",
+   "quote": "* **Methional (3) 253 99 0.2 1270 495**",
+   "confidence": "measured",
+   "name": "methional"
+  },
+  {
+   "value": 136.0,
+   "unit": "µg/kg",
+   "source_url": "https://ira.agroscope.ch/en-US/Page/Einzelpublikation/Download?einzelpublikationId=18480",
+   "quote": "* **Dimethyltrisulphide (4) 67 136 2.5 27 54 Phenylacetaldehyde (5) 24 20 25 1 1**",
+   "confidence": "measured",
+   "name": "dimethyl trisulfide"
+  },
+  {
+   "value": 20.0,
+   "unit": "µg/kg",
+   "source_url": "https://ira.agroscope.ch/en-US/Page/Einzelpublikation/Download?einzelpublikationId=18480",
+   "quote": "* **Dimethyltrisulphide (4) 67 136 2.5 27 54 Phenylacetaldehyde (5) 24 20 25 1 1**",
+   "confidence": "measured",
+   "name": "phenylacetaldehyde"
+  },
+  {
+   "value": 1690.0,
+   "unit": "µg/kg",
+   "source_url": "https://ira.agroscope.ch/en-US/Page/Einzelpublikation/Download?einzelpublikationId=18480",
+   "quote": "* **d-Decalactone (9) 1420 1690 400 3.6 4.2**",
+   "confidence": "measured",
+   "name": "delta-decalactone"
+  },
+  {
+   "value": 700.0,
+   "unit": "µg/kg",
+   "source_url": "https://ira.agroscope.ch/en-US/Page/Einzelpublikation/Download?einzelpublikationId=18480",
+   "quote": "* **Methanethiol (11) 436 700 0.06 7270 11,300**",
+   "confidence": "measured",
+   "name": "methanethiol"
+  },
+  {
+   "value": 298000.0,
+   "unit": "µg/kg",
+   "source_url": "https://ira.agroscope.ch/en-US/Page/Einzelpublikation/Download?einzelpublikationId=18480",
+   "quote": "> Acetic acid (12) 54 301 298 5.6 5.5",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 87000.0,
+   "unit": "µg/kg",
+   "source_url": "https://ira.agroscope.ch/en-US/Page/Einzelpublikation/Download?einzelpublikationId=18480",
+   "quote": "> Propionic acid (13) 30 31 87 1 .0 2.9",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 97000.0,
+   "unit": "µg/kg",
+   "source_url": "https://ira.agroscope.ch/en-US/Page/Einzelpublikation/Download?einzelpublikationId=18480",
+   "quote": "> Butyric acid (15) 18 271 97 15.1 5.4",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 81000.0,
+   "unit": "µg/kg",
+   "source_url": "https://ira.agroscope.ch/en-US/Page/Einzelpublikation/Download?einzelpublikationId=18480",
+   "quote": "> 2-/3-Methylbutyric acid (16/17) 10 480 81 48 8.1",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  },
+  {
+   "value": 28000.0,
+   "unit": "µg/kg",
+   "source_url": "https://ira.agroscope.ch/en-US/Page/Einzelpublikation/Download?einzelpublikationId=18480",
+   "quote": "> Hexanoic acid (18) 81 116 28 1 .4 0.3",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 211000.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0306(84)81454-X/pdf",
+   "quote": "> Caprylic 16.4 a 13.4 11.7 a_5.7 29.8 b 14.1 21.1 ab_9.7",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 3.0,
+   "reason": "NH3 37.2 mmol/kg from amino acid deamination during 8-mo ripening, moderate for interior-ripened alpine."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "No indole/p-cresol reported; raw cow alpine milk gives clean stable note only."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Long proteolysis balanced by Lb. helveticus peptidases limits hydrophobic bitter peptides."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti, no blue mold; methyl ketones 2-heptanone/2-nonanone not detected."
+  },
+  "browning": {
+   "score": 7.0,
+   "reason": "Low moisture 33% + high free amino acids from proteolysis drives Maillard on heating."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Diacetyl 0.53 mg/kg at 6 mo from citrate metabolism plus delta-decalactone 1690 ug/kg, partly reduced with age."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "Butyric 97 mg/kg OAV 5.4 + 2-/3-methylbutyric 81 mg/kg OAV 8.1 from lipolysis and Leu/Ile catabolism."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "32.34% fat (~49% FDM) smoothed by proteolysis and lactones despite cooked firm paste."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Rennet-cooked pressed elastic network, not acid-set; fractures only slightly, not crumbly."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Cooked to ~52-54C, pressed, moisture 33-36% and 8-mo aging gives dense firm-elastic body."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Phenylacetaldehyde 20 ug/kg OAV ~1 + phenylacetic acid 7.27 mg/kg from Phe catabolism."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Delta-decalactone 1690 ug/kg OAV 4.2 + propionic 87 mg/kg ethyl esters from Propionibacterium."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk only; no goat 4-methyloctanoic/4-ethyloctanoic acids, octanoic low."
+  },
+  "malty_nutty": {
+   "score": 7.0,
+   "reason": "2-methylbutanal 255 ug/kg + 3-methylbutanal 219 ug/kg OAV 17-26 from Leu/Ile Strecker degradation."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "Rennet gel pH 5.4-5.5 with intact casein flows well on heating, classic fondue cheese."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "No Penicillium camemberti; 1-octen-3-ol/1-octen-3-one not detected."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "32% fat in firm protein network releases moderate free oil on melting, not excessive."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Not smoked; guaiacol not detected."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Acetic 298 mg/kg + propionic 87 mg/kg from thermophilic starters and Propionibacterium warm-room fermentation."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "Not pasta-filata; no hot-water stretching, rennet alpine paste has minimal stretch."
+  },
+  "sulfur_cooked": {
+   "score": 5.0,
+   "reason": "Methanethiol 700 ug/kg OAV 11300 + dimethyl trisulfide 136 ug/kg + methional 99 ug/kg from Met catabolism."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Lactose depleted, mild sweetness from Ala/Pro/Gly and lactones/diacetyl perception."
+  },
+  "umami": {
+   "score": 7.0,
+   "reason": "High Glu from rennet/plasmin and Lactobacillus proteolysis over 8 months."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://fdc.nal.usda.gov/",
+  "https://f-ideas.co.uk/",
+  "https://ira.agroscope.ch/en-US/Page/Einzelpublikation/Download?einzelpublikationId=18480",
+  "https://www.journalofdairyscience.org/article/S0022-0306(84)81454-X/pdf",
+  "https://www.aqua-calc.com/calculate/food-weight-to-volume/substance/cheese-coma-and-blank-gruyere",
+  "https://www.journalofdairyscience.org/article/S0022-0302(84)81454-X/fulltext"
+ ]
+}

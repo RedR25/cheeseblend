@@ -1,0 +1,150 @@
+{
+ "id": "fourme_d_ambert",
+ "name": "Fourme d'Ambert",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "blue",
+ "origin": "Auvergne, France",
+ "process": {
+  "aging_months": 2,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "blue",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 47.2,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 28.7,
+   "unit": "%",
+   "source_url": "https://hal.science/hal-02366018v1/file/Manuscript_IJFSN_version_postprint_HAL.pdf",
+   "quote": "Fat, g_4.0 ± 0.1b | 3.5 ± 0.0a |5.8 ± 0.2c | 23.6 ± 0.8d | 28.7 ± 0.6e | 32.6 ± 2.1f | 37.7 ± 0.2g | <0.0001",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.9,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 7.09,
+   "unit": "",
+   "source_url": "https://hal.science/hal-02366018v1/file/Manuscript_IJFSN_version_postprint_HAL.pdf",
+   "quote": "| pH_6.72 ± 0.00c | 6.72 ± 0.01c | 4.28 ± 0.03a | 6.77 ± 0.10c | 7.09 ± 0.03d | 5.70 ± 0.09b | 5.82 ± 0.02b | <0.0001 |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 4.0,
+   "reason": "Extended proteolysis and amino acid deamination by Penicillium releases NH3 raising pH to ~7.1."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Pasteurized cow milk and clean Penicillium ripening limit p-cresol/indole/4-ethyloctanoic barnyard compounds."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Moderate hydrophobic peptides from chymosin/plasmin balanced by mold peptidases; mild salt keeps bitterness low."
+  },
+  "blue_moldy": {
+   "score": 7.0,
+   "reason": "Penicillium roqueforti beta-oxidation of octanoic acid to 2-heptanone/2-nonanone defines blue veins but milder than Roquefort."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Moderate protein plus residual galactose/peptides support Maillard but high moisture and low reducing sugar limit browning."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Lactococcus lactis biovar diacetylactis citrate fermentation yields diacetyl/acetoin retained through short aging."
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "Penicillium roqueforti lipase releases butanoic/hexanoic acids; mild lipolysis keeps sweaty punch moderate vs Roquefort."
+  },
+  "creaminess": {
+   "score": 7.0,
+   "reason": "28.7% fat (~54% FDM) and uncooked, unpressed curd with mold proteolysis create smooth buttery mouthfeel."
+  },
+  "crumbliness": {
+   "score": 3.0,
+   "reason": "High moisture and fat plus proteolyzed matrix fuse curd grains, limiting dry fracture."
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "Unpressed 47% moisture rennet gel with blue piercing gives supple semi-soft body, far softer than hard grana."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Phenylalanine catabolism to phenylacetaldehyde/2-phenylethanol by mold yields light floral background."
+  },
+  "fruity": {
+   "score": 5.0,
+   "reason": "Mold esterases esterify butanoate/hexanoate with secondary alcohols from ketone reduction to ethyl esters."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk low in C6-C10 goat-associated fatty acids and no goat-milk branched-chain lipolysis."
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "Leucine/isoleucine catabolism by starter plus Penicillium yields 3-methylbutanal/2-methylbutanal giving nutty notes."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "High pH demineralized casein and high fat-in-dry-matter allow good flow on heating without pasta-filata structure."
+  },
+  "mushroom_earthy": {
+   "score": 5.0,
+   "reason": "Penicillium lipoxygenase oxidation of linoleic acid to 1-octen-3-ol gives mushroom-earthy interior."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate free fat from Penicillium lipolysis coalesces on heating but intact protein network retains most oil."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoke exposure or smoked process; no guaiacol/syringol formation."
+  },
+  "sour_vinegar": {
+   "score": 2.0,
+   "reason": "Lactate largely consumed by mold and pH 7.09 buffers acetic/lactic sharpness."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No high-heat stretching/acid demineralization; rennet gel fragments rather than aligning into fibers."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low methionine-derived methanethiol/DMDS; pasteurized milk without cooked-curd H2S and no washed-rind flora."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Deacidification by lactate consumption plus diacetyl/lactones and low sourness enhance sweet perception."
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "Rennet plus Penicillium aspartyl proteinases release glutamate/aspartate enhancing savory broth taste."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://hal.science/hal-02366018v1/file/Manuscript_IJFSN_version_postprint_HAL.pdf",
+  "https://fdc.nal.usda.gov/food-search?type=Foundation&query=Fourme",
+  "https://www.legislation.gov.uk/cy/eur/2013/1207/annex/II/division/CONSOLIDATED/division/3/division/3.2",
+  "https://journal.pan.olsztyn.pl/pdf-98775-30778?filename=30778.pdf",
+  "https://hal.science/hal-01987736v1"
+ ]
+}

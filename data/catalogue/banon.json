@@ -1,0 +1,149 @@
+{
+ "id": "banon",
+ "name": "Banon",
+ "milk": "goat",
+ "treatment": "raw",
+ "style": "soft_bloomy",
+ "origin": "Provence, France",
+ "process": {
+  "aging_months": 0.5,
+  "coagulation": "mixed",
+  "cooked": false,
+  "mold": "white",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 55.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 23.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 1.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.1,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Limited urea deamination and amino acid deamination after only 15 days ripening."
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "p-cresol/indole from goat milk plus rind yeasts and natural flora under chestnut leaf."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Low hydrophobic peptides from chymosin proteolysis, partly masked by lactic acidity."
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "Very low 2-heptanone/2-nonanone, no Penicillium roqueforti inoculation."
+  },
+  "browning": {
+   "score": 1.0,
+   "reason": "High moisture and depleted lactose after lactic fermentation limits Maillard on heating."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl/acetoin from citrate fermentation by Lactococcus lactis in raw-milk lactic curd."
+  },
+  "cheesy_sweaty": {
+   "score": 6.0,
+   "reason": "Butanoic and hexanoic acids from goat-fat lipolysis by native lipase and Geotrichum."
+  },
+  "creaminess": {
+   "score": 8.0,
+   "reason": "High moisture plus raw goat fat and surface deacidification proteolysis gives creamy paste."
+  },
+  "crumbliness": {
+   "score": 4.0,
+   "reason": "Acid-demineralized lactic gel gives friable-chalky core that creams from rind inward."
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "High moisture ~55% unpressed lactic gel, soft spoonable disc under leaf wrapping."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low 2-phenylethanol/phenylacetaldehyde from phenylalanine catabolism by rind yeasts."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate/hexanoate from yeast esterification of free fatty acids with ethanol."
+  },
+  "goaty": {
+   "score": 8.0,
+   "reason": "Caproic/caprylic/capric and 4-methyloctanoic acids from goat-milk triglyceride lipolysis."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "Low 3-methylbutanal/3-methylbutanol from leucine Strecker degradation during short aging."
+  },
+  "melt": {
+   "score": 4.0,
+   "reason": "Acid lactic curd with calcium-depleted casein softens but flows poorly on heating."
+  },
+  "mushroom_earthy": {
+   "score": 5.0,
+   "reason": "1-octen-3-ol/1-octen-3-one from Geotrichum lipase/lipoxygenase plus damp chestnut leaf."
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Moderate fat ~23% emulsified in hydrated protein network, little free oil on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking; no guaiacol phenols, chestnut leaf contributes tannin-woody not smoke."
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "Lactic plus acetic acids from mesophilic lactic fermentation, core pH ~5.1."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata kneading, acid curd lacks intact micellar calcium for fiber formation."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Minimal methionine-derived sulfides, no curd cooking and short ripening."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Little residual lactose, slight sweetness from glycerol and proline balanced by acidity."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Low glutamate from limited chymosin and plasmin proteolysis in young paste."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://fdc.nal.usda.gov/fdc-app.html#/food-search",
+  "https://www.legislation.gov.uk/eur/2013/1211/annex/II/division/CONSOLIDATED/2020-01-31/data.xht?view=snippet&wrap=true",
+  "https://www.journalofdairyscience.org/article/S0022-0302(12)00193-2/fulltext",
+  "https://world.openfoodfacts.org/product/3461680002062/banon-lactalis"
+ ]
+}

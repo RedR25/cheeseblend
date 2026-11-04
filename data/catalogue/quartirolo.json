@@ -1,0 +1,159 @@
+{
+ "id": "quartirolo",
+ "name": "Quartirolo Lombardo",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "fresh",
+ "origin": "Lombardy, Italy",
+ "process": {
+  "aging_months": 0.5,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 64.7,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9964947/",
+   "quote": "| Quartirolo (C) | 64.7 | 2.00 | 0.969 | 4.27 | <LoQ | 16,074 | 844 |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 28.2,
+   "unit": "%",
+   "source_url": "https://mdpi.com/1420-3049/19/7/8707",
+   "quote": "Whole wheels of Taleggio, Quartirolo, Provolone and Casera, were purchased from local farms. The cheeses contained 27.5%, 28.2%, 26.9% and 33.8% fat, respectively, (Table S3, Supplementary Material) (IDF-International Dairy Federation, 1993)",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.0,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9964947/",
+   "quote": "| Quartirolo (C) | 64.7 | 2.00 | 0.969 | 4.27 | <LoQ | 16,074 | 844 |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 4.27,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9964947/",
+   "quote": "| Quartirolo (C) | 64.7 | 2.00 | 0.969 | 4.27 | <LoQ | 16,074 | 844 |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 844000.0,
+   "unit": "µg/kg",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9964947/",
+   "quote": "| Quartirolo (C) | 64.7 | 2.00 | 0.969 | 4.27 | <LoQ | 16,074 | 844 |",
+   "confidence": "measured",
+   "name": "acetic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Minimal deamination from short 5-30 day proteolysis despite high aw 0.97."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Very low p-cresol/indole; pasteurized cow milk and clean thin rind, no smear flora."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Low hydrophobic peptides from rennet; short ripening prevents accumulation."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti, no methyl ketones 2-heptanone/2-nonanone formed."
+  },
+  "browning": {
+   "score": 2.0,
+   "reason": "High moisture and low free amino acids limit Maillard; residual lactose low."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Diacetyl/acetoin from citrate fermentation by Streptococcus thermophilus/Lactococcus starter."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Low butanoic/hexanoic acids from limited native lipase and short ripening, no added lipase."
+  },
+  "creaminess": {
+   "score": 7.0,
+   "reason": "51.1% fat-in-dry-matter plus 64.7% moisture gives lubricating fat-water emulsion."
+  },
+  "crumbliness": {
+   "score": 4.0,
+   "reason": "Low pH 4.27 near casein isoelectric point demineralizes micelles causing friable fracture."
+  },
+  "firmness": {
+   "score": 2.0,
+   "reason": "64.7% moisture uncooked rennet curd with open hydrated protein network."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Trace phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism, masked by acidity."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Trace ethyl butanoate/hexanoate from LAB esterification of FFA with ethanol, limited by young age."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk lacks goat branched 4-methyloctanoic/4-ethyloctanoic acids."
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "Minimal Strecker 3-methylbutanal/2-methylbutanal due to short aging and low proteolysis."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "High moisture young casein flows on heating; low pH slightly limits but does not prevent flow."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "Trace 1-octen-3-ol from linoleic acid oxidation; no surface mold."
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Uncooked young protein matrix entraps 28.2% fat, minimal free oil on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step, no guaiacol/syringol deposition."
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "High lactic acid ~16074 mg/kg plus acetic 844 mg/kg from LAB, pH 4.27-4.5."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Not pasta-filata, no hot-water kneading or aligned casein; curd fragments."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Low methional/DMS; only slight pasteurization heat note, curd not cooked."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose/galactose and milky fat perceived sweet despite lactic acidity."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "Low free glutamate from limited rennet/plasmin proteolysis in 2-4 week cheese."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9964947/",
+  "https://mdpi.com/1420-3049/19/7/8707",
+  "https://fdc.nal.usda.gov/fdc-app.html#/food-search?query=quartirolo",
+  "https://mdpi-res.com/d_attachment/molecules/molecules-19-08707/article_deploy/molecules-19-08707-s001.pdf?version=1403687503",
+  "https://air.unimi.it/handle/2434/191622?mode=complete"
+ ]
+}

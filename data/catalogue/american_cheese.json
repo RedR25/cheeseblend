@@ -1,0 +1,150 @@
+{
+ "id": "american_cheese",
+ "name": "American cheese (processed)",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "cheddar",
+ "origin": "USA",
+ "process": {
+  "aging_months": 0.5,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 39.61,
+   "unit": "%",
+   "source_url": "https://aqua-calc.com/calculate/food-volume-to-weight?query=Cheese%2C+pasteurized+process%2C+American%2C+without+added+vitamin+D",
+   "quote": "* **Water / moisture: 39.61 g / 100 g = 39.61 %**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 31.79,
+   "unit": "%",
+   "source_url": "https://aqua-calc.com/calculate/food-volume-to-weight?query=Cheese%2C+pasteurized+process%2C+American%2C+without+added+vitamin+D",
+   "quote": "* **Total lipid (fat): 31.79 g / 100 g = 31.79 %**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.1,
+   "unit": "%",
+   "source_url": "https://minds.wisconsin.edu/bitstream/handle/1793/66387/PatelPranaykumar.pdf?sequence=1",
+   "quote": "* **Salt (as chloride by Quantab): 2.10 %**",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.57,
+   "unit": "",
+   "source_url": "https://minds.wisconsin.edu/bitstream/handle/1793/66387/PatelPranaykumar.pdf?sequence=1",
+   "quote": "* **pH: 5.57** – text: Control (NaCl), Treatment1 (KCl) and Treatment2 were 5.6, 5.6 and 5.5, table 5.57a",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Low proteolysis/deamination in young base plus NH3 stripped during cooking."
+  },
+  "animal_barnyard": {
+   "score": 0.0,
+   "reason": "Pasteurized, no Brevibacterium p-cresol/indole/skatole barnyard compounds."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "Young, low hydrophobic peptides and Ca-chelation by citrate/phosphate masks bitterness."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti; no C7/C9/C11 methyl ketones formed."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Limited Maillard due to low residual lactose/whey and short high-heat exposure."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Starter-derived diacetyl/acetoin from Cheddar base plus milkfat retained through emulsification."
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "Low butyric/hexanoic acids from young Cheddar lipolysis, partly volatilized at 84C cook."
+  },
+  "creaminess": {
+   "score": 8.0,
+   "reason": "Sodium citrate/phosphate emulsification of 31.8% fat into smooth homogeneous matrix."
+  },
+  "crumbliness": {
+   "score": 0.0,
+   "reason": "Plasticized processed casein with no aged crystal/curd junctions to fracture."
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "High moisture 39.6% and emulsified casein network give soft sliceable body."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Trace phenylacetaldehyde/phenylethanol only; no floral starter or pasture terpenes."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Very low ethyl butanoate/hexanoate; young curd plus heating limits esterase esterification."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "No goat milk caproic/caprylic/capric branched acids; cow milk only."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Minimal Strecker 2-/3-methylbutanal from short-aged base and heat-denatured enzymes."
+  },
+  "melt": {
+   "score": 9.0,
+   "reason": "Emulsifying salts deflocculate casein and hydrate paracasein for uniform flow without curdling."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No Penicillium/Geotrichum 1-octen-3-ol/1-octen-3-one pathways."
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Phosphate/citrate emulsification binds free fat, preventing oiling despite 31.8% fat."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked formulation; no guaiacol/syringol from smoke."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Lactic/acetic acid from starter, pH 5.57 gives mild tang without sharp vinegar."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "No aligned pasta-filata paracasein fibers; melt flows viscously rather than strings."
+  },
+  "sulfur_cooked": {
+   "score": 3.0,
+   "reason": "Heat-induced whey protein sulfhydryls/H2S from 84C pasteurization-cook of curd blend."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose/carbohydrate ~3.7% plus diacetyl/lactones give faint sweet-milk note."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "Modest glutamate peptides from ~20-day Cheddar base enhanced by Na-phosphate/citrate salts."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://aqua-calc.com/calculate/food-volume-to-weight?query=Cheese%2C+pasteurized+process%2C+American%2C+without+added+vitamin+D",
+  "https://minds.wisconsin.edu/bitstream/handle/1793/66387/PatelPranaykumar.pdf?sequence=1",
+  "https://ams.prod.usda.gov/sites/default/files/media/FINALDPPC5PasteurizedProcessAmericanCheeseSpec092019.pdf",
+  "https://www.journalofdairyscience.org/article/S0022-0302(12)00071-9/fulltext",
+  "https://www.slideshare.net/slideshow/determination-of-organic-acids-in-cheese-by-hplc-methods-presentation/914860"
+ ]
+}

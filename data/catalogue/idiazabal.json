@@ -1,0 +1,147 @@
+{
+ "id": "idiazabal",
+ "name": "Idiazabal",
+ "milk": "sheep",
+ "treatment": "raw",
+ "style": "semi_hard",
+ "origin": "Basque Country and Navarre, Spain",
+ "process": {
+  "aging_months": 4,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 32.2,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 35.2,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 1.4,
+   "unit": "%",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/2006/06/L0625.pdf",
+   "quote": "content of NaCl in total matter increased from 1.4% ± 0.3 (on ripening d1) to 2.5% ± 0.1 (on ripening d180) for Idiazabal cheese",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.08,
+   "unit": "",
+   "source_url": "https://www.mdpi.com/2076-2615/12/22/3224",
+   "quote": "pH was 5.08 ± 0.08 on the first day of ripening, which decreased and reached the lowest values at 30 days (4.91 ± 0.14). Then, up to 120 days, the pH increased close to the initial values (5.11 ± 0.14)",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 3.0,
+   "reason": "Limited surface deamination in pressed low-moisture cheese; modest NH3 from amino-acid deamination."
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "Raw Latxa milk and artisanal lamb rennet paste contribute p-cresol, indole and barnyard fatty acids."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Hydrophobic peptides from raw ewe casein and chymosin, partly trimmed by lactobacilli peptidases."
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "No Penicillium roqueforti; only low background 2-heptanone and 2-nonanone from fatty-acid beta-oxidation."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Very low residual lactose limits Maillard, but free amino acids allow light browning on heating."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Lactococcus citrate metabolism yields diacetyl/acetoin, largely volatilized or reduced during long aging."
+  },
+  "cheesy_sweaty": {
+   "score": 7.0,
+   "reason": "Lamb pregastric lipase plus raw-milk lipase release abundant C4-C10 free fatty acids, total FFA up to ~50 umol/g."
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "High fat-in-dry-matter ~52% gives mouth-coating, but 32% moisture and firm matrix limit creaminess."
+  },
+  "crumbliness": {
+   "score": 5.0,
+   "reason": "Low moisture, calcium-phosphate solubilization and extended proteolysis create granular fracture."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "Pressed semi-hard paste at ~32% moisture and pH ~5.0 gives firm sliceable body."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Phenylalanine catabolism to phenylacetaldehyde and 2-phenylethanol gives light floral note."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "NSLAB esterases esterify free fatty acids to ethyl butanoate and ethyl hexanoate during ripening."
+  },
+  "goaty": {
+   "score": 5.0,
+   "reason": "Sheep-milk short and branched-chain acids including 4-methyloctanoic and C6-C10 acids give sheepy piquancy."
+  },
+  "malty_nutty": {
+   "score": 6.0,
+   "reason": "Extended proteolysis and Strecker aldehydes 2-/3-methylbutanal from leucine/isoleucine give nutty notes."
+  },
+  "melt": {
+   "score": 4.0,
+   "reason": "Rennet-gelled pH ~5.0 paracasein network flows moderately but aged low moisture restricts full melt."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "No bloomy rind; only trace 1-octen-3-ol from linoleic acid oxidation."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "High ewe-milk fat with extensive lipolysis releases free oil on heating."
+  },
+  "smoky": {
+   "score": 1.0,
+   "reason": "Typical unsmoked PDO has no beechwood smoke phenols like guaiacol; smoked version is separate."
+  },
+  "sour_vinegar": {
+   "score": 5.0,
+   "reason": "Starter lactic acid plus very high acetic acid ~26.5 mmol/kg from heterofermentation."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Non-pasta-filata rennet curd lacks heat-aligned demineralized paracasein for stretching."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low curd heating ~37-38C limits whey-protein denaturation; only mild methionine catabolism to sulfides."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Lactose depleted; slight sweetness from free amino acids, glycerol and propanal."
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "Chymosin, plasmin and Lactobacillus peptidases accumulate glutamate and savory peptides."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://lait.dairy-journal.org/articles/lait/pdf/2006/06/L0625.pdf",
+  "https://www.mdpi.com/2076-2615/12/22/3224"
+ ]
+}

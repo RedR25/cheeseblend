@@ -1,0 +1,151 @@
+{
+ "id": "labneh",
+ "name": "Labneh",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "fresh",
+ "origin": "Levant (Lebanon, Syria, Jordan)",
+ "process": {
+  "aging_months": 0,
+  "coagulation": "acid",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 76.81,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3959963/",
+   "quote": "- **Moisture: Bovine 76.81 %, Caprine 77.25 %, Ovine 76.68 %**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 20.0,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(80)83146-8/pdf",
+   "quote": "- **Fat 20.00 % wet basis, 43.00 % dry basis**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 4.83,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(80)83146-8/pdf",
+   "quote": "- **Salt 4.83 % wet basis, 10.39 % dry basis**",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 3.59,
+   "unit": "",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(80)83146-8/pdf",
+   "quote": "- **pH 3.59**",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "140 mg/kg total ammonia but pH 3.59 traps as non-volatile NH4+, no deamination aging"
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "fresh yogurt, no p-cresol/indole from manure or long proteolysis"
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "minimal hydrophobic peptides from rennet-free, unaged acid gel; EPS cultures mask bitterness"
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "no Penicillium roqueforti, no 2-heptanone/2-nonanone methyl ketones"
+  },
+  "browning": {
+   "score": 1.0,
+   "reason": "high moisture and pH 3.59 inhibit Maillard; denatured whey proteins do not brown"
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "diacetyl 117-145 umol/100g from citrate metabolism by Lactococcus/Streptococcus thermophilus"
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "very low lipolysis, FFA 0.045 meq/g, no rennet lipase and no aged butanoic acid"
+  },
+  "creaminess": {
+   "score": 8.0,
+   "reason": "strained acid gel with 20% homogenized fat plus EPS from yogurt cultures gives smooth viscous mouthfeel"
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "cohesive acid casein gel, not a crumbly rennet curd"
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "spoonable strained yogurt, 23-46% solids with no rennet or press-hardening"
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "trace phenylacetaldehyde/2-phenylethanol only, no floral terpene development"
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "yogurt acetaldehyde 271-321 umol/100g gives green-apple/fruity note, almost no ethyl esters"
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "cow-milk base low in 4-methyloctanoic/caproic goat acids"
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "no Strecker 3-methylbutanal or aged pyrazines, no propionibacteria"
+  },
+  "melt": {
+   "score": 1.0,
+   "reason": "isoelectric acid casein at pH 3.59 wheys off and curdles, does not flow"
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "no 1-octen-3-ol/1-octen-3-one from mold linoleate oxidation"
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "stable acid emulsion despite 20% fat; slight oiling only when warmed or balls stored in oil"
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "not smoked, no guaiacol/phenols"
+  },
+  "sour_vinegar": {
+   "score": 9.0,
+   "reason": "pH 3.59-3.68 with 1.1-3.4% lactic acid from S. thermophilus/L. bulgaricus lactose fermentation"
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "no pasta-filata kneading, acid-precipitated casein lacks extensible network"
+  },
+  "sulfur_cooked": {
+   "score": 3.0,
+   "reason": "milk boiled/85-90C 15-30 min plus yogurt H2S/DMS gives cooked-milk sulfur note"
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "lactose mostly fermented to lactate, low pH suppresses sweet perception"
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "low free glutamate with no aged proteolysis to release umami peptides"
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://www.journalofdairyscience.org/article/S0022-0302(80)83146-8/pdf",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC3959963/",
+  "https://journals.ekb.eg/article_175224_c235c6a5ffb23af0329d8ee9a0e40125.pdf",
+  "https://www.scielo.br/j/cta/a/B5Fc5V6wnJ7KKsvp7WGz6zs/?lang=en",
+  "https://www.academia.edu/19924773/Production_of_probiotic_low_fat_labneh_by_using_exopolysaccacharide_enhancing_strains",
+  "https://www.mdpi.com/3166992"
+ ]
+}

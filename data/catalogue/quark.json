@@ -1,0 +1,242 @@
+{
+ "id": "quark",
+ "name": "Quark",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "fresh",
+ "origin": "Germany",
+ "process": {
+  "aging_months": 0,
+  "coagulation": "mixed",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 82.7,
+   "unit": "%",
+   "source_url": "https://tools.myfooddata.com/nutrition-facts/2440192/wt1/",
+   "quote": "This food consists of 82.7% water, 10% protein, 4.6% carbs, 2.7% fat, Water 91 g per 110 g serving.",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 2.73,
+   "unit": "%",
+   "source_url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/220071/nutrients",
+   "quote": "* Fat – Total lipid (fat) 2.73 g per 100 g = 2.73%",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 0.7,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5686336/",
+   "quote": "* T2 treatment 0.70±0.08%, no difference from control",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 4.52,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5686336/",
+   "quote": "* C1 day 0 4.52±0.21, day 10 4.63±0.06",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 33.61,
+   "unit": "µg/kg",
+   "source_url": "https://hrcak.srce.hr/file/405074",
+   "quote": "* Diacetyl – 33.61±7.83 (BM), 38.45±11.47 (BCM1), 36.78±13 (BCM2), 24.26±7.46 (BCM3), 32.25±6.66 (CM) µg/kg",
+   "confidence": "measured",
+   "name": "diacetyl"
+  },
+  {
+   "value": 95.26,
+   "unit": "µg/kg",
+   "source_url": "https://hrcak.srce.hr/file/405074",
+   "quote": "* Acetoin – 95.26±29.11 (BM), 104.80±13.31 (BCM1), 80.15±22.98 (BCM2), 100.38±11 (BCM3), 75.56±17.37 (CM) µg/kg",
+   "confidence": "measured",
+   "name": "acetoin"
+  },
+  {
+   "value": 2604.35,
+   "unit": "µg/kg",
+   "source_url": "https://hrcak.srce.hr/file/405074",
+   "quote": "* Butanoic acid – 2604.35±262.56 (BM), 3161.94±362.65 (BCM1), 2162.23±269.69 (BCM2), 2023.76±103.34 (BCM3), 1950.05±323.55 (CM) µg/kg",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 385.29,
+   "unit": "µg/kg",
+   "source_url": "https://hrcak.srce.hr/file/405074",
+   "quote": "* 3-methyl butanoic acid – Acidic, pungent – 385.29±18.08 (BM), 127.05±8.75 (BCM1), 77.76±0.02 (BCM2), 43.43±5.68 (BCM3), 41.06±10.40 (CM) µg/kg",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  },
+  {
+   "value": 852.3,
+   "unit": "µg/kg",
+   "source_url": "https://hrcak.srce.hr/file/405074",
+   "quote": "* Hexanoic acid – Cheese, sweaty – 852.30±183.53 (BM), 902.77±116.09 (BCM1), 880.94±264.26 (BCM2), 864.55±50.17 (BCM3), 950.85±149.12 (CM) µg/kg",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 6350.29,
+   "unit": "µg/kg",
+   "source_url": "https://hrcak.srce.hr/file/405074",
+   "quote": "* Acetic acid – Vinegar, sour – 6350.29±132.53 (BM), 5750.90±132.53 (BCM1), 4630.51±175.83 (BCM2), 4543.02±49.43 (BCM3), 4872.79±214 (CM) µg/kg",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 16.44,
+   "unit": "µg/kg",
+   "source_url": "https://hrcak.srce.hr/file/405074",
+   "quote": "* 2-heptanone – Waxy, fruity – 16.44±2.30 (BM), 17.92±5.73 (BCM1), 20.16±5.86 (BCM2), 19.41±5.41 (BCM3), 21.85±7.25 (CM) µg/kg",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 10.69,
+   "unit": "µg/kg",
+   "source_url": "https://hrcak.srce.hr/file/405074",
+   "quote": "* 2-nonanone – Waxy, soapy – 10.69±2.07 (BM), 11.98±4.91 (BCM1), 12.60±0.37 (BCM2), 12.57±2.34 (BCM3), 13.57±3.18 (CM) µg/kg",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  },
+  {
+   "value": 2.47,
+   "unit": "µg/kg",
+   "source_url": "https://hrcak.srce.hr/file/405074",
+   "quote": "* 2-undecanone – Waxy, creamy cheese – 2.47±0.54 (BM), 2.28±1.06 (BCM1), 2.37±0.22 (BCM2), 1.78±0.25 (BCM3), 1.90±0.49 (CM) µg/kg",
+   "confidence": "measured",
+   "name": "2-undecanone"
+  },
+  {
+   "value": 3.15,
+   "unit": "µg/kg",
+   "source_url": "https://hrcak.srce.hr/file/405074",
+   "quote": "* Phenylacetaldehyde reported as benzeneacetaldehyde – Floral, rose – 3.15±0.95 (BM), 3.93±1.31 (BCM1), 2.18±0.44 (BCM2), 2.40±0.10 (BCM3), 2.88±1.45 (CM) µg/kg",
+   "confidence": "measured",
+   "name": "phenylacetaldehyde"
+  },
+  {
+   "value": 2.85,
+   "unit": "µg/kg",
+   "source_url": "https://hrcak.srce.hr/file/405074",
+   "quote": "* 2-phenylethanol reported as phenyl ethyl alcohol – Floral, rose – 2.85±0.06 (BM), 3.02±1.05 (BCM1), 2.26±0.07 (BCM2), 1.20±0.49 (BCM3), 1.74±0.61 (CM) µg/kg",
+   "confidence": "measured",
+   "name": "2-phenylethanol"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 0.3,
+   "reason": "No ripening proteolysis or deamination; ammonia not detected in fresh acid curd."
+  },
+  "animal_barnyard": {
+   "score": 0.5,
+   "reason": "No p-cresol or indole reported; pasteurized cow milk and clean lactic starter."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "No aged hydrophobic peptides; minimal rennet and no proteolysis in unripened gel."
+  },
+  "blue_moldy": {
+   "score": 0.5,
+   "reason": "Trace 2-heptanone 16 ug/kg and 2-nonanone 11 ug/kg, ~1000x below blue cheese; no Penicillium."
+  },
+  "browning": {
+   "score": 0.0,
+   "reason": "Very high moisture 82.7% and pH 4.52 prevent Maillard; fresh unheated curd does not brown."
+  },
+  "buttery": {
+   "score": 2.0,
+   "reason": "Low diacetyl 33.6 ug/kg plus acetoin 95 ug/kg from lactococcal citrate fermentation."
+  },
+  "cheesy_sweaty": {
+   "score": 1.5,
+   "reason": "Low butanoic 2604 ug/kg and hexanoic 852 ug/kg with minimal lipolysis and no aging."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "Smooth acid casein gel at 82.7% moisture gives spoonable creaminess despite only 2.73% fat."
+  },
+  "crumbliness": {
+   "score": 0.5,
+   "reason": "Homogeneous acid gel with no pressed curd junctions or calcium-paracasein fracture."
+  },
+  "firmness": {
+   "score": 1.0,
+   "reason": "Very high moisture acid gel with demineralized casein at pH 4.52, no pressing or ripening."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Trace phenylacetaldehyde 3.15 ug/kg and 2-phenylethanol 2.85 ug/kg from phenylalanine catabolism."
+  },
+  "fruity": {
+   "score": 1.0,
+   "reason": "No ethyl butanoate/hexanoate found; methyl ketones 2-22 ug/kg far below fruity thresholds."
+  },
+  "goaty": {
+   "score": 0.5,
+   "reason": "Cow milk with no 4-methyloctanoic/4-ethyloctanoic acids; low total fat 2.73%."
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "No Strecker aldehydes 2-/3-methylbutanal found; no aging for maltol/nutty pyrazines."
+  },
+  "melt": {
+   "score": 0.5,
+   "reason": "Acid pH 4.52 demineralized casein precipitates and expels whey instead of flowing on heating."
+  },
+  "mushroom_earthy": {
+   "score": 0.5,
+   "reason": "No 1-octen-3-ol/one reported; no Geotrichum/mold lipoxygenase pathway in fresh quark."
+  },
+  "oil_off": {
+   "score": 0.0,
+   "reason": "Only 2.73% fat entrapped in high-moisture gel; no free oil formation on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No guaiacol reported and unsmoked make; no wood-smoke phenols."
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "pH 4.52 lactic acid plus acetic acid 6350 ug/kg from mesophilic starter gives bright sour."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata kneading; acid-precipitated casein lacks intact calcium-crosslinked fibers."
+  },
+  "sulfur_cooked": {
+   "score": 0.5,
+   "reason": "No methanethiol/DMS/DMDS found; pasteurized but not high-cooked curd, no sulfur catabolism."
+  },
+  "sweet": {
+   "score": 2.5,
+   "reason": "Residual lactose/carbs 4.6% with very low salt 0.7% gives mild sweet against lactic sour."
+  },
+  "umami": {
+   "score": 1.5,
+   "reason": "No ripening proteolysis to free glutamate; fresh curd low in savory peptides."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://fdc.nal.usda.gov/fdc-app.html#/food-details/220071/nutrients",
+  "https://tools.myfooddata.com/nutrition-facts/2440192/wt1/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5686336/",
+  "https://hrcak.srce.hr/file/405074",
+  "https://www.aqua-calc.com/calculate/food-calories/substance/quark-blank-soft-blank-cheese-coma-and-blank-upc-column--blank-040817010021",
+  "https://www.mdpi.com/2304-8158/10/8/1783/pdf",
+  "https://www.mdpi.com/2304-8158/10/1/184",
+  "https://www.academia.edu/107483525/Use_of_kefir_and_buttermilk_to_produce_an_innovative_quark_cheese"
+ ]
+}

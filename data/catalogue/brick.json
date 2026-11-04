@@ -1,0 +1,152 @@
+{
+ "id": "brick",
+ "name": "Brick cheese",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "washed_rind",
+ "origin": "Wisconsin, USA",
+ "process": {
+  "aging_months": 2,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 41.11,
+   "unit": "%",
+   "source_url": "https://www.nutritionvalue.org/Cheese%2C_brick_nutritional_value.html?size=100%20g",
+   "quote": "* **Moisture:** **41.11 g / 100 g = 41.11 %**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 29.68,
+   "unit": "%",
+   "source_url": "https://www.nutritionvalue.org/Cheese%2C_brick_nutritional_value.html?size=100%20g",
+   "quote": "* **Fat (Total lipid):** **29.68 g / 100 g = 29.68 %**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.0,
+   "unit": "%",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(52)93794-6/pdf",
+   "quote": "> At 6 wk. the moisture content of Buyens' cheese averaged between 43 and 44 per cent, the pH was 5.3 to 5.4 and the salt content was between 2.0 and 2.5 per cent.",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.25,
+   "unit": "",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(83)81808-6/pdf",
+   "quote": "* **pH (at 7 days): 5.25** – `pH (at 7 days) 5.25 5.10`",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 3.0,
+   "reason": "Surface Brevibacterium/Corynebacterium deamination deacidifies to pH 5.3-5.4 releasing NH3."
+  },
+  "animal_barnyard": {
+   "score": 3.0,
+   "reason": "Washed-rind coryneforms and yeasts produce p-cresol, phenols and indolic barnyard notes."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Rennet and starter proteolysis leaves hydrophobic peptides, balanced by washing."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation and no methyl ketone blue pathway."
+  },
+  "browning": {
+   "score": 6.0,
+   "reason": "Moderate residual lactose/lysine and pH ~5.25 gives good Maillard browning on heating."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Lactococcus lactis citrate metabolism yields diacetyl/acetoin in washed low-acid curd."
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "Moderate total FFA ~2150 mg/kg with lipolysis releasing butanoic/hexanoic sweaty acids."
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "41% moisture, ~30% fat and washed-curd demineralization give smooth creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Elastic washed-rind paste with intact para-casein network, not dry-crumbly."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Semi-soft 41-44% moisture, 2-month rind-formed block sliceable but yielding."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Yeast/surface flora phenylalanine catabolism to 2-phenylethanol/phenylacetaldehyde."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Surface yeast and Brevibacterium esterase forms ethyl butanoate/hexanoate."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk lacks high branched-chain goat fatty acids 4-methyloctanoic/4-ethyloctanoic."
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "Leucine/isoleucine Strecker aldehydes 3-methylbutanal plus pyrazines from rind flora."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "pH 5.25, 2% salt, washed curd calcium loss allows good flow without pasta-filata."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "Limited 1-octen-3-ol/1-octen-3-one; light Geotrichum/yeast earthiness on rind."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "29.7% fat age-weakened emulsion releases moderate free oil on melting."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make with no wood-smoke phenols/guaiacol."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Lactic/acetic acid at pH 5.25; sweet-curd never below pH 5.1, mild tang."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "Non-filata rennet gel, no hot-water stretching, only slight warm elasticity."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Pasteurized milk low H2S/methanethiol; light methionine catabolism by rind bacteria."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Washed curd removes lactose/acid, leaving lactose-free sweet diacetyl/lactones impression."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "2-month proteolysis releases glutamate and savory kokumi peptides."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.nutritionvalue.org/Cheese%2C_brick_nutritional_value.html?size=100%20g",
+  "https://www.journalofdairyscience.org/article/S0022-0302(83)81808-6/pdf",
+  "https://www.journalofdairyscience.org/article/S0022-0302(52)93794-6/pdf",
+  "https://books.lib.uoguelph.ca/cheesemakingtechnologyebook/chapter/16-2-camembert-cheese/",
+  "https://issuhub.com/view/index/4669?pageIndex=426",
+  "https://www.journalofdairyscience.org/article/S0022-0302(84)81380-6/pdf",
+  "https://www.journalofdairyscience.org/article/S0022-0302(84)81380-6/fulltext"
+ ]
+}

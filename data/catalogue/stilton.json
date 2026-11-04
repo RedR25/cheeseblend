@@ -1,0 +1,184 @@
+{
+ "id": "stilton",
+ "name": "Stilton",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "blue",
+ "origin": "England",
+ "process": {
+  "aging_months": 4,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "blue",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 39.8,
+   "unit": "%",
+   "source_url": "https://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "| Moisture % | 39.8 g/100g | Blue Stilton, England, retail Ireland, age n.s. | https://higiene.unex.es/bibliogr/Proteoli/id130481.pdf |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 34.1,
+   "unit": "%",
+   "source_url": "https://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "| Fat % | 34.1 g/100g | same | same |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.9,
+   "unit": "%",
+   "source_url": "https://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "| Salt (NaCl) % | 1.9 g/100g | same | same |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.6,
+   "unit": "",
+   "source_url": "https://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "| pH | 6.6, single analysis | same | same |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 1742000.0,
+   "unit": "µg/kg",
+   "source_url": "https://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "| **acetic acid** | 1742 | mg/kg (=µg/g, ppm) mean of duplicates | Blue Stilton England, retail Ireland, age n.s. (Lawlor) | https://higiene.unex.es/bibliogr/Proteoli/id130481.pdf |",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 111000.0,
+   "unit": "µg/kg",
+   "source_url": "https://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "| **propanoic acid** | 111 | mg/kg (=µg/g) | same Lawlor Stilton | https://higiene.unex.es/bibliogr/Proteoli/id130481.pdf |",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 6924000.0,
+   "unit": "µg/kg",
+   "source_url": "https://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "| **butanoic acid (=butyric acid)** | 6924 | mg/kg (=µg/g) | same Lawlor Stilton | https://higiene.unex.es/bibliogr/Proteoli/id130481.pdf |",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 3171000.0,
+   "unit": "µg/kg",
+   "source_url": "https://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "| **hexanoic acid** | 3171 | mg/kg (=µg/g) | same Lawlor Stilton | https://higiene.unex.es/bibliogr/Proteoli/id130481.pdf |",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 4.0,
+   "reason": "Amino-acid deamination during 2-4 mo ripening raises pH to 6.6 with headspace ammonia noted."
+  },
+  "animal_barnyard": {
+   "score": 3.0,
+   "reason": "p-cresol/indole and branched acids from proteolysis and needled-paste microflora."
+  },
+  "bitter": {
+   "score": 6.0,
+   "reason": "Hydrophobic bitter peptides from chymosin plus P. roqueforti aspartyl proteases."
+  },
+  "blue_moldy": {
+   "score": 8.0,
+   "reason": "P. roqueforti beta-oxidation of fatty acids to 2-heptanone/2-nonanone methyl ketones."
+  },
+  "browning": {
+   "score": 3.0,
+   "reason": "Maillard on residual lactose and glutamate when heated, limited by high moisture."
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Lactococcus lactis biovar diacetylactis citrate fermentation to diacetyl/acetoin in high-fat curd."
+  },
+  "cheesy_sweaty": {
+   "score": 8.0,
+   "reason": "P. roqueforti lipolysis liberating 6924 mg/kg butanoic plus 3171 mg/kg hexanoic acid."
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "34.1% fat, 56.7% FDM with mold proteolysis softening paste to creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 8.0,
+   "reason": "Dry-salted unpressed needled curd with open blue veins fracturing easily."
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Semi-hard 39.8% moisture uncooked pressed curd, firm but yielding."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Phenylalanine catabolism to phenylacetaldehyde/2-phenylethanol, masked by blue notes."
+  },
+  "fruity": {
+   "score": 5.0,
+   "reason": "Ethyl butyrate/hexanoate esterification of free fatty acids with ethanol by mold esterases."
+  },
+  "goaty": {
+   "score": 4.0,
+   "reason": "3171 mg/kg hexanoic/caproic acid from mold lipolysis of cow milk fat."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "Leu/Ile/Val Strecker aldehydes and low 111 mg/kg propionic acid from starter metabolism."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "Moderate fat and pH 6.6 demineralized casein flows but salt and veins limit full flow."
+  },
+  "mushroom_earthy": {
+   "score": 5.0,
+   "reason": "Linoleic acid oxidation to 1-octen-3-ol/1-octen-3-one by P. roqueforti lipoxygenase."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Free fat release from 56.7% FDM lipolyzed matrix on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked make; no smoke-derived phenols."
+  },
+  "sour_vinegar": {
+   "score": 5.0,
+   "reason": "1742 mg/kg acetic acid plus 2.15% lactic acidity from starter and lactate oxidation."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata stretching; rennet curd lacks aligned paracasein network."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Methionine catabolism to dimethyl sulfide/disulfide; uncooked curd so low cooked note."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Low residual lactose; slight sweetness from glycerol and free amino acids at high pH."
+  },
+  "umami": {
+   "score": 7.0,
+   "reason": "Extensive proteolysis SN 46.8% liberating glutamate/aspartate peptides and free amino acids."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+  "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+  "https://fdc.nal.usda.gov/food-search?type=Branded&query=stilton",
+  "https://ajfs.journals.ekb.eg/jufile?ar_sfile=56757",
+  "https://www.matvaretabellen.no/en/cheese-stilton-blue/",
+  "https://www.eatknowingly.com/food-nutrition/FDA/12367/index"
+ ]
+}

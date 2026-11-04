@@ -1,0 +1,147 @@
+{
+ "id": "bryndza",
+ "name": "Bryndza",
+ "milk": "sheep",
+ "treatment": "raw",
+ "style": "brined",
+ "origin": "Slovakia",
+ "process": {
+  "aging_months": 0.4,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 52.0,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov",
+   "quote": "| **moisture %** | 52 to 56 % moisture | raw or pasteurized soft/creamy sheep milk traditional Bryndza, Slovakia, limited ripening period | https://pmc.ncbi.nlm.nih.gov – review citing Štefániková et al. Foods 2020 |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 19.4,
+   "unit": "%",
+   "source_url": "https://www.mdpi.com/2304-8158/9/9/1195",
+   "quote": "| **fat %** | 19.4 % to 26.3 % ; producer means: e.g. 24.8±2.1 %, 24.9±1.6 %, 19.4±2.5 %, 24.8±1.3 %, 24.3±3.3 %, 26.4±0.4 %, 26.3±3.1 %, 22.4±0.5 % w/w | same 40 samples B1-B8, May-Sept 2019, Slovakia | https://www.mdpi.com/2304-8158/9/9/1195 |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.1,
+   "unit": "",
+   "source_url": "https://www.mdpi.com/2304-8158/9/9/1195",
+   "quote": "| **pH** | 5.1 to 5.3 ; producer means start 5.24±0.2, 5.09±0.1 … [full table truncated in HTML] | raw or pasteurized soft/creamy sheep milk traditional Bryndza, Slovakia, limited ripening; B1-B8 May-Sept 2019 for means | https://www.mdpi.com/2304-8158/9/9/1195 |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "Very short ripening limits deamination and urease activity, little free NH3."
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "Sheep pasture-derived p-cresol, indole and guaiacol from raw-milk microflora."
+  },
+  "bitter": {
+   "score": 3.5,
+   "reason": "Early hydrophobic peptides from rennet and wild Lactobacillus proteolysis."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation and no methyl-ketone blue pathway."
+  },
+  "browning": {
+   "score": 1.0,
+   "reason": "High moisture low-pH paste browns poorly; limited Maillard lactose-casein."
+  },
+  "buttery": {
+   "score": 6.5,
+   "reason": "Citrate fermentation to diacetyl and acetoin 6-20% TIC by Lactococcus/Leuconostoc."
+  },
+  "cheesy_sweaty": {
+   "score": 7.0,
+   "reason": "Lipolysis to butanoic, hexanoic, octanoic acids by lamb lipase and LAB esterases."
+  },
+  "creaminess": {
+   "score": 8.0,
+   "reason": "52-56% moisture, 19-26% fat ground salted curd gives spreadable creamy matrix."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Milled salted lump forms cohesive paste, not crumbly calcium-phosphate fracture."
+  },
+  "firmness": {
+   "score": 2.0,
+   "reason": "Soft high-moisture unpressed curd with pH 5.1-5.3 demineralized casein network."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low 2-phenylethanol and phenylacetaldehyde from phenylalanine catabolism."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate and ethyl hexanoate esterification by LAB esterases."
+  },
+  "goaty": {
+   "score": 6.0,
+   "reason": "Sheep-milk branched C8-C10 acids 4-methyloctanoic and 4-ethyloctanoic lipolysis."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "Strecker 3-methylbutanal and 3-methyl-1-butanol from leucine catabolism."
+  },
+  "melt": {
+   "score": 5.0,
+   "reason": "High moisture acid curd softens and flows moderately despite pH 5.1."
+  },
+  "mushroom_earthy": {
+   "score": 1.5,
+   "reason": "Trace 1-octen-3-ol from linoleic acid lipoxygenase, no rind flora."
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Moderate fat in high moisture stable emulsion, little free oil on heating."
+  },
+  "smoky": {
+   "score": 2.0,
+   "reason": "Trace guaiacol phenol from feed/microflora, product not smoked."
+  },
+  "sour_vinegar": {
+   "score": 7.0,
+   "reason": "Lactic plus acetic acid 7-11% TIC from heterofermentative LAB, pH 5.1."
+  },
+  "stretch": {
+   "score": 0.5,
+   "reason": "No pasta-filata hot-water kneading, acid-rennet curd has no aligned fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "No cook step, minimal heat-induced methionine and whey-protein H2S."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Residual lactose and acetoin/2,3-butanediol give slight sweet note vs salt-sour."
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "Early proteolysis releases glutamate and savory peptides in salted lump."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov",
+  "https://www.mdpi.com/2304-8158/9/9/1195"
+ ]
+}

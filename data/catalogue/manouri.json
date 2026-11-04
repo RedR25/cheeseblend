@@ -1,0 +1,148 @@
+{
+ "id": "manouri",
+ "name": "Manouri",
+ "milk": "mixed",
+ "treatment": "pasteurized",
+ "style": "fresh",
+ "origin": "Greece",
+ "process": {
+  "aging_months": 0,
+  "coagulation": "acid_heat",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 52.2,
+   "unit": "%",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/31195443/",
+   "quote": "Fat in dry matter was 16.3% in Myzithra, 65.9% in Anthotyros, and 71.7% in Manouri cheese; the moisture contents of the cheeses were 68.4, 66.9, and 52.2% respectively.",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 45.5,
+   "unit": "%",
+   "source_url": "https://link.springer.com/content/pdf/10.1007/s11947-024-03333-z.pdf",
+   "quote": "| S1 artisanal, dairy A, fresh, June 2023, Milochori / Eordea, N. Greece | **45.5±0.60 % w/w** | **68.4±1.28 % w/w** | 31.6 % w/w calculated | **17.0±0.47 % w/w** | **2.0±0.16 % w/w** | **5.74±0.04** | https://link.springer.com/content/pdf/10.1007/s11947-024-03333-z.pdf |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.61,
+   "unit": "%",
+   "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0958694623002650",
+   "quote": "The pH of the Manouri cheese at 0 month was 5.51 ± 0.2, while the fat, protein salt and moisture levels were (g 100 g−1) 48.26 ± 0.85, 5.92 ± 0.25, 1.61 ± 0.08, and 42.62 ± 0.53, respectively (n = 9).",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.74,
+   "unit": "",
+   "source_url": "https://link.springer.com/content/pdf/10.1007/s11947-024-03333-z.pdf",
+   "quote": "| S1 artisanal, dairy A, fresh, June 2023, Milochori / Eordea, N. Greece | **45.5±0.60 % w/w** | **68.4±1.28 % w/w** | 31.6 % w/w calculated | **17.0±0.47 % w/w** | **2.0±0.16 % w/w** | **5.74±0.04** | https://link.springer.com/content/pdf/10.1007/s11947-024-03333-z.pdf |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 0.0,
+   "reason": "Fresh unripened whey cheese with minimal proteolysis-deamination, QDA ammonia near absent."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "No washed-rind bacteria; p-cresol indole scatole not detected in fresh whey curd."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "No ripening so minimal bitter hydrophobic peptides; high fat masks bitterness."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium; methyl ketones 2-heptanone 2-nonanone only trace RPA."
+  },
+  "browning": {
+   "score": 1.0,
+   "reason": "Fresh pale curd; lactose plus whey protein Maillard only on grilling not in fresh cheese."
+  },
+  "buttery": {
+   "score": 7.0,
+   "reason": "High ovine cream fat with C4-C12 delta-lactones plus diacetyl-acetoin from citrate fermentation."
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "Early lipolysis releasing butanoic hexanoic octanoic decanoic acids predominant VOCs but low vs aged."
+  },
+  "creaminess": {
+   "score": 8.0,
+   "reason": "Very high fat-in-dry-matter >70% with denatured whey-protein emulsion gives smooth creamy mouthfeel."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Fine heat-set whey protein gel deforms rather than fractures, not acid-crumbly like feta."
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "Soft heat-precipitated whey-protein gel with high moisture, sliceable-spreadable."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylacetaldehyde 2-phenylethanol; faint floral lactones from ovine milk fat."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Trace ethyl octanoate-decanoate from esterification of free fatty acids with ethanol."
+  },
+  "goaty": {
+   "score": 3.0,
+   "reason": "Sheep-goat feta whey C6-C10 acids including methyl-branched octanoic types diluted by sweet cream."
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "No aging or Strecker aldehydes 2-methylbutanal 3-methylbutanal; no pyrazines."
+  },
+  "melt": {
+   "score": 2.0,
+   "reason": "Denatured whey proteins do not flow; softens and oils slightly but holds shape on heating."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No mould or Geotrichum; 1-octen-3-ol 1-octen-3-one not detected."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "High free milkfat releases slight oil on warming-cutting limited by whey-protein emulsification."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Traditionally unsmoked; no wood-smoke guaiacol phenols."
+  },
+  "sour_vinegar": {
+   "score": 2.0,
+   "reason": "Mild lactic acid from residual lactose fermentation pH ~5.6; acetic acid not major."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata kneading; no aligned paracasein network."
+  },
+  "sulfur_cooked": {
+   "score": 4.0,
+   "reason": "Whey heated to 85-90C denaturing beta-lactoglobulin releasing H2S sulfides and cooked-milk notes."
+  },
+  "sweet": {
+   "score": 5.0,
+   "reason": "Residual whey lactose-carbs ~1.5-2% plus high-fat milky sweetness with low salt-acid."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "Low free glutamate; minimal proteolysis of whey proteins in unripened cheese."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://link.springer.com/content/pdf/10.1007/s11947-024-03333-z.pdf",
+  "https://pubmed.ncbi.nlm.nih.gov/31195443/",
+  "https://www.sciencedirect.com/science/article/abs/pii/S0958694623002650"
+ ]
+}

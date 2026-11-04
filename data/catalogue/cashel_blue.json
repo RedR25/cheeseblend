@@ -1,0 +1,172 @@
+{
+ "id": "cashel_blue",
+ "name": "Cashel Blue",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "blue",
+ "origin": "Ireland",
+ "process": {
+  "aging_months": 3,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "blue",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 45.7,
+   "unit": "%",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "Cashel blue 5.9 45.7 2.4 29.7 19.7 3.4 428 54.8 5.3 65.1 40.2",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 29.7,
+   "unit": "%",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "Cashel blue 5.9 45.7 2.4 29.7 19.7 3.4 428 54.8 5.3 65.1 40.2",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.4,
+   "unit": "%",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "Cashel blue 5.9 45.7 2.4 29.7 19.7 3.4 428 54.8 5.3 65.1 40.2",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.9,
+   "unit": "",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "Cashel blue 5.9 45.7 2.4 29.7 19.7 3.4 428 54.8 5.3 65.1 40.2",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 138000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "Blue Stilton 1742 111 6924 3171 | Cashel blue 138 ND 1258 341 | Danish blue 1073 ND 5070 2518",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 1258000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "Blue Stilton 1742 111 6924 3171 | Cashel blue 138 ND 1258 341 | Danish blue 1073 ND 5070 2518",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 341000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+   "quote": "Blue Stilton 1742 111 6924 3171 | Cashel blue 138 ND 1258 341 | Danish blue 1073 ND 5070 2518",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.5,
+   "reason": "Limited urea deamination and P. roqueforti deacidification in young moist blue at pH 5.9."
+  },
+  "animal_barnyard": {
+   "score": 1.5,
+   "reason": "Low p-cresol/indole from Tyr/Trp catabolism; clean pasteurized cow milk make."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Moderate hydrophobic peptides from chymosin plus P. roqueforti proteinases, masked by 2.4% salt."
+  },
+  "blue_moldy": {
+   "score": 6.0,
+   "reason": "Moderate 2-heptanone/2-nonanone from P. roqueforti beta-oxidation of fatty acids; lower than Stilton/Roquefort."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Maillard between residual lactose/galactose and proteolysis-derived amino acids on heating."
+  },
+  "buttery": {
+   "score": 6.5,
+   "reason": "Diacetyl/acetoin from Lactococcus lactis biovar diacetylactis citrate metabolism in pasteurized curd."
+  },
+  "cheesy_sweaty": {
+   "score": 5.5,
+   "reason": "Butanoic 1258 mg/kg plus hexanoic 341 mg/kg from P. roqueforti lipase hydrolysis of milk fat."
+  },
+  "creaminess": {
+   "score": 7.5,
+   "reason": "High fat-in-dry-matter ~54.8% plus P. roqueforti proteolysis softens to buttery mouthfeel."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "High moisture-in-nonfat ~65% and young age prevents dry granular fracture of harder blues."
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "Semi-soft 45.7% moisture uncooked rennet curd pierced for mold gives yielding paste."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism in short ripening."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Low ethyl butyrate/hexanoate from esterase esterification of acids with ethanol in mild blue."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk lacks goaty branched C8-C10 acids like 4-methyloctanoic characteristic of goat milk."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Limited Strecker aldehydes 2-/3-methylbutanal and no cooked-curd Maillard pyrazine formation."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "Rennet curd pH 5.9 with intact calcium-casein network flows moderately on heating."
+  },
+  "mushroom_earthy": {
+   "score": 4.0,
+   "reason": "1-octen-3-ol/1-octen-3-one from P. roqueforti lipoxygenase oxidation of linoleic acid."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "29.7% fat with partially lipolyzed fat globules releases moderate free oil on melting."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and no guaiacol formation during indoor ripening."
+  },
+  "sour_vinegar": {
+   "score": 2.5,
+   "reason": "Low acetic acid 138 mg/kg plus lactic acid from starter; high pH 5.9 buffers sourness."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata stretching/acid demineralization; rennet blue forms short non-fibrous melt."
+  },
+  "sulfur_cooked": {
+   "score": 3.0,
+   "reason": "Methionine catabolism by Lactococcus plus P. roqueforti to dimethyl disulphide; uncooked curd limits H2S."
+  },
+  "sweet": {
+   "score": 4.5,
+   "reason": "Residual lactose/lactate plus sweet ketones/lactones from high-fat cow milk."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Glutamate plus soluble peptides from rennet plus P. roqueforti proteolysis pH4.6-SN ~40%."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "http://higiene.unex.es/bibliogr/Proteoli/id130481.pdf",
+  "https://ajfs.journals.ekb.eg/jufile?ar_sfile=56757"
+ ]
+}

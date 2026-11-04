@@ -1,0 +1,148 @@
+{
+ "id": "valencay",
+ "name": "Valençay",
+ "milk": "goat",
+ "treatment": "raw",
+ "style": "soft_bloomy",
+ "origin": "Valençay, Loire Valley, France",
+ "process": {
+  "aging_months": 0.75,
+  "coagulation": "mixed",
+  "cooked": false,
+  "mold": "white",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 56.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 20.4,
+   "unit": "%",
+   "source_url": "https://www.jstage.jst.go.jp/article/chikusan/66/5/66_422/_article",
+   "quote": "| **fat %** | **20.40%** average | % – presumed fresh cheese | 12 on-farm manufactured “Valencay”, soft goat’s milk cheese, analyzed within 5 weeks after manufacture, ripened for 5 weeks. Average values for protein 15.71%, fat 20.40%, carbohydrate 1.79% and ash 2.02%, ripening rate water-soluble N / total N 59.13%. Also described as: Samples from 12 cheeses ripened for 5 weeks were analyzed within 5 weeks after manufacture | https://www.jstage.jst.go.jp/article/chikusan/66/5/66_422/_article – DOI: 10.2508/chikusan.66.422 – Nishiyama et al., Nihon Chikusan Gakkaiho 66:422-429, 1995. Abstract via https://eurekamag.com/research/002/980/002980242.php |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.5,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 4.6,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Low urease/deaminase ammonia in 11-day to 5-week lactic goat; WSN/TN ~59% but no washed-rind deamination."
+  },
+  "animal_barnyard": {
+   "score": 3.0,
+   "reason": "p-cresol, indole and 4-ethylphenol from pasture and goat-skin flora plus raw-milk enterococci."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Low hydrophobic peptide accumulation from chymosin + Lactococcus proteinases in acid curd."
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "No Penicillium roqueforti inoculation; only trace methyl ketones from surface Penicillium/Geotrichum."
+  },
+  "browning": {
+   "score": 2.0,
+   "reason": "Residual lactose ~1.8% but low pH and acid curd limit Maillard; rind ash is charcoal not browning."
+  },
+  "buttery": {
+   "score": 3.0,
+   "reason": "Modest diacetyl/acetoin from Lactococcus lactis biovar diacetylactis citrate metabolism."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "Butanoic-pentanoic-hexanoic acids from raw-milk lipase and Geotrichum lipolysis of goat fat."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "Thin proteolyzed creamy layer under Geotrichum rind with high moisture lactic paste."
+  },
+  "crumbliness": {
+   "score": 6.0,
+   "reason": "Demineralized acid casein network at pH ~4.6 gives chalky friable center when young."
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "Lactic coagulated, drained truncated pyramid retains shape; not pressed or cooked."
+  },
+  "floral_honey": {
+   "score": 4.0,
+   "reason": "Phenylethanol/phenylacetaldehyde and pasture terpenes; goat milk lactones."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate/hexanoate from Geotrichum candidum esterase esterification of free fatty acids."
+  },
+  "goaty": {
+   "score": 8.0,
+   "reason": "4-methyloctanoic/4-ethyloctanoic plus octanoic/decanoic acids characteristic of goat triglycerides released by lipolysis."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Low Strecker 2-/3-methylbutanal and pyrazines; brief aging limits hazelnut notes."
+  },
+  "melt": {
+   "score": 2.0,
+   "reason": "Acid-demineralized low-pH curd does not flow; casein does not fuse on heating."
+  },
+  "mushroom_earthy": {
+   "score": 5.0,
+   "reason": "1-octen-3-ol/1-octen-3-one from Geotrichum/Mucor lipoxygenase on linoleic acid plus ashed rind."
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Low total fat ~20.4% and acid matrix entrap fat; no free oil on heating."
+  },
+  "smoky": {
+   "score": 1.0,
+   "reason": "Vegetable charcoal ash coating is inert carbon, no wood-smoke guaiacol/syringol."
+  },
+  "sour_vinegar": {
+   "score": 7.0,
+   "reason": "High L-lactic acid from mesophilic lactic fermentation with trace acetic acid in lactic curd."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata kneading; acid curd fractures rather than aligns."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Raw milk, uncooked curd; minimal heat-induced methional/dimethyl sulfide."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Lactose fermented to ~1.8% carbohydrate; little residual lactose or sweet amino acids."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Moderate glutamate from early Geotrichum aminopeptidase proteolysis."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://www.jstage.jst.go.jp/article/chikusan/66/5/66_422/_article",
+  "https://www.journalofdairyscience.org/article/S0022-0302(12)00193-2/fulltext",
+  "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:C:2013:296:0004:0010:EN:PDF"
+ ]
+}

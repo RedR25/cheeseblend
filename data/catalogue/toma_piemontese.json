@@ -1,0 +1,149 @@
+{
+ "id": "toma_piemontese",
+ "name": "Toma Piemontese",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "semi_hard",
+ "origin": "Italy",
+ "process": {
+  "aging_months": 2,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 51.1,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12439086/",
+   "quote": "| T0 0 d | CTL / O3 | 51.10 ±0.21 | 8.43 ±0.20 | 20.00 ±0.00 | 40.90 ±0.18 | 20.75 ±0.56 |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 20.0,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12439086/",
+   "quote": "| T0 0 d | CTL / O3 | 51.10 ±0.21 | 8.43 ±0.20 | 20.00 ±0.00 | 40.90 ±0.18 | 20.75 ±0.56 |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.6,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.3,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Limited amino acid deamination and ureolysis in 60-d semi-hard with no surface flora"
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Cow milk only, no sheep/goat markers; indole and p-cresol not detected"
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Low accumulation of hydrophobic peptides from rennet/plasmin in short 60-d ripening"
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation and no C7/C9/C11 methyl ketones reported"
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Moderate Maillard between residual lactose/galactose and lysine on heating"
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl mean 460 mg/kg and acetoin 15 mg/kg from citrate metabolism by Lactococcus starter"
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "Butyric acid mean 374 mg/kg from milk lipase and starter esterase lipolysis"
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "Fat 21.9% fresh weight and moisture 48.5% gives smooth lubricating matrix"
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Elastic rennet gel at pH ~5.3, lightly cooked and pressed, not dry-fracturing"
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "Semi-hard moisture 48.5% with light cooking to ~42-44C and pressing"
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylalanine catabolism to phenylacetaldehyde/2-phenylethanol in short age"
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Low esterase activity; only low ethyl acetate sweet note, no high ethyl butanoate/hexanoate"
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk low in C6-C10 free fatty acids; iso-valeric only 140 mg/kg"
+  },
+  "malty_nutty": {
+   "score": 4.0,
+   "reason": "Branched-chain amino acid Strecker catabolism plus propionic 455 mg/kg during 60-d ripening"
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "Rennet curd pH ~5.3 with solubilized colloidal calcium flows on heating"
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "No bloomy or washed rind mold; 1-octen-3-ol/1-octen-3-one linoleate pathway minimal"
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Moderate fat-in-dry-matter 42.5% stable emulsion with little free oil on heating"
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Unsmoked cheese; guaiacol and phenols absent, no wood-smoke process"
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Lactic acid mean 16.6 mg/g plus acetic 557 mg/kg from lactose fermentation"
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "Non-pasta-filata rennet gel with no hot-water kneading to align casein"
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Low methionine catabolism to methanethiol/DMDS and no high heat whey protein denaturation"
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose 3.0 mg/g galactose 1.4 mg/g plus diacetyl sweet note"
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Moderate glutamate release from rennet and plasmin proteolysis by 60 days"
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12439086/",
+  "http://www.giuseppezeppa.com/files/274.pdf",
+  "https://www.dairyscience.info/cheese-dairy/italian-cheeses/72-toma-piemontese.html",
+  "https://dspace.unitus.it/handle/2067/51695?mode=full"
+ ]
+}

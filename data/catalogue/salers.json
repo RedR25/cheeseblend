@@ -1,0 +1,148 @@
+{
+ "id": "salers",
+ "name": "Salers",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "semi_hard",
+ "origin": "Massif Central, France",
+ "process": {
+  "aging_months": 5,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 37.6,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 32.4,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 2.45,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.59,
+   "unit": "",
+   "source_url": "https://www.mdpi.com/2076-3417/15/2/961",
+   "quote": "| pH | 5.59 mean Salers category vs 5.50 Cantal | pH units | 6 PDO Salers + 6 PDO Cantal, various producers Massif Central, 8-12 months ripening, same cellar. Salers had slightly higher pH and Aw (5.59; 0.94) compared to Cantal (5.50; 0.91) | https://www.mdpi.com/2076-3417/15/2/961 |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 3.0,
+   "reason": "Low ammonia from deamination during 5-12 mo proteolysis, pH 5.59 limits volatility."
+  },
+  "animal_barnyard": {
+   "score": 6.0,
+   "reason": "p-cresol, indole and 4-alkyloctanoic acids from raw pasture milk plus wooden gerle biofilm."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Hydrophobic peptides from rennet and Lactobacillus proteolysis in long-aged pressed curd."
+  },
+  "blue_moldy": {
+   "score": 2.0,
+   "reason": "Low 2-heptanone/2-nonanone from fatty-acid beta-oxidation, no Penicillium roqueforti inoculation."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Moderate Maillard from residual galactose plus glutamate/lysine on heating pressed paste."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Diacetyl/acetoin from citrate fermentation by Lactococcus lactis in raw-milk lactic flora."
+  },
+  "cheesy_sweaty": {
+   "score": 6.0,
+   "reason": "Butanoic and hexanoic acids from raw-milk lipase and rennet lipolysis during ripening."
+  },
+  "creaminess": {
+   "score": 4.0,
+   "reason": "32.4% fat with 37.6% moisture gives smooth but firm, not creamy, aged pressed body."
+  },
+  "crumbliness": {
+   "score": 5.0,
+   "reason": "Milled, salted and re-pressed tome fractures at curd junctions after 150-day drying."
+  },
+  "firmness": {
+   "score": 7.0,
+   "reason": "62.4% dry matter, uncooked pressed and 5-mo aged paste with dense protein network."
+  },
+  "floral_honey": {
+   "score": 3.0,
+   "reason": "Phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism and summer pasture terpenes."
+  },
+  "fruity": {
+   "score": 5.0,
+   "reason": "Ethyl butanoate/hexanoate from esterification of free fatty acids with ethanol by yeasts/LAB."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk low in caproic/caprylic/capric acids, no goat-milk branched-chain signature."
+  },
+  "malty_nutty": {
+   "score": 6.0,
+   "reason": "3-methylbutanal/2-methylbutanal from leucine/isoleucine Strecker degradation in aging."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "pH 5.59 and intact para-casein allows softening and flow, limited by low moisture and high salt."
+  },
+  "mushroom_earthy": {
+   "score": 4.0,
+   "reason": "1-octen-3-ol and geosmin from natural rind flora and cellar aging on wooden boards."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "Moderate free oil from 51.9% fat-in-dry-matter coalescing on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and no guaiacol/syringol deposition."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Lactic and low acetic acid from LAB fermentation, buffered to pH 5.59 by proteolysis."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Uncooked rennet curd, no pasta-filata hot-water kneading or aligned casein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low methanethiol/dimethyl sulfide, no high cook; limited methionine catabolism only."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose consumed, slight sweetness from proline, glycerol and dihydroxyacetone."
+  },
+  "umami": {
+   "score": 6.0,
+   "reason": "Glutamate accumulation from extensive peptidase activity during 150-day to 12-mo ripening."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.mdpi.com/2076-3417/15/2/961",
+  "https://www.journalofdairyscience.org/article/S0022-0302(05)73069-1/fulltext",
+  "https://hal.archives-ouvertes.fr/hal-00895569/document"
+ ]
+}

@@ -1,0 +1,206 @@
+{
+ "id": "mozzarella_bufala",
+ "name": "Mozzarella di Bufala Campana",
+ "milk": "buffalo",
+ "treatment": "pasteurized",
+ "style": "pasta_filata",
+ "origin": "Campania, Italy",
+ "process": {
+  "aging_months": 0,
+  "coagulation": "mixed",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": true
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 59.1,
+   "unit": "%",
+   "source_url": "https://doi.org/10.3390/foods13020209",
+   "quote": "* **59.10 %** – mean ± SD not fully legible in text extraction, reported as `59.10 ± 2.15`",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 19.27,
+   "unit": "%",
+   "source_url": "https://www.mdpi.com/2413-4155/8/10/270",
+   "quote": "* **19.27 – 26.16 g /100 g product, wet basis**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 0.73,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.56,
+   "unit": "",
+   "source_url": "https://doi.org/10.3390/foods13020209",
+   "quote": "* **5.56 ± 0.08**",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 1590.0,
+   "unit": "µg/kg",
+   "source_url": "https://doi.org/10.3390/foods13020209",
+   "quote": "* **diacetyl (2,3-butanedione): 1.59 ± 0.21 µg/g = 1590 µg/kg = 1.59 mg/kg**",
+   "confidence": "measured",
+   "name": "diacetyl"
+  },
+  {
+   "value": 3310.0,
+   "unit": "µg/kg",
+   "source_url": "https://doi.org/10.3390/foods13020209",
+   "quote": "* **acetoin (3-hydroxy-2-butanone): 3.31 ± 0.61 µg/g = 3310 µg/kg = 3.31 mg/kg**",
+   "confidence": "measured",
+   "name": "acetoin"
+  },
+  {
+   "value": 80.0,
+   "unit": "µg/kg",
+   "source_url": "https://doi.org/10.3390/foods13020209",
+   "quote": "* **butanoic acid: 0.08 ± 0.01 µg/g = 80 µg/kg**",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 150.0,
+   "unit": "µg/kg",
+   "source_url": "https://doi.org/10.3390/foods13020209",
+   "quote": "* **hexanoic acid: 0.15 ± 0.02 µg/g = 150 µg/kg**",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 1830.0,
+   "unit": "µg/kg",
+   "source_url": "https://doi.org/10.3390/foods13020209",
+   "quote": "* **acetic acid: 1.83 ± 0.39 µg/g = 1830 µg/kg**",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 80.0,
+   "unit": "µg/kg",
+   "source_url": "https://doi.org/10.3390/foods13020209",
+   "quote": "* **2-heptanone: 0.08 ± 0.13 µg/g = 80 µg/kg**",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 120.0,
+   "unit": "µg/kg",
+   "source_url": "https://doi.org/10.3390/foods13020209",
+   "quote": "* **2-nonanone: 0.12 ± 0.03 µg/g = 120 µg/kg**",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 0.0,
+   "reason": "No proteolysis/deamination in fresh 0-day cheese; ammonia not detected."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "p-cresol/indole not detected; pasteurized clean make with no rind flora."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "No aged hydrophobic peptides; rennet proteolysis minimal in fresh curd."
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "Trace 2-heptanone 80 ug/kg and 2-nonanone 120 ug/kg vs tens mg/kg in blues."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "High moisture dilutes reactants; lactose plus low free amino acids gives light Maillard."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "Citrate fermentation by lactic starter gives diacetyl 1.59 mg/kg + acetoin 3.31 mg/kg."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Very low lipolysis: butanoic 80 ug/kg and hexanoic 150 ug/kg, octanoic n.d."
+  },
+  "creaminess": {
+   "score": 7.0,
+   "reason": "Buffalo milk 7-8% fat, ~19-26% cheese fat in 59% moisture emulsion, stretched curd."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Hot-water stretched aligned paracasein is elastic-fibrous, not short-fracturing."
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "59.1% moisture and pH 5.56 demineralized casein gives soft elastic body."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Phenylacetaldehyde/phenylethanol absent; only benzaldehyde 0.71 ug/g almond note."
+  },
+  "fruity": {
+   "score": 1.0,
+   "reason": "Ethyl butanoate/hexanoate not detected; no esterase aging for ethyl esters."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Goaty branched acids 4-methyloctanoic/4-ethyloctanoic not found in buffalo curd."
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "Strecker aldehydes 2-/3-methylbutanal absent in uncooked cheese; no aging."
+  },
+  "melt": {
+   "score": 8.0,
+   "reason": "pH 5.56 calcium-solubilized pasta-filata casein flows readily on heating."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "1-octen-3-ol/1-octen-3-one not detected; no mold lipoxygenase activity."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "Fresh intact fat emulsion; moderate free oil only on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Guaiacol absent; not smoked, no wood-smoke phenols."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Lactic + acetic 1.83 mg/kg from whey starter fermentation to pH 5.56."
+  },
+  "stretch": {
+   "score": 9.0,
+   "reason": "pH ~5.0-5.6 demineralization enables hot-water stretched paracasein strings."
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Methanethiol/DMS/DMDS absent; hot stretching denatures whey gives slight H2S."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose/galactose plus acetoin/diacetyl in high-moisture fresh curd."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "No extended proteolysis; low free glutamate/aspartate in fresh cheese."
+  }
+ },
+ "filata": true,
+ "non_melter": false,
+ "sources": [
+  "https://doi.org/10.3390/foods13020209",
+  "https://www.mdpi.com/2413-4155/8/10/270",
+  "https://www.thefreelibrary.com/Influence+of+the+Mozzarella+Type+on+Chemical+and+Sensory+Properties...-a0780875150",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12071588/"
+ ]
+}

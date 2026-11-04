@@ -1,0 +1,147 @@
+{
+ "id": "esrom",
+ "name": "Esrom",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "washed_rind",
+ "origin": "Denmark",
+ "process": {
+  "aging_months": 1.25,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 45.9,
+   "unit": "%",
+   "source_url": "https://frida.fooddata.dk/food/118?lang=en",
+   "quote": "| moisture % | 45.9 g /100g = 45.9% `Water 45.9 g` , `Dry matter 54.1 g` | commercial Danish Cheese, semihard, Esrom, 45% fidm.; age not reported; Denmark | https://frida.fooddata.dk/food/118?lang=en |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 25.7,
+   "unit": "%",
+   "source_url": "https://frida.fooddata.dk/food/118?lang=en",
+   "quote": "| fat % | 25.7 g /100g `Fat 25.7 g` | same Frida 45% Esrom as above | https://frida.fooddata.dk/food/118?lang=en |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.89,
+   "unit": "%",
+   "source_url": "https://frida.fooddata.dk/food/118?lang=en",
+   "quote": "| salt (NaCl) % | 1.89 g /100g `Salt labelling 1.89 g` | same Frida 45% Esrom | https://frida.fooddata.dk/food/118?lang=en |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.2,
+   "unit": "",
+   "source_url": "https://lucokaas.be/sites/default/files/import/Fiches/344080.pdf",
+   "quote": "| pH | 5.2 Norm, Tolerance 5.1 - 5.5 `pH 5.2 5.1 - 5.5 Yes No Potentiometric method day` | same Arla 45+ Esrom finished product, Denmark; specification norm, not single-batch peer-reviewed measurement; age not stated | https://lucokaas.be/sites/default/files/import/Fiches/344080.pdf |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 4.0,
+   "reason": "Surface Brevibacterium/yeast deamination and urea catabolism in smear rind."
+  },
+  "animal_barnyard": {
+   "score": 5.0,
+   "reason": "p-cresol, indole and isovaleric acid from smear Brevibacterium proteolysis."
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "Hydrophobic peptides from rennet and smear protease activity."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti or blue ketone pathway used."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Moderate Maillard/lactose-protein browning in moist high-protein pasteurized curd."
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "Diacetyl/acetoin from lactococcal citrate metabolism and milk fat."
+  },
+  "cheesy_sweaty": {
+   "score": 5.0,
+   "reason": "Butanoic and 3-methylbutanoic acids from lipolysis and smear metabolism."
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "High moisture 45.9% plus 25.7% fat giving smooth smear-ripened paste."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Elastic washed-rind protein matrix, not dry-crystalline or acid crumbly."
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "Semi-soft 45.9% moisture rennet gel, sliceable but yielding."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Ethyl butanoate/hexanoate from smear esterase esterification of free fatty acids."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk only, no caprine 4-methyloctanoic acid signature."
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "3-methylbutanal/2-methylpropanal Strecker aldehydes from leucine/valine catabolism."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "pH 5.2 rennet curd with intact casein flows well on heating."
+  },
+  "mushroom_earthy": {
+   "score": 2.0,
+   "reason": "Low 1-octen-3-ol from surface yeast/microbial linoleic acid oxidation."
+  },
+  "oil_off": {
+   "score": 4.0,
+   "reason": "25.7% fat semi-soft matrix releases moderate free oil when melted."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoke application and no guaiacol formation."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Lactic plus acetic acid from starter and surface coryneform metabolism, pH 5.2."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "Non-pasta-filata rennet curd, no hot-water kneading alignment."
+  },
+  "sulfur_cooked": {
+   "score": 5.0,
+   "reason": "Methanethiol/dimethyl disulfide from B.linens methionine catabolism."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose, diacetyl and proline-rich peptides balancing salt 1.89%."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "Glutamate and savory peptides from mesophilic plus smear proteolysis."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://frida.fooddata.dk/food/118?lang=en",
+  "https://lucokaas.be/sites/default/files/import/Fiches/344080.pdf"
+ ]
+}

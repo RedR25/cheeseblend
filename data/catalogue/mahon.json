@@ -1,0 +1,223 @@
+{
+ "id": "mahon",
+ "name": "Mahón",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Spain",
+ "process": {
+  "aging_months": 10,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 26.21,
+   "unit": "%",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf",
+   "quote": "* **Moisture: 26.21 g.100 g-1**",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 36.99,
+   "unit": "%",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf",
+   "quote": "* **Fat: 36.99 g.100 g-1**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.75,
+   "unit": "%",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf",
+   "quote": "* **Salt: 2.75 g.100 g-1**",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.33,
+   "unit": "",
+   "source_url": "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf",
+   "quote": "* **pH: 5.33**",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 48000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques2.pdf",
+   "quote": "* **butanoic acid: 48 µg.g-1 dm = 48 mg.kg-1 dm** – 2-mo PDO Mahón, Minorca",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 1300.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques2.pdf",
+   "quote": "* **3-methylbutanoic acid (isovaleric acid): 1.3 µg.g-1 dm = 1.3 mg.kg-1 dm** – same sample",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  },
+  {
+   "value": 91000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques2.pdf",
+   "quote": "* **hexanoic acid: 91 µg.g-1 dm = 91 mg.kg-1 dm** – same sample",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 53000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques2.pdf",
+   "quote": "* **octanoic acid: 53 µg.g-1 dm = 53 mg.kg-1 dm** – same sample",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  },
+  {
+   "value": 660.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques2.pdf",
+   "quote": "* **ethyl butanoate: 0.66 µg.g-1 dm = 0.66 mg.kg-1 dm** – same sample",
+   "confidence": "measured",
+   "name": "ethyl butanoate"
+  },
+  {
+   "value": 1500.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques2.pdf",
+   "quote": "* **ethyl hexanoate: 1.5 µg.g-1 dm = 1.5 mg.kg-1 dm** – same sample",
+   "confidence": "measured",
+   "name": "ethyl hexanoate"
+  },
+  {
+   "value": 2000.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques2.pdf",
+   "quote": "* **2-heptanone: 2.0 µg.g-1 dm = 2.0 mg.kg-1 dm** – same sample, table listed as “2-methyl heptanone”",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 1100.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques2.pdf",
+   "quote": "* **2-nonanone: 1.1 µg.g-1 dm = 1.1 mg.kg-1 dm** – same sample, table listed as “2 methyl nonanone”",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  },
+  {
+   "value": 400.0,
+   "unit": "µg/kg",
+   "source_url": "http://higiene.unex.es/bibliogr/Proteoli/volques2.pdf",
+   "quote": "* **2-undecanone: 0.4 µg.g-1 dm = 0.4 mg.kg-1 dm** – same sample, table listed as “2-methyl undecanone”",
+   "confidence": "measured",
+   "name": "2-undecanone"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Modest amino-acid deamination in long ripening, suppressed by low aw 0.93-0.94 and salt-in-moisture 10.49%."
+  },
+  "animal_barnyard": {
+   "score": 2.0,
+   "reason": "No p-cresol/indole quantified; light rind phenols from Menorcan ripening cellars only."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Accumulation of hydrophobic bitter peptides from chymosin and lactobacilli peptidases, partly masked by 2.75% salt."
+  },
+  "blue_moldy": {
+   "score": 2.0,
+   "reason": "Low endogenous methyl ketones 2-heptanone 2.0, 2-nonanone 1.1, 2-undecanone 0.4 ug/g dm via fatty-acid beta-oxidation, no Penicillium."
+  },
+  "browning": {
+   "score": 4.0,
+   "reason": "Maillard between residual reducing sugars and lysine on heating, aided by low moisture and 29% protein."
+  },
+  "buttery": {
+   "score": 3.0,
+   "reason": "Diacetyl/acetoin from Lactococcus citrate metabolism largely reduced with age, leaving only milkfat lactones."
+  },
+  "cheesy_sweaty": {
+   "score": 7.0,
+   "reason": "Extensive lipolysis: butanoic 48, hexanoic 91, octanoic 53, decanoic 110 mg/kg dm from milk lipase and rennet paste."
+  },
+  "creaminess": {
+   "score": 3.0,
+   "reason": "Low moisture 26.21% and high salt limit aqueous lubrication despite 36.99% fat, FDM 50.13%."
+  },
+  "crumbliness": {
+   "score": 7.0,
+   "reason": "Long-aged low-moisture pH 5.33 matrix fractures via short demineralized para-casein strands."
+  },
+  "firmness": {
+   "score": 8.0,
+   "reason": "Very low moisture 26.21%, MNFS 41.6% with Ca 902 mg/100g cross-linked para-casein network."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "No quantified phenylacetaldehyde/2-phenylethanol; only trace yeast-derived esters in SDE profile."
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Esterification of free fatty acids with starter ethanol gives ethyl butanoate 0.66, hexanoate 1.5, octanoate 3.3, decanoate 6.6 ug/g dm."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk lacks 4-methyl/4-ethyloctanoic acids; only slight caprylic/capric waxy sharpness."
+  },
+  "malty_nutty": {
+   "score": 5.0,
+   "reason": "Prolonged proteolysis plus Strecker degradation of Leu/Ile/Val to maltol-like aldehydes and nutty notes."
+  },
+  "melt": {
+   "score": 5.0,
+   "reason": "pH 5.33 rennet gel retains partial casein hydration and 50% FDM flows moderately but aged crosslinks limit flow."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "No 1-octen-3-ol/1-octen-3-one detected and no surface mold; only faint lipid oxidation."
+  },
+  "oil_off": {
+   "score": 5.0,
+   "reason": "High total fat 36.99% with lipolyzed aged protein network releases free oil on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and no guaiacol reported; oil/paprika-rubbed natural rind only."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "Mesophilic starter lactic acid ~2% at pH 5.33; no acetic/propanoic accumulation reported."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "Non-pasta-filata rennet curd with no hot-water kneading; no aligned para-casein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Pasteurized uncooked curd; only trace dimethyl disulfide/trisulfide by log peak area, minimal methionine catabolism."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Lactose depleted to lactate; faint sweetness from free amino acids, proline and glycerol."
+  },
+  "umami": {
+   "score": 5.0,
+   "reason": "29.08% protein with extensive rennet/plasmin proteolysis releasing glutamate-rich peptides."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://lait.dairy-journal.org/articles/lait/pdf/2001/04/03-lawlor.pdf",
+  "http://higiene.unex.es/bibliogr/Proteoli/volques2.pdf",
+  "https://sidalc.net/search/Record/dig-helvia-es-10396-3124",
+  "https://tools.myfooddata.com/nutrition-comparison/1537571/wt1/1",
+  "http://lib3.dss.go.th/fulltext/Journal/Journal of food science/2001 v.66/no.6/jfsv66n6p0892-0896ms20000421[1].pdf"
+ ]
+}

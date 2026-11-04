@@ -1,0 +1,148 @@
+{
+ "id": "robiola",
+ "name": "Robiola",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "soft_bloomy",
+ "origin": "Piedmont, Italy",
+ "process": {
+  "aging_months": 0.33,
+  "coagulation": "mixed",
+  "cooked": false,
+  "mold": "white",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 54.3,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9964947/",
+   "quote": "| Robiola (C) | 54.3–65.9 | 0.63–1.22 | 0.964–0.992 | 4.45–5.74 | 156–523 | 3074–7790 | n.d.–424 |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 33.58,
+   "unit": "%",
+   "source_url": "https://1library.net/article/results-and-discussion-dairy-food-and-health.zkj99kmq",
+   "quote": "**Robiola**  6  57.06±2.83 33.58±3.37  7.85±1.85  1.50±0.16",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 0.63,
+   "unit": "%",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9964947/",
+   "quote": "| Robiola (C) | 54.3–65.9 | 0.63–1.22 | 0.964–0.992 | 4.45–5.74 | 156–523 | 3074–7790 | n.d.–424 |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 4.45,
+   "unit": "",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9964947/",
+   "quote": "| Robiola (C) | 54.3–65.9 | 0.63–1.22 | 0.964–0.992 | 4.45–5.74 | 156–523 | 3074–7790 | n.d.–424 |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "Short 10-day age with limited surface deamination by Geotrichum/Penicillium yeasts."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Pasteurized cow milk with no washed-rind Brevibacterium p-cresol/indole formation."
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Very short ripening limits hydrophobic peptide accumulation from rennet/chymosin proteolysis."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation and no blue-derived 2-heptanone/2-nonanone pathway."
+  },
+  "browning": {
+   "score": 2.0,
+   "reason": "Young high-moisture low-proteolysis curd gives limited Maillard reactants on heating."
+  },
+  "buttery": {
+   "score": 7.0,
+   "reason": "High diacetyl 598 mg/kg from Lactococcus citrate metabolism via alpha-acetolactate."
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "Moderate butyric 126 mg/kg plus isovaleric 80 mg/kg from lipolysis and Leu catabolism."
+  },
+  "creaminess": {
+   "score": 8.0,
+   "reason": "High moisture 54-57% plus 33.6% fat with acid-de mineralized casein giving soft cream."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Lactic demineralized but high-fat high-moisture matrix flows rather than fractures."
+  },
+  "firmness": {
+   "score": 3.0,
+   "reason": "High moisture and lactic acid-softened calcium-phosphate depleted network, unpressed."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low Phe catabolism to phenylacetaldehyde/2-phenylethanol in short lactic fermentation."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Very limited esterase-driven ethyl butanoate/hexanoate synthesis in 10-day cheese."
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk low in caproic/caprylic/capric and branched 4-methyloctanoic goaty acids."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "No cooked curd Strecker aldehydes and minimal aged alpine-type propionibacteria activity."
+  },
+  "melt": {
+   "score": 6.0,
+   "reason": "High moisture and demineralized pH 4.45 casein softens and flows moderately on heating."
+  },
+  "mushroom_earthy": {
+   "score": 4.0,
+   "reason": "White Geotrichum candidum/Penicillium camemberti surface producing 1-octen-3-ol."
+  },
+  "oil_off": {
+   "score": 2.0,
+   "reason": "Young intact fat globules and stable emulsion with little free oil on heating."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Not smoked with no fire-derived guaiacol/syringol phenols."
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "High lactic 3074-7790 mg/kg plus acetic 450 mg/kg at pH 4.45 from starter fermentation."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "Acid/mixed curd with no pasta-filata hot-water kneading and no aligned para-casein."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Uncooked curd pasteurized milk with low methionine-derived methanethiol/DMS."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose/galactose balanced by high lactic acidity and low pH masking sweetness."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "Short aging limits casein proteolysis to free glutamate by Lactobacillus peptidases."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9964947/",
+  "https://1library.net/article/results-and-discussion-dairy-food-and-health.zkj99kmq",
+  "https://fair.unifg.it/handle/11369/445878"
+ ]
+}

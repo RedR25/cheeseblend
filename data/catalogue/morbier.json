@@ -1,0 +1,149 @@
+{
+ "id": "morbier",
+ "name": "Morbier",
+ "milk": "cow",
+ "treatment": "raw",
+ "style": "semi_hard",
+ "origin": "France",
+ "process": {
+  "aging_months": 3,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 46.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "fat_pct": {
+   "value": 26.0,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "salt_pct": {
+   "value": 1.36,
+   "unit": "%",
+   "source_url": "https://bmcmicrobiol.biomedcentral.com/articles/10.1186/s12866-015-0596-0",
+   "quote": "* salt (NaCl) % = **1.36 %** – commercial Morbier, raw cow, 2-3 mo, France, natural rind. URL above.",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.23,
+   "unit": "",
+   "source_url": "https://www.journalofdairyscience.org/article/S0022-0302(98)75874-6/pdf",
+   "quote": "* pH raw 5.23 ±0.06, pasteurized 5.21 ±0.06",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 2.0,
+   "reason": "NH3 from amino acid deamination by Brevibacterium linens smear, low at 2-3 mo"
+  },
+  "animal_barnyard": {
+   "score": 3.0,
+   "reason": "p-cresol/indole from Tyr/Trp by raw-milk lactobacilli and smear coryneforms"
+  },
+  "bitter": {
+   "score": 3.0,
+   "reason": "hydrophobic peptides from rennet and plasmin proteolysis, moderate in pressed paste"
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "no Penicillium roqueforti inoculation, no C7-C11 methyl ketones from blue mold lipolysis"
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Maillard between residual galactose and lysine from proteolysis on heating"
+  },
+  "buttery": {
+   "score": 6.0,
+   "reason": "diacetyl/acetoin from citrate metabolism by Lactococcus lactis biovar diacetylactis"
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "butanoic acid from lipolysis plus 42.5 mg/kg isovaleric acids from Leu catabolism"
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "26% fat and 46% moisture with smeared proteolyzed paste coating mouth"
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "pressed non-cooked curd fuses to supple paste, not dry granular fracture"
+  },
+  "firmness": {
+   "score": 5.0,
+   "reason": "pressed uncooked semi-hard paste at ~46% moisture and pH 5.4, sliceable supple"
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "low phenylacetaldehyde/2-phenylethanol from Phe catabolism by LAB"
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "ethyl butanoate/hexanoate from esterification of free fatty acids by smear yeasts"
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "cow milk lacks 4-methyl/4-ethyloctanoic acids, only low C6-C8 from lipolysis"
+  },
+  "malty_nutty": {
+   "score": 5.0,
+   "reason": "3-methylbutanal/2-methylbutanol from Leu/Ile Strecker degradation and PAB activity"
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "pH 5.4 demineralized rennet curd with solubilized colloidal calcium flows on heating"
+  },
+  "mushroom_earthy": {
+   "score": 3.0,
+   "reason": "1-octen-3-ol from linoleic acid lipoxygenase oxidation plus smear rind geosmin"
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "free oil coalescence from 26% fat network on melting, moderate lipolysis"
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "central vegetable ash line is flavorless carbon, no wood-smoke guaiacol, not smoked"
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "lactic acid from mesophilic starters plus low acetic acid, pH 5.4 interior"
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "no pasta-filata hot-water kneading, rennet gel gives flow not fibrous stretch"
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "low methanethiol/dimethyl disulfide from Met catabolism by Brevibacterium"
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "lactose depleted to lactate, slight sweetness from free amino acids and diacetyl"
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "free glutamate from chymosin and LAB peptidase proteolysis during 3 mo ripening"
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.journalofdairyscience.org/article/S0022-0302(98)75874-6/pdf",
+  "https://bmcmicrobiol.biomedcentral.com/articles/10.1186/s12866-015-0596-0",
+  "https://t-stor.teagasc.ie/bitstream/handle/11019/914/12866_2015_Article_596.pdf?sequence=1&isAllowed=y",
+  "https://lait.dairy-journal.org/articles/lait/pdf/2002/01/03.pdf"
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "id": "samso",
+ "name": "Samsø",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Denmark",
+ "process": {
+  "aging_months": 18,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 42.5,
+   "unit": "%",
+   "source_url": "https://www.researchgate.net/publication/259082164_RIPENING_PROFILE_OF_SEMI-HARD_EXPERIMENTAL_CHEESE_COMPARED_TO_SOME_COMMERCIAL_VARIETIES",
+   "quote": "H Samsø (DL starter, surface flora) 5.99 42.5 29.0 >18m",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 29.0,
+   "unit": "%",
+   "source_url": "https://www.researchgate.net/publication/259082164_RIPENING_PROFILE_OF_SEMI-HARD_EXPERIMENTAL_CHEESE_COMPARED_TO_SOME_COMMERCIAL_VARIETIES",
+   "quote": "H Samsø (DL starter, surface flora) 5.99 42.5 29.0 >18m",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.8,
+   "unit": "%",
+   "source_url": "https://www.sciencedirect.com/science/article/pii/S0168160515300477",
+   "quote": "Samsoe cheese is a semi-hard pressed Danish cheese with few round holes, contains on average 1.8% (w/w) NaCl (g/100 g cheese), maximum 52% moisture in the type with 30% fat in dry matter (30 +) and is ripened in plastic bags.",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.99,
+   "unit": "",
+   "source_url": "https://www.researchgate.net/publication/259082164_RIPENING_PROFILE_OF_SEMI-HARD_EXPERIMENTAL_CHEESE_COMPARED_TO_SOME_COMMERCIAL_VARIETIES",
+   "quote": "H Samsø (DL starter, surface flora) 5.99 42.5 29.0 >18m",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 2477.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.researchgate.net/publication/259082164_RIPENING_PROFILE_OF_SEMI-HARD_EXPERIMENTAL_CHEESE_COMPARED_TO_SOME_COMMERCIAL_VARIETIES",
+   "quote": "main products of citrate fermentation are diacetyl, acetic acid and CO2 . Diacetyl was recorded in UMB1 cheese in the amount of 0.1853 ppm with maximum value of 2.477 ppm in Samsø and minimum of 0.0526 ppm in Terroir.",
+   "confidence": "measured",
+   "name": "diacetyl"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 2.5,
+   "reason": "Long proteolysis and deamination of amino acids raises pH to 5.99 with low NH3 in film-ripened paste."
+  },
+  "animal_barnyard": {
+   "score": 0.5,
+   "reason": "Pasteurized cow milk and DL starter give very low p-cresol/indole from tryptophan."
+  },
+  "bitter": {
+   "score": 2.5,
+   "reason": "Accumulated hydrophobic peptides from rennet/chymosin with balanced Lactococcus peptidase debittering."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation and no methyl ketone blue pathway."
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Moderate residual galactose/lactose plus lysine for Maillard on heating of aged semi-hard paste."
+  },
+  "buttery": {
+   "score": 7.5,
+   "reason": "Very high diacetyl 2.477 ppm from citrate fermentation by Leuconostoc/lactis biovar diacetylactis."
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "Limited lipolysis by starter esterases yielding low butyric/hexanoic acids, no added lipase."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "42.5% moisture and 29% fat (~50% FDM) with cooked pressed paste giving smooth fat-coated mouthfeel."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Elastic pressed curd with round CO2 eyes and calcium solubilization, not friable."
+  },
+  "firmness": {
+   "score": 5.5,
+   "reason": "Semi-hard moisture 42.5% and 18-mo proteolysis giving firm but sliceable body."
+  },
+  "floral_honey": {
+   "score": 1.5,
+   "reason": "Low phenylacetaldehyde/2-phenylethanol from phenylalanine catabolism by lactococci."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Ethyl butanoate/hexanoate from starter esterase esterification of acids with ethanol."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk fat lacks high 4-methyloctanoic/4-ethyloctanoic goaty branched acids."
+  },
+  "malty_nutty": {
+   "score": 5.0,
+   "reason": "Leucine/isoleucine Strecker aldehydes 3-methylbutanal/2-methylbutanal plus aged amino-acid nutty notes."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "Rennet curd pH ~5.4-5.99 with demineralized paracasein flows on heating, not acid-set."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "Film ripening prevents mold 1-octen-3-ol; trace from surface flora only in aged sample."
+  },
+  "oil_off": {
+   "score": 3.5,
+   "reason": "Moderate free oil from ~50% FDM coalesced fat on melting, not high-fat oiling."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step and no guaiacol/syringol phenols."
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Lactic acid plus acetic acid from citrate/heterofermentation by DL culture, buffered by high pH."
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "Non-pasta-filata rennet gel without hot-water stretching, so no aligned paracasein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.5,
+   "reason": "Light cooking/scalding gives low H2S/methional/dimethyl sulfide, no surface sulfur flora."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Diacetyl/acetoin sweetness plus proline/glycerol masking low residual acidity."
+  },
+  "umami": {
+   "score": 4.5,
+   "reason": "Glutamate release from extended casein proteolysis by rennet and starter peptidases."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.researchgate.net/publication/259082164_RIPENING_PROFILE_OF_SEMI-HARD_EXPERIMENTAL_CHEESE_COMPARED_TO_SOME_COMMERCIAL_VARIETIES",
+  "https://www.sciencedirect.com/science/article/pii/S0168160515300477",
+  "https://eurekamag.com/research/000/210/000210489.php"
+ ]
+}

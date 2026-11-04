@@ -1,0 +1,254 @@
+{
+ "id": "telemea",
+ "name": "Telemea",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "brined",
+ "origin": "Romania",
+ "process": {
+  "aging_months": 1,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 61.8,
+   "unit": "%",
+   "source_url": "https://www.mdpi.com/2077-0472/14/2/172/htm",
+   "quote": "| Moisture % | 61.80 g/100 g = 61.80% | Călimani Telemea, mountain system, cow milk, Romania, 7 d after ripening end | https://www.mdpi.com/2077-0472/14/2/172/htm |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 15.45,
+   "unit": "%",
+   "source_url": "https://www.mdpi.com/2077-0472/14/2/172/htm",
+   "quote": "| Fat % | 15.45 g/100 g = 15.45% lipids | same as above | https://www.mdpi.com/2077-0472/14/2/172/htm |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 3.57,
+   "unit": "%",
+   "source_url": "https://www.mdpi.com/2077-0472/14/2/172/htm",
+   "quote": "| Salt NaCl % | 3.57 g/100 g = 3.57% | same as above | https://www.mdpi.com/2077-0472/14/2/172/htm |",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.46,
+   "unit": "",
+   "source_url": "https://www.gup.ugal.ro/ugaljournals/index.php/food/article/download/1495/1218/",
+   "quote": "| pH day 0 | 5.46±0.27 | same day 0 | same URL |",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 2020.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.mdpi.com/2304-8158/12/12/2332",
+   "quote": "| delta-decalactone | TC 180 d: 2.02±1.08 mg/kg; SST 180 d: 1.64±0.45 mg/kg `Delta-decalactone` | 180 d, sheep WBC Greece TC/SST | https://www.mdpi.com/2304-8158/12/12/2332 |",
+   "confidence": "measured",
+   "name": "delta-decalactone"
+  },
+  {
+   "value": 337250.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.mdpi.com/2304-8158/12/12/2332",
+   "quote": "| butanoic acid | TC 180 d: 337.25±93.49 mg/kg; SST 180 d: 352.88±142.39 mg/kg `Butanoic acid` | 180 d, sheep WBC Greece | https://www.mdpi.com/2304-8158/12/12/2332 |",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 1540.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.mdpi.com/2304-8158/12/12/2332",
+   "quote": "| 3-methylbutanoic acid (= isovaleric acid) | TC 180 d: 1.54±1.07 mg/kg; SST 180 d: 1.13±0.88 mg/kg `Isovaleric acid` | 180 d, sheep WBC Greece | https://www.mdpi.com/2304-8158/12/12/2332 |",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  },
+  {
+   "value": 706560.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.mdpi.com/2304-8158/12/12/2332",
+   "quote": "| hexanoic acid | TC 180 d: 706.56±63.05 mg/kg; SST 180 d: 808.06±142.36 mg/kg `Hexanoic acid` | 180 d, sheep WBC Greece | https://www.mdpi.com/2304-8158/12/12/2332 |",
+   "confidence": "measured",
+   "name": "hexanoic acid"
+  },
+  {
+   "value": 1013750.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.mdpi.com/2304-8158/12/12/2332",
+   "quote": "| octanoic acid | TC 180 d: 1013.75±181.24 mg/kg; SST 180 d: 655.13±160.15 mg/kg `Octanoic acid` | 180 d, sheep WBC Greece | https://www.mdpi.com/2304-8158/12/12/2332 |",
+   "confidence": "measured",
+   "name": "octanoic acid"
+  },
+  {
+   "value": 653860.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.mdpi.com/2304-8158/12/12/2332",
+   "quote": "| acetic acid | TC 180 d: 653.86±100.41 mg/kg; SST 180 d: 726.87±141.69 mg/kg `Acetic acid` | 180 d, sheep WBC Greece | https://www.mdpi.com/2304-8158/12/12/2332 |",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 12160.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.mdpi.com/2304-8158/12/12/2332",
+   "quote": "| propanoic acid | TC 180 d: 12.16±5.16 mg/kg; SST 180 d: 26.75±11.62 mg/kg `Propanoic acid` | 180 d, sheep WBC Greece | https://www.mdpi.com/2304-8158/12/12/2332 |",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 3760.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.mdpi.com/2304-8158/12/12/2332",
+   "quote": "| 2-heptanone | TC 180 d: 3.76±2.05 mg/kg; SST 180 d: 3.61±1.64 mg/kg `2-Heptanone` | 180 d, sheep WBC Greece | https://www.mdpi.com/2304-8158/12/12/2332 |",
+   "confidence": "measured",
+   "name": "2-heptanone"
+  },
+  {
+   "value": 1600.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.mdpi.com/2304-8158/12/12/2332",
+   "quote": "| 2-nonanone | TC 180 d: 1.60±0.22 mg/kg; SST 180 d: 1.04±0.55 mg/kg `2-Nonanone` | 180 d, sheep WBC Greece | https://www.mdpi.com/2304-8158/12/12/2332 |",
+   "confidence": "measured",
+   "name": "2-nonanone"
+  },
+  {
+   "value": 1160.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.mdpi.com/2304-8158/12/12/2332",
+   "quote": "| 2-undecanone | TC 180 d: 1.16±1.13 mg/kg; SST 180 d: 1.01±1.67 mg/kg `2-Undecanone` | 180 d, sheep WBC Greece | https://www.mdpi.com/2304-8158/12/12/2332 |",
+   "confidence": "measured",
+   "name": "2-undecanone"
+  },
+  {
+   "value": 3990.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.mdpi.com/2304-8158/12/12/2332",
+   "quote": "| ethyl hexanoate | TC 180 d: 3.99±2.80 mg/kg; SST 180 d: 8.73±3.81 mg/kg `Hexanoic acid. ethylester` | 180 d, sheep WBC Greece | https://www.mdpi.com/2304-8158/12/12/2332 |",
+   "confidence": "measured",
+   "name": "ethyl hexanoate"
+  },
+  {
+   "value": 890.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.mdpi.com/2304-8158/12/12/2332",
+   "quote": "| 1-octen-3-ol | TC 180 d: 0.89±0.25 mg/kg; SST 180 d: 2.90±1.54 mg/kg `1-Octen-3-ol` | 180 d, sheep WBC Greece | https://www.mdpi.com/2304-8158/12/12/2332 |",
+   "confidence": "measured",
+   "name": "1-octen-3-ol"
+  },
+  {
+   "value": 2480.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.mdpi.com/2304-8158/12/12/2332",
+   "quote": "| 2-phenylethanol | TC 180 d: 2.48±1.76 mg/kg; SST 180 d: 3.79±3.94 mg/kg `2-Phenyl ethanol` | 180 d, sheep WBC Greece | https://www.mdpi.com/2304-8158/12/12/2332 |",
+   "confidence": "measured",
+   "name": "2-phenylethanol"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 1.0,
+   "reason": "No surface flora and 18-20% brine anaerobic ripening limits deamination and urea catabolism to NH3."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "Pasteurized cow milk and no p-cresol/indole reported; clean lactic flora without Brevibacterium."
+  },
+  "bitter": {
+   "score": 4.0,
+   "reason": "Hydrophobic peptides from chymosin/plasmin proteolysis accentuated by 3.57% NaCl and pH 5.46 to 4.4."
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "No Penicillium roqueforti; low methyl ketones 2-heptanone 3.76 mg/kg and 2-nonanone 1.6 mg/kg only."
+  },
+  "browning": {
+   "score": 1.0,
+   "reason": "High moisture 61.8% and high salt plus low residual lactose inhibit Maillard and caramelization."
+  },
+  "buttery": {
+   "score": 3.0,
+   "reason": "Citrate to diacetyl/acetoin by Lactococcus lactis biovar diacetylactis, curtailed by salt-in-moisture and short brine age."
+  },
+  "cheesy_sweaty": {
+   "score": 6.0,
+   "reason": "Lipolysis FFAs butanoic 337 mg/kg, hexanoic 707 mg/kg, octanoic 1014 mg/kg from milk lipase and starter esterases."
+  },
+  "creaminess": {
+   "score": 5.0,
+   "reason": "High moisture 61.8% with 15.45% fat gives moist mouthfeel but brine Ca-bridging limits cream flow."
+  },
+  "crumbliness": {
+   "score": 7.0,
+   "reason": "pH fall 5.46 to ~4.5 toward casein isoelectric point plus Na-Ca exchange in brine demineralizes paracasein."
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "Pressed rennet gel firmed by 20% brine NaCl despite 61.8% moisture; sliceable soft-brined body."
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Phenylalanine Ehrlich to 2-phenylethanol 2.48 mg/kg and delta-decalactone 2.02 mg/kg lactonization, low level."
+  },
+  "fruity": {
+   "score": 3.0,
+   "reason": "Esterase esterification to ethyl hexanoate 3.99 mg/kg; ethanol limiting in anaerobic brine."
+  },
+  "goaty": {
+   "score": 2.0,
+   "reason": "Cow milk lacks 4-methyl/4-ethyloctanoic goaty acids; only straight-chain C6-C8 gives slight caprylic note."
+  },
+  "malty_nutty": {
+   "score": 2.0,
+   "reason": "Little Strecker 2-/3-methylbutanal and propanal; short age limits leucine/isoleucine catabolism and pyrazines."
+  },
+  "melt": {
+   "score": 1.0,
+   "reason": "3.57% salt and pH ~4.5-5.46 crosslink Ca-paracasein; acid-brined curd softens but does not flow."
+  },
+  "mushroom_earthy": {
+   "score": 1.0,
+   "reason": "Linoleic lipoxygenase to 1-octen-3-ol only 0.89 mg/kg; no Geotrichum/white mold."
+  },
+  "oil_off": {
+   "score": 1.0,
+   "reason": "Low fat 15.45% trapped in high-salt protein matrix; no cooking or pasta-filata fat release."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Not smoked and no guaiacol/phenols reported; pasteurized 68C for 20 min adds no pyrolysis."
+  },
+  "sour_vinegar": {
+   "score": 6.0,
+   "reason": "Lactose to L-lactic plus acetic 654 mg/kg and propanoic 12 mg/kg by mesophilic starters in brine."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No hot-water kneading or aligned paracasein; rennet-brined curd fractures rather than strings."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Methanethiol/DMS not detected; low-heat pasteurization limits whey beta-lactoglobulin H2S release."
+  },
+  "sweet": {
+   "score": 2.0,
+   "reason": "Residual lactose depleted by fermentation and salt suppresses sweet; slight lactone sweetness only."
+  },
+  "umami": {
+   "score": 3.0,
+   "reason": "Short 28-day brine proteolysis yields low free glutamate; salt enhances but no long glutamate accumulation."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://www.mdpi.com/2077-0472/14/2/172/htm",
+  "https://www.gup.ugal.ro/ugaljournals/index.php/food/article/download/1495/1218/",
+  "https://www.mdpi.com/2304-8158/12/12/2332",
+  "https://www.thefreelibrary.com/Physicochemical%2c+Microbiological+and+Sensory+Characteristics+of+White...-a0758283473"
+ ]
+}

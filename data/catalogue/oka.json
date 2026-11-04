@@ -1,0 +1,150 @@
+{
+ "id": "oka",
+ "name": "Oka",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "washed_rind",
+ "origin": "Oka, Laurentides, Québec, Canada",
+ "process": {
+  "aging_months": 1.2,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "washed_rind_bacteria",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 44.0,
+   "unit": "%",
+   "source_url": "https://www.fromageoka.ca/en/cheese/oka-original",
+   "quote": "| **moisture % – OKA Original** | 44 | % | OKA Original, semi-soft surface-ripened, cow’s milk, Agropur Fromagerie OKA, Oka, Laurentides, Quebec, Canada – `Country Canada (Québec)`, `Region Laurentides`, `Producer Agropur`; Regular Oka `surface ripened for 4 weeks`, `Minimum Refinement 35 day(s)`, `aged in the cellars at Fromagerie OKA` – search result: `To this day, classic OKA Original is aged in the cellars at Fromagerie OKA` | https://www.fromageoka.ca/en/cheese/oka-original – `Features, Fat, 30%, Moisture, 44%` |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 30.0,
+   "unit": "%",
+   "source_url": "https://www.fromageoka.ca/en/cheese/oka-original",
+   "quote": "| **fat % – OKA Original** | 30 | % milk fat stated as Features | Same sample as above | https://www.fromageoka.ca/en/cheese/oka-original – `Features, Fat, 30%, Moisture, 44%` |",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.8,
+   "unit": "%",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  },
+  "ph": {
+   "value": 5.9,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 3.0,
+   "reason": "Surface deacidification by B. linens / yeasts deaminates amino acids to NH3, mild at 35 days"
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "B. linens proteolysis and p-cresol / isovaleric acid from rind smear gives mild barnyard"
+  },
+  "bitter": {
+   "score": 2.0,
+   "reason": "Low level hydrophobic peptides from rennet / starter proteolysis, mostly degraded by rind flora"
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti inoculation so no 2-heptanone / 2-nonanone blue ketone pathway"
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "Moderate residual lactose / galactose + lysine Maillard during baking, washed-rind moisture promotes"
+  },
+  "buttery": {
+   "score": 5.0,
+   "reason": "Diacetyl / acetoin from Lactococcus lactis biovar diacetylactis citrate fermentation"
+  },
+  "cheesy_sweaty": {
+   "score": 4.0,
+   "reason": "Butanoic and hexanoic acids from starter esterase and mild lipolysis"
+  },
+  "creaminess": {
+   "score": 6.0,
+   "reason": "30% fat and 44% moisture with smear proteolysis softening paste to creamy"
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Washed, pressed supple paste with low calcium loss, deforms rather than crumbles"
+  },
+  "firmness": {
+   "score": 4.0,
+   "reason": "Semi-soft 44% moisture rennet gel, surface-ripened softening but firm center at 35 days"
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "Low 2-phenylethanol / phenylacetaldehyde from phenylalanine catabolism by yeasts / smear"
+  },
+  "fruity": {
+   "score": 4.0,
+   "reason": "Ethyl butanoate / ethyl hexanoate from esterification of free fatty acids by smear yeasts"
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "Cow milk low in caproic / caprylic / branched 4-methyloctanoic goaty acids"
+  },
+  "malty_nutty": {
+   "score": 5.0,
+   "reason": "3-methylbutanal / 2-methylbutanal from leucine / isoleucine Strecker degradation"
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "Pasteurized rennet curd pH ~5.9 with intact casein network flows well on heating"
+  },
+  "mushroom_earthy": {
+   "score": 3.0,
+   "reason": "1-octen-3-ol / 1-octen-3-one from linoleic acid oxidation by rind yeasts / B. linens"
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "Moderate 30% fat releases some free oil on melting but stable emulsion"
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoking step so no guaiacol / syringol phenols deposited"
+  },
+  "sour_vinegar": {
+   "score": 3.0,
+   "reason": "Lactic acid from starter plus low acetic acid from surface heterofermentative flora"
+  },
+  "stretch": {
+   "score": 2.0,
+   "reason": "Non-pasta-filata rennet gel, no hot-water alignment of casein fibers"
+  },
+  "sulfur_cooked": {
+   "score": 2.0,
+   "reason": "Low methanethiol / dimethyl sulfide / methional from methionine catabolism by B. linens"
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Lactose depleted but glycerol, diacetyl and sweet amino acids proline / alanine remain"
+  },
+  "umami": {
+   "score": 4.0,
+   "reason": "Glutamate and savory peptides released by rennet + Brevibacterium proteolysis"
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.fromageoka.ca/en/cheese/oka-original",
+  "https://fdc.nal.usda.gov/food-search?type=Foundation&query=Oka%20cheese",
+  "https://www.fromageriehamel.com/wp-content/uploads/pdf/3042.pdf",
+  "https://epe.lac-bac.gc.ca/100/201/301/weekly_acquisitions_list-ef/2019/19-14/publications.gc.ca/collections/collection_2019/mdn-dnd/D2-531-19-2018-eng.pdf?nodisclaimer=1",
+  "https://www.fromageoka.ca/en/cheese/oka-light"
+ ]
+}

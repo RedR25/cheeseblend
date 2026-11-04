@@ -1,0 +1,149 @@
+{
+ "id": "gamalost",
+ "name": "Gamalost",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "semi_hard",
+ "origin": "Norway",
+ "process": {
+  "aging_months": 0.33,
+  "coagulation": "acid",
+  "cooked": true,
+  "mold": "white",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 56.14,
+   "unit": "%",
+   "source_url": "https://nmbu.brage.unit.no/nmbu-xmlui/bitstream/handle/11250/2461764/Qureshi%20et%20al%202012%20DST%20Post%20Print.pdf",
+   "quote": "| 0 days | Gamalost, TINE Meieriet Vik, experimental batch | **56.14 % ±0.51** | **4.43 ±0.05** |",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 0.5,
+   "unit": "%",
+   "source_url": "https://nmbu.brage.unit.no/nmbu-xmlui/bitstream/handle/11250/2461764/Qureshi%20et%20al%202012%20DST%20Post%20Print.pdf",
+   "quote": "- **Fat: cheese contained <0.5% fat.**",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 0.1,
+   "unit": "%",
+   "source_url": "https://www.matvaretabellen.no/en/cheese-skimmed-milk-matured-sharp-gammelost/",
+   "quote": "**Salt: 0.1 g /100 g.**",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 6.9,
+   "unit": "",
+   "source_url": "",
+   "quote": "",
+   "confidence": "inferred"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 9.0,
+   "reason": "Mucor mucedo deamination and urease deacidify pH 4.43 to ~7.0 releasing NH3"
+  },
+  "animal_barnyard": {
+   "score": 4.0,
+   "reason": "Tyr/Trp catabolism to p-cresol/indole during intense proteolysis"
+  },
+  "bitter": {
+   "score": 8.0,
+   "reason": "massive accumulation of hydrophobic peptides by Mucor + Lactococcus proteinases with no salt/fat masking"
+  },
+  "blue_moldy": {
+   "score": 1.0,
+   "reason": "no Penicillium roqueforti, very low fat so almost no 2-heptanone/2-nonanone"
+  },
+  "browning": {
+   "score": 5.0,
+   "reason": "high-protein low-fat curd yellows/browns via Maillard and mold enzymes on heating/ripening"
+  },
+  "buttery": {
+   "score": 1.0,
+   "reason": "skim milk <0.5% fat gives almost no milkfat diacetyl/acetoin retention"
+  },
+  "cheesy_sweaty": {
+   "score": 3.0,
+   "reason": "very limited butanoic/hexanoic acids due to <0.5% fat substrate despite lipolysis"
+  },
+  "creaminess": {
+   "score": 1.0,
+   "reason": "<1% fat and granular acid-cooked curd gives no creamy mouthfeel"
+  },
+  "crumbliness": {
+   "score": 8.0,
+   "reason": "acid-precipitated cooked skim curd at ~45% moisture fractures granular"
+  },
+  "firmness": {
+   "score": 8.0,
+   "reason": "dense 50% protein low-fat matrix cooked 90-95C in whey is hard-firm"
+  },
+  "floral_honey": {
+   "score": 2.0,
+   "reason": "limited Phe-derived phenylacetaldehyde/2-phenylethanol, suppressed by pungent notes"
+  },
+  "fruity": {
+   "score": 1.0,
+   "reason": "almost no fat for ethyl butanoate/hexanoate synthesis by esterase"
+  },
+  "goaty": {
+   "score": 1.0,
+   "reason": "cow skim milk lacks caprine 4-methyloctanoic/4-ethyloctanoic acids"
+  },
+  "malty_nutty": {
+   "score": 3.0,
+   "reason": "Leu/Ile/Val Strecker aldehydes 3-methylbutanal/2-methylbutanal from proteolysis"
+  },
+  "melt": {
+   "score": 0.0,
+   "reason": "acid-heat set low-pH history and <0.5% fat prevents flow, only softens"
+  },
+  "mushroom_earthy": {
+   "score": 6.0,
+   "reason": "surface Mucor mucedo produces 1-octen-3-ol/1-octen-3-one earthy notes"
+  },
+  "oil_off": {
+   "score": 0.0,
+   "reason": "no milkfat to exude free oil on heating"
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "unsmoked make, no guaiacol/phenol exposure"
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "initial lactic/acetic acid largely consumed by mold deacidification to pH ~6.9"
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "acid curd never pasta-filata stretched, no aligned casein fibers"
+  },
+  "sulfur_cooked": {
+   "score": 4.0,
+   "reason": "90-95C whey cooking plus Met catabolism to methional/dimethyl sulfide"
+  },
+  "sweet": {
+   "score": 1.0,
+   "reason": "lactose fully fermented by Lactococcus, no residual sugar"
+  },
+  "umami": {
+   "score": 7.0,
+   "reason": "extensive proteolysis releases free glutamate and savory peptides"
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://nmbu.brage.unit.no/nmbu-xmlui/bitstream/handle/11250/2461764/Qureshi%20et%20al%202012%20DST%20Post%20Print.pdf",
+  "https://www.matvaretabellen.no/en/cheese-skimmed-milk-matured-sharp-gammelost/",
+  "https://nmbu.brage.unit.no/nmbu-xmlui/bitstream/handle/11250/2461764/Qureshi%20et%20al%202012%20DST%20Post%20Print.pdf?sequence=4&isAllowed=y",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4976624/"
+ ]
+}

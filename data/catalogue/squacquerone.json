@@ -1,0 +1,148 @@
+{
+ "id": "squacquerone",
+ "name": "Squacquerone",
+ "milk": "cow",
+ "treatment": "pasteurized",
+ "style": "fresh",
+ "origin": "Italy",
+ "process": {
+  "aging_months": 0.1,
+  "coagulation": "rennet",
+  "cooked": false,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 60.0,
+   "unit": "%",
+   "source_url": "https://www.researchgate.net/publication/229410351_Content_and_characterisation_of_minerals_in_milk_and_in_Crescenza_and_Squacquerone_Italian_fresh_cheeses_by_ICP-OES",
+   "quote": "Squacquerone has a pH of about 5.1, humidity of 60%, fat and protein content are about 18.5 and 15% respectively, and NaCl content is less than 1%.",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 18.5,
+   "unit": "%",
+   "source_url": "https://www.researchgate.net/publication/229410351_Content_and_characterisation_of_minerals_in_milk_and_in_Crescenza_and_Squacquerone_Italian_fresh_cheeses_by_ICP-OES",
+   "quote": "Squacquerone has a pH of about 5.1, humidity of 60%, fat and protein content are about 18.5 and 15% respectively, and NaCl content is less than 1%.",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 1.0,
+   "unit": "%",
+   "source_url": "https://www.researchgate.net/publication/229410351_Content_and_characterisation_of_minerals_in_milk_and_in_Crescenza_and_Squacquerone_Italian_fresh_cheeses_by_ICP-OES",
+   "quote": "Squacquerone has a pH of about 5.1, humidity of 60%, fat and protein content are about 18.5 and 15% respectively, and NaCl content is less than 1%.",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.1,
+   "unit": "",
+   "source_url": "https://www.researchgate.net/publication/229410351_Content_and_characterisation_of_minerals_in_milk_and_in_Crescenza_and_Squacquerone_Italian_fresh_cheeses_by_ICP-OES",
+   "quote": "Squacquerone has a pH of about 5.1, humidity of 60%, fat and protein content are about 18.5 and 15% respectively, and NaCl content is less than 1%.",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [],
+ "scores": {
+  "ammonia": {
+   "score": 0.0,
+   "reason": "Days-old pasteurized curd at 4C with no surface flora and minimal deamination."
+  },
+  "animal_barnyard": {
+   "score": 0.0,
+   "reason": "Pasteurized cow milk with no washed-rind flora to make p-cresol/indole."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "Very short storage limits rennet/plasmin hydrophobic peptide accumulation."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium roqueforti and no blue-ketone 2-heptanone/2-nonanone pathway."
+  },
+  "browning": {
+   "score": 2.0,
+   "reason": "Very high moisture and brief heating limits Maillard despite residual lactose."
+  },
+  "buttery": {
+   "score": 4.0,
+   "reason": "S. thermophilus pyruvate/citrate metabolism yields diacetyl and acetoin."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Minimal lipolysis in 1-15 day cheese limits free butanoic/hexanoic acids."
+  },
+  "creaminess": {
+   "score": 8.0,
+   "reason": "60-69% moisture plus ~46-59% FDM fat lubricates demineralized casein matrix."
+  },
+  "crumbliness": {
+   "score": 1.0,
+   "reason": "Hydrated low-pH rennet gel flows rather than fractures."
+  },
+  "firmness": {
+   "score": 2.0,
+   "reason": "High moisture and pH ~5.1 calcium solubilization gives soft spreadable body."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Trace phenylalanine catabolism to phenylethanol reported only as relative %."
+  },
+  "fruity": {
+   "score": 2.0,
+   "reason": "Trace ethyl butanoate/hexanoate from esterase esterification in cold storage."
+  },
+  "goaty": {
+   "score": 0.0,
+   "reason": "Cow milk lacks caprine C6-C10 and 4-methyloctanoic acid signature."
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "No aging for Strecker aldehydes 2-/3-methylbutanal from leucine/isoleucine."
+  },
+  "melt": {
+   "score": 7.0,
+   "reason": "pH 5.1-5.35 demineralized casein fuses readily when warmed on piadina."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "No bloomy/Geotrichum lipoxygenase to make 1-octen-3-ol/1-octen-3-one."
+  },
+  "oil_off": {
+   "score": 1.0,
+   "reason": "Only ~18.5% fat well emulsified in fresh high-moisture matrix."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "No smoke application and no guaiacol formation."
+  },
+  "sour_vinegar": {
+   "score": 4.0,
+   "reason": "S. thermophilus lactose to L-lactic acid to pH ~5.1 with little acetic acid."
+  },
+  "stretch": {
+   "score": 0.0,
+   "reason": "No pasta-filata hot-water kneading, no aligned paracasein fibers."
+  },
+  "sulfur_cooked": {
+   "score": 1.0,
+   "reason": "Pasteurization only with no curd cooking, low methional/DMS from whey protein."
+  },
+  "sweet": {
+   "score": 4.0,
+   "reason": "Residual lactose/lactate and <1% salt enhance milky sweet perception."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "No aging proteolysis so very low free glutamate/aspartate."
+  }
+ },
+ "filata": false,
+ "non_melter": false,
+ "sources": [
+  "https://www.researchgate.net/publication/229410351_Content_and_characterisation_of_minerals_in_milk_and_in_Crescenza_and_Squacquerone_Italian_fresh_cheeses_by_ICP-OES",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7277329/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6326422/"
+ ]
+}

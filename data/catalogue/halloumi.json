@@ -1,0 +1,181 @@
+{
+ "id": "halloumi",
+ "name": "Halloumi",
+ "milk": "mixed",
+ "treatment": "pasteurized",
+ "style": "brined",
+ "origin": "Cyprus",
+ "process": {
+  "aging_months": 0,
+  "coagulation": "rennet",
+  "cooked": true,
+  "mold": "none",
+  "smoked": false,
+  "stretched": false
+ },
+ "composition": {
+  "moisture_pct": {
+   "value": 47.46,
+   "unit": "%",
+   "source_url": "https://www.researchgate.net/profile/Photis-Papademas/publication/223898196_A_comparison_of_the_chemical_microbiological_and_sensory_characteristics_of_bovine_and_ovine_Halloumi_cheese/links/59e516470f7e9b0e1aa8862d/A-comparison-of-the-chemical-microbiological-and-sensory-characteristics-of-bovine-and-ovine-Halloumi-cheese.pdf",
+   "quote": "- 474.6 g/kg = **47.46 %** – fresh ovine, Cyprus retail, fresh",
+   "confidence": "measured"
+  },
+  "fat_pct": {
+   "value": 26.08,
+   "unit": "%",
+   "source_url": "https://www.researchgate.net/profile/Photis-Papademas/publication/223898196_A_comparison_of_the_chemical_microbiological_and_sensory_characteristics_of_bovine_and_ovine_Halloumi_cheese/links/59e516470f7e9b0e1aa8862d/A-comparison-of-the-chemical-microbiological-and-sensory-characteristics-of-bovine-and-ovine-Halloumi-cheese.pdf",
+   "quote": "- 260.8 g/kg = **26.08 %** – fresh ovine",
+   "confidence": "measured"
+  },
+  "salt_pct": {
+   "value": 2.74,
+   "unit": "%",
+   "source_url": "https://www.researchgate.net/profile/Photis-Papademas/publication/223898196_A_comparison_of_the_chemical_microbiological_and_sensory_characteristics_of_bovine_and_ovine_Halloumi_cheese/links/59e516470f7e9b0e1aa8862d/A-comparison-of-the-chemical-microbiological-and-sensory-characteristics-of-bovine-and-ovine-Halloumi-cheese.pdf",
+   "quote": "- 27.4 g/kg = **2.74 %** – fresh ovine",
+   "confidence": "measured"
+  },
+  "ph": {
+   "value": 5.9,
+   "unit": "",
+   "source_url": "https://www.researchgate.net/profile/Photis-Papademas/publication/223898196_A_comparison_of_the_chemical_microbiological_and_sensory_characteristics_of_bovine_and_ovine_Halloumi_cheese/links/59e516470f7e9b0e1aa8862d/A-comparison-of-the-chemical-microbiological-and-sensory-characteristics-of-bovine-and-ovine-Halloumi-cheese.pdf",
+   "quote": "- **5.9** – fresh ovine",
+   "confidence": "measured"
+  }
+ },
+ "compounds": [
+  {
+   "value": 189190.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.researchgate.net/profile/Photis-Papademas/publication/223898196_A_comparison_of_the_chemical_microbiological_and_sensory_characteristics_of_bovine_and_ovine_Halloumi_cheese/links/59e516470f7e9b0e1aa8862d/A-comparison-of-the-chemical-microbiological-and-sensory-characteristics-of-bovine-and-ovine-Halloumi-cheese.pdf",
+   "quote": "- `Ethanoic 189.19$77.69` – fresh ovine mg/kg",
+   "confidence": "measured",
+   "name": "acetic acid"
+  },
+  {
+   "value": 107810.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.researchgate.net/profile/Photis-Papademas/publication/223898196_A_comparison_of_the_chemical_microbiological_and_sensory_characteristics_of_bovine_and_ovine_Halloumi_cheese/links/59e516470f7e9b0e1aa8862d/A-comparison-of-the-chemical-microbiological-and-sensory-characteristics-of-bovine-and-ovine-Halloumi-cheese.pdf",
+   "quote": "- `Propanoic 107.81$16.3` – fresh ovine",
+   "confidence": "measured",
+   "name": "propanoic acid"
+  },
+  {
+   "value": 28130.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.researchgate.net/profile/Photis-Papademas/publication/223898196_A_comparison_of_the_chemical_microbiological_and_sensory_characteristics_of_bovine_and_ovine_Halloumi_cheese/links/59e516470f7e9b0e1aa8862d/A-comparison-of-the-chemical-microbiological-and-sensory-characteristics-of-bovine-and-ovine-Halloumi-cheese.pdf",
+   "quote": "- `Butanoic 28.13$13.26` – fresh ovine mg/kg",
+   "confidence": "measured",
+   "name": "butanoic acid"
+  },
+  {
+   "value": 68810.0,
+   "unit": "µg/kg",
+   "source_url": "https://www.researchgate.net/profile/Photis-Papademas/publication/223898196_A_comparison_of_the_chemical_microbiological_and_sensory_characteristics_of_bovine_and_ovine_Halloumi_cheese/links/59e516470f7e9b0e1aa8862d/A-comparison-of-the-chemical-microbiological-and-sensory-characteristics-of-bovine-and-ovine-Halloumi-cheese.pdf",
+   "quote": "  - 68.81 mg/kg fresh ovine",
+   "confidence": "measured",
+   "name": "3-methylbutanoic acid"
+  }
+ ],
+ "scores": {
+  "ammonia": {
+   "score": 0.0,
+   "reason": "No extensive amino acid deamination in fresh low-proteolysis cooked curd at pH 5.9."
+  },
+  "animal_barnyard": {
+   "score": 1.0,
+   "reason": "p-cresol and indole not detected; clean pasteurized make limits phenol formation."
+  },
+  "bitter": {
+   "score": 1.0,
+   "reason": "Short age prevents hydrophobic peptide accumulation from chymosin proteolysis."
+  },
+  "blue_moldy": {
+   "score": 0.0,
+   "reason": "No Penicillium inoculation and no methyl-ketone pathway from mold lipases."
+  },
+  "browning": {
+   "score": 8.0,
+   "reason": "Grill Maillard between residual lactose and lysine on low-moisture surface forms crust."
+  },
+  "buttery": {
+   "score": 2.0,
+   "reason": "Very low diacetyl/acetoin from no starter citrate metabolism and whey-cooking volatilization."
+  },
+  "cheesy_sweaty": {
+   "score": 2.0,
+   "reason": "Butanoic 28.13 mg/kg indicates minimal lipolysis without mold lipases."
+  },
+  "creaminess": {
+   "score": 3.0,
+   "reason": "26% fat but dense denatured whey-casein network inhibits oral fat coalescence."
+  },
+  "crumbliness": {
+   "score": 2.0,
+   "reason": "Elastic cooked rennet gel deforms rather than fracturing like weak acid curd."
+  },
+  "firmness": {
+   "score": 8.0,
+   "reason": "High-heat whey cooking contracts para-casein with calcium-phosphate crosslinks at pH 5.9 causing squeak."
+  },
+  "floral_honey": {
+   "score": 1.0,
+   "reason": "Phenylacetaldehyde and 2-phenylethanol not quantified; minimal phenylalanine catabolism."
+  },
+  "fruity": {
+   "score": 1.0,
+   "reason": "No quantified ethyl esters; only trace methyl butanoate peak area without brine aging."
+  },
+  "goaty": {
+   "score": 3.0,
+   "reason": "Caproic 60 mg/kg plus caprylic 66 mg/kg short-chain FFAs from ovine-caprine milk."
+  },
+  "malty_nutty": {
+   "score": 1.0,
+   "reason": "3-methylbutanal only as peak area; no aged leucine Strecker aldehyde accumulation."
+  },
+  "melt": {
+   "score": 1.0,
+   "reason": "Heat-set whey protein-casein complex at pH 5.9 prevents para-casein flow on heating."
+  },
+  "mushroom_earthy": {
+   "score": 0.0,
+   "reason": "1-octen-3-ol and 1-octen-3-one not detected; no surface-mold lipoxygenase activity."
+  },
+  "oil_off": {
+   "score": 3.0,
+   "reason": "Fat globules trapped by denatured whey-protein coat limit free oil despite 26% fat."
+  },
+  "smoky": {
+   "score": 0.0,
+   "reason": "Typical plain Halloumi unsmoked; no guaiacol phenols from smoking."
+  },
+  "sour_vinegar": {
+   "score": 2.0,
+   "reason": "Acetic 189.19 mg/kg and propanoic 107.81 mg/kg at pH 5.9 show limited acidification."
+  },
+  "stretch": {
+   "score": 1.0,
+   "reason": "No pasta-filata acidification to pH 5.2-5.4 and no hot-water kneading to align casein."
+  },
+  "sulfur_cooked": {
+   "score": 5.0,
+   "reason": "Whey-cooking near 90C denatures beta-lactoglobulin releasing H2S and cooked-milk sulfides."
+  },
+  "sweet": {
+   "score": 3.0,
+   "reason": "Residual lactose at high pH 5.9 retains milky sweetness without lactic sourness."
+  },
+  "umami": {
+   "score": 2.0,
+   "reason": "Low free glutamate from minimal rennet proteolysis in unaged cooked curd."
+  }
+ },
+ "filata": false,
+ "non_melter": true,
+ "sources": [
+  "https://www.researchgate.net/profile/Photis-Papademas/publication/223898196_A_comparison_of_the_chemical_microbiological_and_sensory_characteristics_of_bovine_and_ovine_Halloumi_cheese/links/59e516470f7e9b0e1aa8862d/A-comparison-of-the-chemical-microbiological-and-sensory-characteristics-of-bovine-and-ovine-Halloumi-cheese.pdf",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6678100/",
+  "https://www.Mdpi.com/2624-862X/6/4/30"
+ ]
+}
