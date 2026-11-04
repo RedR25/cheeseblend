@@ -4,6 +4,8 @@
 
 **Live app:** LIVE_URL · **Video demo:** [docs/demo.mp4](docs/demo.mp4) · **Research and Muse write-up:** [docs/RESEARCH.md](docs/RESEARCH.md)
 
+![Dragging a cheese onto the board and sliding the shares](docs/demo.gif)
+
 Every output is a model prediction. No health or nutrition claims.
 
 ## What it is
