@@ -26,9 +26,9 @@ Cooks blend cheeses all the time: Gruyère with Vacherin for fondue, mozzarella 
 ## Architecture
 
 ```mermaid
-flowchart LR
+flowchart TB
   subgraph OFF["Offline build: Muse, every call cached"]
-    direction TB
+    direction LR
     L["183 cheese names"] --> R["Muse research agent<br/>muse-spark-1.3-contributor + web_search"]
     R --> X["Muse extractor<br/>muse-wonder-1.0, json_schema"]
     X --> V["Verifier<br/>number in quote, quote in notes, URL cited"]
@@ -40,7 +40,7 @@ flowchart LR
     WK["Muse names the Wikipedia article"] --> PH[("Commons photos<br/>+ licenses")]
   end
   subgraph ENG["Engine: numpy, no LLM"]
-    direction TB
+    direction LR
     CAT["Catalogue<br/>OAV per compound, per-family scale,<br/>measured + Muse fusion"] --> PRED["Predict a blend<br/>mass balance, Stevens, masking,<br/>pH, melt, stretch"]
     PRED --> FP["Odor fingerprint<br/>Σ intensity × embedding"]
     PRED --> SC["Score H<br/>fit + character + Wundt + harmony<br/>− size − uncertainty"]
@@ -48,7 +48,7 @@ flowchart LR
     SC --> OPT["Beam search + SLSQP<br/>top 3, distinct lead cheeses"]
   end
   subgraph APP["App: Streamlit + drag-and-drop component"]
-    direction TB
+    direction LR
     IN["Dish, craving or ultimate cheese"] --> INT["Muse intent<br/>muse-spark-1.3, production"]
     CRI["Muse critic: vetoes odd blends"]
     EXP["Muse explainer"]

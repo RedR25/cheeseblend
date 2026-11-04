@@ -302,5 +302,653 @@
   "file": "https://commons.wikimedia.org/wiki/File:Tilsit_cheese.jpg",
   "license": "Public domain",
   "artist": "Jon Sullivan"
+ },
+ "banon": {
+  "title": "Banon cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Banon.JPG/330px-Banon.JPG",
+  "page": "https://en.wikipedia.org/wiki/Banon_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Banon.JPG",
+  "license": "CC BY-SA 2.0",
+  "artist": "Abujoy"
+ },
+ "bel_paese": {
+  "title": "Bel Paese (cheese)",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Cheese_29_bg_051906.jpg/330px-Cheese_29_bg_051906.jpg",
+  "page": "https://en.wikipedia.org/wiki/Bel_Paese_(cheese)",
+  "file": "https://commons.wikimedia.org/wiki/File:Cheese_29_bg_051906.jpg",
+  "license": "Public domain",
+  "artist": "Jon Sullivan"
+ },
+ "bergkase": {
+  "title": "Bergkäse",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Bergk%C3%A4se2.jpg/330px-Bergk%C3%A4se2.jpg",
+  "page": "https://en.wikipedia.org/wiki/Bergk%C3%A4se",
+  "file": "https://commons.wikimedia.org/wiki/File:Bergk%C3%A4se2.jpg",
+  "license": "Public domain",
+  "artist": "--Xocolatl 15:27, 26 August 2007 (UTC)"
+ },
+ "beyaz_peynir": {
+  "title": "Beyaz peynir",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/White_cheese_from_Turkey.jpg/330px-White_cheese_from_Turkey.jpg",
+  "page": "https://en.wikipedia.org/wiki/Beyaz_peynir",
+  "file": "https://commons.wikimedia.org/wiki/File:White_cheese_from_Turkey.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "E4024"
+ },
+ "bleu_d_auvergne": {
+  "title": "Bleu d'Auvergne",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Bleu_d%27Auvergne_cheese.jpg/330px-Bleu_d%27Auvergne_cheese.jpg",
+  "page": "https://en.wikipedia.org/wiki/Bleu_d'Auvergne",
+  "file": "https://commons.wikimedia.org/wiki/File:Bleu_d%27Auvergne_cheese.jpg",
+  "license": "Public domain",
+  "artist": "PDPhoto.org"
+ },
+ "bleu_de_gex": {
+  "title": "Bleu de Gex",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Bleu_de_Gex.jpg/330px-Bleu_de_Gex.jpg",
+  "page": "https://en.wikipedia.org/wiki/Bleu_de_Gex",
+  "file": "https://commons.wikimedia.org/wiki/File:Bleu_de_Gex.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Myrabella"
+ },
+ "boerenkaas": {
+  "title": "Boerenkaas",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Kaasmerk_goudse_boerenkaas.jpg/330px-Kaasmerk_goudse_boerenkaas.jpg",
+  "page": "https://en.wikipedia.org/wiki/Boerenkaas",
+  "file": "https://commons.wikimedia.org/wiki/File:Kaasmerk_goudse_boerenkaas.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Biccie"
+ },
+ "bryndza": {
+  "title": "Bryndza",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Chleb_z_bryndza.jpg/330px-Chleb_z_bryndza.jpg",
+  "page": "https://en.wikipedia.org/wiki/Bryndza",
+  "file": "https://commons.wikimedia.org/wiki/File:Chleb_z_bryndza.jpg",
+  "license": "Public domain",
+  "artist": "unknown"
+ },
+ "butterkase": {
+  "title": "Butterkäse",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/DeutschButterk%C3%A4se.jpg/330px-DeutschButterk%C3%A4se.jpg",
+  "page": "https://en.wikipedia.org/wiki/Butterk%C3%A4se",
+  "file": "https://commons.wikimedia.org/wiki/File:DeutschButterk%C3%A4se.jpg",
+  "license": "CC0",
+  "artist": "Porsche997SBS"
+ },
+ "caerphilly": {
+  "title": "Caerphilly cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Caerphilly_cheese.jpg/330px-Caerphilly_cheese.jpg",
+  "page": "https://en.wikipedia.org/wiki/Caerphilly_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Caerphilly_cheese.jpg",
+  "license": "Public domain",
+  "artist": "Jon Sullivan"
+ },
+ "canestrato_pugliese": {
+  "title": "Canestrato",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Canestrato_di_Moliterno_%28IGP%29.jpg/330px-Canestrato_di_Moliterno_%28IGP%29.jpg",
+  "page": "https://en.wikipedia.org/wiki/Canestrato",
+  "file": "https://commons.wikimedia.org/wiki/File:Canestrato_di_Moliterno_%28IGP%29.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Vini &amp; Sapori"
+ },
+ "chhurpi": {
+  "title": "Chhurpi",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Chhurpi_Nep.jpg/330px-Chhurpi_Nep.jpg",
+  "page": "https://en.wikipedia.org/wiki/Chhurpi",
+  "file": "https://commons.wikimedia.org/wiki/File:Chhurpi_Nep.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Krish Dulal"
+ },
+ "colby": {
+  "title": "Colby cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Colby_Cheese.jpg/330px-Colby_Cheese.jpg",
+  "page": "https://en.wikipedia.org/wiki/Colby_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Colby_Cheese.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Jeff the quiet"
+ },
+ "comte": {
+  "title": "Comté cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Comte_AOP.jpg/330px-Comte_AOP.jpg",
+  "page": "https://en.wikipedia.org/wiki/Comt%C3%A9_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Comte_AOP.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Myrabella"
+ },
+ "coolea": {
+  "title": "Coolea Cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Coolea.JPG/330px-Coolea.JPG",
+  "page": "https://en.wikipedia.org/wiki/Coolea_Cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Coolea.JPG",
+  "license": "CC BY-SA 3.0",
+  "artist": "HighKing"
+ },
+ "cornish_yarg": {
+  "title": "Cornish Yarg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Wild_Garlic_Yarg.jpg/330px-Wild_Garlic_Yarg.jpg",
+  "page": "https://en.wikipedia.org/wiki/Cornish_Yarg",
+  "file": "https://commons.wikimedia.org/wiki/File:Wild_Garlic_Yarg.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Tristan Ferne from UK"
+ },
+ "cotija": {
+  "title": "Cotija cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Cotija_%285200441615%29.jpg/330px-Cotija_%285200441615%29.jpg",
+  "page": "https://en.wikipedia.org/wiki/Cotija_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Cotija_%285200441615%29.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Leslie Seaton from Seattle, WA, USA"
+ },
+ "cottage_cheese": {
+  "title": "Cottage cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Cottagecheese200px.jpg/330px-Cottagecheese200px.jpg",
+  "page": "https://en.wikipedia.org/wiki/Cottage_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Cottagecheese200px.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "FASTILY (TALK)"
+ },
+ "coulommiers": {
+  "title": "Coulommiers cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Coulommiers_lait_cru.jpg/330px-Coulommiers_lait_cru.jpg",
+  "page": "https://en.wikipedia.org/wiki/Coulommiers_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Coulommiers_lait_cru.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Myrabella"
+ },
+ "cream_cheese": {
+  "title": "Cream cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Philly_cream_cheese.jpg/330px-Philly_cream_cheese.jpg",
+  "page": "https://en.wikipedia.org/wiki/Cream_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Philly_cream_cheese.jpg",
+  "license": "Public domain",
+  "artist": "Renee Comet (photographer)"
+ },
+ "danbo": {
+  "title": "Danbo",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Danbo_Cheese.jpg/330px-Danbo_Cheese.jpg",
+  "page": "https://en.wikipedia.org/wiki/Danbo",
+  "file": "https://commons.wikimedia.org/wiki/File:Danbo_Cheese.jpg",
+  "license": "Public domain",
+  "artist": "unknown"
+ },
+ "double_gloucester": {
+  "title": "Gloucester cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Double_Gloucester_cheese.jpg/330px-Double_Gloucester_cheese.jpg",
+  "page": "https://en.wikipedia.org/wiki/Gloucester_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Double_Gloucester_cheese.jpg",
+  "license": "Public domain",
+  "artist": "Adriao"
+ },
+ "dry_jack": {
+  "title": "Monterey Jack",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Vella_Cheese_Young_Jack_%28cropped%29.jpg/330px-Vella_Cheese_Young_Jack_%28cropped%29.jpg",
+  "page": "https://en.wikipedia.org/wiki/Monterey_Jack",
+  "file": "https://commons.wikimedia.org/wiki/File:Vella_Cheese_Young_Jack_%28cropped%29.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Frank Schulenburg"
+ },
+ "edam": {
+  "title": "Edam cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/SmallEdamCheese.jpg/330px-SmallEdamCheese.jpg",
+  "page": "https://en.wikipedia.org/wiki/Edam_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:SmallEdamCheese.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Yvwv"
+ },
+ "emmental": {
+  "title": "Emmental cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Emmentaler_Premier_Cru.jpg/330px-Emmentaler_Premier_Cru.jpg",
+  "page": "https://en.wikipedia.org/wiki/Emmental_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Emmentaler_Premier_Cru.jpg",
+  "license": "CC BY-SA 2.0 de",
+  "artist": "Manuel2"
+ },
+ "epoisses": {
+  "title": "Époisses",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/%C3%89poisses_de_Bourgogne.jpg/330px-%C3%89poisses_de_Bourgogne.jpg",
+  "page": "https://en.wikipedia.org/wiki/%C3%89poisses",
+  "file": "https://commons.wikimedia.org/wiki/File:%C3%89poisses_de_Bourgogne.jpg",
+  "license": "CC BY 2.5",
+  "artist": "Sominsky at English Wikipedia"
+ },
+ "esrom": {
+  "title": "Esrom",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Esrom.jpg/330px-Esrom.jpg",
+  "page": "https://en.wikipedia.org/wiki/Esrom",
+  "file": "https://commons.wikimedia.org/wiki/File:Esrom.jpg",
+  "license": "CC BY 3.0",
+  "artist": "pastorius"
+ },
+ "feta": {
+  "title": "Feta",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Feta_Cheese.jpg/330px-Feta_Cheese.jpg",
+  "page": "https://en.wikipedia.org/wiki/Feta",
+  "file": "https://commons.wikimedia.org/wiki/File:Feta_Cheese.jpg",
+  "license": "CC BY-SA 2.5",
+  "artist": "JJ Harrison (https://www.jjharrison.com.au/)"
+ },
+ "fiore_sardo": {
+  "title": "Pecorino sardo",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Pecorino_Sardo_Cheese.jpg/330px-Pecorino_Sardo_Cheese.jpg",
+  "page": "https://en.wikipedia.org/wiki/Pecorino_sardo",
+  "file": "https://commons.wikimedia.org/wiki/File:Pecorino_Sardo_Cheese.jpg",
+  "license": "Public domain",
+  "artist": "The original uploader was Frankie816 at English Wikipedia."
+ },
+ "grana_padano": {
+  "title": "Grana Padano",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Grana_Padano_DOP_Riserva.jpg/330px-Grana_Padano_DOP_Riserva.jpg",
+  "page": "https://en.wikipedia.org/wiki/Grana_Padano",
+  "file": "https://commons.wikimedia.org/wiki/File:Grana_Padano_DOP_Riserva.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Claudia Castaldi"
+ },
+ "halloumi": {
+  "title": "Halloumi",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Halloumislice_zoom.jpg/330px-Halloumislice_zoom.jpg",
+  "page": "https://en.wikipedia.org/wiki/Halloumi",
+  "file": "https://commons.wikimedia.org/wiki/File:Halloumislice_zoom.jpg",
+  "license": "Public domain",
+  "artist": "Halloumislicefresh.jpg: J.P.Lon\nderivative work: Zlerman (talk)"
+ },
+ "handkase": {
+  "title": "Handkäse",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Handkaese_20060117.jpg/330px-Handkaese_20060117.jpg",
+  "page": "https://en.wikipedia.org/wiki/Handk%C3%A4se",
+  "file": "https://commons.wikimedia.org/wiki/File:Handkaese_20060117.jpg",
+  "license": "CC BY-SA 2.5",
+  "artist": "Manuel Heinrich Emha"
+ },
+ "harzer": {
+  "title": "Harzer",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Harzer_K%C3%A4se.jpg/330px-Harzer_K%C3%A4se.jpg",
+  "page": "https://en.wikipedia.org/wiki/Harzer",
+  "file": "https://commons.wikimedia.org/wiki/File:Harzer_K%C3%A4se.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "unknown"
+ },
+ "herve": {
+  "title": "Limburger",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Cheese_limburger_edit.jpg/330px-Cheese_limburger_edit.jpg",
+  "page": "https://en.wikipedia.org/wiki/Limburger",
+  "file": "https://commons.wikimedia.org/wiki/File:Cheese_limburger_edit.jpg",
+  "license": "Public domain",
+  "artist": "Original photo by John Sullivan. Edit own work."
+ },
+ "idiazabal": {
+  "title": "Idiazabal cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Idiazabal2.jpg/330px-Idiazabal2.jpg",
+  "page": "https://en.wikipedia.org/wiki/Idiazabal_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Idiazabal2.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "No machine-readable author provided. Ardo Beltz assumed (based on copyright claims)."
+ },
+ "jarlsberg": {
+  "title": "Jarlsberg cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Jarlsberg_cheese.jpg/330px-Jarlsberg_cheese.jpg",
+  "page": "https://en.wikipedia.org/wiki/Jarlsberg_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Jarlsberg_cheese.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Holly Cheng"
+ },
+ "labneh": {
+  "title": "Strained yogurt",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Labneh01.jpg/330px-Labneh01.jpg",
+  "page": "https://en.wikipedia.org/wiki/Strained_yogurt",
+  "file": "https://commons.wikimedia.org/wiki/File:Labneh01.jpg",
+  "license": "Public domain",
+  "artist": "No machine-readable author provided. Omernos~commonswiki assumed (based on copyright claims)."
+ },
+ "laguiole": {
+  "title": "Laguiole cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Laguiole_%28cheese%29.jpg/330px-Laguiole_%28cheese%29.jpg",
+  "page": "https://en.wikipedia.org/wiki/Laguiole_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Laguiole_%28cheese%29.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Myrabella"
+ },
+ "lancashire": {
+  "title": "Lancashire cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Lancashire_cheese.jpg/330px-Lancashire_cheese.jpg",
+  "page": "https://en.wikipedia.org/wiki/Lancashire_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Lancashire_cheese.jpg",
+  "license": "Public domain",
+  "artist": "Jon Sullivan"
+ },
+ "langres": {
+  "title": "Langres cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Langres_fromage_AOP_coupe.jpg/330px-Langres_fromage_AOP_coupe.jpg",
+  "page": "https://en.wikipedia.org/wiki/Langres_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Langres_fromage_AOP_coupe.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Myrabella"
+ },
+ "leipajuusto": {
+  "title": "Bread cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Leip%C3%A4juusto_cheese_with_cloudberry_jam.jpg/330px-Leip%C3%A4juusto_cheese_with_cloudberry_jam.jpg",
+  "page": "https://en.wikipedia.org/wiki/Bread_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Leip%C3%A4juusto_cheese_with_cloudberry_jam.jpg",
+  "license": "CC BY 2.5",
+  "artist": "Teemu Rajala"
+ },
+ "limburger": {
+  "title": "Limburger",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Cheese_limburger_edit.jpg/330px-Cheese_limburger_edit.jpg",
+  "page": "https://en.wikipedia.org/wiki/Limburger",
+  "file": "https://commons.wikimedia.org/wiki/File:Cheese_limburger_edit.jpg",
+  "license": "Public domain",
+  "artist": "Original photo by John Sullivan. Edit own work."
+ },
+ "lincolnshire_poacher": {
+  "title": "Lincolnshire Poacher cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Cheese_47_bg_060106.jpg/330px-Cheese_47_bg_060106.jpg",
+  "page": "https://en.wikipedia.org/wiki/Lincolnshire_Poacher_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Cheese_47_bg_060106.jpg",
+  "license": "Public domain",
+  "artist": "Jon Sullivan"
+ },
+ "maasdam": {
+  "title": "Maasdam cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Maasdam-cheese.jpg/330px-Maasdam-cheese.jpg",
+  "page": "https://en.wikipedia.org/wiki/Maasdam_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Maasdam-cheese.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Arz"
+ },
+ "mahon": {
+  "title": "Mahón cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Mahon_Cheese.JPG/330px-Mahon_Cheese.JPG",
+  "page": "https://en.wikipedia.org/wiki/Mah%C3%B3n_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Mahon_Cheese.JPG",
+  "license": "CC BY-SA 3.0",
+  "artist": "Asphaltbuffet"
+ },
+ "majorero": {
+  "title": "Majorero",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Queso_majorero_a_la_plancha.jpg/330px-Queso_majorero_a_la_plancha.jpg",
+  "page": "https://en.wikipedia.org/wiki/Majorero",
+  "file": "https://commons.wikimedia.org/wiki/File:Queso_majorero_a_la_plancha.jpg",
+  "license": "CC BY 2.0",
+  "artist": "unknown"
+ },
+ "monte_veronese": {
+  "title": "Monte Veronese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Formaggio_Monte_Veronese_DOP_%288453037729%29.jpg/330px-Formaggio_Monte_Veronese_DOP_%288453037729%29.jpg",
+  "page": "https://en.wikipedia.org/wiki/Monte_Veronese",
+  "file": "https://commons.wikimedia.org/wiki/File:Formaggio_Monte_Veronese_DOP_%288453037729%29.jpg",
+  "license": "CC BY 2.0",
+  "artist": "La Casara Caseificio from ronca', Verona"
+ },
+ "monterey_jack": {
+  "title": "Monterey Jack",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Vella_Cheese_Young_Jack_%28cropped%29.jpg/330px-Vella_Cheese_Young_Jack_%28cropped%29.jpg",
+  "page": "https://en.wikipedia.org/wiki/Monterey_Jack",
+  "file": "https://commons.wikimedia.org/wiki/File:Vella_Cheese_Young_Jack_%28cropped%29.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Frank Schulenburg"
+ },
+ "morbier": {
+  "title": "Morbier cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Morbier_cheese_two_views.jpg/330px-Morbier_cheese_two_views.jpg",
+  "page": "https://en.wikipedia.org/wiki/Morbier_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Morbier_cheese_two_views.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "unknown"
+ },
+ "munster": {
+  "title": "Munster cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Munster.jpg/330px-Munster.jpg",
+  "page": "https://en.wikipedia.org/wiki/Munster_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Munster.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Zubro"
+ },
+ "nabulsi": {
+  "title": "Nabulsi cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/%D8%AC%D8%A8%D9%86%D8%A9_%D9%86%D8%A7%D8%A8%D9%84%D8%B3%D9%8A%D8%A9.jpg/330px-%D8%AC%D8%A8%D9%86%D8%A9_%D9%86%D8%A7%D8%A8%D9%84%D8%B3%D9%8A%D8%A9.jpg",
+  "page": "https://en.wikipedia.org/wiki/Nabulsi_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:%D8%AC%D8%A8%D9%86%D8%A9_%D9%86%D8%A7%D8%A8%D9%84%D8%B3%D9%8A%D8%A9.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "رائد عزمي حموده"
+ },
+ "ossau_iraty": {
+  "title": "Ossau-Iraty",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Ossau-Iraty.jpg/330px-Ossau-Iraty.jpg",
+  "page": "https://en.wikipedia.org/wiki/Ossau-Iraty",
+  "file": "https://commons.wikimedia.org/wiki/File:Ossau-Iraty.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Kubigula"
+ },
+ "paneer": {
+  "title": "Paneer",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Panir_Paneer_Indian_cheese_fresh.jpg/330px-Panir_Paneer_Indian_cheese_fresh.jpg",
+  "page": "https://en.wikipedia.org/wiki/Paneer",
+  "file": "https://commons.wikimedia.org/wiki/File:Panir_Paneer_Indian_cheese_fresh.jpg",
+  "license": "CC BY 2.0 de",
+  "artist": "Sonja Pauen - Stanhopea"
+ },
+ "parmigiano": {
+  "title": "Parmesan",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Parmigiano_Reggiano%2C_Italien%2C_Europ%C3%A4ische_Union.jpg/330px-Parmigiano_Reggiano%2C_Italien%2C_Europ%C3%A4ische_Union.jpg",
+  "page": "https://en.wikipedia.org/wiki/Parmesan",
+  "file": "https://commons.wikimedia.org/wiki/File:Parmigiano_Reggiano%2C_Italien%2C_Europ%C3%A4ische_Union.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Naturpuur"
+ },
+ "pecorino_romano": {
+  "title": "Pecorino romano",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Pecorino_romano_cheese.jpg/330px-Pecorino_romano_cheese.jpg",
+  "page": "https://en.wikipedia.org/wiki/Pecorino_romano",
+  "file": "https://commons.wikimedia.org/wiki/File:Pecorino_romano_cheese.jpg",
+  "license": "Public domain",
+  "artist": "Jon Sullivan"
+ },
+ "pecorino_sardo": {
+  "title": "Pecorino sardo",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Pecorino_Sardo_Cheese.jpg/330px-Pecorino_Sardo_Cheese.jpg",
+  "page": "https://en.wikipedia.org/wiki/Pecorino_sardo",
+  "file": "https://commons.wikimedia.org/wiki/File:Pecorino_Sardo_Cheese.jpg",
+  "license": "Public domain",
+  "artist": "The original uploader was Frankie816 at English Wikipedia."
+ },
+ "pecorino_toscano": {
+  "title": "Pecorino toscano",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Pecorino.jpg/330px-Pecorino.jpg",
+  "page": "https://en.wikipedia.org/wiki/Pecorino_toscano",
+  "file": "https://commons.wikimedia.org/wiki/File:Pecorino.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Guzzella"
+ },
+ "piave": {
+  "title": "Piave cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/PiaveInsieme_panchina_Bassa.jpg/330px-PiaveInsieme_panchina_Bassa.jpg",
+  "page": "https://en.wikipedia.org/wiki/Piave_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:PiaveInsieme_panchina_Bassa.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Consorzio Piave"
+ },
+ "port_salut": {
+  "title": "Port Salut",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Port_Salut_cheese.jpg/330px-Port_Salut_cheese.jpg",
+  "page": "https://en.wikipedia.org/wiki/Port_Salut",
+  "file": "https://commons.wikimedia.org/wiki/File:Port_Salut_cheese.jpg",
+  "license": "Public domain",
+  "artist": "Jon Sullivan"
+ },
+ "prastost": {
+  "title": "Prästost",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Prastost.jpg/330px-Prastost.jpg",
+  "page": "https://en.wikipedia.org/wiki/Pr%C3%A4stost",
+  "file": "https://commons.wikimedia.org/wiki/File:Prastost.jpg",
+  "license": "CC BY 3.0",
+  "artist": "Nordelch"
+ },
+ "provolone": {
+  "title": "Provolone",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Provolone_watermelon_shape.jpg/330px-Provolone_watermelon_shape.jpg",
+  "page": "https://en.wikipedia.org/wiki/Provolone",
+  "file": "https://commons.wikimedia.org/wiki/File:Provolone_watermelon_shape.jpg",
+  "license": "CC BY 2.0",
+  "artist": "like the grand canyon"
+ },
+ "queso_chihuahua": {
+  "title": "Queso Chihuahua",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/%22Chilequeso%22%2C_taco_de_chile_poblano_con_queso.jpg/330px-%22Chilequeso%22%2C_taco_de_chile_poblano_con_queso.jpg",
+  "page": "https://en.wikipedia.org/wiki/Queso_Chihuahua",
+  "file": "https://commons.wikimedia.org/wiki/File:%22Chilequeso%22%2C_taco_de_chile_poblano_con_queso.jpg",
+  "license": "CC BY 4.0",
+  "artist": "ProtoplasmaKid"
+ },
+ "raclette": {
+  "title": "Raclette",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Raclette_20040817_140816.jpg/330px-Raclette_20040817_140816.jpg",
+  "page": "https://en.wikipedia.org/wiki/Raclette",
+  "file": "https://commons.wikimedia.org/wiki/File:Raclette_20040817_140816.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Ka23 13"
+ },
+ "ragusano": {
+  "title": "Ragusano cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Ragusano_Cheese.jpg/330px-Ragusano_Cheese.jpg",
+  "page": "https://en.wikipedia.org/wiki/Ragusano_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Ragusano_Cheese.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Popaitaly"
+ },
+ "reblochon": {
+  "title": "Reblochon",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Reblochon_AOC.jpg/330px-Reblochon_AOC.jpg",
+  "page": "https://en.wikipedia.org/wiki/Reblochon",
+  "file": "https://commons.wikimedia.org/wiki/File:Reblochon_AOC.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Myrabella"
+ },
+ "red_leicester": {
+  "title": "Red Leicester",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Red_Leicester.jpg/330px-Red_Leicester.jpg",
+  "page": "https://en.wikipedia.org/wiki/Red_Leicester",
+  "file": "https://commons.wikimedia.org/wiki/File:Red_Leicester.jpg",
+  "license": "Public domain",
+  "artist": "Jon Sullivan"
+ },
+ "robiola": {
+  "title": "Robiola",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Robiola_della_Valsassina.jpg/330px-Robiola_della_Valsassina.jpg",
+  "page": "https://en.wikipedia.org/wiki/Robiola",
+  "file": "https://commons.wikimedia.org/wiki/File:Robiola_della_Valsassina.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Tecla.b"
+ },
+ "saint_nectaire": {
+  "title": "Saint-Nectaire",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Saint-nectaire.jpg/330px-Saint-nectaire.jpg",
+  "page": "https://en.wikipedia.org/wiki/Saint-Nectaire",
+  "file": "https://commons.wikimedia.org/wiki/File:Saint-nectaire.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "unknown"
+ },
+ "samso": {
+  "title": "Samsø cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Samsoe.jpg/330px-Samsoe.jpg",
+  "page": "https://en.wikipedia.org/wiki/Sams%C3%B8_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Samsoe.jpg",
+  "license": "Public domain",
+  "artist": "Fotolitograferede i Generalstabens Topografiske Afdeling"
+ },
+ "sbrinz": {
+  "title": "Sbrinz",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Sbr_product_0020_bc.jpg/330px-Sbr_product_0020_bc.jpg",
+  "page": "https://en.wikipedia.org/wiki/Sbrinz",
+  "file": "https://commons.wikimedia.org/wiki/File:Sbr_product_0020_bc.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Ulled"
+ },
+ "scamorza_affumicata": {
+  "title": "Scamorza",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Scamorza_chez_un_fromager.jpg/330px-Scamorza_chez_un_fromager.jpg",
+  "page": "https://en.wikipedia.org/wiki/Scamorza",
+  "file": "https://commons.wikimedia.org/wiki/File:Scamorza_chez_un_fromager.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Thomon"
+ },
+ "selles_sur_cher": {
+  "title": "Selles-sur-Cher cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Selles-sur-cher_1.jpg/330px-Selles-sur-cher_1.jpg",
+  "page": "https://en.wikipedia.org/wiki/Selles-sur-Cher_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Selles-sur-cher_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Myrabella"
+ },
+ "shropshire_blue": {
+  "title": "Shropshire Blue",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Shropshire_Blue.jpg/330px-Shropshire_Blue.jpg",
+  "page": "https://en.wikipedia.org/wiki/Shropshire_Blue",
+  "file": "https://commons.wikimedia.org/wiki/File:Shropshire_Blue.jpg",
+  "license": "Public domain",
+  "artist": "The original uploader was Y6y6y6 at English Wikipedia."
+ },
+ "taleggio": {
+  "title": "Taleggio cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Taleggio_vecchia_lavorazione_%283323694182%29.jpg/330px-Taleggio_vecchia_lavorazione_%283323694182%29.jpg",
+  "page": "https://en.wikipedia.org/wiki/Taleggio_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Taleggio_vecchia_lavorazione_%283323694182%29.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "F. D. Richards from Clinton, MI"
+ },
+ "toma_piemontese": {
+  "title": "Toma cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Toma_Piemontese_DOP.jpg/330px-Toma_Piemontese_DOP.jpg",
+  "page": "https://en.wikipedia.org/wiki/Toma_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Toma_Piemontese_DOP.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Yozh"
+ },
+ "tomme_des_pyrenees": {
+  "title": "Tomme des Pyrénées",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Tommes_des_Pyr%C3%A9n%C3%A9es.jpg/330px-Tommes_des_Pyr%C3%A9n%C3%A9es.jpg",
+  "page": "https://en.wikipedia.org/wiki/Tomme_des_Pyr%C3%A9n%C3%A9es",
+  "file": "https://commons.wikimedia.org/wiki/File:Tommes_des_Pyr%C3%A9n%C3%A9es.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Julie333411"
+ },
+ "vacherin_fribourgeois": {
+  "title": "Vacherin Fribourgeois",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Rolf_Beeler_Vacherin_Fribourgeois.png/330px-Rolf_Beeler_Vacherin_Fribourgeois.png",
+  "page": "https://en.wikipedia.org/wiki/Vacherin_Fribourgeois",
+  "file": "https://commons.wikimedia.org/wiki/File:Rolf_Beeler_Vacherin_Fribourgeois.png",
+  "license": "CC BY-SA 3.0",
+  "artist": "Tombat24"
+ },
+ "vacherin_mont_d_or": {
+  "title": "Vacherin Mont d'Or",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Vacherin_du_haut_Doubs.jpg/330px-Vacherin_du_haut_Doubs.jpg",
+  "page": "https://en.wikipedia.org/wiki/Vacherin_Mont_d'Or",
+  "file": "https://commons.wikimedia.org/wiki/File:Vacherin_du_haut_Doubs.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Zubro"
+ },
+ "vasterbotten": {
+  "title": "Västerbotten cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Vasterbotten_cheese.jpg/330px-Vasterbotten_cheese.jpg",
+  "page": "https://en.wikipedia.org/wiki/V%C3%A4sterbotten_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Vasterbotten_cheese.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Nata\n\nUploaded by File Upload Bot (Magnus Manske)"
+ },
+ "wensleydale": {
+  "title": "Wensleydale cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Wensleydale_cheese_2.jpg/330px-Wensleydale_cheese_2.jpg",
+  "page": "https://en.wikipedia.org/wiki/Wensleydale_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Wensleydale_cheese_2.jpg",
+  "license": "Public domain",
+  "artist": "Jon Sullivan"
+ },
+ "zamorano": {
+  "title": "Zamorano cheese",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Zamorano_Jon_Sullivan.jpg/330px-Zamorano_Jon_Sullivan.jpg",
+  "page": "https://en.wikipedia.org/wiki/Zamorano_cheese",
+  "file": "https://commons.wikimedia.org/wiki/File:Zamorano_Jon_Sullivan.jpg",
+  "license": "Public domain",
+  "artist": "Jon Sullivan"
  }
 }

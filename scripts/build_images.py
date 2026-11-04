@@ -13,7 +13,7 @@ from concurrent.futures import ThreadPoolExecutor
 from cheeseblend import agent
 from cheeseblend.catalogue import DATA, load_cheeses
 
-UA = {"User-Agent": "CheeseBlend/0.1 (hackathon demo, non-commercial)"}  # Wikimedia asks for a descriptive agent
+UA = {"User-Agent": "CheeseBlend/0.1 (https://github.com/RedR25/cheeseblend)"}  # Wikimedia policy: say who you are
 PROMPT = """For each cheese, give the exact title of its English Wikipedia article: the article about the cheese
 itself, not a town, region or person. Spell it exactly as Wikipedia does (e.g. "Gruyère cheese", "Bra (cheese)").
 If no English article about the cheese exists, return an empty string."""
