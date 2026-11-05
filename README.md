@@ -2,7 +2,7 @@
 
 **The right cheese blend for whatever you're making, predicted from the flavour chemistry of 171 cheeses. Built on Meta Muse.**
 
-**Live app:** LIVE_URL · **Video demo:** [docs/demo.mp4](docs/demo.mp4) · **Research and Muse write-up:** [docs/RESEARCH.md](docs/RESEARCH.md)
+**Live app:** [cheeseblend-production.up.railway.app](https://cheeseblend-production.up.railway.app) · **Video demo:** [docs/demo.mp4](docs/demo.mp4) · **Research and Muse write-up:** [docs/RESEARCH.md](docs/RESEARCH.md)
 
 ![Dragging a cheese onto the board and sliding the shares](docs/demo.gif)
 
